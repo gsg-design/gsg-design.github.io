@@ -1,0 +1,230 @@
+.hidden {
+    opacity: 0.25;
+    display: none;
+}
+
+.type-hidden {
+    display: none;
+}
+
+.collapsed > div {
+	display: none;
+}
+
+/* ?? */
+.icon-font {
+    font-style: inherit;
+    font-family: var(--font-family-icons);
+    display: inline-block;
+    margin-left: var(--size-padding-medium);
+    vertical-align: middle;
+    font-size: var(--size-font-xl);
+}
+
+/** ---------------------------------------------------------------------------
+** Nav Bar
+**/
+
+.title {
+	font-size: var(--size-font-xxl);
+}
+
+/** ---------------------------------------------------------------------------
+** Style Content
+**/
+
+/** ---------------------------------------------------------------------------
+** Style Menu
+**/
+
+.style-menu .nav-search,
+.style-menu .nav-filter {
+    padding: var(--size-padding-xl) var(--size-padding-large);
+}
+
+.style-menu .search-box {
+    padding-left: var(--size-padding-tiny);
+    padding-right: var(--size-padding-tiny);
+}
+
+.style-menu label {
+    display: block;
+    margin-top: var(--size-padding-medium);
+    padding: var(--size-padding-small) 0;
+}
+
+/** ---------------------------------------------------------------------------
+** Style Guide
+**/
+
+.styleguide--tile-view {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: var(--size-padding-xl);
+}
+
+.styleguide-item {
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.styleguide-item:hover {
+    border-top-color: var(--color-border);
+    border-bottom-color: var(--color-border);
+}
+
+.styleguide-item:first-of-type {
+	border-top: 0;
+}
+
+.styleguide-item::after {
+	content: "";
+	clear: both;
+}
+
+.styleguide-item__top {
+    display: flex;
+    align-items: stretch;
+    gap: var(--size-padding-xl, 24px);
+    padding: var(--size-padding-medium, 16px) 0;
+    cursor: pointer;
+}
+
+.styleguide-item__top:hover  .styleguide-item__name{
+    font-weight: 700;
+}
+
+.styleguide-item__type-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0,0,0,0.12);
+    border-radius: 8px;
+}
+
+.styleguide-item__type-icon svg {
+    opacity: .5;
+}
+
+.styleguide-item__label {
+    flex: 1;
+    padding: var(--size-padding-medium) 0;
+}
+
+.styleguide-item__name {
+    font-size: var(--size-font-l);
+    font-weight: 500;
+    text-transform: capitalize;
+    display: block;
+}
+
+.styleguide-item__hierarchy {
+	display: inline-flex;
+    gap: 1px;
+    margin-top: var(--size-padding-medium);
+    border-radius: var(--shape-border-radius-medium);
+    overflow: hidden;
+}
+
+.styleguide-item__hierarchy > span {
+    padding: var(--size-padding-small) var(--size-padding-medium);
+    color: var(--color-on-surface);
+    font-size: var(--size-font-small);
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,0.04);
+}
+
+.styleguide-item__path {
+	display: inline-block;
+    margin-top: var(--size-padding-medium);
+    padding: var(--size-padding-small) var(--size-padding-medium);
+    color: var(--color-on-surface-inverse);
+    font-family: var(--font-family-code);
+    font-size: var(--size-font-small);
+    background-color: var(--color-surface-inverse);
+    border-radius: var(--shape-border-radius-medium);
+    opacity: 0.5;
+}
+
+.styleguide-item__value {
+	flex: 0;
+    min-width: 240px;
+    padding: var(--size-padding-medium);
+    font-size: var(--size-font-medium);
+    text-align: right;
+    border: 1px solid var(--color-surface);
+    border-radius: var(--shape-border-radius-medium);
+}
+
+.styleguide-item .styleguide-item__content-control {
+    position: relative;
+    display: block;
+    width: var(--size-font-medium);
+    height: var(--size-font-medium);
+    margin-top: var(--size-padding-medium);
+    transform: rotate(90deg);
+    transform-origin: 50% 50%;
+    transition: 80ms linear all;
+    box-sizing: border-box;
+    overflow: hidden;
+    opacity: 0.5;
+}
+
+.styleguide-item .styleguide-item__content-control::after {
+    content: "\25b6";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: var(--size-font-medium);
+    height: var(--size-font-medium);
+}
+
+.styleguide-item.minimized .styleguide-item__content-control {
+    transform: rotate(0deg);
+}
+
+.styleguide-item__content {
+    padding: 
+        var(--size-padding-medium)
+        var(--size-padding-medium)
+        var(--size-padding-xl)
+        var(--size-padding-medium);
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.styleguide-item.minimized .styleguide-item__content {
+	height: 0;
+	padding-top: 0;
+    display: none;
+}
+
+.styleguide-item__attributes {
+    width: 100%;
+    margin-left: calc(var(--size-padding-xxl) + var(--size-padding-large));
+}
+
+.styleguide-item__attributes tbody th,
+.styleguide-item__attributes tbody td {
+	height: auto;
+    padding: var(--size-padding-small);
+	overflow: hidden;
+    font-family: var(--font-family-caption);
+    font-size: var(--size-font-small);
+}
+
+.styleguide-item__attributes tbody th {
+    width: auto;
+    padding: 
+        var(--size-padding-small)
+        var(--size-padding-large)
+        var(--size-padding-small)
+        var(--size-padding-small);
+    text-align: left;
+}
+
+.styleguide-item__attributes tbody td {
+    text-align: left;
+}

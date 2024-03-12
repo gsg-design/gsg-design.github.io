@@ -1,0 +1,75 @@
+:root {
+    /* Translate tokens from project to style guide */
+    --color-font-base:              var(--pico-semantic-color-ui-on-surface);
+    --color-font-inverse-base:      var(--pico-semantic-color-ui-inverse-on-surface);
+    --color-font-inverse-tertiary:  var(--pico-semantic-color-ui-on-primary);
+    --color-background-base:        var(--pico-semantic-color-ui-surface);
+    --color-background-inverse:     var(--pico-semantic-color-ui-inverse-surface);
+    --color-base-grey-400:          var(--pico-ref-color-ui-neutral-40);
+    --color-base-grey-500:          var(--pico-ref-color-ui-neutral-50);
+    --color-base-grey-800:          var(--pico-ref-color-ui-neutral-80);
+    --color-base-grey-900:          var(--pico-ref-color-ui-neutral-90);
+    --color-brand-primary-base:     var(--pico-ref-color-ui-primary-50);
+    --font-family-base:             var(--pico-ref-font-family-one), var(--pico-ref-font-family-fallback-one);
+    --font-family-caption:          monospace;
+    --font-family-icons:            monospace;
+    --size-padding-base:            var(--pico-ref-spacing-base);
+    --size-padding-tiny:            var(--pico-ref-spacing-xs);
+    --size-padding-small:           var(--pico-ref-spacing-s);
+    --size-padding-medium:          var(--pico-ref-spacing-m);
+    --size-padding-large:           var(--pico-ref-spacing-l);
+    --size-padding-xl:              var(--pico-ref-spacing-xl);
+    --size-padding-xxl:             var(--pico-ref-spacing-2xl);
+    --size-font-small:              var(--pico-ref-font-size-3);
+    --size-font-medium:             var(--pico-ref-font-size-4);
+    --size-font-xl:                 var(--pico-ref-font-size-6);
+    /* New Style Guide Variables */
+    --color-surface:            var(--pico-semantic-color-ui-surface);
+    --color-on-surface:         var(--pico-semantic-color-ui-on-surface);
+    --color-surface-inverse:    var(--pico-semantic-color-ui-inverse-surface);
+    --color-on-surface-inverse: var(--pico-semantic-color-ui-inverse-on-surface);
+    --color-border:             var(--pico-semantic-color-ui-outline);
+    --font-family-base:         var(--pico-ref-font-family-one), var(--pico-ref-font-family-fallback-one);
+    --font-family-code:         var(--color-background-base);
+    --size-font-small:          var(--pico-ref-font-size-3);
+    --size-font-medium:         var(--pico-ref-font-size-4);
+    --size-font-xl:             var(--pico-ref-font-size-6);
+    --size-font-xxl:            var(--pico-ref-font-size-7);
+    --size-padding-base:        var(--pico-ref-spacing-base);
+    --size-padding-tiny:        var(--pico-ref-spacing-xs);
+    --size-padding-small:       var(--pico-ref-spacing-s);
+    --size-padding-medium:      var(--pico-ref-spacing-m);
+    --size-padding-large:       var(--pico-ref-spacing-l);
+    --size-padding-xl:          var(--pico-ref-spacing-xl);
+    --size-padding-xxl:         var(--pico-ref-spacing-2xl);
+    --shape-border-radius-medium: var(--pico-ref-shape-border-radius-l);
+    /* New Style Guide Variables - Hardcoded values */
+    --color-background:             #FFF;
+    --color-on-backround:           #333;
+    --color-background-inverse:     #333;
+    --color-on-background-inverse:  #FFF;
+    --color-surface:                #FFF;
+    --color-on-surface:             #333;
+    --color-surface-inverse:        #333;
+    --color-on-surface-inverse:     #EEE;
+    --color-border:                 #CCC;
+    --font-family-base:             Roboto, sans-serif;
+    --font-family-code:             monospace;
+    --size-font-small:              10px;
+    --size-font-medium:             14px;
+    --size-font-xl:                 20px;
+    --size-font-xxl:                24px;
+    --size-padding-base:            8px;
+    --size-padding-tiny:            2px;
+    --size-padding-small:           4px;
+    --size-padding-medium:          8px;
+    --size-padding-large:           16px;
+    --size-padding-xl:              24px;
+    --size-padding-xxl:             40px;
+    --shape-border-radius-medium:   4px;
+    /* For style guide */
+    --nav-bar-height: calc( var(--size-padding-tiny) + var(--size-padding-xxl));
+    --style-menu-bar-height: calc(3.25 * var(--size-padding-tiny) + var(--size-padding-large));
+    /* --style-menu-bar-height: 60px; */
+    --min-body-width: calc(25 * var(--size-padding-xl));
+}

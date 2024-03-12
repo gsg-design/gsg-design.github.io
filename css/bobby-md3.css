@@ -1,0 +1,911 @@
+:root {
+  /* --------------------------------------------------BUTTON--------------------------------------------------------- */
+
+  /** BUTTON ELEVATED **/
+  --md-elevated-button-container-height: var(
+    --bobby-component-button-container-height
+  );
+  --md-elevated-button-container-shape: var(
+    --bobby-component-button-container-shape
+  );
+  --md-elevated-button-leading-space: var(
+    --bobby-component-button-leading-space
+  );
+  --md-elevated-button-trailing-space: var(
+    --bobby-component-button-trailing-space
+  );
+  --md-elevated-button-label-text-font: var(
+    --bobby-component-button-label-text-typography
+  );
+  /* resting */
+  --md-elevated-button-container-color: var(
+    --bobby-component-button-filled-default-large-container-color
+  );
+  --md-elevated-button-label-text-color: var(
+    --bobby-component-button-filled-default-large-foreground-color
+  );
+  --md-elevated-button-icon-color: var(
+    --bobby-component-button-filled-default-large-container-color
+  );
+  /* focus */
+  --md-elevated-button-focus-label-text-color: var(
+    --bobby-component-button-filled-default-large-focus-foreground-color
+  );
+  --md-elevated-button-focus-icon-color: var(
+    --bobby-component-button-filled-default-large-focus-foreground-color
+  );
+  /* hover */
+  --md-elevated-button-hover-state-layer-color: var(
+    --bobby-component-state-layer-color-darken
+  );
+  --md-elevated-button-hover-state-layer-opacity: var(
+    --bobby-component-state-layer-opacity-hover
+  );
+  --md-elevated-button-hover-label-text-color: var(
+    --bobby-component-button-filled-default-large-hover-foreground-color
+  );
+  --md-elevated-button-hover-icon-color: var(
+    --bobby-component-button-filled-default-large-hover-foreground-color
+  );
+  /* pressed */
+  --md-elevated-button-pressed-state-layer-color: var(
+    --bobby-component-state-layer-color-darken
+  );
+  --md-elevated-button-pressed-state-layer-opacity: var(
+    --bobby-component-state-layer-opacity-pressed
+  );
+  --md-elevated-button-pressed-label-text-color: var(
+    --bobby-component-button-filled-default-large-pressed-foreground-color
+  );
+  --md-elevated-button-pressed-icon-color: var(
+    --bobby-component-button-filled-default-large-pressed-foreground-color
+  );
+  /* disabled */
+  --md-elevated-button-disabled-container-color: var(
+    --bobby-component-button-filled-default-large-disabled-container-color
+  );
+  --md-elevated-button-disabled-label-text-color: var(
+    --bobby-component-button-contained-default-large-foreground-color-disabled
+  );
+  --md-elevated-button-disabled-icon-color: var(
+    --bobby-component-button-contained-default-large-foreground-color-disabled
+  );
+
+  /** BUTTON - FILLED **/
+  --md-filled-button-container-height: var(
+    --bobby-component-button-container-height
+  );
+  --md-filled-button-container-shape: var(
+    --bobby-component-button-container-shape
+  );
+  --md-filled-button-label-text-font: var(
+    --bobby-component-button-label-text-typography
+  );
+  --md-filled-button-leading-space: var(--bobby-component-button-leading-space);
+  --md-filled-button-trailing-space: var(
+    --bobby-component-button-trailing-space
+  );
+  /* resting */
+  --md-filled-button-container-color: var(
+    --bobby-component-button-filled-default-large-container-color
+  );
+  --md-filled-button-label-text-color: var(
+    --bobby-component-button-filled-default-large-foreground-color
+  );
+  --md-filled-button-icon-color: var(
+    --bobby-component-button-filled-default-large-foreground-color
+  );
+  /* hover */
+  --md-filled-button-hover-state-layer-color: var(
+    --bobby-component-state-layer-color-darken
+  );
+  --md-filled-button-hover-state-layer-opacity: var(
+    --bobby-component-state-layer-opacity-hover
+  );
+  --md-filled-button-hover-container-elevation: none;
+  --md-filled-button-hover-label-text-color: var(
+    --bobby-component-button-filled-default-large-hover-foreground-color
+  );
+  --md-filled-button-hover-icon-color: var(
+    --bobby-component-button-filled-default-large-hover-foreground-color
+  );
+  /* pressed */
+  --md-filled-button-pressed-state-layer-color: var(
+    --bobby-component-state-layer-color-darken
+  );
+  --md-filled-button-pressed-state-layer-opacity: var(
+    --bobby-component-state-layer-opacity-pressed
+  );
+  --md-filled-button-pressed-label-text-color: var(
+    --bobby-component-button-filled-default-large-pressed-foreground-color
+  );
+  --md-filled-button-pressed-icon-color: var(
+    --bobby-component-button-filled-default-large-pressed-foreground-color
+  );
+  /* disabled */
+  --md-filled-button-disabled-container-color: var(
+    --bobby-component-button-filled-default-large-disabled-container-color
+  );
+  --md-filled-button-disabled-label-text-color: var(
+    --bobby-component-button-filled-default-large-disabled-foreground-color
+  );
+  --md-filled-button-disabled-icon-color: var(
+    --bobby-component-button-filled-default-large-disabled-foreground-color
+  );
+
+  /** BUTTON OUTLINED **/
+  --md-outlined-button-container-height: var(
+    --bobby-component-button-container-height
+  );
+  --md-outlined-button-container-shape: var(
+    --bobby-component-button-container-shape
+  );
+  --md-outlined-button-label-text-font: var(
+    --bobby-component-button-label-text-typography
+  );
+  --md-outlined-button-leading-space: var(
+    --bobby-component-button-leading-space
+  );
+  --md-outlined-button-trailing-space: var(
+    --bobby-component-button-trailing-space
+  );
+  --md-outlined-button-outline-width: var(
+    --bobby-component-button-outlined-default-large-outline-width
+  );
+  /* resting */
+  --md-outlined-button-label-text-color: var(
+    --bobby-component-button-outlined-default-large-foreground-color
+  );
+  --md-outlined-button-icon-color: var(
+    --bobby-component-button-outlined-default-large-foreground-color
+  );
+  --md-outlined-button-outline-color: var(
+    --bobby-component-button-outlined-default-large-outline-color
+  );
+  /* hover */
+  --md-outlined-button-hover-label-text-color: var(
+    --bobby-component-button-outlined-default-large-hover-foreground-color
+  );
+  --md-outlined-button-hover-icon-color: var(
+    --bobby-component-button-outlined-default-large-hover-foreground-color
+  );
+  --md-outlined-button-hover-state-layer-color: var(
+    --bobby-component-state-layer-color-darken
+  );
+  --md-outlined-button-hover-state-layer-opacity: var(
+    --bobby-component-state-layer-opacity-hover
+  );
+  /* focus */
+  --md-outlined-button-hover-label-text-color: var(
+    --bobby-component-button-outlined-default-large-focus-foreground-color
+  );
+  --md-outlined-button-hover-icon-color: var(
+    --bobby-component-button-outlined-default-large-focus-foreground-color
+  );
+  /* pressed */
+  --md-outlined-button-pressed-label-text-color: var(
+    --bobby-component-button-outlined-default-large-pressed-foreground-color
+  );
+  --md-outlined-button-pressed-icon-color: var(
+    --bobby-component-button-outlined-default-large-pressed-foreground-color
+  );
+  --md-outlined-button-pressed-outline-color: var(
+    --bobby-component-button-outlined-default-large-pressed-outline-color
+  );
+  --md-outlined-button-pressed-state-layer-color: var(
+    --bobby-component-state-layer-color-darken
+  );
+  --md-outlined-button-pressed-state-layer-opacity: var(
+    --bobby-component-state-layer-opacity-pressed
+  );
+  /* disabled */
+  --md-outlined-button-disabled-label-text-color: var(
+    --bobby-component-button-outlined-default-large-disabled-foreground-color
+  );
+  --md-outlined-button-disabled-icon-color: var(
+    --bobby-component-button-outlined-default-large-disabled-foreground-color
+  );
+  --md-outlined-button-disabled-outline-color: var(
+    --bobby-component-button-outlined-default-large-disabled-outline-color
+  );
+
+  /** BUTTON TEXT **/
+  --md-text-button-container-height: var(
+    --bobby-component-button-container-height
+  );
+  --md-text-button-container-shape: var(
+    --bobby-component-button-container-shape
+  );
+  --md-text-button-label-text-font: var(
+    --bobby-component-button-label-text-typography
+  );
+  --md-text-button-leading-space: var(--bobby-component-button-leading-space);
+  --md-text-button-trailing-space: var(--bobby-component-button-trailing-space);
+  /* resting */
+  --md-text-button-label-text-color: var(
+    --bobby-component-button-text-default-large-foreground-color
+  );
+  --md-text-button-icon-color: var(
+    --bobby-component-button-text-default-large-foreground-color
+  );
+  /* focus */
+  --md-text-button-focus-label-text-color: var(
+    --bobby-component-button-text-default-large-pressed-focus-color
+  );
+  --md-text-button-focus-icon-color: var(
+    --bobby-component-button-text-default-large-pressed-focus-color
+  );
+  /* hover */
+  --md-text-button-hover-label-text-color: var(
+    --bobby-component-button-text-default-large-hover-foreground-color
+  );
+  --md-text-button-hover-icon-color: var(
+    --bobby-component-button-text-default-large-hover-foreground-color
+  );
+  --md-text-button-hover-state-layer-color: var(
+    --bobby-component-state-layer-color-darken
+  );
+  --md-text-button-hover-state-layer-opacity: var(
+    --bobby-component-state-layer-opacity-hover
+  );
+  /* pressed */
+  --md-text-button-pressed-label-text-color: var(
+    --bobby-component-button-text-default-large-pressed-foreground-color
+  );
+  --md-text-button-pressed-icon-color: var(
+    --bobby-component-button-text-default-large-pressed-foreground-color
+  );
+  --md-text-button-pressed-state-layer-color: var(
+    --bobby-component-state-layer-color-darken
+  );
+  --md-text-button-pressed-state-layer-opacity: var(
+    --bobby-component-state-layer-opacity-pressed
+  );
+  /* disabled */
+  --md-outlined-button-disabled-label-text-color: var(
+    --bobby-component-button-text-large-disabled-container-color
+  );
+  --md-outlined-button-disabled-icon-color: var(
+    --bobby-component-button-text-large-disabled-foreground-color
+  );
+
+  /* --------------------------------------------------FILTER--------------------------------------------------------- */
+
+  /* FILTER */
+  --md-filter-chip-container-height: var(
+    --bobby-component-chip-container-height
+  );
+  --md-filter-chip-container-shape: var(--bobby-component-chip-container-shape);
+  --md-filter-chip-leading-space: var(--bobby-component-chip-leading-space);
+  --md-filter-chip-trailing-space: var(--bobby-component-chip-trailing-space);
+  --md-filter-chip-outline-width: var(--bobby-component-chip-outline-width);
+  --md-filter-chip-label-text-font: var(
+    --bobby-component-chip-label-text-typography
+  );
+  /* resting */
+  --md-filter-chip-outline-color: var(--bobby-component-chip-outline-color);
+  --md-filter-chip-label-text-color: var(
+    --bobby-component-chip-foreground-color
+  );
+  --md-filter-chip-icon-color: var(--bobby-component-chip-foreground-color);
+  /* hover */
+  --md-filter-chip-hover-label-text-color: var(
+    --bobby-component-chip-hover-foreground-color
+  );
+  --md-filter-chip-hover-icon-color: var(
+    --bobby-component-chip-hover-foreground-color
+  );
+  --md-text-button-pressed-state-layer-color: var(
+    --bobby-component-state-layer-color-darken
+  );
+  --md-filter-chip-hover-state-layer-opacity: var(
+    --bobby-component-state-layer-opacity-hover
+  );
+  /* focus */
+  --md-filter-chip-focus-label-text-color: var(
+    --bobby-component-chip-focus-foreground-color
+  );
+  --md-filter-chip-focus-icon-color: var(
+    --bobby-component-chip-focus-foreground-color
+  );
+  --md-filter-chip-focus-outline-color: var(
+    --bobby-component-chip-outline-colo
+  );
+  /* pressed */
+  --md-filter-chip-pressed-label-text-color: var(
+    --bobby-component-chip-pressed-foreground-color
+  );
+  --md-filter-chip-pressed-icon-color: var(
+    --bobby-component-chip-pressed-foreground-color
+  );
+  --md-text-button-pressed-state-layer-color: var(
+    --bobby-component-state-layer-color-darken
+  );
+  --md-filter-chip-pressed-state-layer-opacity: var(
+    --bobby-component-state-layer-opacity-pressed
+  );
+  /* disabled */
+  --md-filter-chip-disabled-label-text-color: var(
+    --bobby-component-chip-disabled-foreground-color
+  );
+  --md-filter-chip-disabled-icon-color: var(
+    --bobby-component-chip-disabled-foreground-color
+  );
+  --md-filter-chip-disabled-outline-color: var(
+    --bobby-component-chip-disabled-outline-color
+  );
+  /* selected */
+  --md-filter-chip-selected-container-color: var(
+    --bobby-component-chip-selected-container-color
+  );
+  --md-filter-chip-selected-label-text-color: var(
+    --bobby-component-chip-selected-foreground-color
+  );
+  --md-filter-chip-selected-leading-icon-color: var(
+    --bobby-component-chip-selected-foreground-color
+  );
+  --md-filer-chip-selected-outline-width: var(
+    --bobby-component-chip-selected-outline-width
+  );
+  /* selected hover */
+  --md-filter-chip-selected-hover-label-text-color: var(
+    --bobby-component-chip-selected-hover-foreground-color
+  );
+  --md-filter-chip-selected-hover-leading-icon-color: var(
+    --bobby-component-chip-selected-hover-foreground-color
+  );
+  /* selected focus */
+  --md-filter-chip-selected-focus-label-text-color: var(
+    --bobby-component-chip-selected-focus-foreground-color
+  );
+  --md-filter-chip-selected-focus-leading-icon-color: var(
+    --bobby-component-chip-selected-focus-foreground-color
+  );
+  /* selected pressed */
+  --md-filter-chip-selected-pressed-label-text-color: var(
+    --bobby-component-chip-selected-pressed-foreground-color
+  );
+  --md-filter-chip-selected-pressed-leading-icon-color: var(
+    --bobby-component-chip-selected-pressed-foreground-color
+  );
+  /* disabled pressed */
+  --md-filter-chip-disabled-selected-container-color: var(
+    --bobby-component-chip-selected-disabled-container-color
+  );
+
+  /* --------------------------------------------------PRIMARY TAB--------------------------------------------------------- */
+
+  /* PRIMARY TAB */
+  --md-primary-tab-container-color: var(--bobby-component-container-color);
+  --md-primary-tab-container-height: var(--bobby-component-container-height);
+  --md-primary-tab-container-shape: var(--bobby-component-container-shape);
+  --md-primary-tab-container-elevation: none;
+  --md-primary-tab-label-text-font: var(
+    --bobby-component-label-text-typography
+  );
+  --md-primary-tab-label-text-color: var(--bobby-component-foreground-color);
+  --md-primary-tab-icon-color: var(--bobby-component-foreground-color);
+  /* focus */
+  --md-primary-tab-focus-label-text-color: var(
+    --bobby-component-tab-focus-foreground-color
+  );
+  --md-primary-tab-focus-icon-color: var(
+    --bobby-component-tab-focus-foreground-color
+  );
+  /* hover */
+  --md-primary-tab-hover-label-text-color: var(
+    --bobby-component-tab-hover-foreground-color
+  );
+  --md-primary-tab-hover-icon-color: var(
+    --bobby-component-tab-hover-foreground-color
+  );
+  --md-primary-tab-hover-state-layer-color: var(
+    --bobby-component-state-layer-color-darken
+  );
+  --md-primary-tab-hover-state-layer-opacity: var(
+    --bobby-component-state-layer-opacity-hover
+  );
+  /* pressed */
+  --md-primary-tab-pressed-label-text-color: var(
+    --bobby-component-tab-pressed-foreground-color
+  );
+  --md-primary-tab-pressed-icon-color: var(
+    --bobby-component-tab-pressed-foreground-color
+  );
+  --md-primary-tab-pressed-state-layer-color: var(
+    --bobby-component-state-layer-color-darken
+  );
+  --md-primary-tab-pressed-state-layer-opacity: var(
+    --bobby-component-state-layer-opacity-pressed
+  );
+  /* active */
+  --md-primary-tab-active-icon-color: var(
+    --bobby-component-tab-active-foreground-color
+  );
+  --md-primary-tab-active-indicator-color: var(
+    --bobby-component-tab-active-indicator-color
+  );
+  --md-primary-tab-active-indicator-height: var(
+    --bobby-component-tab-active-indicator-height
+  );
+  --md-primary-tab-active-indicator-shape: var(
+    --bobby-component-tab-active-indicator-shape
+  );
+  --md-primary-tab-active-label-text-color: var(
+    --bobby-component-tab-active-foreground-color
+  );
+  /* active focus */
+  --md-primary-tab-active-focus-label-text-color: var(
+    --bobby-component-tab-active-focus-foreground-color
+  );
+  --md-primary-tab-active-focus-icon-color: var(
+    --bobby-component-tab-active-focus-foreground-color
+  );
+  /* active hover */
+  --md-primary-tab-active-hover-label-text-color: var(
+    --bobby-component-tab-active-hover-foreground-color
+  );
+  --md-primary-tab-active-hover-icon-color: var(
+    --bobby-component-tab-active-hover-foreground-color
+  );
+  --md-primary-tab-active-hover-state-layer-color: var(
+    --bobby-component-state-layer-color-darken
+  );
+  --md-primary-tab-active-hover-state-layer-opacity: var(
+    --bobby-component-state-layer-opacity-hover
+  );
+  /* active pressed */
+  --md-primary-tab-active-pressed-label-text-color: var(
+    --bobby-component-tab-active-pressed-foreground-color
+  );
+  --md-primary-tab-active-pressed-icon-color: var(
+    --bobby-component-tab-active-pressed-foreground-color
+  );
+  --md-primary-tab-active-pressed-state-layer-color: var(
+    --bobby-component-state-layer-color-darken
+  );
+  --md-primary-tab-active-pressed-state-layer-opacity: var(
+    --bobby-component-state-layer-opacity-pressed
+  );
+
+  /* --------------------------------------------------SWITCH--------------------------------------------------------- */
+
+  /* Switch */
+  /* --md-switch-handle-color: 
+  --md-switch-handle-height: 
+  --md-switch-handle-shape: 
+  --md-switch-handle-width: 
+  --md-switch-icon-color: 
+  --md-switch-icon-size:   
+  --md-switch-track-shape: 
+  --md-switch-track-color: 
+  --md-switch-track-height: 
+  --md-switch-track-outline-width: 
+  --md-switch-track-outline-color: 
+  --md-switch-track-width:  */
+
+  /* focus */
+  /* --md-switch-focus-handle-color: 
+  --md-switch-focus-icon-color: 
+  --md-switch-focus-track-color: 
+  --md-switch-focus-track-outline-color:  */
+
+  /* hover */
+  /* --md-switch-hover-handle-color: 
+  --md-switch-hover-icon-color: 
+  --md-switch-hover-track-color: 
+  --md-switch-hover-track-outline-color: 
+  --md-switch-hover-state-layer-color: 
+  --md-switch-hover-state-layer-opacity:  */
+
+  /* pressed */
+  /* --md-switch-pressed-handle-color: 
+  --md-switch-pressed-handle-height: 
+  --md-switch-pressed-handle-width: 
+  --md-switch-pressed-icon-color: 
+  --md-switch-pressed-track-color: 
+  --md-switch-pressed-track-outline-color: 
+  --md-switch-pressed-state-layer-color: 
+  --md-switch-pressed-state-layer-opacity:  */
+
+  /* disabled */
+  /* --md-switch-disabled-handle-color: 
+  --md-switch-disabled-icon-color: 
+  --md-switch-disabled-track-color: 
+  --md-switch-disabled-track-outline-color: */
+
+  /* selected */
+  /* --md-switch-selected-handle-color: 
+  --md-switch-selected-handle-height: 
+  --md-switch-selected-handle-width: 
+  --md-switch-selected-icon-color: 
+  --md-switch-selected-icon-size: 
+  --md-switch-selected-track-color: */
+
+  /* selected focus */
+  /* --md-switch-selected-focus-handle-color: 
+  --md-switch-selected-focus-icon-color: 
+  --md-switch-selected-focus-track-color:  */
+
+  /* selected hover */
+  /* --md-switch-selected-hover-handle-color: 
+  --md-switch-selected-hover-icon-color: 
+  --md-switch-selected-hover-track-color: 
+  --md-switch-selected-hover-state-layer-color: 
+  --md-switch-selected-hover-state-layer-opacity:  */
+
+  /* selected pressed */
+  /* --md-switch-selected-pressed-handle-color: 
+  --md-switch-selected-pressed-icon-color: 
+  --md-switch-selected-pressed-track-color: 
+  --md-switch-selected-pressed-state-layer-color: 
+  --md-switch-selected-pressed-state-layer-opacity:  */
+
+  /* selected disabled */
+  /* --md-switch-disabled-selected-handle-color: 
+  --md-switch-disabled-selected-icon-color: 
+  --md-switch-disabled-selected-track-color: */
+
+  /* --------------------------------------------------CHECKBOX--------------------------------------------------------- */
+
+  
+  /* Checkbox */
+  --md-checkbox-container-shape: var(--bobby-component-checkbox-shape);
+  --md-checkbox-outline-width: var(--bobby-component-checkbox-outline-width);
+  --md-checkbox-container-size: var(--bobby-component-checkbox-container-size);
+  --md-checkbox-outline-color: var(--bobby-component-checkbox-outline-color);
+
+  /* disabled */
+  --md-checkbox-disabled-outline-color: var(--bobby-component-checkbox-disabled-outline-color);
+  --md-checkbox-disabled-outline-width: var(--bobby-component-checkbox-disabled-outline-width);
+
+  /* focus */
+  --md-checkbox-focus-outline-color: var(--bobby-component-checkbox-focus-outline-color);
+  --md-checkbox-focus-outline-width: var(--bobby-component-checkbox-focus-outline-width);
+
+  /* hover */
+  --md-checkbox-hover-outline-color: var(--bobby-component-checkbox-hover-outline-color);
+  --md-checkbox-hover-outline-width: var(--bobby-component-checkbox-hover-outline-width);
+  --md-checkbox-hover-state-layer-color: var(--bobby-component-state-layer-color-darken);
+  --md-checkbox-hover-state-layer-opacity: var(--bobby-component-state-layer-opacity-hover);
+
+  /* pressed */
+  --md-checkbox-pressed-outline-color: var(--bobby-component-checkbox-pressed-outline-color);
+  --md-checkbox-pressed-outline-width: var(--bobby-component-checkbox-pressed-outline-width);
+  --md-checkbox-pressed-state-layer-color: var(--bobby-component-state-layer-color-darken);
+  --md-checkbox-pressed-state-layer-opacity: var(--bobby-component-state-layer-opacity-pressed);
+
+/* selected */
+--md-checkbox-selected-container-color: var(--bobby-component-checkbox-selected-container-color);
+--md-checkbox-selected-icon-color: var(--bobby-component-checkbox-selected-icon-color);
+
+/* selected focus */
+--md-checkbox-selected-focus-container-color: var(--bobby-component-checkbox-selected-focus-container-color);
+--md-checkbox-selected-focus-icon-color: var(--bobby-component-checkbox-selected-focus-icon-color);
+
+/* selected hover */
+--md-checkbox-selected-hover-container-color: var(--bobby-component-checkbox-selected-hover-container-color);
+--md-checkbox-selected-hover-icon-color: var(--bobby-component-checkbox-selected-hover-icon-color);
+--md-checkbox-selected-hover-state-layer-color: var(--bobby-component-state-layer-color-darken);
+  --md-checkbox-selected-hover-state-layer-opacity: var(--bobby-component-state-layer-opacity-hover);
+
+/* selected pressed */
+--md-checkbox-selected-pressed-container-color: var(--bobby-component-checkbox-selected-pressed-container-color);
+--md-checkbox-selected-pressed-icon-color: var(--bobby-component-checkbox-selected-pressed-icon-color);
+--md-checkbox-selected-pressed-state-layer-color: var(--bobby-component-state-layer-color-darken);
+  --md-checkbox-selected-pressed-state-layer-opacity:  var(--bobby-component-state-layer-opacity-pressed);
+
+  /* selected disabled */
+--md-checkbox-selected-disabled-container-color: var(--bobby-component-checkbox-selected-disabled-container-color);
+--md-checkbox-selected-disabled-icon-color: var(--bobby-component-checkbox-selected-disabled-icon-color);
+
+  /* --------------------------------------------------FAB--------------------------------------------------------- */
+
+  /* FAB */
+  --md-fab-container-color: var(--pico-ref-color-ui-primary-95);
+  --md-fab-container-shape: var(--pico-ref-shape-corner-full);
+  --md-fab-icon-color: var(--pico-semantic-color-ui-primary);
+
+  /* --------------------------------------------------TEXT FIELD--------------------------------------------------------- */
+
+  /* Text Field */
+  --md-outlined-text-field-container-shape: var(
+    --bobby-component-text-field-container-shape
+  );
+  --md-outlined-text-field-outline-width: var(
+    --bobby-component-text-field-outline-width
+  );
+  --md-outlined-text-field-label-text-font: var(--bobby-component-text-field-label-text-typography);
+  --md-outlined-text-field-input-text-font: var(--bobby-component-text-field-input-text-typography);
+  --md-outlined-text-field-supporting-text-font: var(
+    --bobby-component-text-field-supporting-text-typography
+  );
+  --md-outlined-text-field-label-text-color: var(
+    --bobby-component-text-field-label-color
+  );
+  --md-outlined-text-field-input-text-color: var(
+    --bobby-component-text-field-input-color
+  );
+  --md-outlined-text-field-supporting-text-color: var(
+    --bobby-component-text-field-supporting-color
+  );
+  --md-outlined-text-field-input-text-placeholder-color: var(
+    --bobby-component-text-field-input-placeholder-color
+  );
+  --md-outlined-text-field-outline-color: var(
+    --bobby-component-text-field-outline-color
+  );
+  --md-outlined-text-field-top-space: var(
+    --bobby-component-text-field-vertical-space
+  );
+  --md-outlined-text-field-bottom-space: var(
+    --bobby-component-text-field-vertical-space
+  );
+  /* focus */
+  --md-outlined-text-field-error-focus-caret-color: var(
+    --bobby-component-text-field-focus-caret-color
+  );
+  --md-outlined-text-field-focus-input-text-color: var(
+    --bobby-component-text-field-focus-input-text-color
+  );
+  --md-outlined-text-field-focus-label-text-color: var(
+    --bobby-component-text-field-focus-label-text-color
+  );
+  --md-outlined-text-field-focus-leading-icon-color: var(
+    --bobby-component-text-field-focus-icon-color
+  );
+  --md-outlined-text-field-focus-trailing-icon-color: var(
+    --bobby-component-text-field-focus-icon-color
+  );
+  --md-outlined-text-field-focus-outline-color: var(
+    --bobby-component-text-field-focus-outline-color
+  );
+  --md-outlined-text-field-focus-outline-width: var(
+    --bobby-component-text-field-focus-outline-width
+  );
+  --md-outlined-text-field-focus-supporting-text-color: var(
+    --bobby-component-text-field-focus-supporting-text-color
+  );
+  /* hover */
+  --md-outlined-text-field-hover-input-text-color: var(
+    --bobby-component-text-field-hover-input-text-color
+  );
+  --md-outlined-text-field-hover-label-text-color: var(
+    --bobby-component-text-field-hover-label-text-color
+  );
+  --md-outlined-text-field-hover-leading-icon-color: var(
+    --bobby-component-text-field-hover-icon-color
+  );
+  --md-outlined-text-field-hover-trailing-icon-color: var(
+    --bobby-component-text-field-hover-icon-color
+  );
+  --md-outlined-text-field-hover-outline-color: var(
+    --bobby-component-text-field-hover-outline-color
+  );
+  --md-outlined-text-field-hover-outline-width: var(
+    --bobby-component-text-field-hover-outline-width
+  );
+  --md-outlined-text-field-hover-supporting-text-color: var(
+    --bobby-component-text-field-hover-supporting-text-color
+  );
+  /* error */
+  --md-outlined-text-field-error-input-text-color: var(
+    --bobby-component-text-field-error-input-text-color
+  );
+  --md-outlined-text-field-error-label-text-color: var(
+    --bobby-component-text-field-error-label-text-color
+  );
+  --md-outlined-text-field-error-leading-icon-color: var(
+    --bobby-component-text-field-error-icon-color
+  );
+  --md-outlined-text-field-error-trailing-icon-color: var(
+    --bobby-component-text-field-error-icon-color
+  );
+  --md-outlined-text-field-error-outline-color: var(
+    --bobby-component-text-field-error-outline-color
+  );
+  --md-outlined-text-field-error-supporting-text-color: var(
+    --bobby-component-text-field-error-supporting-text-color
+  );
+  /* error focus */
+  --md-outlined-text-field-error-focus-caret-color: var(
+    ---bobby-component-text-field-error-focus-caret-color
+  );
+  --md-outlined-text-field-error-focus-input-text-color: var(
+    --bobby-component-text-field-error-focus-input-text-color
+  );
+  --md-outlined-text-field-error-focus-label-text-color: var(
+    --bobby-component-text-field-error-focus-label-text-color
+  );
+  --md-outlined-text-field-error-focus-leading-icon-color: var(
+    --bobby-component-text-field-error-focus-icon-color
+  );
+  --md-outlined-text-field-error-focus-trailing-icon-color: var(
+    --bobby-component-text-field-error-focus-icon-color
+  );
+  --md-outlined-text-field-error-focus-outline-color: var(
+    --bobby-component-text-field-error-focus-outline-color
+  );
+  --md-outlined-text-field-error-focus-outline-width: var(
+    --bobby-component-text-field-error-focus-outline-width
+  );
+  --md-outlined-text-field-errpr-focus-supporting-text-color: var(
+    --bobby-component-text-field-error-focus-supporting-text-color
+  );
+  /* error hover */
+  /* disabled */
+
+  /* --------------------------------------------------MENU--------------------------------------------------------- */
+
+  --md-menu-container-color: white;
+  --md-menu-container-shape: var(--pico-semantic-shape-corner);
+
+  --md-menu-item-container-color: white;
+  --md-menu-item-label-text-color: var(--pico-semantic-color-ui-onSurface);
+  --md-menu-item-label-text-size: 14px;
+  --md-menu-item-label-text-font: Arial;
+  --md-menu-item-bottom-space: var(--pico-ref-spacing-xs);
+  --md-menu-item-top-space: var(--pico-ref-spacing-xs);
+  --md-menu-item-leading-space: var(--pico-ref-spacing-s);
+  --md-menu-item-one-line-container-height: var(--pico-ref-spacing-l);
+
+  /* --------------------------------------------------CARD--------------------------------------------------------- */
+
+  /* Card */
+  --md-elevation-level: var(--pico-semantic-shape-elevation-level-low);
+}
+
+/* --------------------------------------------------EMAIL SIGNUP--------------------------------------------------------- */
+
+.newsletter {
+  display: flex;
+  padding: var(--pico-ref-spacing-xl);
+  box-shadow: var(--conversion-pattern-email-input-elevation);
+  border-radius: var(--conversion-pattern-email-input-shape);
+  width: fit-content;
+  max-width: 700px;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.input-heading {
+  font: var(--conversion-pattern-email-input-heading-typography);
+}
+
+.signup {
+  display: flex;
+  margin-top: var(--pico-ref-spacing-l);
+}
+
+.newsletter md-outlined-text-field {
+  width: 100%;
+  --md-outlined-text-field-container-shape-end-end: var(
+    --conversion-pattern-email-input-text-field-shape-right-side
+  );
+  --md-outlined-text-field-container-shape-start-end: var(
+    --conversion-pattern-email-input-text-field-shape-right-side
+  );
+}
+
+.newsletter md-filled-button {
+  --md-filled-button-container-shape-start-start: var(
+    --conversion-pattern-email-input-button-shape-left-side
+  );
+  --md-filled-button-container-shape-end-start: var(
+    --conversion-pattern-email-input-button-shape-left-side
+  );
+}
+
+/* --------------------------------------------------VOUCHER CARD--------------------------------------------------------- */
+
+.voucher-card {
+  display: flex;
+  box-shadow: var(--conversion-pattern-voucher-card-elevation);
+  max-width: 700px;
+  overflow: hidden;
+  border-radius: var(--conversion-pattern-voucher-card-shape);
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  border-radius: 8px;
+}
+
+.tag-row {
+  padding: var(--pico-ref-spacing-m) var(--pico-ref-spacing-m) 0
+    var(--pico-ref-spacing-m);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.content-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: var(--pico-ref-spacing-m) 0 var(--pico-ref-spacing-m)
+    var(--pico-ref-spacing-m);
+  box-sizing: border-box;
+}
+
+.voucher-card md-filled-button {
+  margin: 0 var(--pico-ref-spacing-m);
+}
+
+.captions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(
+    --conversion-pattern-voucher-card-captions-background-color
+  );
+  width: 100%;
+  height: 100%;
+}
+
+.verified {
+  display: flex;
+  align-items: center;
+  padding: 0 var(--pico-ref-spacing-s);
+  background-color: var(
+    --conversion-pattern-voucher-card-verified-background-color
+  );
+  width: 100%;
+  min-height: 32px;
+  box-sizing: border-box;
+  font: var(--conversion-pattern-voucher-card-helper-text-typography);
+  /* font: 400 12px Arial; */
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+  padding: 0 var(--pico-ref-spacing-s);
+  border-top: var(--pico-semantic-shape-outline-width)
+    var(--pico-ref-color-ui-neutral-80) dashed;
+  width: 100%;
+  height: 32px;
+  box-sizing: border-box;
+  font: var(--conversion-pattern-voucher-card-helper-text-typography);
+}
+
+.voucher-card .title {
+  font: var(--conversion-pattern-voucher-card-title-typography);
+}
+
+.voucher-card .subtitle {
+  font: var(--conversion-pattern-voucher-card-helper-text-typography);
+}
+
+.caption1 {
+  font: var(--conversion-pattern-voucher-card-caption1-typography);
+}
+
+.caption2 {
+  font: var(--conversion-pattern-voucher-card-caption2-typography);
+}
+
+.voucher-card md-filled-button {
+  --md-filled-button-container-color: var(--conversion-pattern-voucher-card-button-container-color);
+}
+
+.voucher-card md-filled-button:hover {
+  --md-filled-button-hover-state-layer-color: green;
+  --md-filled-button-hover-state-layer-opacity: 1;
+}
