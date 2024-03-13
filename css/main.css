@@ -190,6 +190,10 @@ label {
   font-weight: 800;
 }
 
+.doc-content__section {
+  padding: var(--size-padding-xxl) 0;
+}
+
 .doc-content .search {
   display: flex;
   flex-direction: row;
@@ -252,6 +256,9 @@ label {
   display: flex;
   /* grid-template-columns: repeat(4, 1fr); */
   gap: 16px;
+  padding: var(--size-padding-xl);
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 16px;
 }
 
 .doc-gallery__item {

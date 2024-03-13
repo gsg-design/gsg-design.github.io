@@ -134,6 +134,7 @@
     color: var(--color-on-surface);
     font-size: var(--size-font-small);
     text-transform: uppercase;
+    line-height: 1em;
     background-color: rgba(0,0,0,0.04);
 }
 
@@ -204,6 +205,7 @@
 .styleguide-item__attributes {
     width: 100%;
     margin-left: calc(var(--size-padding-xxl) + var(--size-padding-large));
+    line-height: 1em;
 }
 
 .styleguide-item__attributes tbody th,
