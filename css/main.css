@@ -57,6 +57,11 @@ label {
   font-weight: black;
 }
 
+#theming-anchor {
+  font-size: var(--size-font-medium);
+  font-weight: 400;
+}
+
 /** ---------------------------------------------------------------------------
 ** Navigation
 **/
@@ -244,8 +249,8 @@ label {
 }
 
 .doc-gallery {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  /* grid-template-columns: repeat(4, 1fr); */
   gap: 16px;
 }
 
@@ -256,7 +261,13 @@ label {
   text-align: center;
 }
 
+.doc-gallery__item dd {
+  margin: 0;
+  padding: 0;
+}
+
 .doc-gallery__item-label {
+  padding: var(--size-padding-medium) var(--size-padding-xl);
   font-size: var(--size-font-small);
   font-weight: 800;
   text-transform: uppercase;
