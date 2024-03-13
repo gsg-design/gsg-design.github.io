@@ -61,7 +61,7 @@
 .styleguide__bobby-component-button-filled-inverted-small-label-text-typography.styleguide-item__value::before { content: '[object Object]'; }
 .styleguide__bobby-component-button-filled-inverted-small-pressed-foreground-color.styleguide-item__value { background-color: hsl(214.48 60.36% 43.529%); }
 .styleguide__bobby-component-button-filled-inverted-small-pressed-foreground-color.styleguide-item__value::before { content: 'hsl(214.48 60.36% 43.529%)'; }
-.styleguide__bobby-component-button-horizontal-padding.styleguide-item__value::before { content: '8'; }
+.styleguide__bobby-component-button-horizontal-padding.styleguide-item__value::before { content: '8px'; }
 .styleguide__bobby-component-button-label-text-typography.styleguide-item__value::before { content: '[object Object]'; }
 .styleguide__bobby-component-button-outlined-default-large-container-color.styleguide-item__value { background-color: hsl(214 60.4% 100% / 0); }
 .styleguide__bobby-component-button-outlined-default-large-container-color.styleguide-item__value::before { content: 'hsl(214 60.4% 100% / 0)'; }
@@ -258,7 +258,7 @@
 .styleguide__bobby-component-chip-focus-foreground-color.styleguide-item__value::before { content: 'hsl(214.48 60.36% 43.529%)'; }
 .styleguide__bobby-component-chip-foreground-color.styleguide-item__value { background-color: hsl(214.48 60.36% 43.529%); }
 .styleguide__bobby-component-chip-foreground-color.styleguide-item__value::before { content: 'hsl(214.48 60.36% 43.529%)'; }
-.styleguide__bobby-component-chip-horizontal-padding.styleguide-item__value::before { content: '16'; }
+.styleguide__bobby-component-chip-horizontal-padding.styleguide-item__value::before { content: '16px'; }
 .styleguide__bobby-component-chip-hover-foreground-color.styleguide-item__value { background-color: hsl(214.48 60.36% 43.529%); }
 .styleguide__bobby-component-chip-hover-foreground-color.styleguide-item__value::before { content: 'hsl(214.48 60.36% 43.529%)'; }
 .styleguide__bobby-component-chip-label-text-typography.styleguide-item__value::before { content: '[object Object]'; }
@@ -280,6 +280,20 @@
 .styleguide__bobby-component-chip-selected-outline-width.styleguide-item__value::before { content: '0'; }
 .styleguide__bobby-component-chip-selected-pressed-foreground-color.styleguide-item__value { background-color: hsl(214 60.4% 100%); }
 .styleguide__bobby-component-chip-selected-pressed-foreground-color.styleguide-item__value::before { content: 'hsl(214 60.4% 100%)'; }
+.styleguide__bobby-component-line-container-height.styleguide-item__value::before { content: '20px'; }
+.styleguide__bobby-component-menu-container-color.styleguide-item__value { background-color: hsl(274 3.63% 100%); }
+.styleguide__bobby-component-menu-container-color.styleguide-item__value::before { content: 'hsl(274 3.63% 100%)'; }
+.styleguide__bobby-component-menu-container-elevation.styleguide-item__value { box-shadow: [object Object]; }
+.styleguide__bobby-component-menu-container-elevation.styleguide-item__value::before { content: '[object Object]'; }
+.styleguide__bobby-component-menu-container-shape.styleguide-item__value { border-radius: 4px; }
+.styleguide__bobby-component-menu-container-shape.styleguide-item__value::before { content: '4px'; }
+.styleguide__bobby-component-menu-item-container-color.styleguide-item__value { background-color: hsl(274 3.63% 100%); }
+.styleguide__bobby-component-menu-item-container-color.styleguide-item__value::before { content: 'hsl(274 3.63% 100%)'; }
+.styleguide__bobby-component-menu-item-horizontal-padding.styleguide-item__value::before { content: '12px'; }
+.styleguide__bobby-component-menu-item-vertical-padding.styleguide-item__value::before { content: '8px'; }
+.styleguide__bobby-component-menu-label-text-color.styleguide-item__value { background-color: hsl(274 3.63% 3.78%); }
+.styleguide__bobby-component-menu-label-text-color.styleguide-item__value::before { content: 'hsl(274 3.63% 3.78%)'; }
+.styleguide__bobby-component-menu-label-typography.styleguide-item__value::before { content: '[object Object]'; }
 .styleguide__bobby-component-state-layer-color-darken.styleguide-item__value { background-color: hsl(274 3.63% 0%); }
 .styleguide__bobby-component-state-layer-color-darken.styleguide-item__value::before { content: 'hsl(274 3.63% 0%)'; }
 .styleguide__bobby-component-state-layer-color-lighten.styleguide-item__value { background-color: hsl(274 3.63% 100%); }
@@ -395,42 +409,53 @@
 .styleguide__bobby-component-text-field-label-color.styleguide-item__value { background-color: hsl(267 4.62% 26.8%); }
 .styleguide__bobby-component-text-field-label-color.styleguide-item__value::before { content: 'hsl(267 4.62% 26.8%)'; }
 .styleguide__bobby-component-text-field-label-text-typography.styleguide-item__value::before { content: '[object Object]'; }
-.styleguide__bobby-component-text-field-leading-space.styleguide-item__value::before { content: '8'; }
+.styleguide__bobby-component-text-field-leading-space.styleguide-item__value::before { content: '8px'; }
 .styleguide__bobby-component-text-field-outline-color.styleguide-item__value { background-color: hsl(274 3.63% 65.8%); }
 .styleguide__bobby-component-text-field-outline-color.styleguide-item__value::before { content: 'hsl(274 3.63% 65.8%)'; }
 .styleguide__bobby-component-text-field-outline-width.styleguide-item__value::before { content: '1px'; }
 .styleguide__bobby-component-text-field-supporting-color.styleguide-item__value { background-color: hsl(267 4.62% 26.8%); }
 .styleguide__bobby-component-text-field-supporting-color.styleguide-item__value::before { content: 'hsl(267 4.62% 26.8%)'; }
 .styleguide__bobby-component-text-field-supporting-text-typography.styleguide-item__value::before { content: '[object Object]'; }
-.styleguide__bobby-component-text-field-trailing-space.styleguide-item__value::before { content: '8'; }
-.styleguide__bobby-component-text-field-vertical-space.styleguide-item__value::before { content: '8'; }
+.styleguide__bobby-component-text-field-trailing-space.styleguide-item__value::before { content: '8px'; }
+.styleguide__bobby-component-text-field-vertical-space.styleguide-item__value::before { content: '8px'; }
 .styleguide__bobby-component-tooltip-background-color.styleguide-item__value { background-color: hsl(274 3.63% 75.1%); }
 .styleguide__bobby-component-tooltip-background-color.styleguide-item__value::before { content: 'hsl(274 3.63% 75.1%)'; }
 .styleguide__bobby-component-tooltip-foreground-color.styleguide-item__value { background-color: hsl(267 4.62% 26.8%); }
 .styleguide__bobby-component-tooltip-foreground-color.styleguide-item__value::before { content: 'hsl(267 4.62% 26.8%)'; }
+.styleguide__conversion-pattern-button-container-color.styleguide-item__value { background-color: hsl(214.48 60.36% 43.529%); }
+.styleguide__conversion-pattern-button-container-color.styleguide-item__value::before { content: 'hsl(214.48 60.36% 43.529%)'; }
+.styleguide__conversion-pattern-caption-1-typography.styleguide-item__value::before { content: '[object Object]'; }
+.styleguide__conversion-pattern-caption-2-typography.styleguide-item__value::before { content: '[object Object]'; }
 .styleguide__conversion-pattern-email-input-button-shape-left-side.styleguide-item__value { border-radius: 0px; }
 .styleguide__conversion-pattern-email-input-button-shape-left-side.styleguide-item__value::before { content: '0px'; }
-.styleguide__.styleguide-item__value::before { content: '[object Object]'; }
+.styleguide__conversion-pattern-email-input-elevation.styleguide-item__value { box-shadow: [object Object]; }
+.styleguide__conversion-pattern-email-input-elevation.styleguide-item__value::before { content: '[object Object]'; }
 .styleguide__conversion-pattern-email-input-heading-typography.styleguide-item__value::before { content: '[object Object]'; }
 .styleguide__conversion-pattern-email-input-shape.styleguide-item__value { border-radius: 4px; }
 .styleguide__conversion-pattern-email-input-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__conversion-pattern-email-input-text-field-shape-right-side.styleguide-item__value { border-radius: 0px; }
 .styleguide__conversion-pattern-email-input-text-field-shape-right-side.styleguide-item__value::before { content: '0px'; }
-.styleguide__conversion-pattern-voucher-card-button-container-color.styleguide-item__value { background-color: hsl(214.48 60.36% 43.529%); }
-.styleguide__conversion-pattern-voucher-card-button-container-color.styleguide-item__value::before { content: 'hsl(214.48 60.36% 43.529%)'; }
-.styleguide__conversion-pattern-voucher-card-caption-1-typography.styleguide-item__value::before { content: '[object Object]'; }
-.styleguide__conversion-pattern-voucher-card-caption-2-typography.styleguide-item__value::before { content: '[object Object]'; }
+.styleguide__conversion-pattern-helper-text-typography.styleguide-item__value::before { content: '[object Object]'; }
+.styleguide__conversion-pattern-tag-typography.styleguide-item__value::before { content: '[object Object]'; }
+.styleguide__conversion-pattern-terms-outline-color.styleguide-item__value { background-color: hsl(274 3.63% 75.1%); }
+.styleguide__conversion-pattern-terms-outline-color.styleguide-item__value::before { content: 'hsl(274 3.63% 75.1%)'; }
+.styleguide__conversion-pattern-terms-outline-width.styleguide-item__value::before { content: '1px'; }
+.styleguide__conversion-pattern-terms-padding.styleguide-item__value::before { content: '8px'; }
+.styleguide__conversion-pattern-title-typography.styleguide-item__value::before { content: '[object Object]'; }
+.styleguide__conversion-pattern-verified-background-color.styleguide-item__value { background-color: hsl(214 60.4% 88.7%); }
+.styleguide__conversion-pattern-verified-background-color.styleguide-item__value::before { content: 'hsl(214 60.4% 88.7%)'; }
+.styleguide__conversion-pattern-verified-padding.styleguide-item__value::before { content: '8px'; }
 .styleguide__conversion-pattern-voucher-card-captions-background-color.styleguide-item__value { background-color: hsl(214 60.4% 94.4%); }
 .styleguide__conversion-pattern-voucher-card-captions-background-color.styleguide-item__value::before { content: 'hsl(214 60.4% 94.4%)'; }
+.styleguide__conversion-pattern-voucher-card-content-background-color.styleguide-item__value { background-color: hsl(274 3.63% 100%); }
+.styleguide__conversion-pattern-voucher-card-content-background-color.styleguide-item__value::before { content: 'hsl(274 3.63% 100%)'; }
+.styleguide__conversion-pattern-voucher-card-content-padding.styleguide-item__value::before { content: '12px'; }
+.styleguide__conversion-pattern-voucher-card-content-spacing.styleguide-item__value::before { content: '12px'; }
 .styleguide__conversion-pattern-voucher-card-elevation.styleguide-item__value { box-shadow: [object Object]; }
 .styleguide__conversion-pattern-voucher-card-elevation.styleguide-item__value::before { content: '[object Object]'; }
-.styleguide__conversion-pattern-voucher-card-helper-text-typography.styleguide-item__value::before { content: '[object Object]'; }
+.styleguide__conversion-pattern-voucher-card-left-side-width.styleguide-item__value::before { content: '150px'; }
 .styleguide__conversion-pattern-voucher-card-shape.styleguide-item__value { border-radius: 4px; }
 .styleguide__conversion-pattern-voucher-card-shape.styleguide-item__value::before { content: '4px'; }
-.styleguide__conversion-pattern-voucher-card-tag-typography.styleguide-item__value::before { content: '[object Object]'; }
-.styleguide__conversion-pattern-voucher-card-title-typography.styleguide-item__value::before { content: '[object Object]'; }
-.styleguide__conversion-pattern-voucher-card-verified-background-color.styleguide-item__value { background-color: hsl(214 60.4% 88.7%); }
-.styleguide__conversion-pattern-voucher-card-verified-background-color.styleguide-item__value::before { content: 'hsl(214 60.4% 88.7%)'; }
 .styleguide__conversion-theme-palette-sustainability-background.styleguide-item__value { background-color: hsl(137.65 89.474% 96.275%); }
 .styleguide__conversion-theme-palette-sustainability-background.styleguide-item__value::before { content: 'hsl(137.65 89.474% 96.275%)'; }
 .styleguide__conversion-theme-palette-sustainability-dark.styleguide-item__value { background-color: hsl(136.98 47.748% 21.765%); }
@@ -442,13 +467,13 @@
 .styleguide__pico-component-button-container-height.styleguide-item__value::before { content: '40px'; }
 .styleguide__pico-component-button-container-shape.styleguide-item__value { border-radius: 4px; }
 .styleguide__pico-component-button-container-shape.styleguide-item__value::before { content: '4px'; }
-.styleguide__pico-component-button-horizontal-padding.styleguide-item__value::before { content: '8'; }
+.styleguide__pico-component-button-horizontal-padding.styleguide-item__value::before { content: '8px'; }
 .styleguide__pico-component-button-label-text-typography.styleguide-item__value::before { content: '[object Object]'; }
-.styleguide__pico-component-button-spacing.styleguide-item__value::before { content: '4'; }
+.styleguide__pico-component-button-spacing.styleguide-item__value::before { content: '4px'; }
 .styleguide__pico-component-card-elevation.styleguide-item__value { box-shadow: [object Object]; }
 .styleguide__pico-component-card-elevation.styleguide-item__value::before { content: '[object Object]'; }
-.styleguide__pico-component-card-padding-horizontal.styleguide-item__value::before { content: '12'; }
-.styleguide__pico-component-card-padding-vertical.styleguide-item__value::before { content: '12'; }
+.styleguide__pico-component-card-padding-horizontal.styleguide-item__value::before { content: '12px'; }
+.styleguide__pico-component-card-padding-vertical.styleguide-item__value::before { content: '12px'; }
 .styleguide__pico-component-card-shape.styleguide-item__value { border-radius: 4px; }
 .styleguide__pico-component-card-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__pico-component-checkbox-container-size.styleguide-item__value::before { content: '18px'; }
@@ -459,25 +484,106 @@
 .styleguide__pico-component-chip-container-height.styleguide-item__value::before { content: '32px'; }
 .styleguide__pico-component-chip-container-shape.styleguide-item__value { border-radius: 80px; }
 .styleguide__pico-component-chip-container-shape.styleguide-item__value::before { content: '80px'; }
-.styleguide__pico-component-chip-horizontal-padding.styleguide-item__value::before { content: '16'; }
+.styleguide__pico-component-chip-horizontal-padding.styleguide-item__value::before { content: '16px'; }
 .styleguide__pico-component-chip-label-text-typography.styleguide-item__value::before { content: '[object Object]'; }
 .styleguide__pico-component-chip-outline-width.styleguide-item__value::before { content: '1px'; }
 .styleguide__pico-component-hero-background-color.styleguide-item__value { background-color: transparent; }
 .styleguide__pico-component-hero-background-color.styleguide-item__value::before { content: 'transparent'; }
-.styleguide__pico-component-menu-background-color.styleguide-item__value { background-color: hsl(214.48 60.36% 43.529%); }
-.styleguide__pico-component-menu-background-color.styleguide-item__value::before { content: 'hsl(214.48 60.36% 43.529%)'; }
+.styleguide__pico-component-menu-container-elevation.styleguide-item__value { box-shadow: [object Object]; }
+.styleguide__pico-component-menu-container-elevation.styleguide-item__value::before { content: '[object Object]'; }
+.styleguide__pico-component-menu-container-shape.styleguide-item__value { border-radius: 4px; }
+.styleguide__pico-component-menu-container-shape.styleguide-item__value::before { content: '4px'; }
+.styleguide__pico-component-menu-item-horizontal-padding.styleguide-item__value::before { content: '12px'; }
+.styleguide__pico-component-menu-item-vertical-padding.styleguide-item__value::before { content: '8px'; }
+.styleguide__pico-component-menu-label-typography.styleguide-item__value::before { content: '[object Object]'; }
+.styleguide__pico-component-menu-line-container-height.styleguide-item__value::before { content: '20px'; }
 .styleguide__pico-component-section-background-color.styleguide-item__value { background-color: transparent; }
 .styleguide__pico-component-section-background-color.styleguide-item__value::before { content: 'transparent'; }
-.styleguide__.styleguide-item__value::before { content: ''; }
-.styleguide__.styleguide-item__value::before { content: ''; }
-.styleguide__.styleguide-item__value::before { content: ''; }
-.styleguide__.styleguide-item__value::before { content: ''; }
-.styleguide__.styleguide-item__value::before { content: ''; }
-.styleguide__.styleguide-item__value::before { content: ''; }
-.styleguide__.styleguide-item__value::before { content: ''; }
-.styleguide__.styleguide-item__value::before { content: ''; }
-.styleguide__.styleguide-item__value::before { content: ''; }
-.styleguide__.styleguide-item__value::before { content: ''; }
+.styleguide__pico-component-switch-disabled-handle-color.styleguide-item__value { background-color: hsl(274 3.63% 47.2%); }
+.styleguide__pico-component-switch-disabled-handle-color.styleguide-item__value::before { content: 'hsl(274 3.63% 47.2%)'; }
+.styleguide__pico-component-switch-disabled-icon-color.styleguide-item__value { background-color: hsl(274 3.63% 75.1%); }
+.styleguide__pico-component-switch-disabled-icon-color.styleguide-item__value::before { content: 'hsl(274 3.63% 75.1%)'; }
+.styleguide__pico-component-switch-disabled-track-color.styleguide-item__value { background-color: transparent; }
+.styleguide__pico-component-switch-disabled-track-color.styleguide-item__value::before { content: 'transparent'; }
+.styleguide__pico-component-switch-disabled-track-outline-color.styleguide-item__value { background-color: hsl(274 3.63% 75.1%); }
+.styleguide__pico-component-switch-disabled-track-outline-color.styleguide-item__value::before { content: 'hsl(274 3.63% 75.1%)'; }
+.styleguide__pico-component-switch-focus-handle-color.styleguide-item__value { background-color: hsl(274.29 3.6269% 37.843%); }
+.styleguide__pico-component-switch-focus-handle-color.styleguide-item__value::before { content: 'hsl(274.29 3.6269% 37.843%)'; }
+.styleguide__pico-component-switch-focus-icon-color.styleguide-item__value { background-color: hsl(274 3.63% 100%); }
+.styleguide__pico-component-switch-focus-icon-color.styleguide-item__value::before { content: 'hsl(274 3.63% 100%)'; }
+.styleguide__pico-component-switch-focus-track-color.styleguide-item__value { background-color: hsl(274 3.63% 84.5%); }
+.styleguide__pico-component-switch-focus-track-color.styleguide-item__value::before { content: 'hsl(274 3.63% 84.5%)'; }
+.styleguide__pico-component-switch-focus-track-outline-color.styleguide-item__value { background-color: hsl(274.29 3.6269% 37.843%); }
+.styleguide__pico-component-switch-focus-track-outline-color.styleguide-item__value::before { content: 'hsl(274.29 3.6269% 37.843%)'; }
+.styleguide__pico-component-switch-handle-color.styleguide-item__value { background-color: hsl(274 3.63% 47.2%); }
+.styleguide__pico-component-switch-handle-color.styleguide-item__value::before { content: 'hsl(274 3.63% 47.2%)'; }
+.styleguide__pico-component-switch-handle-height.styleguide-item__value::before { content: '24px'; }
+.styleguide__pico-component-switch-handle-shape.styleguide-item__value { border-radius: 80px; }
+.styleguide__pico-component-switch-handle-shape.styleguide-item__value::before { content: '80px'; }
+.styleguide__pico-component-switch-handle-width.styleguide-item__value::before { content: '24px'; }
+.styleguide__pico-component-switch-hover-handle-color.styleguide-item__value { background-color: hsl(274.29 3.6269% 37.843%); }
+.styleguide__pico-component-switch-hover-handle-color.styleguide-item__value::before { content: 'hsl(274.29 3.6269% 37.843%)'; }
+.styleguide__pico-component-switch-hover-icon-color.styleguide-item__value { background-color: hsl(274 3.63% 100%); }
+.styleguide__pico-component-switch-hover-icon-color.styleguide-item__value::before { content: 'hsl(274 3.63% 100%)'; }
+.styleguide__pico-component-switch-hover-track-color.styleguide-item__value { background-color: hsl(274 3.63% 84.5%); }
+.styleguide__pico-component-switch-hover-track-color.styleguide-item__value::before { content: 'hsl(274 3.63% 84.5%)'; }
+.styleguide__pico-component-switch-hover-track-outline-color.styleguide-item__value { background-color: hsl(274.29 3.6269% 37.843%); }
+.styleguide__pico-component-switch-hover-track-outline-color.styleguide-item__value::before { content: 'hsl(274.29 3.6269% 37.843%)'; }
+.styleguide__pico-component-switch-icon-color.styleguide-item__value { background-color: hsl(274 3.63% 100%); }
+.styleguide__pico-component-switch-icon-color.styleguide-item__value::before { content: 'hsl(274 3.63% 100%)'; }
+.styleguide__pico-component-switch-icon-size.styleguide-item__value::before { content: '16px'; }
+.styleguide__pico-component-switch-pressed-handle-color.styleguide-item__value { background-color: hsl(274.29 3.6269% 37.843%); }
+.styleguide__pico-component-switch-pressed-handle-color.styleguide-item__value::before { content: 'hsl(274.29 3.6269% 37.843%)'; }
+.styleguide__pico-component-switch-pressed-handle-height.styleguide-item__value::before { content: '24px'; }
+.styleguide__pico-component-switch-pressed-handle-width.styleguide-item__value::before { content: '24px'; }
+.styleguide__pico-component-switch-pressed-icon-color.styleguide-item__value { background-color: hsl(274 3.63% 100%); }
+.styleguide__pico-component-switch-pressed-icon-color.styleguide-item__value::before { content: 'hsl(274 3.63% 100%)'; }
+.styleguide__pico-component-switch-pressed-track-color.styleguide-item__value { background-color: hsl(274 3.63% 84.5%); }
+.styleguide__pico-component-switch-pressed-track-color.styleguide-item__value::before { content: 'hsl(274 3.63% 84.5%)'; }
+.styleguide__pico-component-switch-pressed-track-outline-color.styleguide-item__value { background-color: hsl(274.29 3.6269% 37.843%); }
+.styleguide__pico-component-switch-pressed-track-outline-color.styleguide-item__value::before { content: 'hsl(274.29 3.6269% 37.843%)'; }
+.styleguide__pico-component-switch-selected-disabled-handle-color.styleguide-item__value { background-color: hsl(274 3.63% 100%); }
+.styleguide__pico-component-switch-selected-disabled-handle-color.styleguide-item__value::before { content: 'hsl(274 3.63% 100%)'; }
+.styleguide__pico-component-switch-selected-disabled-icon-color.styleguide-item__value { background-color: hsl(274.29 3.6269% 37.843%); }
+.styleguide__pico-component-switch-selected-disabled-icon-color.styleguide-item__value::before { content: 'hsl(274.29 3.6269% 37.843%)'; }
+.styleguide__pico-component-switch-selected-disabled-track-color.styleguide-item__value { background-color: hsl(274 3.63% 75.1%); }
+.styleguide__pico-component-switch-selected-disabled-track-color.styleguide-item__value::before { content: 'hsl(274 3.63% 75.1%)'; }
+.styleguide__pico-component-switch-selected-focus-handle-color.styleguide-item__value { background-color: hsl(214 60.4% 88.7%); }
+.styleguide__pico-component-switch-selected-focus-handle-color.styleguide-item__value::before { content: 'hsl(214 60.4% 88.7%)'; }
+.styleguide__pico-component-switch-selected-focus-icon-color.styleguide-item__value { background-color: hsl(214 60.4% 8.71%); }
+.styleguide__pico-component-switch-selected-focus-icon-color.styleguide-item__value::before { content: 'hsl(214 60.4% 8.71%)'; }
+.styleguide__pico-component-switch-selected-focus-track-color.styleguide-item__value { background-color: hsl(214.48 60.36% 43.529%); }
+.styleguide__pico-component-switch-selected-focus-track-color.styleguide-item__value::before { content: 'hsl(214.48 60.36% 43.529%)'; }
+.styleguide__pico-component-switch-selected-handle-color.styleguide-item__value { background-color: hsl(214 60.4% 100%); }
+.styleguide__pico-component-switch-selected-handle-color.styleguide-item__value::before { content: 'hsl(214 60.4% 100%)'; }
+.styleguide__pico-component-switch-selected-handle-height.styleguide-item__value::before { content: '24px'; }
+.styleguide__pico-component-switch-selected-handle-width.styleguide-item__value::before { content: '24px'; }
+.styleguide__pico-component-switch-selected-hover-handle-color.styleguide-item__value { background-color: hsl(214 60.4% 88.7%); }
+.styleguide__pico-component-switch-selected-hover-handle-color.styleguide-item__value::before { content: 'hsl(214 60.4% 88.7%)'; }
+.styleguide__pico-component-switch-selected-hover-icon-color.styleguide-item__value { background-color: hsl(214 60.4% 8.71%); }
+.styleguide__pico-component-switch-selected-hover-icon-color.styleguide-item__value::before { content: 'hsl(214 60.4% 8.71%)'; }
+.styleguide__pico-component-switch-selected-hover-track-color.styleguide-item__value { background-color: hsl(214.48 60.36% 43.529%); }
+.styleguide__pico-component-switch-selected-hover-track-color.styleguide-item__value::before { content: 'hsl(214.48 60.36% 43.529%)'; }
+.styleguide__pico-component-switch-selected-icon-color.styleguide-item__value { background-color: hsl(214 60.4% 8.71%); }
+.styleguide__pico-component-switch-selected-icon-color.styleguide-item__value::before { content: 'hsl(214 60.4% 8.71%)'; }
+.styleguide__pico-component-switch-selected-icon-size.styleguide-item__value::before { content: '16px'; }
+.styleguide__pico-component-switch-selected-pressed-handle-color.styleguide-item__value { background-color: hsl(214 60.4% 88.7%); }
+.styleguide__pico-component-switch-selected-pressed-handle-color.styleguide-item__value::before { content: 'hsl(214 60.4% 88.7%)'; }
+.styleguide__pico-component-switch-selected-pressed-icon-color.styleguide-item__value { background-color: hsl(214 60.4% 8.71%); }
+.styleguide__pico-component-switch-selected-pressed-icon-color.styleguide-item__value::before { content: 'hsl(214 60.4% 8.71%)'; }
+.styleguide__pico-component-switch-selected-pressed-track-color.styleguide-item__value { background-color: hsl(214.48 60.36% 43.529%); }
+.styleguide__pico-component-switch-selected-pressed-track-color.styleguide-item__value::before { content: 'hsl(214.48 60.36% 43.529%)'; }
+.styleguide__pico-component-switch-selected-track-color.styleguide-item__value { background-color: hsl(214.48 60.36% 43.529%); }
+.styleguide__pico-component-switch-selected-track-color.styleguide-item__value::before { content: 'hsl(214.48 60.36% 43.529%)'; }
+.styleguide__pico-component-switch-track-color.styleguide-item__value { background-color: hsl(274 3.63% 84.5%); }
+.styleguide__pico-component-switch-track-color.styleguide-item__value::before { content: 'hsl(274 3.63% 84.5%)'; }
+.styleguide__pico-component-switch-track-height.styleguide-item__value::before { content: '32px'; }
+.styleguide__pico-component-switch-track-outline-color.styleguide-item__value { background-color: hsl(274 3.63% 47.2%); }
+.styleguide__pico-component-switch-track-outline-color.styleguide-item__value::before { content: 'hsl(274 3.63% 47.2%)'; }
+.styleguide__pico-component-switch-track-outline-width.styleguide-item__value::before { content: '2px'; }
+.styleguide__pico-component-switch-track-shape.styleguide-item__value { border-radius: 80px; }
+.styleguide__pico-component-switch-track-shape.styleguide-item__value::before { content: '80px'; }
+.styleguide__pico-component-switch-track-width.styleguide-item__value::before { content: '52px'; }
 .styleguide__pico-component-tab-active-indicator-height.styleguide-item__value::before { content: '2px'; }
 .styleguide__pico-component-tab-active-indicator-shape.styleguide-item__value { border-radius: 0; }
 .styleguide__pico-component-tab-active-indicator-shape.styleguide-item__value::before { content: '0'; }
@@ -485,21 +591,21 @@
 .styleguide__pico-component-tab-container-shape.styleguide-item__value { border-radius: 4px; }
 .styleguide__pico-component-tab-container-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__pico-component-tab-label-text-typography.styleguide-item__value::before { content: '[object Object]'; }
-.styleguide__pico-component-tag-base-tag-label-text-typography.styleguide-item__value::before { content: '[object Object]'; }
-.styleguide__pico-component-tag-base-tag-padding-horizontal.styleguide-item__value::before { content: '8'; }
-.styleguide__pico-component-tag-base-tag-padding-vertical.styleguide-item__value::before { content: '4'; }
-.styleguide__pico-component-tag-base-tag-shape.styleguide-item__value { border-radius: 4px; }
-.styleguide__pico-component-tag-base-tag-shape.styleguide-item__value::before { content: '4px'; }
-.styleguide__pico-component-tag-base-tag-spacing.styleguide-item__value::before { content: '4'; }
+.styleguide__pico-component-tag-label-text-typography.styleguide-item__value::before { content: '[object Object]'; }
+.styleguide__pico-component-tag-padding-horizontal.styleguide-item__value::before { content: '8px'; }
+.styleguide__pico-component-tag-padding-vertical.styleguide-item__value::before { content: '4px'; }
+.styleguide__pico-component-tag-shape.styleguide-item__value { border-radius: 4px; }
+.styleguide__pico-component-tag-shape.styleguide-item__value::before { content: '4px'; }
+.styleguide__pico-component-tag-spacing.styleguide-item__value::before { content: '4px'; }
 .styleguide__pico-component-text-field-container-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__pico-component-text-field-input-text-typography.styleguide-item__value::before { content: '[object Object]'; }
 .styleguide__pico-component-text-field-label-text-typography.styleguide-item__value::before { content: '[object Object]'; }
 .styleguide__pico-component-text-field-outline-width.styleguide-item__value::before { content: '1px'; }
-.styleguide__pico-component-text-field-padding-horizontal.styleguide-item__value::before { content: '8'; }
-.styleguide__pico-component-text-field-padding-vertical.styleguide-item__value::before { content: '8'; }
+.styleguide__pico-component-text-field-padding-horizontal.styleguide-item__value::before { content: '8px'; }
+.styleguide__pico-component-text-field-padding-vertical.styleguide-item__value::before { content: '8px'; }
 .styleguide__pico-component-text-field-supporting-text-typography.styleguide-item__value::before { content: '[object Object]'; }
-.styleguide__pico-component-tooltip-padding-horizontal.styleguide-item__value::before { content: '8'; }
-.styleguide__pico-component-tooltip-padding-vertical.styleguide-item__value::before { content: '4'; }
+.styleguide__pico-component-tooltip-padding-horizontal.styleguide-item__value::before { content: '8px'; }
+.styleguide__pico-component-tooltip-padding-vertical.styleguide-item__value::before { content: '4px'; }
 .styleguide__pico-component-tooltip-shape.styleguide-item__value { border-radius: 4px; }
 .styleguide__pico-component-tooltip-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__pico-component-tooltip-typography.styleguide-item__value::before { content: '[object Object]'; }
@@ -763,27 +869,27 @@
 .styleguide__pico-ref-font-size-8.styleguide-item__value::before { content: '25.229px'; }
 .styleguide__pico-ref-font-size-9.styleguide-item__value { font-size: 28.383px; }
 .styleguide__pico-ref-font-size-9.styleguide-item__value::before { content: '28.383px'; }
-.styleguide__pico-ref-line-height-0.styleguide-item__value::before { content: '11.066px'; }
-.styleguide__pico-ref-line-height-1.styleguide-item__value::before { content: '12.447px'; }
-.styleguide__pico-ref-line-height-10.styleguide-item__value::before { content: '35.922px'; }
-.styleguide__pico-ref-line-height-11.styleguide-item__value::before { content: '40.412px'; }
-.styleguide__pico-ref-line-height-12.styleguide-item__value::before { content: '45.463px'; }
-.styleguide__pico-ref-line-height-13.styleguide-item__value::before { content: '51.146px'; }
-.styleguide__pico-ref-line-height-14.styleguide-item__value::before { content: '57.539px'; }
-.styleguide__pico-ref-line-height-15.styleguide-item__value::before { content: '64.731px'; }
-.styleguide__pico-ref-line-height-16.styleguide-item__value::before { content: '72.822px'; }
-.styleguide__pico-ref-line-height-17.styleguide-item__value::before { content: '81.925px'; }
-.styleguide__pico-ref-line-height-18.styleguide-item__value::before { content: '92.166px'; }
-.styleguide__pico-ref-line-height-19.styleguide-item__value::before { content: '103.687px'; }
-.styleguide__pico-ref-line-height-2.styleguide-item__value::before { content: '14.002px'; }
-.styleguide__pico-ref-line-height-20.styleguide-item__value::before { content: '116.648px'; }
-.styleguide__pico-ref-line-height-3.styleguide-item__value::before { content: '15.75px'; }
-.styleguide__pico-ref-line-height-4.styleguide-item__value::before { content: '17.719px'; }
-.styleguide__pico-ref-line-height-5.styleguide-item__value::before { content: '19.934px'; }
-.styleguide__pico-ref-line-height-6.styleguide-item__value::before { content: '22.426px'; }
-.styleguide__pico-ref-line-height-7.styleguide-item__value::before { content: '25.229px'; }
-.styleguide__pico-ref-line-height-8.styleguide-item__value::before { content: '28.383px'; }
-.styleguide__pico-ref-line-height-9.styleguide-item__value::before { content: '31.931px'; }
+.styleguide__pico-ref-line-height-0.styleguide-item__value::before { content: '14.754px'; }
+.styleguide__pico-ref-line-height-1.styleguide-item__value::before { content: '16.596px'; }
+.styleguide__pico-ref-line-height-10.styleguide-item__value::before { content: '38.317px'; }
+.styleguide__pico-ref-line-height-11.styleguide-item__value::before { content: '43.106px'; }
+.styleguide__pico-ref-line-height-12.styleguide-item__value::before { content: '48.494px'; }
+.styleguide__pico-ref-line-height-13.styleguide-item__value::before { content: '54.556px'; }
+.styleguide__pico-ref-line-height-14.styleguide-item__value::before { content: '61.375px'; }
+.styleguide__pico-ref-line-height-15.styleguide-item__value::before { content: '69.047px'; }
+.styleguide__pico-ref-line-height-16.styleguide-item__value::before { content: '77.677px'; }
+.styleguide__pico-ref-line-height-17.styleguide-item__value::before { content: '87.386px'; }
+.styleguide__pico-ref-line-height-18.styleguide-item__value::before { content: '98.31px'; }
+.styleguide__pico-ref-line-height-19.styleguide-item__value::before { content: '110.599px'; }
+.styleguide__pico-ref-line-height-2.styleguide-item__value::before { content: '18.669px'; }
+.styleguide__pico-ref-line-height-20.styleguide-item__value::before { content: '124.424px'; }
+.styleguide__pico-ref-line-height-3.styleguide-item__value::before { content: '21px'; }
+.styleguide__pico-ref-line-height-4.styleguide-item__value::before { content: '23.625px'; }
+.styleguide__pico-ref-line-height-5.styleguide-item__value::before { content: '21.263px'; }
+.styleguide__pico-ref-line-height-6.styleguide-item__value::before { content: '23.921px'; }
+.styleguide__pico-ref-line-height-7.styleguide-item__value::before { content: '26.911px'; }
+.styleguide__pico-ref-line-height-8.styleguide-item__value::before { content: '30.275px'; }
+.styleguide__pico-ref-line-height-9.styleguide-item__value::before { content: '34.06px'; }
 .styleguide__pico-ref-motion-duration-extra-long-1.styleguide-item__value::before { content: '700ms'; }
 .styleguide__pico-ref-motion-duration-extra-long-2.styleguide-item__value::before { content: '800ms'; }
 .styleguide__pico-ref-motion-duration-extra-long-3.styleguide-item__value::before { content: '900ms'; }
@@ -872,15 +978,15 @@
 .styleguide__pico-ref-shape-shadow-8.styleguide-item__value::before { content: '[object Object]'; }
 .styleguide__pico-ref-shape-shadow-9.styleguide-item__value { box-shadow: [object Object]; }
 .styleguide__pico-ref-shape-shadow-9.styleguide-item__value::before { content: '[object Object]'; }
-.styleguide__pico-ref-spacing-2-xl.styleguide-item__value::before { content: '48'; }
-.styleguide__pico-ref-spacing-2-xs.styleguide-item__value::before { content: '4'; }
-.styleguide__pico-ref-spacing-3-xl.styleguide-item__value::before { content: '64'; }
-.styleguide__pico-ref-spacing-base.styleguide-item__value::before { content: '8'; }
-.styleguide__pico-ref-spacing-l.styleguide-item__value::before { content: '20'; }
-.styleguide__pico-ref-spacing-m.styleguide-item__value::before { content: '16'; }
-.styleguide__pico-ref-spacing-s.styleguide-item__value::before { content: '12'; }
-.styleguide__pico-ref-spacing-xl.styleguide-item__value::before { content: '32'; }
-.styleguide__pico-ref-spacing-xs.styleguide-item__value::before { content: '8'; }
+.styleguide__pico-ref-spacing-2-xl.styleguide-item__value::before { content: '48px'; }
+.styleguide__pico-ref-spacing-2-xs.styleguide-item__value::before { content: '4px'; }
+.styleguide__pico-ref-spacing-3-xl.styleguide-item__value::before { content: '64px'; }
+.styleguide__pico-ref-spacing-base.styleguide-item__value::before { content: '8px'; }
+.styleguide__pico-ref-spacing-l.styleguide-item__value::before { content: '20px'; }
+.styleguide__pico-ref-spacing-m.styleguide-item__value::before { content: '16px'; }
+.styleguide__pico-ref-spacing-s.styleguide-item__value::before { content: '12px'; }
+.styleguide__pico-ref-spacing-xl.styleguide-item__value::before { content: '32px'; }
+.styleguide__pico-ref-spacing-xs.styleguide-item__value::before { content: '8px'; }
 .styleguide__pico-ref-z-index-1.styleguide-item__value::before { content: '1000'; }
 .styleguide__pico-ref-z-index-2.styleguide-item__value::before { content: '1050'; }
 .styleguide__pico-ref-z-index-3.styleguide-item__value::before { content: '1100'; }
@@ -930,16 +1036,16 @@
 .styleguide__pico-semantic-color-ui-on-tertiary-fixed.styleguide-item__value::before { content: 'hsl(13.9 100% 8.82%)'; }
 .styleguide__pico-semantic-color-ui-on-tertiary-fixed-vairant.styleguide-item__value { background-color: hsl(13.9 100% 26.5%); }
 .styleguide__pico-semantic-color-ui-on-tertiary-fixed-vairant.styleguide-item__value::before { content: 'hsl(13.9 100% 26.5%)'; }
-.styleguide__pico-semantic-color-ui-outline.styleguide-item__value { background-color: hsl(267 4.62% 47.5%); }
-.styleguide__pico-semantic-color-ui-outline.styleguide-item__value::before { content: 'hsl(267 4.62% 47.5%)'; }
+.styleguide__pico-semantic-color-ui-outline.styleguide-item__value { background-color: hsl(267 4.62% 84.6%); }
+.styleguide__pico-semantic-color-ui-outline.styleguide-item__value::before { content: 'hsl(267 4.62% 84.6%)'; }
 .styleguide__pico-semantic-color-ui-primary.styleguide-item__value { background-color: hsl(214.48 60.36% 43.529%); }
 .styleguide__pico-semantic-color-ui-primary.styleguide-item__value::before { content: 'hsl(214.48 60.36% 43.529%)'; }
+.styleguide__pico-semantic-color-ui-primary-container.styleguide-item__value { background-color: hsl(214 60.4% 88.7%); }
+.styleguide__pico-semantic-color-ui-primary-container.styleguide-item__value::before { content: 'hsl(214 60.4% 88.7%)'; }
 .styleguide__pico-semantic-color-ui-primary-fixed.styleguide-item__value { background-color: hsl(214 60.4% 88.7%); }
 .styleguide__pico-semantic-color-ui-primary-fixed.styleguide-item__value::before { content: 'hsl(214 60.4% 88.7%)'; }
 .styleguide__pico-semantic-color-ui-primary-fixed-dim.styleguide-item__value { background-color: hsl(214 60.4% 77.4%); }
 .styleguide__pico-semantic-color-ui-primary-fixed-dim.styleguide-item__value::before { content: 'hsl(214 60.4% 77.4%)'; }
-.styleguide__pico-semantic-color-ui-primay-container.styleguide-item__value { background-color: hsl(214 60.4% 88.7%); }
-.styleguide__pico-semantic-color-ui-primay-container.styleguide-item__value::before { content: 'hsl(214 60.4% 88.7%)'; }
 .styleguide__pico-semantic-color-ui-scrim.styleguide-item__value { background-color: hsl(274 3.63% 0%); }
 .styleguide__pico-semantic-color-ui-scrim.styleguide-item__value::before { content: 'hsl(274 3.63% 0%)'; }
 .styleguide__pico-semantic-color-ui-secondary.styleguide-item__value { background-color: hsl(151.16 98.473% 25.686%); }
@@ -1019,3 +1125,15 @@
 .styleguide__pico-semantic-z-index-low.styleguide-item__value::before { content: '1100'; }
 .styleguide__pico-semantic-z-index-lowest.styleguide-item__value::before { content: '1000'; }
 .styleguide__pico-semantic-z-index-medium.styleguide-item__value::before { content: '1200'; }
+.styleguide__test-composite-card-border-color.styleguide-item__value::before { content: '#999'; }
+.styleguide__test-composite-card-border-radius.styleguide-item__value { border-radius: 18px; }
+.styleguide__test-composite-card-border-radius.styleguide-item__value::before { content: '18px'; }
+.styleguide__test-composite-card-color.styleguide-item__value { background-color: hsl(0 0% 100%); }
+.styleguide__test-composite-card-color.styleguide-item__value::before { content: 'hsl(0 0% 100%)'; }
+.styleguide__test-composite-fancy-card-border-color.styleguide-item__value::before { content: '#999'; }
+.styleguide__test-composite-fancy-card-border-radius.styleguide-item__value { border-radius: 18px; }
+.styleguide__test-composite-fancy-card-border-radius.styleguide-item__value::before { content: '18px'; }
+.styleguide__test-composite-fancy-card-color.styleguide-item__value { background-color: hsl(0 0% 100%); }
+.styleguide__test-composite-fancy-card-color.styleguide-item__value::before { content: 'hsl(0 0% 100%)'; }
+.styleguide__test-typography-fancy-text.styleguide-item__value::before { content: '[object Object]'; }
+.styleguide__test-typography-text.styleguide-item__value::before { content: '[object Object]'; }

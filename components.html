@@ -66,21 +66,26 @@
       </nav>
     </aside>
 
-    <section class="doc-content">
+    <article class="doc-content">
       <header class="doc-content__header">
         <h1>Components</h1>
       </header>
-      <table>
-        <thead>
-          <tr>
-            <th>Component Name</th>
-            <th>Example</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Button</td>
-            <td>
+      <section role="doc-introduction">
+        <p>
+          Shown here is the complete set of reusable components in the GSG product suite. We define a component as a
+          self-contained, reusable UI element that is immediately identifiable and contains no business logic.
+        </p>
+      </section>
+      <section>
+        <h2>Button</h2>
+        <p>
+          To initiate an action with in the system. This might be the start of a process where the user enters or
+          receives unique data, or the final submission of that data.
+        </p>
+        <div class="doc-gallery">
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Filled button</dt>
+            <dl>
               <md-filled-button>
                 Filled
                 <svg slot="icon" viewBox="0 0 48 48">
@@ -89,25 +94,62 @@
                   />
                 </svg>
               </md-filled-button>
+            </dl>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Outlined button</dt>
+            <dl>
               <md-outlined-button>Outlined</md-outlined-button>
+            </dl>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Text button</dt>
+            <dl>
               <md-text-button>Text</md-text-button>
-            </td>
-          </tr>
-          <tr>
-            <td>Checkbox</td>
-            <td>
+            </dl>
+          </dl>
+        </div>
+      </section>
+      <section>
+        <h2>Checkbox</h2>
+        <p></p>
+        <div class="doc-gallery">
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Without label</dt>
+            <dd>
               <md-checkbox></md-checkbox>
-            </td>
-          </tr>
-          <tr>
-            <td>Chip</td>
-            <td>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">With label</dt>
+            <dd>
+              <label>
+                <md-checkbox></md-checkbox>
+                Checkbox label
+              </label>
+            </dd>
+          </dl>
+        </div>
+      </section>
+      <section>
+        <h2>Chip</h2>
+        <p></p>
+        <div class="doc-gallery">
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Filter</dt>
+            <dd>
               <md-filter-chip label="Filter"></md-filter-chip>
-            </td>
-          </tr>
-          <tr>
-            <td>Dialog</td>
-            <td>
+            </dd>
+          </dl>
+        </div>
+      </section>
+      <section>
+        <h2>Dialog</h2>
+        <p></p>
+        <div class="doc-gallery">
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label"></dt>
+            <dd>
               <md-dialog>
                 <div slot="headline">Dialog</div>
                 <div slot="content">This is a dialog</div>
@@ -115,17 +157,29 @@
                   <md-text-button form="form-id">Ok</md-text-button>
                 </div>
               </md-dialog>
-            </td>
-          </tr>
-          <tr>
-            <td>Switch</td>
-            <td>
+            </dd>
+          </dl>
+        </div>
+      </section>
+      <section>
+        <h2>Switch</h2>
+        <p></p>
+        <div class="doc-gallery">
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label"></dt>
+            <dd>
               <md-switch></md-switch>
-            </td>
-          </tr>
-          <tr>
-            <td>Text Field</td>
-            <td>
+            </dd>
+          </dl>
+        </div>
+      </section>
+      <section>
+        <h2>Text field</h2>
+        <p></p>
+        <div class="doc-gallery">
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label"></dt>
+            <dd>
               <form action="" style="padding-top: 20px">
                 <md-outlined-text-field
                   name="name"
@@ -134,31 +188,48 @@
                   style="padding-bottom: 10px"
                 >
                 </md-outlined-text-field>
-                <md-outlined-text-field
-                  name="email"
-                  label="Email"
-                  pattern="[\w\d-]+"
-                  suffix-text="@gmail.com"
-                  error
-                  error-text="Username is not available"
-                >
-                </md-outlined-text-field>
               </form>
-            </td>
-          </tr>
-          <tr>
-            <td>Tabs</td>
-            <td>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label"></dt>
+            <dd>
+              <md-outlined-text-field
+                name="email"
+                label="Email"
+                pattern="[\w\d-]+"
+                suffix-text="@gmail.com"
+                error
+                error-text="Username is not available"
+              >
+              </md-outlined-text-field>
+            </dd>
+          </dl>
+        </div>
+      </section>
+      <section>
+        <h2>Tabs</h2>
+        <p></p>
+        <div class="doc-gallery">
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label"></dt>
+            <dd>
               <md-tabs>
-                <md-primary-tab>First</md-primary-tab>
-                <md-primary-tab>Second</md-primary-tab>
-                <md-primary-tab>Third</md-primary-tab>
+                <md-primary-tab>Tab 1</md-primary-tab>
+                <md-primary-tab>Tab 2</md-primary-tab>
+                <md-primary-tab>Tab 3</md-primary-tab>
               </md-tabs>
-            </td>
-          </tr>
-          <tr>
-            <td>Menu</td>
-            <td>
+            </dd>
+          </dl>
+        </div>
+      </section>
+      <section>
+        <h2>Menu</h2>
+        <p></p>
+        <div class="doc-gallery">
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label"></dt>
+            <dd>
               <div
                 style="
                   margin: 16px;
@@ -217,67 +288,28 @@
                   menuEl.open = !menuEl.open;
                 });
               </script>
-            </td>
-          </tr>
-          <tr>
-            <td>Filters</td>
-            <td>
+              </dd>
+          </dl>
+        </div>
+      </section>
+      <section>
+        <h2>Filters</h2>
+        <p></p>
+        <div class="doc-gallery">
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label"></dt>
+            <dd>
               <md-filter-chip label="All (34)"></md-filter-chip>
               <md-filter-chip label="Exclusive (4)"></md-filter-chip>
               <md-filter-chip label="Code (4)"></md-filter-chip>
               <md-filter-chip label="Deals (24)"></md-filter-chip>
               <md-filter-chip label="Cashback (1)"></md-filter-chip>
               <md-filter-chip label="Rewards (4)"></md-filter-chip>
-            </td>
-          </tr>
-          <tr>
-            <td>Voucher Card</td>
-            <td>
-              <div class="voucher-card">
-                <div class="left-side">
-                  <div class="captions">
-                    <div class="caption1" style="margin-bottom: 5px;">10%</div>
-                    <div class="caption2" style="margin-top: 5px;">off</div>
-                  </div>
-                  <div class="verified">Verified</div>
-                </div>
-                <div class="right-side">
-                  <div class="tag-row">Tag</div>
-                  <div class="content-layout">
-                    <div class="title">Enjoy 10% off online products with our exclusive Adidas</div>
-                    <md-filled-button>GET CODE</md-filled-button>
-                  </div>
-                  <div class="terms">Terms</div>
-                </div>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td>Newsletter</td>
-            <td>
-              <div>
-                <div class="newsletter">
-                  <div class="content">
-                    <div class="input-heading">Sign up to our newsletter today for more of the best offers and discounts from Go Ape</div>
-                    <div class="signup">
-                      <md-outlined-text-field class="email-text-field"
-                        type="email"
-                        placeholder="Email Address"
-                      >
-                      </md-outlined-text-field>
-                      <md-filled-button leading-icon>
-                        SUBSCRIBE
-                      </md-filled-button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-
+            </dd>
+          </dl>
+        </div>
+      </section>
+    </article>
     <script src="/js/jquery-3.7.1.min.js"></script>
     <script src="/js/styleguide.js"></script>
     <script type="module" src="js/theme-dropdown.js"></script>

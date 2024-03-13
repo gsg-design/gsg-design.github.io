@@ -26,6 +26,7 @@ label {
   background-color: var(--color-surface, #fff);
   font-size: 1rem;
   font-family: Raleway, sans-serif;
+  line-height: 1.5em;
   cursor: default;
 }
 
@@ -240,4 +241,23 @@ label {
 
 .doc-content table th {
   white-space: nowrap;
+}
+
+.doc-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.doc-gallery__item {
+  display: flex;
+  flex-direction: column-reverse;
+  align-content: space-between;
+  text-align: center;
+}
+
+.doc-gallery__item-label {
+  font-size: var(--size-font-small);
+  font-weight: 800;
+  text-transform: uppercase;
 }

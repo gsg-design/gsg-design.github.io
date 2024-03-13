@@ -15,7 +15,16 @@
     --bobby-component-button-trailing-space
   );
   --md-elevated-button-label-text-font: var(
-    --bobby-component-button-label-text-typography
+    --bobby-component-button-label-text-typography-font-family
+  );
+  --md-elevated-button-label-text-line-hieght: var(
+    --bobby-component-button-label-text-typography-line-height
+  );
+  --md-elevated-button-label-text-size: var(
+    --bobby-component-button-label-text-typography-font-size
+  );
+  --md-elevated-button-label-text-weight: var(
+    --bobby-component-button-label-text-typography-font-weight
   );
   /* resting */
   --md-elevated-button-container-color: var(
@@ -79,7 +88,15 @@
     --bobby-component-button-container-shape
   );
   --md-filled-button-label-text-font: var(
-    --bobby-component-button-label-text-typography
+    --bobby-component-button-label-text-typography-font-family
+  );
+  --md-filled-button-label-text-line-height: var(--bobby-component-button-label-text-typography-line-height
+  );
+  --md-filled-button-label-text-size: var(
+    --bobby-component-button-label-text-typography-font-size
+  );
+  --md-filled-button-label-text-weight: var(
+    --bobby-component-button-label-text-typography-font-weight
   );
   --md-filled-button-leading-space: var(--bobby-component-button-leading-space);
   --md-filled-button-trailing-space: var(
@@ -141,7 +158,16 @@
     --bobby-component-button-container-shape
   );
   --md-outlined-button-label-text-font: var(
-    --bobby-component-button-label-text-typography
+    --bobby-component-button-label-text-typography-font-family
+  );  
+  --md-outlined-button-label-text-line-height: var(
+    --bobby-component-button-label-text-typography-line-height
+  );
+  --md-outlined-button-label-text-size: var(
+    --bobby-component-button-label-text-typography-font-size
+  );
+  --md-outlined-button-label-text-weight: var(
+    --bobby-component-button-label-text-typography-font-weight
   );
   --md-outlined-button-leading-space: var(
     --bobby-component-button-leading-space
@@ -217,7 +243,16 @@
     --bobby-component-button-container-shape
   );
   --md-text-button-label-text-font: var(
-    --bobby-component-button-label-text-typography
+    --bobby-component-button-label-text-typography-font-family
+  );
+  --md-text-button-label-text-line-height: var(
+    --bobby-component-button-label-text-typography-line-height
+  );
+  --md-text-button-label-text-size: var(
+    --bobby-component-button-label-text-typography-font-size
+  );
+  --md-text-button-label-text-weight: var(
+    --bobby-component-button-label-text-typography-font-weight
   );
   --md-text-button-leading-space: var(--bobby-component-button-leading-space);
   --md-text-button-trailing-space: var(--bobby-component-button-trailing-space);
@@ -280,7 +315,13 @@
   --md-filter-chip-trailing-space: var(--bobby-component-chip-trailing-space);
   --md-filter-chip-outline-width: var(--bobby-component-chip-outline-width);
   --md-filter-chip-label-text-font: var(
-    --bobby-component-chip-label-text-typography
+    --bobby-component-chip-label-text-typography-font-family
+  );  --md-filter-chip-label-text-line-height: var(
+    --bobby-component-chip-label-text-typography-line-height
+  );  --md-filter-chip-label-text-size: var(
+    --bobby-component-chip-label-text-typography-font-size
+  );  --md-filter-chip-label-text-weight: var(
+    --bobby-component-chip-label-text-typography-font-weight
   );
   /* resting */
   --md-filter-chip-outline-color: var(--bobby-component-chip-outline-color);
@@ -376,15 +417,24 @@
   /* --------------------------------------------------PRIMARY TAB--------------------------------------------------------- */
 
   /* PRIMARY TAB */
-  --md-primary-tab-container-color: var(--bobby-component-container-color);
-  --md-primary-tab-container-height: var(--bobby-component-container-height);
-  --md-primary-tab-container-shape: var(--bobby-component-container-shape);
+  --md-primary-tab-container-color: var(--bobby-component-tab-container-color);
+  --md-primary-tab-container-height: var(--bobby-component-tab-container-height);
+  --md-primary-tab-container-shape: var(--bobby-component-tab-container-shape);
   --md-primary-tab-container-elevation: none;
   --md-primary-tab-label-text-font: var(
-    --bobby-component-label-text-typography
+    --bobby-component-tab-label-text-typography-font-family
   );
-  --md-primary-tab-label-text-color: var(--bobby-component-foreground-color);
-  --md-primary-tab-icon-color: var(--bobby-component-foreground-color);
+  --md-primary-tab-label-text-line-height: var(
+    --bobby-component-tab-label-text-typography-line-height
+  );
+  --md-primary-tab-label-text-size: var(
+    --bobby-component-tab-label-text-typography-font-size
+  );
+  --md-primary-tab-label-text-weight: var(
+    --bobby-component-tab-label-text-typography-font-weight
+  );
+  --md-primary-tab-label-text-color: var(--bobby-component-tab-foreground-color);
+  --md-primary-tab-icon-color: var(--bobby-component-tab-foreground-color);
   /* focus */
   --md-primary-tab-focus-label-text-color: var(
     --bobby-component-tab-focus-foreground-color
@@ -471,84 +521,167 @@
   /* --------------------------------------------------SWITCH--------------------------------------------------------- */
 
   /* Switch */
-  /* --md-switch-handle-color: 
-  --md-switch-handle-height: 
-  --md-switch-handle-shape: 
-  --md-switch-handle-width: 
-  --md-switch-icon-color: 
-  --md-switch-icon-size:   
-  --md-switch-track-shape: 
-  --md-switch-track-color: 
-  --md-switch-track-height: 
-  --md-switch-track-outline-width: 
-  --md-switch-track-outline-color: 
-  --md-switch-track-width:  */
+  --md-switch-handle-color: var(--pico-component-switch-handle-color);
+  --md-switch-handle-height: var(--pico-component-switch-handle-height);
+  --md-switch-handle-shape: var(--pico-component-switch-handle-shape);
+  --md-switch-handle-width: var(--pico-component-switch-handle-width);
+  --md-switch-icon-color: var(--pico-component-switch-icon-color);
+  --md-switch-icon-size: var(--pico-component-switch-icon-size);
+  --md-switch-track-shape: var(--pico-component-switch-track-shape);
+  --md-switch-track-color: var(--pico-component-switch-track-color);
+  --md-switch-track-height: var(--pico-component-switch-track-height);
+  --md-switch-track-outline-width: var(
+    --pico-component-switch-track-outline-width
+  );
+  --md-switch-track-outline-color: var(
+    --pico-component-switch-track-outline-color
+  );
+  --md-switch-track-width: var(--pico-component-switch-track-width);
 
   /* focus */
-  /* --md-switch-focus-handle-color: 
-  --md-switch-focus-icon-color: 
-  --md-switch-focus-track-color: 
-  --md-switch-focus-track-outline-color:  */
+  --md-switch-focus-handle-color: var(
+    --pico-component-switch-focus-handle-color
+  );
+  --md-switch-focus-icon-color: var(--pico-component-switch-focus-icon-color);
+  --md-switch-focus-track-color: var(--pico-component-switch-focus-track-color);
+  --md-switch-focus-track-outline-color: var(
+    --pico-component-switch-focus-track-outline-color
+  );
 
   /* hover */
-  /* --md-switch-hover-handle-color: 
-  --md-switch-hover-icon-color: 
-  --md-switch-hover-track-color: 
-  --md-switch-hover-track-outline-color: 
-  --md-switch-hover-state-layer-color: 
-  --md-switch-hover-state-layer-opacity:  */
+  --md-switch-hover-handle-color: var(
+    --pico-component-switch-hover-handle-color
+  );
+  --md-switch-hover-icon-color: var(--pico-component-switch-hover-icon-color);
+  --md-switch-hover-track-color: var(--pico-component-switch-hover-track-color);
+  --md-switch-hover-track-outline-color: var(
+    --pico-component-switch-hover-track-outline-color
+  );
+  --md-switch-hover-state-layer-color: var(
+    --bobby-component-state-layer-color-darken
+  );
+  --md-switch-hover-state-layer-opacity: var(
+    --bobby-component-state-layer-opacity-hover
+  );
 
   /* pressed */
-  /* --md-switch-pressed-handle-color: 
-  --md-switch-pressed-handle-height: 
-  --md-switch-pressed-handle-width: 
-  --md-switch-pressed-icon-color: 
-  --md-switch-pressed-track-color: 
-  --md-switch-pressed-track-outline-color: 
-  --md-switch-pressed-state-layer-color: 
-  --md-switch-pressed-state-layer-opacity:  */
+  --md-switch-pressed-handle-color: var(
+    --pico-component-switch-pressed-handle-color
+  );
+  --md-switch-pressed-handle-height: var(
+    --pico-component-switch-pressed-handle-height
+  );
+  --md-switch-pressed-handle-width: var(
+    --pico-component-switch-pressed-handle-width
+  );
+  --md-switch-pressed-icon-color: var(
+    --pico-component-switch-pressed-icon-color
+  );
+  --md-switch-pressed-track-color: var(
+    --pico-component-switch-pressed-track-color
+  );
+  --md-switch-pressed-track-outline-color: var(
+    --pico-component-switch-pressed-track-outline-color
+  );
+  --md-switch-pressed-state-layer-color: var(
+    --bobby-component-state-layer-color-darken
+  );
+  --md-switch-pressed-state-layer-opacity: var(
+    --bobby-component-state-layer-opacity-pressed
+  );
 
   /* disabled */
-  /* --md-switch-disabled-handle-color: 
-  --md-switch-disabled-icon-color: 
-  --md-switch-disabled-track-color: 
-  --md-switch-disabled-track-outline-color: */
+  --md-switch-disabled-handle-color: var(
+    --pico-component-switch-disabled-handle-color
+  );
+  --md-switch-disabled-icon-color: var(
+    --pico-component-switch-disabled-icon-color
+  );
+  --md-switch-disabled-track-color: var(
+    --pico-component-switch-disabled-track-color
+  );
+  --md-switch-disabled-track-outline-color: var(
+    --pico-component-switch-disabled-track-outline-color
+  );
 
   /* selected */
-  /* --md-switch-selected-handle-color: 
-  --md-switch-selected-handle-height: 
-  --md-switch-selected-handle-width: 
-  --md-switch-selected-icon-color: 
-  --md-switch-selected-icon-size: 
-  --md-switch-selected-track-color: */
+  --md-switch-selected-handle-color: var(
+    --pico-component-switch-selected-handle-color
+  );
+  --md-switch-selected-handle-height: var(
+    --pico-component-switch-selected-handle-height
+  );
+  --md-switch-selected-handle-width: var(
+    --pico-component-switch-selected-handle-width
+  );
+  --md-switch-selected-icon-color: var(
+    --pico-component-switch-selected-icon-color
+  );
+  --md-switch-selected-icon-size: var(
+    --pico-component-switch-selected-icon-size
+  );
+  --md-switch-selected-track-color: var(
+    --pico-component-switch-selected-track-color
+  );
 
   /* selected focus */
-  /* --md-switch-selected-focus-handle-color: 
-  --md-switch-selected-focus-icon-color: 
-  --md-switch-selected-focus-track-color:  */
+  --md-switch-selected-focus-handle-color: var(
+    --pico-component-switch-selected-focus-handle-color
+  );
+  --md-switch-selected-focus-icon-color: var(
+    --pico-component-switch-selected-focus-icon-color
+  );
+  --md-switch-selected-focus-track-color: var(
+    --pico-component-switch-selected-focus-track-color
+  );
 
   /* selected hover */
-  /* --md-switch-selected-hover-handle-color: 
-  --md-switch-selected-hover-icon-color: 
-  --md-switch-selected-hover-track-color: 
-  --md-switch-selected-hover-state-layer-color: 
-  --md-switch-selected-hover-state-layer-opacity:  */
+  --md-switch-selected-hover-handle-color: var(
+    --pico-component-switch-selected-hover-handle-color
+  );
+  --md-switch-selected-hover-icon-color: var(
+    --pico-component-switch-selected-hover-icon-color
+  );
+  --md-switch-selected-hover-track-color: var(
+    --pico-component-switch-selected-hover-track-color
+  );
+  --md-switch-selected-hover-state-layer-color: var(
+    --bobby-component-state-layer-color-darken
+  );
+  --md-switch-selected-hover-state-layer-opacity: var(
+    --bobby-component-state-layer-opacity-hover
+  );
 
   /* selected pressed */
-  /* --md-switch-selected-pressed-handle-color: 
-  --md-switch-selected-pressed-icon-color: 
-  --md-switch-selected-pressed-track-color: 
-  --md-switch-selected-pressed-state-layer-color: 
-  --md-switch-selected-pressed-state-layer-opacity:  */
+  --md-switch-selected-pressed-handle-color: var(
+    --pico-component-switch-selected-pressed-handle-color
+  );
+  --md-switch-selected-pressed-icon-color: var(
+    --pico-component-switch-selected-pressed-icon-color
+  );
+  --md-switch-selected-pressed-track-color: var(
+    --pico-component-switch-selected-pressed-track-color
+  );
+  --md-switch-selected-pressed-state-layer-color: var(
+    --bobby-component-state-layer-color-darken
+  );
+  --md-switch-selected-pressed-state-layer-opacity: var(
+    --bobby-component-state-layer-opacity-pressed
+  );
 
   /* selected disabled */
-  /* --md-switch-disabled-selected-handle-color: 
-  --md-switch-disabled-selected-icon-color: 
-  --md-switch-disabled-selected-track-color: */
+  --md-switch-disabled-selected-handle-color: var(
+    --pico-component-switch-selected-disabled-handle-color
+  );
+  --md-switch-disabled-selected-icon-color: var(
+    --pico-component-switch-selected-disabled-icon-color
+  );
+  --md-switch-disabled-selected-track-color: var(
+    --pico-component-switch-selected-disabled-track-color
+  );
 
   /* --------------------------------------------------CHECKBOX--------------------------------------------------------- */
 
-  
   /* Checkbox */
   --md-checkbox-container-shape: var(--bobby-component-checkbox-shape);
   --md-checkbox-outline-width: var(--bobby-component-checkbox-outline-width);
@@ -556,48 +689,100 @@
   --md-checkbox-outline-color: var(--bobby-component-checkbox-outline-color);
 
   /* disabled */
-  --md-checkbox-disabled-outline-color: var(--bobby-component-checkbox-disabled-outline-color);
-  --md-checkbox-disabled-outline-width: var(--bobby-component-checkbox-disabled-outline-width);
+  --md-checkbox-disabled-outline-color: var(
+    --bobby-component-checkbox-disabled-outline-color
+  );
+  --md-checkbox-disabled-outline-width: var(
+    --bobby-component-checkbox-disabled-outline-width
+  );
 
   /* focus */
-  --md-checkbox-focus-outline-color: var(--bobby-component-checkbox-focus-outline-color);
-  --md-checkbox-focus-outline-width: var(--bobby-component-checkbox-focus-outline-width);
+  --md-checkbox-focus-outline-color: var(
+    --bobby-component-checkbox-focus-outline-color
+  );
+  --md-checkbox-focus-outline-width: var(
+    --bobby-component-checkbox-focus-outline-width
+  );
 
   /* hover */
-  --md-checkbox-hover-outline-color: var(--bobby-component-checkbox-hover-outline-color);
-  --md-checkbox-hover-outline-width: var(--bobby-component-checkbox-hover-outline-width);
-  --md-checkbox-hover-state-layer-color: var(--bobby-component-state-layer-color-darken);
-  --md-checkbox-hover-state-layer-opacity: var(--bobby-component-state-layer-opacity-hover);
+  --md-checkbox-hover-outline-color: var(
+    --bobby-component-checkbox-hover-outline-color
+  );
+  --md-checkbox-hover-outline-width: var(
+    --bobby-component-checkbox-hover-outline-width
+  );
+  --md-checkbox-hover-state-layer-color: var(
+    --bobby-component-state-layer-color-darken
+  );
+  --md-checkbox-hover-state-layer-opacity: var(
+    --bobby-component-state-layer-opacity-hover
+  );
 
   /* pressed */
-  --md-checkbox-pressed-outline-color: var(--bobby-component-checkbox-pressed-outline-color);
-  --md-checkbox-pressed-outline-width: var(--bobby-component-checkbox-pressed-outline-width);
-  --md-checkbox-pressed-state-layer-color: var(--bobby-component-state-layer-color-darken);
-  --md-checkbox-pressed-state-layer-opacity: var(--bobby-component-state-layer-opacity-pressed);
+  --md-checkbox-pressed-outline-color: var(
+    --bobby-component-checkbox-pressed-outline-color
+  );
+  --md-checkbox-pressed-outline-width: var(
+    --bobby-component-checkbox-pressed-outline-width
+  );
+  --md-checkbox-pressed-state-layer-color: var(
+    --bobby-component-state-layer-color-darken
+  );
+  --md-checkbox-pressed-state-layer-opacity: var(
+    --bobby-component-state-layer-opacity-pressed
+  );
 
-/* selected */
---md-checkbox-selected-container-color: var(--bobby-component-checkbox-selected-container-color);
---md-checkbox-selected-icon-color: var(--bobby-component-checkbox-selected-icon-color);
+  /* selected */
+  --md-checkbox-selected-container-color: var(
+    --bobby-component-checkbox-selected-container-color
+  );
+  --md-checkbox-selected-icon-color: var(
+    --bobby-component-checkbox-selected-icon-color
+  );
 
-/* selected focus */
---md-checkbox-selected-focus-container-color: var(--bobby-component-checkbox-selected-focus-container-color);
---md-checkbox-selected-focus-icon-color: var(--bobby-component-checkbox-selected-focus-icon-color);
+  /* selected focus */
+  --md-checkbox-selected-focus-container-color: var(
+    --bobby-component-checkbox-selected-focus-container-color
+  );
+  --md-checkbox-selected-focus-icon-color: var(
+    --bobby-component-checkbox-selected-focus-icon-color
+  );
 
-/* selected hover */
---md-checkbox-selected-hover-container-color: var(--bobby-component-checkbox-selected-hover-container-color);
---md-checkbox-selected-hover-icon-color: var(--bobby-component-checkbox-selected-hover-icon-color);
---md-checkbox-selected-hover-state-layer-color: var(--bobby-component-state-layer-color-darken);
-  --md-checkbox-selected-hover-state-layer-opacity: var(--bobby-component-state-layer-opacity-hover);
+  /* selected hover */
+  --md-checkbox-selected-hover-container-color: var(
+    --bobby-component-checkbox-selected-hover-container-color
+  );
+  --md-checkbox-selected-hover-icon-color: var(
+    --bobby-component-checkbox-selected-hover-icon-color
+  );
+  --md-checkbox-selected-hover-state-layer-color: var(
+    --bobby-component-state-layer-color-darken
+  );
+  --md-checkbox-selected-hover-state-layer-opacity: var(
+    --bobby-component-state-layer-opacity-hover
+  );
 
-/* selected pressed */
---md-checkbox-selected-pressed-container-color: var(--bobby-component-checkbox-selected-pressed-container-color);
---md-checkbox-selected-pressed-icon-color: var(--bobby-component-checkbox-selected-pressed-icon-color);
---md-checkbox-selected-pressed-state-layer-color: var(--bobby-component-state-layer-color-darken);
-  --md-checkbox-selected-pressed-state-layer-opacity:  var(--bobby-component-state-layer-opacity-pressed);
+  /* selected pressed */
+  --md-checkbox-selected-pressed-container-color: var(
+    --bobby-component-checkbox-selected-pressed-container-color
+  );
+  --md-checkbox-selected-pressed-icon-color: var(
+    --bobby-component-checkbox-selected-pressed-icon-color
+  );
+  --md-checkbox-selected-pressed-state-layer-color: var(
+    --bobby-component-state-layer-color-darken
+  );
+  --md-checkbox-selected-pressed-state-layer-opacity: var(
+    --bobby-component-state-layer-opacity-pressed
+  );
 
   /* selected disabled */
---md-checkbox-selected-disabled-container-color: var(--bobby-component-checkbox-selected-disabled-container-color);
---md-checkbox-selected-disabled-icon-color: var(--bobby-component-checkbox-selected-disabled-icon-color);
+  --md-checkbox-selected-disabled-container-color: var(
+    --bobby-component-checkbox-selected-disabled-container-color
+  );
+  --md-checkbox-selected-disabled-icon-color: var(
+    --bobby-component-checkbox-selected-disabled-icon-color
+  );
 
   /* --------------------------------------------------FAB--------------------------------------------------------- */
 
@@ -615,11 +800,43 @@
   --md-outlined-text-field-outline-width: var(
     --bobby-component-text-field-outline-width
   );
-  --md-outlined-text-field-label-text-font: var(--bobby-component-text-field-label-text-typography);
-  --md-outlined-text-field-input-text-font: var(--bobby-component-text-field-input-text-typography);
-  --md-outlined-text-field-supporting-text-font: var(
-    --bobby-component-text-field-supporting-text-typography
+  --md-outlined-text-field-label-text-font: var(
+    --pico-component-text-field-label-text-typography-font-family
   );
+  --md-outlined-text-field-label-text-line-height: var(
+    --pico-component-text-field-label-text-typography-line-height
+  );
+  --md-outlined-text-field-label-text-size: var(
+    --pico-component-text-field-label-text-typography-font-size
+  );
+  --md-outlined-text-field-label-text-weight: var(
+    --pico-component-text-field-label-text-typography-font-weight
+  );
+  --md-outlined-text-field-input-text-font: var(
+    --pico-component-text-field-input-text-typography-font-family
+  );
+  --md-outlined-text-field-input-text-line-height: var(
+    --pico-component-text-field-input-text-typography-line-height
+  );
+  --md-outlined-text-field-input-text-size: var(
+    --pico-component-text-field-input-text-typography-font-size
+  );
+  --md-outlined-text-field-input-text-weight: var(
+    --pico-component-text-field-input-text-typography-font-weight
+  );
+  --md-outlined-text-field-supporting-text-font: var(
+    --pico-component-text-field-supporting-text-typography-font-family
+  );
+  --md-outlined-text-field-supporting-text-line-height: var(
+    --pico-component-text-field-supporting-text-typography-line-height
+  );
+  --md-outlined-text-field-supporting-text-size: var(
+    --pico-component-text-field-supporting-text-typography-font-size
+  );
+  --md-outlined-text-field-supporting-text-weight: var(
+    --pico-component-text-field-supporting-text-typography-font-weight
+  );
+
   --md-outlined-text-field-label-text-color: var(
     --bobby-component-text-field-label-color
   );
@@ -737,17 +954,21 @@
 
   /* --------------------------------------------------MENU--------------------------------------------------------- */
 
-  --md-menu-container-color: white;
-  --md-menu-container-shape: var(--pico-semantic-shape-corner);
+  --md-menu-container-color: var(--bobby-component-menu-container-color);
+  --md-menu-container-shape: var(--bobby-component-menu-container-shape);
 
-  --md-menu-item-container-color: white;
-  --md-menu-item-label-text-color: var(--pico-semantic-color-ui-onSurface);
-  --md-menu-item-label-text-size: 14px;
-  --md-menu-item-label-text-font: Arial;
-  --md-menu-item-bottom-space: var(--pico-ref-spacing-xs);
-  --md-menu-item-top-space: var(--pico-ref-spacing-xs);
-  --md-menu-item-leading-space: var(--pico-ref-spacing-s);
-  --md-menu-item-one-line-container-height: var(--pico-ref-spacing-l);
+  --md-menu-item-container-color: var(--bobby-component-menu-item-container-color);
+  --md-menu-item-label-text-color: var(--bobby-component-menu-label-text-color);
+
+  --md-menu-item-label-text-font: var(--bobby-component-menu-item-label-typography-font-family);
+  --md-menu-item-label-text-line-height: var(--bobby-component-menu-item-label-typography-line-height);
+  --md-menu-item-label-text-size: var(--bobby-component-menu-item-label-typography-font-size);
+  --md-menu-item-label-text-weight: var(--bobby-component-menu-label-typography-font-weight);
+
+  --md-menu-item-bottom-space: var(--bobby-component-menu-item-vertical-padding);
+  --md-menu-item-top-space: var(--bobby-component-menu-item-vertical-padding);
+  --md-menu-item-leading-space: var(--bobby-component-menu-item-horizontal-padding);
+  --md-menu-item-one-line-container-height: var(--bobby-component-menu-item-horizontal-padding);
 
   /* --------------------------------------------------CARD--------------------------------------------------------- */
 
@@ -774,8 +995,11 @@
   justify-content: space-between;
 }
 
-.input-heading {
-  font: var(--conversion-pattern-email-input-heading-typography);
+.newsletter .title-large {
+  font-family: var(--conversion-pattern-email-input-heading-typography-font-family);
+  font-size: var(--conversion-pattern-email-input-heading-typography-font-size);
+  line-height: var(--conversion-pattern-email-input-heading-typography-line-height);
+  font-weight: var(--conversion-pattern-email-input-heading-typography-font-weight);
 }
 
 .signup {
@@ -893,8 +1117,11 @@
   font: var(--conversion-pattern-voucher-card-helper-text-typography);
 }
 
-.caption1 {
-  font: var(--conversion-pattern-voucher-card-caption1-typography);
+.voucher-card .caption1 {
+  font-size: var(--conversion-pattern-voucher-card-caption1-typography-font-size);
+  line-height: var(--conversion-pattern-voucher-card-caption1-typography-line-height);
+  font-weight: var(--conversion-pattern-voucher-card-caption1-typography-font-weight);
+  font-family: var(--conversion-pattern-voucher-card-caption1-typography-font-family);
 }
 
 .caption2 {
@@ -902,10 +1129,242 @@
 }
 
 .voucher-card md-filled-button {
-  --md-filled-button-container-color: var(--conversion-pattern-voucher-card-button-container-color);
+  --md-filled-button-container-color: var(
+    --conversion-pattern-voucher-card-button-container-color
+  );
 }
 
 .voucher-card md-filled-button:hover {
   --md-filled-button-hover-state-layer-color: green;
   --md-filled-button-hover-state-layer-opacity: 1;
+}
+
+/* --------------------------------------------------MODAL CARD--------------------------------------------------------- */
+
+.modal-card {
+  box-shadow: var(--pico-component-card-elevation);
+  border-radius: var(--conversion-pattern-voucher-card-shape);
+  max-width: 375px;
+}
+
+.modal-header {
+  display: flex;
+  flex-direction: row;
+  padding: var(--pico-ref-spacing-m);
+  justify-content: space-between;
+  width: 100%;
+  height: fit-content;
+  align-items: center;
+}
+
+.modal-header-text {
+  font: var(--pico-semantic-typography-title-medium);
+}
+
+.modal-body {
+  height: 300px;
+  width: 100%;
+  background-color: var(--pico-semantic-color-ui-primary-container);
+  text-align: center;
+}
+
+.modal-body-description {
+  padding: var(--pico-ref-spacing-m) var(--pico-ref-spacing-l);
+}
+
+.modal-body-heading {
+  font: var(--pico-semantic-typography-title-large);
+  margin-bottom: var(--pico-ref-spacing-m);
+}
+
+.modal-body-text {
+  font: var(--pico-semantic-typography-body-large);
+}
+
+.modal-footer {
+  display: flex;
+  padding: var(--pico-ref-spacing-l);
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.modal-footer md-filled-button,
+.modal-footer md-outlined-button {
+  width: 100%;
+}
+
+.modal-footer md-filled-button:first-of-type {
+  margin-bottom: var(--pico-ref-spacing-m);
+}
+
+/* -------------------------------------------------------REWARDS HEADER---------------------------------------------------- */
+
+.rewards-header {
+  width: 1440px;
+  box-shadow: var(--pico-component-card-elevation);
+}
+
+.rewards-header-top {
+  display: flex;
+  background-color: var(--pico-semantic-color-ui-primary);
+  padding: var(--pico-ref-spacing-s) 166px;
+  height: 70px;
+  justify-content: space-between;
+}
+
+.rewards-header-nav {
+  display: flex;
+  background-color: white;
+  padding: 4px 24px;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.shoop-logo {
+  padding-right: var(--pico-ref-spacing-3xl);
+  color: var(--pico-semantic-color-ui-on-primary);
+  font-weight: bold;
+}
+
+.shoop-profile {
+  display: flex;
+  align-items: center;
+  margin-left: var(--pico-ref-spacing-xl);
+}
+
+.rewards-header md-icon {
+  color: var(--pico-semantic-color-ui-on-primary);
+}
+
+.rewards-header md-outlined-text-field {
+  width: 554px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.shoop-profile-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--pico-ref-shape-corner-full);
+  border: var(--pico-ref-shape-outline-width-thick)
+    var(--pico-semantic-color-ui-on-primary) solid;
+  background-color: var(--pico-semantic-color-ui-primary-container);
+  font: var(--pico-semantic-typography-title-medium);
+  width: 36px;
+  height: 36px;
+  color: var(--pico-semantic-color-ui-on-primary);
+}
+
+.shoop-kontostand {
+  color: var(--pico-semantic-color-ui-on-primary);
+  margin-right: var(--pico-ref-spacing-xl);
+  font: var(--pico-semantic-typography-body-medium);
+
+}
+
+.shoop-kontostand-info {
+  font: var(--pico-semantic-typography-body-large);
+  padding-top: var(--pico-ref-spacing-2xs);
+}
+
+.shoop-kontostand-info span:last-child {
+  opacity: var(--pico-ref-color-opacity-80);
+}
+
+
+/* -------------------------------------------------------REWARDS CARD---------------------------------------------------- */
+
+.rewards-card {
+  width: 375px;
+  box-shadow: var(--pico-component-card-elevation);
+  border: var(--pico-semantic-color-ui-outline) var(--pico-semantic-shape-outline-width) solid;
+  border-radius: var(--pico-component-card-shape);
+  overflow: hidden;
+}
+
+.rewards-card .photo {
+  height: 180px;
+  background-color: var(--pico-semantic-color-ui-primary-container);
+}
+
+.rewards-card .text {
+  padding: var(--pico-ref-spacing-m);
+}
+
+.footer {
+  padding: var(--pico-ref-spacing-m);
+}
+
+.rewards-card .title {
+  font-size: var(--pico-semantic-typography-title-large-font-size);
+  line-height: var(--pico-semantic-typography-title-large-line-height);
+  font-weight: var(--pico-semantic-typography-title-large-font-weight);
+  font-family: var(--pico-semantic-typography-title-large-font-family);
+  padding-bottom: var(--pico-ref-spacing-xs);
+}
+
+.rewards-card .description {
+  font-size: var(--pico-semantic-typography-body-medium-font-size);
+  line-height: var(--pico-semantic-typography-body-medium-line-height);
+  font-weight: var(--pico-semantic-typography-body-medium-font-weight);
+  font-family: var(--pico-semantic-typography-body-medium-font-family);
+  padding-top: var(--pico-ref-spacing-xs);
+}
+
+hr {
+  margin: 0 var(--pico-ref-spacing-m);
+  border-top: var(--pico-semantic-shape-outline-width) var(--pico-semantic-color-ui-outline) solid;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.rewards-card .amount {
+  font-family: var(--pico-semantic-typography-title-medium-font-family);
+  line-height: var(--pico-semantic-typography-title-medium-line-height);
+  font-size: var(--pico-semantic-typography-title-medium-font-size);
+  font-weight: var(--pico-semantic-typography-title-medium-font-weight);
+  padding-bottom: var(--pico-ref-spacing-m);
+}
+
+.rewards-card .filters {
+  padding-bottom: var(--pico-ref-spacing-m);
+}
+
+.rewards-card md-filter-chip {
+  --md-filter-chip-label-text-font: var(
+    --pico-semantic-typography-body-medium-font-family
+  );  --md-filter-chip-label-text-line-height: var(
+    --pico-semantic-typography-body-medium-line-height
+  );  --md-filter-chip-label-text-size: var(
+    --pico-semantic-typography-body-medium-font-size
+  );  --md-filter-chip-label-text-weight: var(
+    --pico-semantic-typography-body-medium-font-weight
+  );
+  --md-filter-chip-selected-container-color: var(
+    --pico-ref-color-ui-primary-95
+  );
+  --md-filter-chip-selected-label-text-color: var(
+    --pico-semantic-color-ui-primary
+  );
+  --md-filter-chip-selected-leading-icon-color: var(
+    --pico-semantic-color-ui-primary
+  );
+  --md-filer-chip-selected-outline-width: var(
+    --pico-semantic-shape-outline-width
+  );
+}
+
+.rewards-card md-filled-icon-button {
+  height: 24px;
+  width: 24px;
+  --md-filled-icon-button-container-color: #fdbe12;
+  --md-filled-icon-button-container-shape: var(--pico-ref-shape-corner-m);
+}
+
+.rewards-card md-icon {
+  --md-icon-size: 16px
 }

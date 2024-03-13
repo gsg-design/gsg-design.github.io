@@ -79,158 +79,6 @@
         </thead>
         <tbody>
           <tr>
-            <td>Button</td>
-            <td>
-              <md-filled-button>
-                Filled
-                <svg slot="icon" viewBox="0 0 48 48">
-                  <path
-                    d="M6 40V8l38 16Zm3-4.65L36.2 24 9 12.5v8.4L21.1 24 9 27Zm0 0V12.5 27Z"
-                  />
-                </svg>
-              </md-filled-button>
-              <md-outlined-button>Outlined</md-outlined-button>
-              <md-text-button>Text</md-text-button>
-            </td>
-          </tr>
-          <tr>
-            <td>Checkbox</td>
-            <td>
-              <md-checkbox></md-checkbox>
-            </td>
-          </tr>
-          <tr>
-            <td>Chip</td>
-            <td>
-              <md-filter-chip label="Filter"></md-filter-chip>
-            </td>
-          </tr>
-          <tr>
-            <td>Dialog</td>
-            <td>
-              <md-dialog>
-                <div slot="headline">Dialog</div>
-                <div slot="content">This is a dialog</div>
-                <div slot="actions">
-                  <md-text-button form="form-id">Ok</md-text-button>
-                </div>
-              </md-dialog>
-            </td>
-          </tr>
-          <tr>
-            <td>Switch</td>
-            <td>
-              <md-switch></md-switch>
-            </td>
-          </tr>
-          <tr>
-            <td>Text Field</td>
-            <td>
-              <form action="" style="padding-top: 20px">
-                <md-outlined-text-field
-                  name="name"
-                  label="Name"
-                  required
-                  style="padding-bottom: 10px"
-                >
-                </md-outlined-text-field>
-                <md-outlined-text-field
-                  name="email"
-                  label="Email"
-                  pattern="[\w\d-]+"
-                  suffix-text="@gmail.com"
-                  error
-                  error-text="Username is not available"
-                >
-                </md-outlined-text-field>
-              </form>
-            </td>
-          </tr>
-          <tr>
-            <td>Tabs</td>
-            <td>
-              <md-tabs>
-                <md-primary-tab>First</md-primary-tab>
-                <md-primary-tab>Second</md-primary-tab>
-                <md-primary-tab>Third</md-primary-tab>
-              </md-tabs>
-            </td>
-          </tr>
-          <tr>
-            <td>Menu</td>
-            <td>
-              <div
-                style="
-                  margin: 16px;
-                  background-color: white;
-                  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
-                  display: inline-flex;
-                  padding: 4px 24px;
-                  box-sizing: border-box;
-                  justify-content: space-between;
-                  width: 960px;
-                "
-              >
-                <div>
-                  <md-text-button trailing-icon id="usage-fixed-anchor">Menu Item
-                  <svg slot="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>chevron-down</title><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg></md-text-button>
-                  <md-text-button trailing-icon id="usage-fixed-anchor">Menu Item
-                  <svg slot="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>chevron-down</title><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg></md-text-button>
-                  <md-text-button trailing-icon id="usage-fixed-anchor">Menu Item
-                  <svg slot="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>chevron-down</title><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg></md-text-button>
-                  <md-text-button trailing-icon id="usage-fixed-anchor">Menu Item
-                  <svg slot="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>chevron-down</title><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg></md-text-button>
-                  <md-text-button trailing-icon id="usage-fixed-anchor">Menu Item
-                  <svg slot="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>chevron-down</title><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg></md-text-button>                     
-                </div>
-                <md-outlined-text-field
-                  type="email"
-                  placeholder="Search"
-                  style="padding-left: 20px"
-                >
-                </md-outlined-text-field>
-              </div>
-
-              <md-menu
-                positioning="fixed"
-                id="usage-fixed"
-                anchor="usage-fixed-anchor"
-              >
-                <md-menu-item>
-                  <div>Apple</div>
-                </md-menu-item>
-                <md-menu-item>
-                  <div>Banana</div>
-                </md-menu-item>
-                <md-menu-item>
-                  <div>Cucumber</div>
-                </md-menu-item>
-              </md-menu>
-
-              <script type="module">
-                const anchorEl = document.body.querySelector(
-                  "#usage-fixed-anchor"
-                );
-                const menuEl = document.body.querySelector("#usage-fixed");
-
-                anchorEl.addEventListener("click", () => {
-                  menuEl.open = !menuEl.open;
-                });
-              </script>
-            </td>
-          </tr>
-          <tr>
-            <td>Filters</td>
-            <td>
-              <md-filter-chip label="All (34)"></md-filter-chip>
-              <md-filter-chip label="Exclusive (4)"></md-filter-chip>
-              <md-filter-chip label="Code (4)"></md-filter-chip>
-              <md-filter-chip label="Deals (24)"></md-filter-chip>
-              <md-filter-chip label="Cashback (1)"></md-filter-chip>
-              <md-filter-chip label="Rewards (4)"></md-filter-chip>
-            </td>
-          </tr>
-          <tr>
             <td>Voucher Card</td>
             <td>
               <div class="voucher-card">
@@ -258,7 +106,7 @@
               <div>
                 <div class="newsletter">
                   <div class="content">
-                    <div class="input-heading">Sign up to our newsletter today for more of the best offers and discounts from Go Ape</div>
+                    <div class="title-large">Sign up to our newsletter today for more of the best offers and discounts from Go Ape</div>
                     <div class="signup">
                       <md-outlined-text-field class="email-text-field"
                         type="email"
@@ -274,10 +122,129 @@
               </div>
             </td>
           </tr>
+          <tr>
+            <td>Rewards Modal</td>
+            <td>
+              <div class="modal-card">
+                <div class="modal-header">
+                  <div class="modal-header-text">Modal Title</div>
+                  <md-icon-button>
+                    <md-icon>close</md-icon>
+                  </md-icon-button>
+                  </div>
+                <div>
+                  <div class="modal-body"></div>
+                  <div class="modal-body-description">
+                    <div class="modal-body-heading">Heading</div>
+                    <div class="modal-body-text">Alice thought she might as well go back, and see how the game was going on, as she heard the Queens voice in the distance, screaming with passion. </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <md-filled-button>Button text</md-filled-button>
+                  <md-outlined-button>Button text</md-filled-button>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Rewards Header</td>
+            <td>
+              <div class="rewards-header">
+                <div class="rewards-header-top">
+                  <div style="display: flex; align-items: center;">
+                    <div class="shoop-logo">Shoop</div>
+                    <md-outlined-text-field placeholder="Partner suchen">
+                      <md-icon slot="trailing-icon">search</md-icon>
+                    </md-outlined-text-field>
+                  </div>
+                  <div style="display: flex; align-items: center;">
+                    <div class="shoop-kontostand">
+                      Kontostand
+                      <div class="shoop-kontostand-info">
+                        <span >42,10€</span>
+                        <span>|</span>
+                        <span class="shoop-kontostand-2">5,23€</span>
+                      </div>
+                    </div>
+                    <md-icon>notifications</md-icon>
+                    <div class="shoop-profile">
+                      <div class="shoop-profile-icon">U</div>
+                      <md-icon>expand_more</md-icon>
+                    </div>
+                  </div>
+                </div>
+                <div class="rewards-header-nav">
+                  <div>
+                    <md-text-button trailing-icon id="usage-fixed-anchor">CASHBACK AKTIONEN</md-text-button>
+                    <md-text-button trailing-icon id="usage-fixed-anchor">KATEGORIEN
+                    <svg slot="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>chevron-down</title><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg></md-text-button>
+                    <md-text-button trailing-icon id="usage-fixed-anchor">10€ FREUNDE BONUS</md-text-button>
+                    <md-text-button trailing-icon id="usage-fixed-anchor">NIE MEHR CASHBACK VERGESSEN</md-text-button>
+                    <md-text-button trailing-icon id="usage-fixed-anchor">PREMIUM</md-text-button>
+                      <md-text-button trailing-icon id="usage-fixed-anchor">SHOOP OPTIMAL NUTZEN</md-text-button>
+                   </div>
+                </div>
+              </div>
+
+              <md-menu
+                positioning="fixed"
+                id="usage-fixed"
+                anchor="usage-fixed-anchor"
+              >
+                <md-menu-item>
+                  <div>Apple</div>
+                </md-menu-item>
+                <md-menu-item>
+                  <div>Banana</div>
+                </md-menu-item>
+                <md-menu-item>
+                  <div>Cucumber</div>
+                </md-menu-item>
+              </md-menu>
+            </td>
+          </tr>
+          <tr>
+            <td>Rewards Card</td>
+            <td>
+              <div class="rewards-card">
+                <div class="photo"></div>
+                <div class="text">
+                  <div class="title">Airbnb Giftcard</div>
+                  <div class="rating">
+                    <md-filled-icon-button>
+                      <md-icon>star</md-icon>
+                    </md-filled-icon-button>
+                    <md-filled-icon-button>
+                      <md-icon>star</md-icon>
+                    </md-filled-icon-button>
+                    <md-filled-icon-button>
+                      <md-icon>star</md-icon>
+                    </md-filled-icon-button>
+                    <md-filled-icon-button>
+                      <md-icon>star</md-icon>
+                    </md-filled-icon-button>
+                    <md-filled-icon-button>
+                      <md-icon>star</md-icon>
+                    </md-filled-icon-button>
+                  </div>
+                  <div class="description">When you buy something, you get a percentage of the amount it cost paid back to you.</div>
+                </div>
+                <hr>
+                <div class="footer">
+                  <div class="amount">Select an amount</div>
+                  <div class="filters">
+                    <md-filter-chip label="20$"></md-filter-chip>
+                    <md-filter-chip label="30$"></md-filter-chip>
+                    <md-filter-chip label="50$"></md-filter-chip>
+                  </div>
+                  <md-filled-button>Confirm</md-filled-button>
+                </div>
+              </div>
+            </td>
+          </tr>
         </tbody>
       </table>
     </section>
-
     <script src="/js/jquery-3.7.1.min.js"></script>
     <script src="/js/styleguide.js"></script>
     <script type="module" src="js/theme-dropdown.js"></script>

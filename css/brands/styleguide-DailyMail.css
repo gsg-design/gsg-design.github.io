@@ -31,7 +31,7 @@
 .styleguide__bobby-component-button-filled-default-small-label-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
 .styleguide__bobby-component-button-filled-default-small-label-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
 .styleguide__bobby-component-button-filled-default-small-label-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__bobby-component-button-filled-default-small-label-text-typography-line-height.styleguide-item__value::before { content: '14.002px'; }
+.styleguide__bobby-component-button-filled-default-small-label-text-typography-line-height.styleguide-item__value::before { content: '18.669px'; }
 .styleguide__bobby-component-button-filled-default-small-pressed-foreground-color.styleguide-item__value { background-color: hsl(214 100% 100%); }
 .styleguide__bobby-component-button-filled-default-small-pressed-foreground-color.styleguide-item__value::before { content: 'hsl(214 100% 100%)'; }
 .styleguide__bobby-component-button-filled-inverted-large-container-color.styleguide-item__value { background-color: hsl(214 100% 100%); }
@@ -64,16 +64,16 @@
 .styleguide__bobby-component-button-filled-inverted-small-label-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
 .styleguide__bobby-component-button-filled-inverted-small-label-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
 .styleguide__bobby-component-button-filled-inverted-small-label-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__bobby-component-button-filled-inverted-small-label-text-typography-line-height.styleguide-item__value::before { content: '14.002px'; }
+.styleguide__bobby-component-button-filled-inverted-small-label-text-typography-line-height.styleguide-item__value::before { content: '18.669px'; }
 .styleguide__bobby-component-button-filled-inverted-small-pressed-foreground-color.styleguide-item__value { background-color: hsl(214.19 100% 35.098%); }
 .styleguide__bobby-component-button-filled-inverted-small-pressed-foreground-color.styleguide-item__value::before { content: 'hsl(214.19 100% 35.098%)'; }
-.styleguide__bobby-component-button-horizontal-padding.styleguide-item__value::before { content: '8'; }
+.styleguide__bobby-component-button-horizontal-padding.styleguide-item__value::before { content: '8px'; }
 .styleguide__bobby-component-button-label-text-typography-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
 .styleguide__bobby-component-button-label-text-typography-font-size.styleguide-item__value { font-size: 15.75px; }
 .styleguide__bobby-component-button-label-text-typography-font-size.styleguide-item__value::before { content: '15.75px'; }
 .styleguide__bobby-component-button-label-text-typography-font-style.styleguide-item__value::before { content: 'normal'; }
 .styleguide__bobby-component-button-label-text-typography-font-weight.styleguide-item__value::before { content: '700'; }
-.styleguide__bobby-component-button-label-text-typography-line-height.styleguide-item__value::before { content: '17.719px'; }
+.styleguide__bobby-component-button-label-text-typography-line-height.styleguide-item__value::before { content: '23.625px'; }
 .styleguide__bobby-component-button-label-text-typography-text-case.styleguide-item__value::before { content: 'uppercase'; }
 .styleguide__bobby-component-button-outlined-default-large-container-color.styleguide-item__value { background-color: hsl(214 100% 100% / 0); }
 .styleguide__bobby-component-button-outlined-default-large-container-color.styleguide-item__value::before { content: 'hsl(214 100% 100% / 0)'; }
@@ -115,7 +115,7 @@
 .styleguide__bobby-component-button-outlined-default-small-label-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
 .styleguide__bobby-component-button-outlined-default-small-label-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
 .styleguide__bobby-component-button-outlined-default-small-label-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__bobby-component-button-outlined-default-small-label-text-typography-line-height.styleguide-item__value::before { content: '14.002px'; }
+.styleguide__bobby-component-button-outlined-default-small-label-text-typography-line-height.styleguide-item__value::before { content: '18.669px'; }
 .styleguide__bobby-component-button-outlined-default-small-outline-color.styleguide-item__value { background-color: hsl(214.19 100% 35.098%); }
 .styleguide__bobby-component-button-outlined-default-small-outline-color.styleguide-item__value::before { content: 'hsl(214.19 100% 35.098%)'; }
 .styleguide__bobby-component-button-outlined-default-small-outline-width.styleguide-item__value { background-color: 1px; }
@@ -160,7 +160,7 @@
 .styleguide__bobby-component-button-outlined-inverted-small-label-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
 .styleguide__bobby-component-button-outlined-inverted-small-label-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
 .styleguide__bobby-component-button-outlined-inverted-small-label-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__bobby-component-button-outlined-inverted-small-label-text-typography-line-height.styleguide-item__value::before { content: '14.002px'; }
+.styleguide__bobby-component-button-outlined-inverted-small-label-text-typography-line-height.styleguide-item__value::before { content: '18.669px'; }
 .styleguide__bobby-component-button-outlined-inverted-small-outline-color.styleguide-item__value { background-color: hsl(214 100% 100%); }
 .styleguide__bobby-component-button-outlined-inverted-small-outline-color.styleguide-item__value::before { content: 'hsl(214 100% 100%)'; }
 .styleguide__bobby-component-button-outlined-inverted-small-outline-width.styleguide-item__value { background-color: 1px; }
@@ -197,7 +197,7 @@
 .styleguide__bobby-component-button-text-default-small-label-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
 .styleguide__bobby-component-button-text-default-small-label-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
 .styleguide__bobby-component-button-text-default-small-label-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__bobby-component-button-text-default-small-label-text-typography-line-height.styleguide-item__value::before { content: '14.002px'; }
+.styleguide__bobby-component-button-text-default-small-label-text-typography-line-height.styleguide-item__value::before { content: '18.669px'; }
 .styleguide__bobby-component-button-text-default-small-pressed-foreground-color.styleguide-item__value { background-color: hsl(214.19 100% 35.098%); }
 .styleguide__bobby-component-button-text-default-small-pressed-foreground-color.styleguide-item__value::before { content: 'hsl(214.19 100% 35.098%)'; }
 .styleguide__bobby-component-button-text-inverted-large-container-color.styleguide-item__value { background-color: hsl(214.19 100% 35.098% / 0); }
@@ -230,7 +230,7 @@
 .styleguide__bobby-component-button-text-inverted-small-label-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
 .styleguide__bobby-component-button-text-inverted-small-label-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
 .styleguide__bobby-component-button-text-inverted-small-label-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__bobby-component-button-text-inverted-small-label-text-typography-line-height.styleguide-item__value::before { content: '14.002px'; }
+.styleguide__bobby-component-button-text-inverted-small-label-text-typography-line-height.styleguide-item__value::before { content: '18.669px'; }
 .styleguide__bobby-component-button-text-inverted-small-pressed-foreground-color.styleguide-item__value { background-color: hsl(214 100% 100%); }
 .styleguide__bobby-component-button-text-inverted-small-pressed-foreground-color.styleguide-item__value::before { content: 'hsl(214 100% 100%)'; }
 .styleguide__bobby-component-checkbox-container-size.styleguide-item__value::before { content: '18px'; }
@@ -282,7 +282,7 @@
 .styleguide__bobby-component-chip-focus-foreground-color.styleguide-item__value::before { content: 'hsl(214.19 100% 35.098%)'; }
 .styleguide__bobby-component-chip-foreground-color.styleguide-item__value { background-color: hsl(214.19 100% 35.098%); }
 .styleguide__bobby-component-chip-foreground-color.styleguide-item__value::before { content: 'hsl(214.19 100% 35.098%)'; }
-.styleguide__bobby-component-chip-horizontal-padding.styleguide-item__value::before { content: '16'; }
+.styleguide__bobby-component-chip-horizontal-padding.styleguide-item__value::before { content: '16px'; }
 .styleguide__bobby-component-chip-hover-foreground-color.styleguide-item__value { background-color: hsl(214.19 100% 35.098%); }
 .styleguide__bobby-component-chip-hover-foreground-color.styleguide-item__value::before { content: 'hsl(214.19 100% 35.098%)'; }
 .styleguide__bobby-component-chip-label-text-typography-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
@@ -290,7 +290,7 @@
 .styleguide__bobby-component-chip-label-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
 .styleguide__bobby-component-chip-label-text-typography-font-style.styleguide-item__value::before { content: 'normal'; }
 .styleguide__bobby-component-chip-label-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__bobby-component-chip-label-text-typography-line-height.styleguide-item__value::before { content: '14.002px'; }
+.styleguide__bobby-component-chip-label-text-typography-line-height.styleguide-item__value::before { content: '18.669px'; }
 .styleguide__bobby-component-chip-outline-color.styleguide-item__value { background-color: hsl(214.19 100% 35.098%); }
 .styleguide__bobby-component-chip-outline-color.styleguide-item__value::before { content: 'hsl(214.19 100% 35.098%)'; }
 .styleguide__bobby-component-chip-outline-width.styleguide-item__value::before { content: '1px'; }
@@ -309,6 +309,24 @@
 .styleguide__bobby-component-chip-selected-outline-width.styleguide-item__value::before { content: '0'; }
 .styleguide__bobby-component-chip-selected-pressed-foreground-color.styleguide-item__value { background-color: hsl(214 100% 100%); }
 .styleguide__bobby-component-chip-selected-pressed-foreground-color.styleguide-item__value::before { content: 'hsl(214 100% 100%)'; }
+.styleguide__bobby-component-line-container-height.styleguide-item__value::before { content: '20px'; }
+.styleguide__bobby-component-menu-container-color.styleguide-item__value { background-color: hsl(0 0% 100%); }
+.styleguide__bobby-component-menu-container-color.styleguide-item__value::before { content: 'hsl(0 0% 100%)'; }
+.styleguide__bobby-component-menu-container-elevation.styleguide-item__value { box-shadow: [object Object]; }
+.styleguide__bobby-component-menu-container-elevation.styleguide-item__value::before { content: '[object Object]'; }
+.styleguide__bobby-component-menu-container-shape.styleguide-item__value { border-radius: 4px; }
+.styleguide__bobby-component-menu-container-shape.styleguide-item__value::before { content: '4px'; }
+.styleguide__bobby-component-menu-item-container-color.styleguide-item__value { background-color: hsl(0 0% 100%); }
+.styleguide__bobby-component-menu-item-container-color.styleguide-item__value::before { content: 'hsl(0 0% 100%)'; }
+.styleguide__bobby-component-menu-item-horizontal-padding.styleguide-item__value::before { content: '12px'; }
+.styleguide__bobby-component-menu-item-vertical-padding.styleguide-item__value::before { content: '8px'; }
+.styleguide__bobby-component-menu-label-text-color.styleguide-item__value { background-color: hsl(0 0% 6.51%); }
+.styleguide__bobby-component-menu-label-text-color.styleguide-item__value::before { content: 'hsl(0 0% 6.51%)'; }
+.styleguide__bobby-component-menu-label-typography-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
+.styleguide__bobby-component-menu-label-typography-font-size.styleguide-item__value { font-size: 14px; }
+.styleguide__bobby-component-menu-label-typography-font-size.styleguide-item__value::before { content: '14px'; }
+.styleguide__bobby-component-menu-label-typography-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__bobby-component-menu-label-typography-line-height.styleguide-item__value::before { content: '21px'; }
 .styleguide__bobby-component-state-layer-color-darken.styleguide-item__value { background-color: hsl(0 0% 0%); }
 .styleguide__bobby-component-state-layer-color-darken.styleguide-item__value::before { content: 'hsl(0 0% 0%)'; }
 .styleguide__bobby-component-state-layer-color-lighten.styleguide-item__value { background-color: hsl(0 0% 100%); }
@@ -345,7 +363,7 @@
 .styleguide__bobby-component-tab-label-text-typography-font-size.styleguide-item__value { font-size: 14px; }
 .styleguide__bobby-component-tab-label-text-typography-font-size.styleguide-item__value::before { content: '14px'; }
 .styleguide__bobby-component-tab-label-text-typography-font-weight.styleguide-item__value::before { content: '500'; }
-.styleguide__bobby-component-tab-label-text-typography-line-height.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__bobby-component-tab-label-text-typography-line-height.styleguide-item__value::before { content: '21px'; }
 .styleguide__bobby-component-tab-pressed-foreground-color.styleguide-item__value { background-color: hsl(0 0% 6.51%); }
 .styleguide__bobby-component-tab-pressed-foreground-color.styleguide-item__value::before { content: 'hsl(0 0% 6.51%)'; }
 .styleguide__bobby-component-tag-background-color.styleguide-item__value { background-color: hsl(214.19 100% 35.098%); }
@@ -428,15 +446,15 @@
 .styleguide__bobby-component-text-field-input-text-typography-font-size.styleguide-item__value { font-size: 14px; }
 .styleguide__bobby-component-text-field-input-text-typography-font-size.styleguide-item__value::before { content: '14px'; }
 .styleguide__bobby-component-text-field-input-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__bobby-component-text-field-input-text-typography-line-height.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__bobby-component-text-field-input-text-typography-line-height.styleguide-item__value::before { content: '21px'; }
 .styleguide__bobby-component-text-field-label-color.styleguide-item__value { background-color: hsl(267 4.62% 26.8%); }
 .styleguide__bobby-component-text-field-label-color.styleguide-item__value::before { content: 'hsl(267 4.62% 26.8%)'; }
 .styleguide__bobby-component-text-field-label-text-typography-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
 .styleguide__bobby-component-text-field-label-text-typography-font-size.styleguide-item__value { font-size: 14px; }
 .styleguide__bobby-component-text-field-label-text-typography-font-size.styleguide-item__value::before { content: '14px'; }
 .styleguide__bobby-component-text-field-label-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__bobby-component-text-field-label-text-typography-line-height.styleguide-item__value::before { content: '15.75px'; }
-.styleguide__bobby-component-text-field-leading-space.styleguide-item__value::before { content: '8'; }
+.styleguide__bobby-component-text-field-label-text-typography-line-height.styleguide-item__value::before { content: '21px'; }
+.styleguide__bobby-component-text-field-leading-space.styleguide-item__value::before { content: '8px'; }
 .styleguide__bobby-component-text-field-outline-color.styleguide-item__value { background-color: hsl(0 0% 80.8%); }
 .styleguide__bobby-component-text-field-outline-color.styleguide-item__value::before { content: 'hsl(0 0% 80.8%)'; }
 .styleguide__bobby-component-text-field-outline-width.styleguide-item__value::before { content: '1px'; }
@@ -446,60 +464,71 @@
 .styleguide__bobby-component-text-field-supporting-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
 .styleguide__bobby-component-text-field-supporting-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
 .styleguide__bobby-component-text-field-supporting-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__bobby-component-text-field-supporting-text-typography-line-height.styleguide-item__value::before { content: '14.002px'; }
-.styleguide__bobby-component-text-field-trailing-space.styleguide-item__value::before { content: '8'; }
-.styleguide__bobby-component-text-field-vertical-space.styleguide-item__value::before { content: '8'; }
+.styleguide__bobby-component-text-field-supporting-text-typography-line-height.styleguide-item__value::before { content: '18.669px'; }
+.styleguide__bobby-component-text-field-trailing-space.styleguide-item__value::before { content: '8px'; }
+.styleguide__bobby-component-text-field-vertical-space.styleguide-item__value::before { content: '8px'; }
 .styleguide__bobby-component-tooltip-background-color.styleguide-item__value { background-color: hsl(0 0% 86%); }
 .styleguide__bobby-component-tooltip-background-color.styleguide-item__value::before { content: 'hsl(0 0% 86%)'; }
 .styleguide__bobby-component-tooltip-foreground-color.styleguide-item__value { background-color: hsl(267 4.62% 26.8%); }
 .styleguide__bobby-component-tooltip-foreground-color.styleguide-item__value::before { content: 'hsl(267 4.62% 26.8%)'; }
+.styleguide__conversion-pattern-button-container-color.styleguide-item__value { background-color: hsl(214.19 100% 35.098%); }
+.styleguide__conversion-pattern-button-container-color.styleguide-item__value::before { content: 'hsl(214.19 100% 35.098%)'; }
+.styleguide__conversion-pattern-caption-1-typography-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
+.styleguide__conversion-pattern-caption-1-typography-font-size.styleguide-item__value { font-size: 22.426px; }
+.styleguide__conversion-pattern-caption-1-typography-font-size.styleguide-item__value::before { content: '22.426px'; }
+.styleguide__conversion-pattern-caption-1-typography-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__conversion-pattern-caption-1-typography-line-height.styleguide-item__value::before { content: '26.911px'; }
+.styleguide__conversion-pattern-caption-2-typography-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
+.styleguide__conversion-pattern-caption-2-typography-font-size.styleguide-item__value { font-size: 15.75px; }
+.styleguide__conversion-pattern-caption-2-typography-font-size.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__conversion-pattern-caption-2-typography-font-weight.styleguide-item__value::before { content: '500'; }
+.styleguide__conversion-pattern-caption-2-typography-line-height.styleguide-item__value::before { content: '23.625px'; }
 .styleguide__conversion-pattern-email-input-button-shape-left-side.styleguide-item__value { border-radius: 0px; }
 .styleguide__conversion-pattern-email-input-button-shape-left-side.styleguide-item__value::before { content: '0px'; }
-.styleguide__.styleguide-item__value::before { content: '[object Object]'; }
+.styleguide__conversion-pattern-email-input-elevation.styleguide-item__value { box-shadow: [object Object]; }
+.styleguide__conversion-pattern-email-input-elevation.styleguide-item__value::before { content: '[object Object]'; }
 .styleguide__conversion-pattern-email-input-heading-typography-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
 .styleguide__conversion-pattern-email-input-heading-typography-font-size.styleguide-item__value { font-size: 22.426px; }
 .styleguide__conversion-pattern-email-input-heading-typography-font-size.styleguide-item__value::before { content: '22.426px'; }
 .styleguide__conversion-pattern-email-input-heading-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__conversion-pattern-email-input-heading-typography-line-height.styleguide-item__value::before { content: '25.229px'; }
+.styleguide__conversion-pattern-email-input-heading-typography-line-height.styleguide-item__value::before { content: '26.911px'; }
 .styleguide__conversion-pattern-email-input-shape.styleguide-item__value { border-radius: 4px; }
 .styleguide__conversion-pattern-email-input-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__conversion-pattern-email-input-text-field-shape-right-side.styleguide-item__value { border-radius: 0px; }
 .styleguide__conversion-pattern-email-input-text-field-shape-right-side.styleguide-item__value::before { content: '0px'; }
-.styleguide__conversion-pattern-voucher-card-button-container-color.styleguide-item__value { background-color: hsl(214.19 100% 35.098%); }
-.styleguide__conversion-pattern-voucher-card-button-container-color.styleguide-item__value::before { content: 'hsl(214.19 100% 35.098%)'; }
-.styleguide__conversion-pattern-voucher-card-caption-1-typography-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
-.styleguide__conversion-pattern-voucher-card-caption-1-typography-font-size.styleguide-item__value { font-size: 22.426px; }
-.styleguide__conversion-pattern-voucher-card-caption-1-typography-font-size.styleguide-item__value::before { content: '22.426px'; }
-.styleguide__conversion-pattern-voucher-card-caption-1-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__conversion-pattern-voucher-card-caption-1-typography-line-height.styleguide-item__value::before { content: '25.229px'; }
-.styleguide__conversion-pattern-voucher-card-caption-2-typography-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
-.styleguide__conversion-pattern-voucher-card-caption-2-typography-font-size.styleguide-item__value { font-size: 15.75px; }
-.styleguide__conversion-pattern-voucher-card-caption-2-typography-font-size.styleguide-item__value::before { content: '15.75px'; }
-.styleguide__conversion-pattern-voucher-card-caption-2-typography-font-weight.styleguide-item__value::before { content: '500'; }
-.styleguide__conversion-pattern-voucher-card-caption-2-typography-line-height.styleguide-item__value::before { content: '17.719px'; }
+.styleguide__conversion-pattern-helper-text-typography-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
+.styleguide__conversion-pattern-helper-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
+.styleguide__conversion-pattern-helper-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
+.styleguide__conversion-pattern-helper-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__conversion-pattern-helper-text-typography-line-height.styleguide-item__value::before { content: '18.669px'; }
+.styleguide__conversion-pattern-tag-typography-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
+.styleguide__conversion-pattern-tag-typography-font-size.styleguide-item__value { font-size: 14px; }
+.styleguide__conversion-pattern-tag-typography-font-size.styleguide-item__value::before { content: '14px'; }
+.styleguide__conversion-pattern-tag-typography-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__conversion-pattern-tag-typography-line-height.styleguide-item__value::before { content: '21px'; }
+.styleguide__conversion-pattern-terms-outline-color.styleguide-item__value { background-color: hsl(0 0% 86%); }
+.styleguide__conversion-pattern-terms-outline-color.styleguide-item__value::before { content: 'hsl(0 0% 86%)'; }
+.styleguide__conversion-pattern-terms-outline-width.styleguide-item__value::before { content: '1px'; }
+.styleguide__conversion-pattern-terms-padding.styleguide-item__value::before { content: '8px'; }
+.styleguide__conversion-pattern-title-typography-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
+.styleguide__conversion-pattern-title-typography-font-size.styleguide-item__value { font-size: 15.75px; }
+.styleguide__conversion-pattern-title-typography-font-size.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__conversion-pattern-title-typography-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__conversion-pattern-title-typography-line-height.styleguide-item__value::before { content: '23.625px'; }
+.styleguide__conversion-pattern-verified-background-color.styleguide-item__value { background-color: hsl(214 100% 87%); }
+.styleguide__conversion-pattern-verified-background-color.styleguide-item__value::before { content: 'hsl(214 100% 87%)'; }
+.styleguide__conversion-pattern-verified-padding.styleguide-item__value::before { content: '8px'; }
 .styleguide__conversion-pattern-voucher-card-captions-background-color.styleguide-item__value { background-color: hsl(214 100% 93.5%); }
 .styleguide__conversion-pattern-voucher-card-captions-background-color.styleguide-item__value::before { content: 'hsl(214 100% 93.5%)'; }
+.styleguide__conversion-pattern-voucher-card-content-background-color.styleguide-item__value { background-color: hsl(0 0% 100%); }
+.styleguide__conversion-pattern-voucher-card-content-background-color.styleguide-item__value::before { content: 'hsl(0 0% 100%)'; }
+.styleguide__conversion-pattern-voucher-card-content-padding.styleguide-item__value::before { content: '12px'; }
+.styleguide__conversion-pattern-voucher-card-content-spacing.styleguide-item__value::before { content: '12px'; }
 .styleguide__conversion-pattern-voucher-card-elevation.styleguide-item__value { box-shadow: [object Object]; }
 .styleguide__conversion-pattern-voucher-card-elevation.styleguide-item__value::before { content: '[object Object]'; }
-.styleguide__conversion-pattern-voucher-card-helper-text-typography-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
-.styleguide__conversion-pattern-voucher-card-helper-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
-.styleguide__conversion-pattern-voucher-card-helper-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
-.styleguide__conversion-pattern-voucher-card-helper-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__conversion-pattern-voucher-card-helper-text-typography-line-height.styleguide-item__value::before { content: '14.002px'; }
+.styleguide__conversion-pattern-voucher-card-left-side-width.styleguide-item__value::before { content: '150px'; }
 .styleguide__conversion-pattern-voucher-card-shape.styleguide-item__value { border-radius: 4px; }
 .styleguide__conversion-pattern-voucher-card-shape.styleguide-item__value::before { content: '4px'; }
-.styleguide__conversion-pattern-voucher-card-tag-typography-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
-.styleguide__conversion-pattern-voucher-card-tag-typography-font-size.styleguide-item__value { font-size: 14px; }
-.styleguide__conversion-pattern-voucher-card-tag-typography-font-size.styleguide-item__value::before { content: '14px'; }
-.styleguide__conversion-pattern-voucher-card-tag-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__conversion-pattern-voucher-card-tag-typography-line-height.styleguide-item__value::before { content: '15.75px'; }
-.styleguide__conversion-pattern-voucher-card-title-typography-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
-.styleguide__conversion-pattern-voucher-card-title-typography-font-size.styleguide-item__value { font-size: 15.75px; }
-.styleguide__conversion-pattern-voucher-card-title-typography-font-size.styleguide-item__value::before { content: '15.75px'; }
-.styleguide__conversion-pattern-voucher-card-title-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__conversion-pattern-voucher-card-title-typography-line-height.styleguide-item__value::before { content: '17.719px'; }
-.styleguide__conversion-pattern-voucher-card-verified-background-color.styleguide-item__value { background-color: hsl(214 100% 87%); }
-.styleguide__conversion-pattern-voucher-card-verified-background-color.styleguide-item__value::before { content: 'hsl(214 100% 87%)'; }
 .styleguide__conversion-theme-palette-sustainability-background.styleguide-item__value { background-color: hsl(137.65 89.474% 96.275%); }
 .styleguide__conversion-theme-palette-sustainability-background.styleguide-item__value::before { content: 'hsl(137.65 89.474% 96.275%)'; }
 .styleguide__conversion-theme-palette-sustainability-dark.styleguide-item__value { background-color: hsl(136.98 47.748% 21.765%); }
@@ -511,19 +540,19 @@
 .styleguide__pico-component-button-container-height.styleguide-item__value::before { content: '40px'; }
 .styleguide__pico-component-button-container-shape.styleguide-item__value { border-radius: 4px; }
 .styleguide__pico-component-button-container-shape.styleguide-item__value::before { content: '4px'; }
-.styleguide__pico-component-button-horizontal-padding.styleguide-item__value::before { content: '8'; }
+.styleguide__pico-component-button-horizontal-padding.styleguide-item__value::before { content: '8px'; }
 .styleguide__pico-component-button-label-text-typography-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
 .styleguide__pico-component-button-label-text-typography-font-size.styleguide-item__value { font-size: 15.75px; }
 .styleguide__pico-component-button-label-text-typography-font-size.styleguide-item__value::before { content: '15.75px'; }
 .styleguide__pico-component-button-label-text-typography-font-style.styleguide-item__value::before { content: 'normal'; }
 .styleguide__pico-component-button-label-text-typography-font-weight.styleguide-item__value::before { content: '700'; }
-.styleguide__pico-component-button-label-text-typography-line-height.styleguide-item__value::before { content: '17.719px'; }
+.styleguide__pico-component-button-label-text-typography-line-height.styleguide-item__value::before { content: '23.625px'; }
 .styleguide__pico-component-button-label-text-typography-text-case.styleguide-item__value::before { content: 'uppercase'; }
-.styleguide__pico-component-button-spacing.styleguide-item__value::before { content: '4'; }
+.styleguide__pico-component-button-spacing.styleguide-item__value::before { content: '4px'; }
 .styleguide__pico-component-card-elevation.styleguide-item__value { box-shadow: [object Object]; }
 .styleguide__pico-component-card-elevation.styleguide-item__value::before { content: '[object Object]'; }
-.styleguide__pico-component-card-padding-horizontal.styleguide-item__value::before { content: '12'; }
-.styleguide__pico-component-card-padding-vertical.styleguide-item__value::before { content: '12'; }
+.styleguide__pico-component-card-padding-horizontal.styleguide-item__value::before { content: '12px'; }
+.styleguide__pico-component-card-padding-vertical.styleguide-item__value::before { content: '12px'; }
 .styleguide__pico-component-card-shape.styleguide-item__value { border-radius: 4px; }
 .styleguide__pico-component-card-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__pico-component-checkbox-container-size.styleguide-item__value::before { content: '18px'; }
@@ -534,30 +563,115 @@
 .styleguide__pico-component-chip-container-height.styleguide-item__value::before { content: '32px'; }
 .styleguide__pico-component-chip-container-shape.styleguide-item__value { border-radius: 80px; }
 .styleguide__pico-component-chip-container-shape.styleguide-item__value::before { content: '80px'; }
-.styleguide__pico-component-chip-horizontal-padding.styleguide-item__value::before { content: '16'; }
+.styleguide__pico-component-chip-horizontal-padding.styleguide-item__value::before { content: '16px'; }
 .styleguide__pico-component-chip-label-text-typography-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
 .styleguide__pico-component-chip-label-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
 .styleguide__pico-component-chip-label-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
 .styleguide__pico-component-chip-label-text-typography-font-style.styleguide-item__value::before { content: 'normal'; }
 .styleguide__pico-component-chip-label-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__pico-component-chip-label-text-typography-line-height.styleguide-item__value::before { content: '14.002px'; }
+.styleguide__pico-component-chip-label-text-typography-line-height.styleguide-item__value::before { content: '18.669px'; }
 .styleguide__pico-component-chip-outline-width.styleguide-item__value::before { content: '1px'; }
 .styleguide__pico-component-hero-background-color.styleguide-item__value { background-color: transparent; }
 .styleguide__pico-component-hero-background-color.styleguide-item__value::before { content: 'transparent'; }
-.styleguide__pico-component-menu-background-color.styleguide-item__value { background-color: hsl(214.19 100% 35.098%); }
-.styleguide__pico-component-menu-background-color.styleguide-item__value::before { content: 'hsl(214.19 100% 35.098%)'; }
+.styleguide__pico-component-menu-container-elevation.styleguide-item__value { box-shadow: [object Object]; }
+.styleguide__pico-component-menu-container-elevation.styleguide-item__value::before { content: '[object Object]'; }
+.styleguide__pico-component-menu-container-shape.styleguide-item__value { border-radius: 4px; }
+.styleguide__pico-component-menu-container-shape.styleguide-item__value::before { content: '4px'; }
+.styleguide__pico-component-menu-item-horizontal-padding.styleguide-item__value::before { content: '12px'; }
+.styleguide__pico-component-menu-item-vertical-padding.styleguide-item__value::before { content: '8px'; }
+.styleguide__pico-component-menu-label-typography-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
+.styleguide__pico-component-menu-label-typography-font-size.styleguide-item__value { font-size: 14px; }
+.styleguide__pico-component-menu-label-typography-font-size.styleguide-item__value::before { content: '14px'; }
+.styleguide__pico-component-menu-label-typography-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__pico-component-menu-label-typography-line-height.styleguide-item__value::before { content: '21px'; }
+.styleguide__pico-component-menu-line-container-height.styleguide-item__value::before { content: '20px'; }
 .styleguide__pico-component-section-background-color.styleguide-item__value { background-color: transparent; }
 .styleguide__pico-component-section-background-color.styleguide-item__value::before { content: 'transparent'; }
-.styleguide__.styleguide-item__value::before { content: ''; }
-.styleguide__.styleguide-item__value::before { content: ''; }
-.styleguide__.styleguide-item__value::before { content: ''; }
-.styleguide__.styleguide-item__value::before { content: ''; }
-.styleguide__.styleguide-item__value::before { content: ''; }
-.styleguide__.styleguide-item__value::before { content: ''; }
-.styleguide__.styleguide-item__value::before { content: ''; }
-.styleguide__.styleguide-item__value::before { content: ''; }
-.styleguide__.styleguide-item__value::before { content: ''; }
-.styleguide__.styleguide-item__value::before { content: ''; }
+.styleguide__pico-component-switch-disabled-handle-color.styleguide-item__value { background-color: hsl(0 0% 70.3%); }
+.styleguide__pico-component-switch-disabled-handle-color.styleguide-item__value::before { content: 'hsl(0 0% 70.3%)'; }
+.styleguide__pico-component-switch-disabled-icon-color.styleguide-item__value { background-color: hsl(0 0% 86%); }
+.styleguide__pico-component-switch-disabled-icon-color.styleguide-item__value::before { content: 'hsl(0 0% 86%)'; }
+.styleguide__pico-component-switch-disabled-track-color.styleguide-item__value { background-color: transparent; }
+.styleguide__pico-component-switch-disabled-track-color.styleguide-item__value::before { content: 'transparent'; }
+.styleguide__pico-component-switch-disabled-track-outline-color.styleguide-item__value { background-color: hsl(0 0% 86%); }
+.styleguide__pico-component-switch-disabled-track-outline-color.styleguide-item__value::before { content: 'hsl(0 0% 86%)'; }
+.styleguide__pico-component-switch-focus-handle-color.styleguide-item__value { background-color: hsl(0 0% 65.098%); }
+.styleguide__pico-component-switch-focus-handle-color.styleguide-item__value::before { content: 'hsl(0 0% 65.098%)'; }
+.styleguide__pico-component-switch-focus-icon-color.styleguide-item__value { background-color: hsl(0 0% 100%); }
+.styleguide__pico-component-switch-focus-icon-color.styleguide-item__value::before { content: 'hsl(0 0% 100%)'; }
+.styleguide__pico-component-switch-focus-track-color.styleguide-item__value { background-color: hsl(0 0% 91.3%); }
+.styleguide__pico-component-switch-focus-track-color.styleguide-item__value::before { content: 'hsl(0 0% 91.3%)'; }
+.styleguide__pico-component-switch-focus-track-outline-color.styleguide-item__value { background-color: hsl(0 0% 65.098%); }
+.styleguide__pico-component-switch-focus-track-outline-color.styleguide-item__value::before { content: 'hsl(0 0% 65.098%)'; }
+.styleguide__pico-component-switch-handle-color.styleguide-item__value { background-color: hsl(0 0% 70.3%); }
+.styleguide__pico-component-switch-handle-color.styleguide-item__value::before { content: 'hsl(0 0% 70.3%)'; }
+.styleguide__pico-component-switch-handle-height.styleguide-item__value::before { content: '24px'; }
+.styleguide__pico-component-switch-handle-shape.styleguide-item__value { border-radius: 80px; }
+.styleguide__pico-component-switch-handle-shape.styleguide-item__value::before { content: '80px'; }
+.styleguide__pico-component-switch-handle-width.styleguide-item__value::before { content: '24px'; }
+.styleguide__pico-component-switch-hover-handle-color.styleguide-item__value { background-color: hsl(0 0% 65.098%); }
+.styleguide__pico-component-switch-hover-handle-color.styleguide-item__value::before { content: 'hsl(0 0% 65.098%)'; }
+.styleguide__pico-component-switch-hover-icon-color.styleguide-item__value { background-color: hsl(0 0% 100%); }
+.styleguide__pico-component-switch-hover-icon-color.styleguide-item__value::before { content: 'hsl(0 0% 100%)'; }
+.styleguide__pico-component-switch-hover-track-color.styleguide-item__value { background-color: hsl(0 0% 91.3%); }
+.styleguide__pico-component-switch-hover-track-color.styleguide-item__value::before { content: 'hsl(0 0% 91.3%)'; }
+.styleguide__pico-component-switch-hover-track-outline-color.styleguide-item__value { background-color: hsl(0 0% 65.098%); }
+.styleguide__pico-component-switch-hover-track-outline-color.styleguide-item__value::before { content: 'hsl(0 0% 65.098%)'; }
+.styleguide__pico-component-switch-icon-color.styleguide-item__value { background-color: hsl(0 0% 100%); }
+.styleguide__pico-component-switch-icon-color.styleguide-item__value::before { content: 'hsl(0 0% 100%)'; }
+.styleguide__pico-component-switch-icon-size.styleguide-item__value::before { content: '16px'; }
+.styleguide__pico-component-switch-pressed-handle-color.styleguide-item__value { background-color: hsl(0 0% 65.098%); }
+.styleguide__pico-component-switch-pressed-handle-color.styleguide-item__value::before { content: 'hsl(0 0% 65.098%)'; }
+.styleguide__pico-component-switch-pressed-handle-height.styleguide-item__value::before { content: '24px'; }
+.styleguide__pico-component-switch-pressed-handle-width.styleguide-item__value::before { content: '24px'; }
+.styleguide__pico-component-switch-pressed-icon-color.styleguide-item__value { background-color: hsl(0 0% 100%); }
+.styleguide__pico-component-switch-pressed-icon-color.styleguide-item__value::before { content: 'hsl(0 0% 100%)'; }
+.styleguide__pico-component-switch-pressed-track-color.styleguide-item__value { background-color: hsl(0 0% 91.3%); }
+.styleguide__pico-component-switch-pressed-track-color.styleguide-item__value::before { content: 'hsl(0 0% 91.3%)'; }
+.styleguide__pico-component-switch-pressed-track-outline-color.styleguide-item__value { background-color: hsl(0 0% 65.098%); }
+.styleguide__pico-component-switch-pressed-track-outline-color.styleguide-item__value::before { content: 'hsl(0 0% 65.098%)'; }
+.styleguide__pico-component-switch-selected-disabled-handle-color.styleguide-item__value { background-color: hsl(0 0% 100%); }
+.styleguide__pico-component-switch-selected-disabled-handle-color.styleguide-item__value::before { content: 'hsl(0 0% 100%)'; }
+.styleguide__pico-component-switch-selected-disabled-icon-color.styleguide-item__value { background-color: hsl(0 0% 65.098%); }
+.styleguide__pico-component-switch-selected-disabled-icon-color.styleguide-item__value::before { content: 'hsl(0 0% 65.098%)'; }
+.styleguide__pico-component-switch-selected-disabled-track-color.styleguide-item__value { background-color: hsl(0 0% 86%); }
+.styleguide__pico-component-switch-selected-disabled-track-color.styleguide-item__value::before { content: 'hsl(0 0% 86%)'; }
+.styleguide__pico-component-switch-selected-focus-handle-color.styleguide-item__value { background-color: hsl(214 100% 87%); }
+.styleguide__pico-component-switch-selected-focus-handle-color.styleguide-item__value::before { content: 'hsl(214 100% 87%)'; }
+.styleguide__pico-component-switch-selected-focus-icon-color.styleguide-item__value { background-color: hsl(214 100% 7.02%); }
+.styleguide__pico-component-switch-selected-focus-icon-color.styleguide-item__value::before { content: 'hsl(214 100% 7.02%)'; }
+.styleguide__pico-component-switch-selected-focus-track-color.styleguide-item__value { background-color: hsl(214.19 100% 35.098%); }
+.styleguide__pico-component-switch-selected-focus-track-color.styleguide-item__value::before { content: 'hsl(214.19 100% 35.098%)'; }
+.styleguide__pico-component-switch-selected-handle-color.styleguide-item__value { background-color: hsl(214 100% 100%); }
+.styleguide__pico-component-switch-selected-handle-color.styleguide-item__value::before { content: 'hsl(214 100% 100%)'; }
+.styleguide__pico-component-switch-selected-handle-height.styleguide-item__value::before { content: '24px'; }
+.styleguide__pico-component-switch-selected-handle-width.styleguide-item__value::before { content: '24px'; }
+.styleguide__pico-component-switch-selected-hover-handle-color.styleguide-item__value { background-color: hsl(214 100% 87%); }
+.styleguide__pico-component-switch-selected-hover-handle-color.styleguide-item__value::before { content: 'hsl(214 100% 87%)'; }
+.styleguide__pico-component-switch-selected-hover-icon-color.styleguide-item__value { background-color: hsl(214 100% 7.02%); }
+.styleguide__pico-component-switch-selected-hover-icon-color.styleguide-item__value::before { content: 'hsl(214 100% 7.02%)'; }
+.styleguide__pico-component-switch-selected-hover-track-color.styleguide-item__value { background-color: hsl(214.19 100% 35.098%); }
+.styleguide__pico-component-switch-selected-hover-track-color.styleguide-item__value::before { content: 'hsl(214.19 100% 35.098%)'; }
+.styleguide__pico-component-switch-selected-icon-color.styleguide-item__value { background-color: hsl(214 100% 7.02%); }
+.styleguide__pico-component-switch-selected-icon-color.styleguide-item__value::before { content: 'hsl(214 100% 7.02%)'; }
+.styleguide__pico-component-switch-selected-icon-size.styleguide-item__value::before { content: '16px'; }
+.styleguide__pico-component-switch-selected-pressed-handle-color.styleguide-item__value { background-color: hsl(214 100% 87%); }
+.styleguide__pico-component-switch-selected-pressed-handle-color.styleguide-item__value::before { content: 'hsl(214 100% 87%)'; }
+.styleguide__pico-component-switch-selected-pressed-icon-color.styleguide-item__value { background-color: hsl(214 100% 7.02%); }
+.styleguide__pico-component-switch-selected-pressed-icon-color.styleguide-item__value::before { content: 'hsl(214 100% 7.02%)'; }
+.styleguide__pico-component-switch-selected-pressed-track-color.styleguide-item__value { background-color: hsl(214.19 100% 35.098%); }
+.styleguide__pico-component-switch-selected-pressed-track-color.styleguide-item__value::before { content: 'hsl(214.19 100% 35.098%)'; }
+.styleguide__pico-component-switch-selected-track-color.styleguide-item__value { background-color: hsl(214.19 100% 35.098%); }
+.styleguide__pico-component-switch-selected-track-color.styleguide-item__value::before { content: 'hsl(214.19 100% 35.098%)'; }
+.styleguide__pico-component-switch-track-color.styleguide-item__value { background-color: hsl(0 0% 91.3%); }
+.styleguide__pico-component-switch-track-color.styleguide-item__value::before { content: 'hsl(0 0% 91.3%)'; }
+.styleguide__pico-component-switch-track-height.styleguide-item__value::before { content: '32px'; }
+.styleguide__pico-component-switch-track-outline-color.styleguide-item__value { background-color: hsl(0 0% 70.3%); }
+.styleguide__pico-component-switch-track-outline-color.styleguide-item__value::before { content: 'hsl(0 0% 70.3%)'; }
+.styleguide__pico-component-switch-track-outline-width.styleguide-item__value::before { content: '2px'; }
+.styleguide__pico-component-switch-track-shape.styleguide-item__value { border-radius: 80px; }
+.styleguide__pico-component-switch-track-shape.styleguide-item__value::before { content: '80px'; }
+.styleguide__pico-component-switch-track-width.styleguide-item__value::before { content: '52px'; }
 .styleguide__pico-component-tab-active-indicator-height.styleguide-item__value::before { content: '2px'; }
 .styleguide__pico-component-tab-active-indicator-shape.styleguide-item__value { border-radius: 0; }
 .styleguide__pico-component-tab-active-indicator-shape.styleguide-item__value::before { content: '0'; }
@@ -568,40 +682,40 @@
 .styleguide__pico-component-tab-label-text-typography-font-size.styleguide-item__value { font-size: 14px; }
 .styleguide__pico-component-tab-label-text-typography-font-size.styleguide-item__value::before { content: '14px'; }
 .styleguide__pico-component-tab-label-text-typography-font-weight.styleguide-item__value::before { content: '500'; }
-.styleguide__pico-component-tab-label-text-typography-line-height.styleguide-item__value::before { content: '15.75px'; }
-.styleguide__pico-component-tag-base-tag-label-text-typography-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
-.styleguide__pico-component-tag-base-tag-label-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
-.styleguide__pico-component-tag-base-tag-label-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
-.styleguide__pico-component-tag-base-tag-label-text-typography-font-style.styleguide-item__value::before { content: 'normal'; }
-.styleguide__pico-component-tag-base-tag-label-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__pico-component-tag-base-tag-label-text-typography-line-height.styleguide-item__value::before { content: '14.002px'; }
-.styleguide__pico-component-tag-base-tag-label-text-typography-text-case.styleguide-item__value::before { content: 'uppercase'; }
-.styleguide__pico-component-tag-base-tag-padding-horizontal.styleguide-item__value::before { content: '8'; }
-.styleguide__pico-component-tag-base-tag-padding-vertical.styleguide-item__value::before { content: '4'; }
-.styleguide__pico-component-tag-base-tag-shape.styleguide-item__value { border-radius: 4px; }
-.styleguide__pico-component-tag-base-tag-shape.styleguide-item__value::before { content: '4px'; }
-.styleguide__pico-component-tag-base-tag-spacing.styleguide-item__value::before { content: '4'; }
+.styleguide__pico-component-tab-label-text-typography-line-height.styleguide-item__value::before { content: '21px'; }
+.styleguide__pico-component-tag-label-text-typography-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
+.styleguide__pico-component-tag-label-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
+.styleguide__pico-component-tag-label-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
+.styleguide__pico-component-tag-label-text-typography-font-style.styleguide-item__value::before { content: 'normal'; }
+.styleguide__pico-component-tag-label-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__pico-component-tag-label-text-typography-line-height.styleguide-item__value::before { content: '18.669px'; }
+.styleguide__pico-component-tag-label-text-typography-text-case.styleguide-item__value::before { content: 'uppercase'; }
+.styleguide__pico-component-tag-padding-horizontal.styleguide-item__value::before { content: '8px'; }
+.styleguide__pico-component-tag-padding-vertical.styleguide-item__value::before { content: '4px'; }
+.styleguide__pico-component-tag-shape.styleguide-item__value { border-radius: 4px; }
+.styleguide__pico-component-tag-shape.styleguide-item__value::before { content: '4px'; }
+.styleguide__pico-component-tag-spacing.styleguide-item__value::before { content: '4px'; }
 .styleguide__pico-component-text-field-container-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__pico-component-text-field-input-text-typography-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
 .styleguide__pico-component-text-field-input-text-typography-font-size.styleguide-item__value { font-size: 14px; }
 .styleguide__pico-component-text-field-input-text-typography-font-size.styleguide-item__value::before { content: '14px'; }
 .styleguide__pico-component-text-field-input-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__pico-component-text-field-input-text-typography-line-height.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__pico-component-text-field-input-text-typography-line-height.styleguide-item__value::before { content: '21px'; }
 .styleguide__pico-component-text-field-label-text-typography-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
 .styleguide__pico-component-text-field-label-text-typography-font-size.styleguide-item__value { font-size: 14px; }
 .styleguide__pico-component-text-field-label-text-typography-font-size.styleguide-item__value::before { content: '14px'; }
 .styleguide__pico-component-text-field-label-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__pico-component-text-field-label-text-typography-line-height.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__pico-component-text-field-label-text-typography-line-height.styleguide-item__value::before { content: '21px'; }
 .styleguide__pico-component-text-field-outline-width.styleguide-item__value::before { content: '1px'; }
-.styleguide__pico-component-text-field-padding-horizontal.styleguide-item__value::before { content: '8'; }
-.styleguide__pico-component-text-field-padding-vertical.styleguide-item__value::before { content: '8'; }
+.styleguide__pico-component-text-field-padding-horizontal.styleguide-item__value::before { content: '8px'; }
+.styleguide__pico-component-text-field-padding-vertical.styleguide-item__value::before { content: '8px'; }
 .styleguide__pico-component-text-field-supporting-text-typography-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
 .styleguide__pico-component-text-field-supporting-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
 .styleguide__pico-component-text-field-supporting-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
 .styleguide__pico-component-text-field-supporting-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__pico-component-text-field-supporting-text-typography-line-height.styleguide-item__value::before { content: '14.002px'; }
-.styleguide__pico-component-tooltip-padding-horizontal.styleguide-item__value::before { content: '8'; }
-.styleguide__pico-component-tooltip-padding-vertical.styleguide-item__value::before { content: '4'; }
+.styleguide__pico-component-text-field-supporting-text-typography-line-height.styleguide-item__value::before { content: '18.669px'; }
+.styleguide__pico-component-tooltip-padding-horizontal.styleguide-item__value::before { content: '8px'; }
+.styleguide__pico-component-tooltip-padding-vertical.styleguide-item__value::before { content: '4px'; }
 .styleguide__pico-component-tooltip-shape.styleguide-item__value { border-radius: 4px; }
 .styleguide__pico-component-tooltip-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__pico-component-tooltip-typography-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
@@ -609,7 +723,7 @@
 .styleguide__pico-component-tooltip-typography-font-size.styleguide-item__value::before { content: '11.064px'; }
 .styleguide__pico-component-tooltip-typography-font-style.styleguide-item__value::before { content: 'normal'; }
 .styleguide__pico-component-tooltip-typography-font-weight.styleguide-item__value::before { content: '500'; }
-.styleguide__pico-component-tooltip-typography-line-height.styleguide-item__value::before { content: '12.447px'; }
+.styleguide__pico-component-tooltip-typography-line-height.styleguide-item__value::before { content: '16.596px'; }
 .styleguide__pico-key-font-family-fallback-one.styleguide-item__value::before { content: 'sans-serif'; }
 .styleguide__pico-key-font-family-fallback-two.styleguide-item__value::before { content: 'sans-serif'; }
 .styleguide__pico-key-font-family-one.styleguide-item__value::before { content: 'Arial'; }
@@ -870,27 +984,27 @@
 .styleguide__pico-ref-font-size-8.styleguide-item__value::before { content: '25.229px'; }
 .styleguide__pico-ref-font-size-9.styleguide-item__value { font-size: 28.383px; }
 .styleguide__pico-ref-font-size-9.styleguide-item__value::before { content: '28.383px'; }
-.styleguide__pico-ref-line-height-0.styleguide-item__value::before { content: '11.066px'; }
-.styleguide__pico-ref-line-height-1.styleguide-item__value::before { content: '12.447px'; }
-.styleguide__pico-ref-line-height-10.styleguide-item__value::before { content: '35.922px'; }
-.styleguide__pico-ref-line-height-11.styleguide-item__value::before { content: '40.412px'; }
-.styleguide__pico-ref-line-height-12.styleguide-item__value::before { content: '45.463px'; }
-.styleguide__pico-ref-line-height-13.styleguide-item__value::before { content: '51.146px'; }
-.styleguide__pico-ref-line-height-14.styleguide-item__value::before { content: '57.539px'; }
-.styleguide__pico-ref-line-height-15.styleguide-item__value::before { content: '64.731px'; }
-.styleguide__pico-ref-line-height-16.styleguide-item__value::before { content: '72.822px'; }
-.styleguide__pico-ref-line-height-17.styleguide-item__value::before { content: '81.925px'; }
-.styleguide__pico-ref-line-height-18.styleguide-item__value::before { content: '92.166px'; }
-.styleguide__pico-ref-line-height-19.styleguide-item__value::before { content: '103.687px'; }
-.styleguide__pico-ref-line-height-2.styleguide-item__value::before { content: '14.002px'; }
-.styleguide__pico-ref-line-height-20.styleguide-item__value::before { content: '116.648px'; }
-.styleguide__pico-ref-line-height-3.styleguide-item__value::before { content: '15.75px'; }
-.styleguide__pico-ref-line-height-4.styleguide-item__value::before { content: '17.719px'; }
-.styleguide__pico-ref-line-height-5.styleguide-item__value::before { content: '19.934px'; }
-.styleguide__pico-ref-line-height-6.styleguide-item__value::before { content: '22.426px'; }
-.styleguide__pico-ref-line-height-7.styleguide-item__value::before { content: '25.229px'; }
-.styleguide__pico-ref-line-height-8.styleguide-item__value::before { content: '28.383px'; }
-.styleguide__pico-ref-line-height-9.styleguide-item__value::before { content: '31.931px'; }
+.styleguide__pico-ref-line-height-0.styleguide-item__value::before { content: '14.754px'; }
+.styleguide__pico-ref-line-height-1.styleguide-item__value::before { content: '16.596px'; }
+.styleguide__pico-ref-line-height-10.styleguide-item__value::before { content: '38.317px'; }
+.styleguide__pico-ref-line-height-11.styleguide-item__value::before { content: '43.106px'; }
+.styleguide__pico-ref-line-height-12.styleguide-item__value::before { content: '48.494px'; }
+.styleguide__pico-ref-line-height-13.styleguide-item__value::before { content: '54.556px'; }
+.styleguide__pico-ref-line-height-14.styleguide-item__value::before { content: '61.375px'; }
+.styleguide__pico-ref-line-height-15.styleguide-item__value::before { content: '69.047px'; }
+.styleguide__pico-ref-line-height-16.styleguide-item__value::before { content: '77.677px'; }
+.styleguide__pico-ref-line-height-17.styleguide-item__value::before { content: '87.386px'; }
+.styleguide__pico-ref-line-height-18.styleguide-item__value::before { content: '98.31px'; }
+.styleguide__pico-ref-line-height-19.styleguide-item__value::before { content: '110.599px'; }
+.styleguide__pico-ref-line-height-2.styleguide-item__value::before { content: '18.669px'; }
+.styleguide__pico-ref-line-height-20.styleguide-item__value::before { content: '124.424px'; }
+.styleguide__pico-ref-line-height-3.styleguide-item__value::before { content: '21px'; }
+.styleguide__pico-ref-line-height-4.styleguide-item__value::before { content: '23.625px'; }
+.styleguide__pico-ref-line-height-5.styleguide-item__value::before { content: '21.263px'; }
+.styleguide__pico-ref-line-height-6.styleguide-item__value::before { content: '23.921px'; }
+.styleguide__pico-ref-line-height-7.styleguide-item__value::before { content: '26.911px'; }
+.styleguide__pico-ref-line-height-8.styleguide-item__value::before { content: '30.275px'; }
+.styleguide__pico-ref-line-height-9.styleguide-item__value::before { content: '34.06px'; }
 .styleguide__pico-ref-motion-duration-extra-long-1.styleguide-item__value::before { content: '700ms'; }
 .styleguide__pico-ref-motion-duration-extra-long-2.styleguide-item__value::before { content: '800ms'; }
 .styleguide__pico-ref-motion-duration-extra-long-3.styleguide-item__value::before { content: '900ms'; }
@@ -979,15 +1093,15 @@
 .styleguide__pico-ref-shape-shadow-8.styleguide-item__value::before { content: '[object Object]'; }
 .styleguide__pico-ref-shape-shadow-9.styleguide-item__value { box-shadow: [object Object]; }
 .styleguide__pico-ref-shape-shadow-9.styleguide-item__value::before { content: '[object Object]'; }
-.styleguide__pico-ref-spacing-2-xl.styleguide-item__value::before { content: '48'; }
-.styleguide__pico-ref-spacing-2-xs.styleguide-item__value::before { content: '4'; }
-.styleguide__pico-ref-spacing-3-xl.styleguide-item__value::before { content: '64'; }
-.styleguide__pico-ref-spacing-base.styleguide-item__value::before { content: '8'; }
-.styleguide__pico-ref-spacing-l.styleguide-item__value::before { content: '20'; }
-.styleguide__pico-ref-spacing-m.styleguide-item__value::before { content: '16'; }
-.styleguide__pico-ref-spacing-s.styleguide-item__value::before { content: '12'; }
-.styleguide__pico-ref-spacing-xl.styleguide-item__value::before { content: '32'; }
-.styleguide__pico-ref-spacing-xs.styleguide-item__value::before { content: '8'; }
+.styleguide__pico-ref-spacing-2-xl.styleguide-item__value::before { content: '48px'; }
+.styleguide__pico-ref-spacing-2-xs.styleguide-item__value::before { content: '4px'; }
+.styleguide__pico-ref-spacing-3-xl.styleguide-item__value::before { content: '64px'; }
+.styleguide__pico-ref-spacing-base.styleguide-item__value::before { content: '8px'; }
+.styleguide__pico-ref-spacing-l.styleguide-item__value::before { content: '20px'; }
+.styleguide__pico-ref-spacing-m.styleguide-item__value::before { content: '16px'; }
+.styleguide__pico-ref-spacing-s.styleguide-item__value::before { content: '12px'; }
+.styleguide__pico-ref-spacing-xl.styleguide-item__value::before { content: '32px'; }
+.styleguide__pico-ref-spacing-xs.styleguide-item__value::before { content: '8px'; }
 .styleguide__pico-ref-z-index-1.styleguide-item__value::before { content: '1000'; }
 .styleguide__pico-ref-z-index-2.styleguide-item__value::before { content: '1050'; }
 .styleguide__pico-ref-z-index-3.styleguide-item__value::before { content: '1100'; }
@@ -1037,16 +1151,16 @@
 .styleguide__pico-semantic-color-ui-on-tertiary-fixed.styleguide-item__value::before { content: 'hsl(120 87.4% 4.98%)'; }
 .styleguide__pico-semantic-color-ui-on-tertiary-fixed-vairant.styleguide-item__value { background-color: hsl(120 87.4% 14.9%); }
 .styleguide__pico-semantic-color-ui-on-tertiary-fixed-vairant.styleguide-item__value::before { content: 'hsl(120 87.4% 14.9%)'; }
-.styleguide__pico-semantic-color-ui-outline.styleguide-item__value { background-color: hsl(267 4.62% 47.5%); }
-.styleguide__pico-semantic-color-ui-outline.styleguide-item__value::before { content: 'hsl(267 4.62% 47.5%)'; }
+.styleguide__pico-semantic-color-ui-outline.styleguide-item__value { background-color: hsl(267 4.62% 84.6%); }
+.styleguide__pico-semantic-color-ui-outline.styleguide-item__value::before { content: 'hsl(267 4.62% 84.6%)'; }
 .styleguide__pico-semantic-color-ui-primary.styleguide-item__value { background-color: hsl(214.19 100% 35.098%); }
 .styleguide__pico-semantic-color-ui-primary.styleguide-item__value::before { content: 'hsl(214.19 100% 35.098%)'; }
+.styleguide__pico-semantic-color-ui-primary-container.styleguide-item__value { background-color: hsl(214 100% 87%); }
+.styleguide__pico-semantic-color-ui-primary-container.styleguide-item__value::before { content: 'hsl(214 100% 87%)'; }
 .styleguide__pico-semantic-color-ui-primary-fixed.styleguide-item__value { background-color: hsl(214 100% 87%); }
 .styleguide__pico-semantic-color-ui-primary-fixed.styleguide-item__value::before { content: 'hsl(214 100% 87%)'; }
 .styleguide__pico-semantic-color-ui-primary-fixed-dim.styleguide-item__value { background-color: hsl(214 100% 74%); }
 .styleguide__pico-semantic-color-ui-primary-fixed-dim.styleguide-item__value::before { content: 'hsl(214 100% 74%)'; }
-.styleguide__pico-semantic-color-ui-primay-container.styleguide-item__value { background-color: hsl(214 100% 87%); }
-.styleguide__pico-semantic-color-ui-primay-container.styleguide-item__value::before { content: 'hsl(214 100% 87%)'; }
 .styleguide__pico-semantic-color-ui-scrim.styleguide-item__value { background-color: hsl(0 0% 0%); }
 .styleguide__pico-semantic-color-ui-scrim.styleguide-item__value::before { content: 'hsl(0 0% 0%)'; }
 .styleguide__pico-semantic-color-ui-secondary.styleguide-item__value { background-color: hsl(0 100% 40%); }
@@ -1109,89 +1223,109 @@
 .styleguide__pico-semantic-typography-body-large-font-size.styleguide-item__value { font-size: 15.75px; }
 .styleguide__pico-semantic-typography-body-large-font-size.styleguide-item__value::before { content: '15.75px'; }
 .styleguide__pico-semantic-typography-body-large-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__pico-semantic-typography-body-large-line-height.styleguide-item__value::before { content: '17.719px'; }
+.styleguide__pico-semantic-typography-body-large-line-height.styleguide-item__value::before { content: '23.625px'; }
 .styleguide__pico-semantic-typography-body-medium-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
 .styleguide__pico-semantic-typography-body-medium-font-size.styleguide-item__value { font-size: 14px; }
 .styleguide__pico-semantic-typography-body-medium-font-size.styleguide-item__value::before { content: '14px'; }
 .styleguide__pico-semantic-typography-body-medium-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__pico-semantic-typography-body-medium-line-height.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__pico-semantic-typography-body-medium-line-height.styleguide-item__value::before { content: '21px'; }
 .styleguide__pico-semantic-typography-body-small-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
 .styleguide__pico-semantic-typography-body-small-font-size.styleguide-item__value { font-size: 12.446px; }
 .styleguide__pico-semantic-typography-body-small-font-size.styleguide-item__value::before { content: '12.446px'; }
 .styleguide__pico-semantic-typography-body-small-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__pico-semantic-typography-body-small-line-height.styleguide-item__value::before { content: '14.002px'; }
+.styleguide__pico-semantic-typography-body-small-line-height.styleguide-item__value::before { content: '18.669px'; }
 .styleguide__pico-semantic-typography-display-large-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
 .styleguide__pico-semantic-typography-display-large-font-size.styleguide-item__value { font-size: 57.539px; }
 .styleguide__pico-semantic-typography-display-large-font-size.styleguide-item__value::before { content: '57.539px'; }
 .styleguide__pico-semantic-typography-display-large-font-weight.styleguide-item__value::before { content: '700'; }
-.styleguide__pico-semantic-typography-display-large-line-height.styleguide-item__value::before { content: '64.731px'; }
+.styleguide__pico-semantic-typography-display-large-line-height.styleguide-item__value::before { content: '69.047px'; }
 .styleguide__pico-semantic-typography-display-medium-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
 .styleguide__pico-semantic-typography-display-medium-font-size.styleguide-item__value { font-size: 45.463px; }
 .styleguide__pico-semantic-typography-display-medium-font-size.styleguide-item__value::before { content: '45.463px'; }
 .styleguide__pico-semantic-typography-display-medium-font-weight.styleguide-item__value::before { content: '700'; }
-.styleguide__pico-semantic-typography-display-medium-line-height.styleguide-item__value::before { content: '51.146px'; }
+.styleguide__pico-semantic-typography-display-medium-line-height.styleguide-item__value::before { content: '54.556px'; }
 .styleguide__pico-semantic-typography-display-small-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
 .styleguide__pico-semantic-typography-display-small-font-size.styleguide-item__value { font-size: 35.922px; }
 .styleguide__pico-semantic-typography-display-small-font-size.styleguide-item__value::before { content: '35.922px'; }
 .styleguide__pico-semantic-typography-display-small-font-weight.styleguide-item__value::before { content: '700'; }
-.styleguide__pico-semantic-typography-display-small-line-height.styleguide-item__value::before { content: '40.412px'; }
+.styleguide__pico-semantic-typography-display-small-line-height.styleguide-item__value::before { content: '43.106px'; }
 .styleguide__pico-semantic-typography-headline-large-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
 .styleguide__pico-semantic-typography-headline-large-font-size.styleguide-item__value { font-size: 31.931px; }
 .styleguide__pico-semantic-typography-headline-large-font-size.styleguide-item__value::before { content: '31.931px'; }
 .styleguide__pico-semantic-typography-headline-large-font-weight.styleguide-item__value::before { content: '700'; }
-.styleguide__pico-semantic-typography-headline-large-line-height.styleguide-item__value::before { content: '35.922px'; }
+.styleguide__pico-semantic-typography-headline-large-line-height.styleguide-item__value::before { content: '38.317px'; }
 .styleguide__pico-semantic-typography-headline-medium-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
 .styleguide__pico-semantic-typography-headline-medium-font-size.styleguide-item__value { font-size: 28.383px; }
 .styleguide__pico-semantic-typography-headline-medium-font-size.styleguide-item__value::before { content: '28.383px'; }
 .styleguide__pico-semantic-typography-headline-medium-font-weight.styleguide-item__value::before { content: '700'; }
-.styleguide__pico-semantic-typography-headline-medium-line-height.styleguide-item__value::before { content: '31.931px'; }
+.styleguide__pico-semantic-typography-headline-medium-line-height.styleguide-item__value::before { content: '34.06px'; }
 .styleguide__pico-semantic-typography-headline-small-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
 .styleguide__pico-semantic-typography-headline-small-font-size.styleguide-item__value { font-size: 25.229px; }
 .styleguide__pico-semantic-typography-headline-small-font-size.styleguide-item__value::before { content: '25.229px'; }
 .styleguide__pico-semantic-typography-headline-small-font-weight.styleguide-item__value::before { content: '700'; }
-.styleguide__pico-semantic-typography-headline-small-line-height.styleguide-item__value::before { content: '28.383px'; }
+.styleguide__pico-semantic-typography-headline-small-line-height.styleguide-item__value::before { content: '30.275px'; }
 .styleguide__pico-semantic-typography-label-large-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
 .styleguide__pico-semantic-typography-label-large-font-size.styleguide-item__value { font-size: 14px; }
 .styleguide__pico-semantic-typography-label-large-font-size.styleguide-item__value::before { content: '14px'; }
 .styleguide__pico-semantic-typography-label-large-font-weight.styleguide-item__value::before { content: '500'; }
-.styleguide__pico-semantic-typography-label-large-line-height.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__pico-semantic-typography-label-large-line-height.styleguide-item__value::before { content: '21px'; }
 .styleguide__pico-semantic-typography-label-large-prominent-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
 .styleguide__pico-semantic-typography-label-large-prominent-font-size.styleguide-item__value { font-size: 14px; }
 .styleguide__pico-semantic-typography-label-large-prominent-font-size.styleguide-item__value::before { content: '14px'; }
 .styleguide__pico-semantic-typography-label-large-prominent-font-weight.styleguide-item__value::before { content: '600'; }
-.styleguide__pico-semantic-typography-label-large-prominent-line-height.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__pico-semantic-typography-label-large-prominent-line-height.styleguide-item__value::before { content: '21px'; }
 .styleguide__pico-semantic-typography-label-medium-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
 .styleguide__pico-semantic-typography-label-medium-font-size.styleguide-item__value { font-size: 12.446px; }
 .styleguide__pico-semantic-typography-label-medium-font-size.styleguide-item__value::before { content: '12.446px'; }
 .styleguide__pico-semantic-typography-label-medium-font-weight.styleguide-item__value::before { content: '500'; }
-.styleguide__pico-semantic-typography-label-medium-line-height.styleguide-item__value::before { content: '14.002px'; }
+.styleguide__pico-semantic-typography-label-medium-line-height.styleguide-item__value::before { content: '18.669px'; }
 .styleguide__pico-semantic-typography-label-medium-prominent-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
 .styleguide__pico-semantic-typography-label-medium-prominent-font-size.styleguide-item__value { font-size: 12.446px; }
 .styleguide__pico-semantic-typography-label-medium-prominent-font-size.styleguide-item__value::before { content: '12.446px'; }
 .styleguide__pico-semantic-typography-label-medium-prominent-font-weight.styleguide-item__value::before { content: '600'; }
-.styleguide__pico-semantic-typography-label-medium-prominent-line-height.styleguide-item__value::before { content: '14.002px'; }
+.styleguide__pico-semantic-typography-label-medium-prominent-line-height.styleguide-item__value::before { content: '18.669px'; }
 .styleguide__pico-semantic-typography-label-small-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
 .styleguide__pico-semantic-typography-label-small-font-size.styleguide-item__value { font-size: 11.064px; }
 .styleguide__pico-semantic-typography-label-small-font-size.styleguide-item__value::before { content: '11.064px'; }
 .styleguide__pico-semantic-typography-label-small-font-weight.styleguide-item__value::before { content: '500'; }
-.styleguide__pico-semantic-typography-label-small-line-height.styleguide-item__value::before { content: '12.447px'; }
+.styleguide__pico-semantic-typography-label-small-line-height.styleguide-item__value::before { content: '16.596px'; }
 .styleguide__pico-semantic-typography-title-large-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
 .styleguide__pico-semantic-typography-title-large-font-size.styleguide-item__value { font-size: 22.426px; }
 .styleguide__pico-semantic-typography-title-large-font-size.styleguide-item__value::before { content: '22.426px'; }
 .styleguide__pico-semantic-typography-title-large-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__pico-semantic-typography-title-large-line-height.styleguide-item__value::before { content: '25.229px'; }
+.styleguide__pico-semantic-typography-title-large-line-height.styleguide-item__value::before { content: '26.911px'; }
 .styleguide__pico-semantic-typography-title-medium-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
 .styleguide__pico-semantic-typography-title-medium-font-size.styleguide-item__value { font-size: 15.75px; }
 .styleguide__pico-semantic-typography-title-medium-font-size.styleguide-item__value::before { content: '15.75px'; }
 .styleguide__pico-semantic-typography-title-medium-font-weight.styleguide-item__value::before { content: '500'; }
-.styleguide__pico-semantic-typography-title-medium-line-height.styleguide-item__value::before { content: '17.719px'; }
+.styleguide__pico-semantic-typography-title-medium-line-height.styleguide-item__value::before { content: '23.625px'; }
 .styleguide__pico-semantic-typography-title-small-font-family.styleguide-item__value::before { content: 'Arial, sans-serif'; }
 .styleguide__pico-semantic-typography-title-small-font-size.styleguide-item__value { font-size: 14px; }
 .styleguide__pico-semantic-typography-title-small-font-size.styleguide-item__value::before { content: '14px'; }
 .styleguide__pico-semantic-typography-title-small-font-weight.styleguide-item__value::before { content: '500'; }
-.styleguide__pico-semantic-typography-title-small-line-height.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__pico-semantic-typography-title-small-line-height.styleguide-item__value::before { content: '21px'; }
 .styleguide__pico-semantic-z-index-high.styleguide-item__value::before { content: '1300'; }
 .styleguide__pico-semantic-z-index-highest.styleguide-item__value::before { content: '1500'; }
 .styleguide__pico-semantic-z-index-low.styleguide-item__value::before { content: '1100'; }
 .styleguide__pico-semantic-z-index-lowest.styleguide-item__value::before { content: '1000'; }
 .styleguide__pico-semantic-z-index-medium.styleguide-item__value::before { content: '1200'; }
+.styleguide__test-composite-card-border-color.styleguide-item__value::before { content: '#999'; }
+.styleguide__test-composite-card-border-radius.styleguide-item__value { border-radius: 18px; }
+.styleguide__test-composite-card-border-radius.styleguide-item__value::before { content: '18px'; }
+.styleguide__test-composite-card-color.styleguide-item__value { background-color: hsl(0 0% 100%); }
+.styleguide__test-composite-card-color.styleguide-item__value::before { content: 'hsl(0 0% 100%)'; }
+.styleguide__test-composite-fancy-card-border-color.styleguide-item__value::before { content: '#999'; }
+.styleguide__test-composite-fancy-card-border-radius.styleguide-item__value { border-radius: 18px; }
+.styleguide__test-composite-fancy-card-border-radius.styleguide-item__value::before { content: '18px'; }
+.styleguide__test-composite-fancy-card-color.styleguide-item__value { background-color: hsl(0 0% 100%); }
+.styleguide__test-composite-fancy-card-color.styleguide-item__value::before { content: 'hsl(0 0% 100%)'; }
+.styleguide__test-typography-fancy-text-font-family.styleguide-item__value::before { content: 'Arial'; }
+.styleguide__test-typography-fancy-text-font-size.styleguide-item__value { font-size: 25px; }
+.styleguide__test-typography-fancy-text-font-size.styleguide-item__value::before { content: '25px'; }
+.styleguide__test-typography-fancy-text-font-weight.styleguide-item__value::before { content: '700'; }
+.styleguide__test-typography-fancy-text-line-height.styleguide-item__value::before { content: '32px'; }
+.styleguide__test-typography-text-font-family.styleguide-item__value::before { content: 'Arial'; }
+.styleguide__test-typography-text-font-size.styleguide-item__value { font-size: 25px; }
+.styleguide__test-typography-text-font-size.styleguide-item__value::before { content: '25px'; }
+.styleguide__test-typography-text-font-weight.styleguide-item__value::before { content: '700'; }
+.styleguide__test-typography-text-line-height.styleguide-item__value::before { content: '32px'; }
