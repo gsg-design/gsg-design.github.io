@@ -79,16 +79,23 @@
           self-contained, reusable UI element that is immediately identifiable and contains no business logic.
         </p>
       </section>
-      <section class="doc-content__section">
+      <section class="doc-content__section section-button">
         <h2>Button</h2>
         <p>
-          To initiate an action with in the system. This might be the start of a process where the user enters or
-          receives unique data, or the final submission of that data.
+          Buttons let people take action and make choices with one tap.
         </p>
         <div class="doc-gallery">
           <dl class="doc-gallery__item">
-            <dt class="doc-gallery__item-label">Filled button</dt>
-            <dl>
+            <dt class="doc-gallery__item-label">Elevated</dt>
+            <dd>
+              <md-elevated-button>
+                Elevated
+              </md-elevated-button>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Filled</dt>
+            <dd>
               <md-filled-button>
                 Filled
                 <svg slot="icon" viewBox="0 0 48 48">
@@ -97,23 +104,55 @@
                   />
                 </svg>
               </md-filled-button>
-            </dl>
+            </dd>
           </dl>
           <dl class="doc-gallery__item">
-            <dt class="doc-gallery__item-label">Outlined button</dt>
-            <dl>
+            <dt class="doc-gallery__item-label">Filled tonal</dt>
+            <dd>
+              <md-filled-tonal-button>
+                Filled tonal
+              </md-filled-tonal-button>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Outlined</dt>
+            <dd>
               <md-outlined-button>Outlined</md-outlined-button>
-            </dl>
+            </dd>
           </dl>
           <dl class="doc-gallery__item">
-            <dt class="doc-gallery__item-label">Text button</dt>
-            <dl>
+            <dt class="doc-gallery__item-label">Text</dt>
+            <dd>
               <md-text-button>Text</md-text-button>
-            </dl>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Icon button</dt>
+            <dd>
+              <md-icon-button>
+                <md-icon>check</md-icon>
+              </md-icon-button>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">FAB</dt>
+            <dd>
+              <md-fab>
+                <md-icon slot="icon">check</md-icon>
+              </md-fab>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Extended FAB</dt>
+            <dd>
+              <md-fab label="Send">
+                <md-icon slot="icon">check</md-icon>
+              </md-fab>
+            </dd>
           </dl>
         </div>
       </section>
-      <section class="doc-content__section">
+      <section class="doc-content__section section-checkbox">
         <h2>Checkbox</h2>
         <p>
           Used to indicate a yes/no answer in a variety of contexts. Should be used with a label for good communication.
@@ -136,7 +175,7 @@
           </dl>
         </div>
       </section>
-      <section class="doc-content__section">
+      <section class="doc-content__section section-chip">
         <h2>Chip</h2>
         <p>Chips help people enter information, make selections, filter content, or trigger actions.</p>
         <div class="doc-gallery">
@@ -148,7 +187,7 @@
           </dl>
         </div>
       </section>
-      <section class="doc-content__section">
+      <section class="doc-content__section section-dialog">
         <h2>Dialog</h2>
         <p></p>
         <div class="doc-gallery">
@@ -166,7 +205,45 @@
           </dl>
         </div>
       </section>
-      <section class="doc-content__section">
+      <section class="doc-content__section section-icon-button">
+        <h2>Icon button</h2>
+        <p></p>
+        <div class="doc-gallery">
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Standard</dt>
+            <dd>
+              <md-icon-button>
+                <md-icon>check</md-icon>
+              </md-icon-button>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Filled </dt>
+            <dd>
+              <md-filled-icon-button>
+                <md-icon>check</md-icon>
+              </md-filled-icon-button>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Filled tonal </dt>
+            <dd>
+              <md-filled-tonal-icon-button>
+                <md-icon>check</md-icon>
+              </md-filled-tonal-icon-button>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Outlined </dt>
+            <dd>
+              <md-outlined-icon-button>
+                <md-icon>check</md-icon>
+              </md-outlined-icon-button>
+            </dd>
+          </dl>
+        </div>
+      </section>
+      <section class="doc-content__section section-switch">
         <h2>Switch</h2>
         <p></p>
         <div class="doc-gallery">
@@ -178,7 +255,7 @@
           </dl>
         </div>
       </section>
-      <section class="doc-content__section">
+      <section class="doc-content__section section-text-field">
         <h2>Text field</h2>
         <p></p>
         <div class="doc-gallery">
@@ -212,7 +289,7 @@
           </dl>
         </div>
       </section>
-      <section class="doc-content__section">
+      <section class="doc-content__section section-tabs">
         <h2>Tabs</h2>
         <p></p>
         <div class="doc-gallery">
@@ -228,7 +305,7 @@
           </dl>
         </div>
       </section>
-      <section class="doc-content__section">
+      <section class="doc-content__section section-menu">
         <h2>Menu</h2>
         <p></p>
         <div class="doc-gallery">
@@ -291,7 +368,7 @@
           </dl>
         </div>
       </section>
-      <section class="doc-content__section">
+      <section class="doc-content__section section-filters">
         <h2>Filters</h2>
         <p></p>
         <div class="doc-gallery">

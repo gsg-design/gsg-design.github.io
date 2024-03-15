@@ -253,8 +253,9 @@ label {
 }
 
 .doc-gallery {
-  display: flex;
-  /* grid-template-columns: repeat(4, 1fr); */
+  display: grid;
+  /* flex-wrap: wrap; */
+  grid-template-columns: repeat(4, 1fr);
   gap: 16px;
   padding: var(--size-padding-xl);
   background-color: rgba(0,0,0,0.04);
@@ -276,6 +277,6 @@ label {
 .doc-gallery__item-label {
   padding: var(--size-padding-medium) var(--size-padding-xl);
   font-size: var(--size-font-small);
-  font-weight: 800;
+  font-weight: 400;
   text-transform: uppercase;
 }
