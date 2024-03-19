@@ -266,10 +266,12 @@ label {
   display: flex;
   flex-direction: column-reverse;
   align-content: space-between;
-  text-align: center;
 }
 
 .doc-gallery__item dd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0;
   padding: 0;
 }
@@ -278,5 +280,6 @@ label {
   padding: var(--size-padding-medium) var(--size-padding-xl);
   font-size: var(--size-font-small);
   font-weight: 400;
+  text-align: center;
   text-transform: uppercase;
 }

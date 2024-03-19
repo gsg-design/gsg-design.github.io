@@ -159,16 +159,28 @@
         </p>
         <div class="doc-gallery">
           <dl class="doc-gallery__item">
-            <dt class="doc-gallery__item-label">Without label</dt>
+            <dt class="doc-gallery__item-label">Unchecked</dt>
             <dd>
-              <md-checkbox></md-checkbox>
+              <md-checkbox touch-target="wrapper"></md-checkbox>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Checked</dt>
+            <dd>
+              <md-checkbox touch-target="wrapper" checked></md-checkbox>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Indeterminate</dt>
+            <dd>
+              <md-checkbox touch-target="wrapper" indeterminate></md-checkbox>
             </dd>
           </dl>
           <dl class="doc-gallery__item">
             <dt class="doc-gallery__item-label">With label</dt>
             <dd>
               <label>
-                <md-checkbox></md-checkbox>
+                <md-checkbox touch-target="wrapper"></md-checkbox>
                 Checkbox label
               </label>
             </dd>
@@ -180,9 +192,29 @@
         <p>Chips help people enter information, make selections, filter content, or trigger actions.</p>
         <div class="doc-gallery">
           <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Assist</dt>
+            <dd>
+              <md-assist-chip label="Assist">
+                <md-icon slot="icon">calendar_month</md-icon>
+              </md-assist-chip>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
             <dt class="doc-gallery__item-label">Filter</dt>
             <dd>
               <md-filter-chip label="Filter"></md-filter-chip>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Input</dt>
+            <dd>
+              <md-input-chip label="Input"></md-input-chip>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Suggestion</dt>
+            <dd>
+              <md-suggestion-chip label="Suggestion"></md-suggestion-chip>
             </dd>
           </dl>
         </div>
@@ -194,13 +226,39 @@
           <dl class="doc-gallery__item">
             <dt class="doc-gallery__item-label"></dt>
             <dd>
+              <script type="module">
+                const btnShowDialog01 = document.body.querySelector('.section-dialog md-filled-button');
+                const dialog01 = document.body.querySelector('.section-dialog md-dialog');
+                btnShowDialog01.addEventListener('click', () => { toggleDialog(dialog01); });
+                function toggleDialog(dialog) {
+                  if (dialog.open) { dialog.close(); } else { dialog.show(); }
+                }
+              </script>
+              <md-filled-button>Show dialog</md-filled-button>
               <md-dialog>
                 <div slot="headline">Dialog</div>
                 <div slot="content">This is a dialog</div>
                 <div slot="actions">
-                  <md-text-button form="form-id">Ok</md-text-button>
+                  <md-text-button onclick="toggleDialog(this)" form="form-id">Ok</md-text-button>
                 </div>
               </md-dialog>
+            </dd>
+          </dl>
+        </div>
+      </section>
+      <section class="doc-content__section section-filters">
+        <h2>Filters</h2>
+        <p></p>
+        <div class="doc-gallery">
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label"></dt>
+            <dd>
+              <md-filter-chip label="All (34)"></md-filter-chip>
+              <md-filter-chip label="Exclusive (4)"></md-filter-chip>
+              <md-filter-chip label="Code (4)"></md-filter-chip>
+              <md-filter-chip label="Deals (24)"></md-filter-chip>
+              <md-filter-chip label="Cashback (1)"></md-filter-chip>
+              <md-filter-chip label="Rewards (4)"></md-filter-chip>
             </dd>
           </dl>
         </div>
@@ -243,14 +301,262 @@
           </dl>
         </div>
       </section>
-      <section class="doc-content__section section-switch">
-        <h2>Switch</h2>
+      <section class="doc-content__section section-list">
+        <h2>List</h2>
+        <p></p>
+        <div class="doc-gallery">
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Simple list</dt>
+            <dd>
+              <md-list>
+                 <md-list-item type="button">Star Wars</md-list-item>
+                 <md-list-item type="button">Star Trek</md-list-item>
+              </md-list>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Leading icon</dt>
+            <dd>
+              <md-list>
+                 <md-list-item type="button">
+                    Star Wars
+                    <md-icon slot="start">swords</md-icon>
+                  </md-list-item>
+                  <md-list-item type="button">
+                    Star Trek
+                    <md-icon slot="start">rocket</md-icon>
+                </md-list-item>
+              </md-list>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Trailing icon</dt>
+            <dd>
+              <md-list>
+                 <md-list-item type="button">
+                    Star Wars
+                    <md-icon slot="end">swords</md-icon>
+                  </md-list-item>
+                  <md-list-item type="button">
+                    Star Trek
+                    <md-icon slot="end">rocket</md-icon>
+                </md-list-item>
+              </md-list>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Supporting text</dt>
+            <dd>
+              <md-list>
+                 <md-list-item type="button">
+                    <div slot="headline">Star Wars</div>
+                    <div slot="supporting-text">Dystopian</div>
+                    <md-icon slot="end">swords</md-icon>
+                  </md-list-item>
+                  <md-list-item type="button">
+                    <div slot="headline">Star Trek</div>
+                    <div slot="supporting-text">Utopian</div>
+                    <md-icon slot="end">rocket</md-icon>
+                </md-list-item>
+              </md-list>
+            </dd>
+          </dl>
+        </div>
+      </section>
+      <section class="doc-content__section section-menu">
+        <h2>Menu</h2>
         <p></p>
         <div class="doc-gallery">
           <dl class="doc-gallery__item">
             <dt class="doc-gallery__item-label"></dt>
             <dd>
+              <span style="position:relative">
+                <md-filled-button id="gsgds-docs-01-menu-anchor" trailing-icon>
+                  Simple menu
+                  <md-icon slot="icon">arrow_drop_down</md-icon>
+                </md-filled-button>
+                <md-menu id="gsgds-docs-01-menu">
+                  <md-menu-item>Apple</md-menu-item>
+                  <md-menu-item>Banana</md-menu-item>
+                  <md-menu-item>Cucumber</md-menu-item>
+                </md-menu>
+              </span>
+              <script type="module">
+                const anchorEl01 = document.body.querySelector('#gsgds-docs-01-menu-anchor');
+                const menuEl01 = document.body.querySelector('#gsgds-docs-01-menu');
+                menuEl01.anchorElement = anchorEl01
+                anchorEl01.addEventListener('click', () => { menuEl01.open = !menuEl01.open; });
+              </script>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label"></dt>
+            <dd>
+              <span style="position:relative">
+                <md-filled-button id="gsgds-docs-02-menu-anchor" trailing-icon>
+                  Menu with submenus
+                  <md-icon slot="icon">arrow_drop_down</md-icon>
+                </md-filled-button>
+                <md-menu has-overflow id="gsgds-docs-02-menu">
+                  <md-sub-menu>
+                    <md-menu-item slot="item">
+                      Apple
+                      <md-icon slot="end">arrow_right</md-icon>
+                    </md-menu-item>
+                    <md-menu slot="menu">
+                      <md-menu-item>Gala</md-menu-item>
+                      <md-menu-item>Pink Lady</md-menu-item>
+                      <md-menu-item>Golden delicious</md-menu-item>
+                    </md-menu>
+                  </md-sub-menu>
+                  <md-menu-item>Banana</md-menu-item>
+                  <md-menu-item>Cucumber</md-menu-item>
+                </md-menu>
+              </span>
+              <script type="module">
+                const anchorEl02 = document.body.querySelector('#gsgds-docs-02-menu-anchor');
+                const menuEl02 = document.body.querySelector('#gsgds-docs-02-menu');
+                menuEl02.anchorElement = anchorEl02
+                anchorEl02.addEventListener('click', () => { menuEl02.open = !menuEl02.open; });
+              </script>
+            </dd>
+          </dl>
+        </div>
+      </section>
+      <section class="doc-content__section section-progress">
+        <h2>Progress indicator</h2>
+        <p></p>
+        <div class="doc-gallery">
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Linear progress</dt>
+            <dd>
+              <md-linear-progress indeterminate></md-linear-progress>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Circular progress</dt>
+            <dd>
+              <md-circular-progress indeterminate></md-circular-progress>
+            </dd>
+          </dl>
+        </div>
+      </section>
+      <section class="doc-content__section section-radio">
+        <h2>Radio buttons</h2>
+        <p></p>
+        <div class="doc-gallery">
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">With labels</dt>
+            <dd>
+              <style>.section-radio label{display:block;padding:8px 0;}</style>
+              <form>
+                <label>
+                  <md-radio name="fruit" value="Apples"></md-radio>
+                  Apples
+                </label>
+                <label>
+                  <md-radio name="fruit" value="Bananas"></md-radio>
+                  Bananas
+                </label>
+                <label>
+                  <md-radio name="fruit" value="Cherries"></md-radio>
+                  Cherries
+                </label>
+              </form>
+            </dd>
+          </dl>
+        </div>
+      </section>
+      <section class="doc-content__section section-select">
+        <h2>Select</h2>
+        <p></p>
+        <div class="doc-gallery">
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Outlined</dt>
+            <dd>
+              <md-outlined-select label="Fruits">
+                <svg slot="leading-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>palette-swatch</title><path d="M2.53,19.65L3.87,20.21V11.18L1.44,17.04C1.03,18.06 1.5,19.23 2.53,19.65M22.03,15.95L17.07,4C16.76,3.23 16.03,2.77 15.26,2.75C15,2.75 14.73,2.79 14.47,2.9L7.1,5.95C6.35,6.26 5.89,7 5.87,7.75C5.86,8 5.91,8.29 6,8.55L11,20.5C11.29,21.28 12.03,21.74 12.81,21.75C13.07,21.75 13.33,21.7 13.58,21.6L20.94,18.55C21.96,18.13 22.45,16.96 22.03,15.95M7.88,8.75A1,1 0 0,1 6.88,7.75A1,1 0 0,1 7.88,6.75C8.43,6.75 8.88,7.2 8.88,7.75C8.88,8.3 8.43,8.75 7.88,8.75M5.88,19.75A2,2 0 0,0 7.88,21.75H9.33L5.88,13.41V19.75Z" /></svg>
+                <md-select-option></md-select-option>
+                <md-select-option value="apple">
+                  <div slot="headline">Apple</div>
+                </md-select-option>
+                <md-select-option value="banana">
+                  <div slot="headline">Banana</div>
+                </md-select-option>
+                <md-select-option value="cherry">
+                  <div slot="headline">Cherry</div>
+                </md-select-option>
+              </md-outlined-select>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Filled</dt>
+            <dd>
+              <md-filled-select label="Fruits">
+                <md-icon slot="trailing-icon">grocery</md-icon>
+                <md-select-option></md-select-option>
+                <md-select-option value="apple">
+                  <div slot="headline">Apple</div>
+                </md-select-option>
+                <md-select-option value="banana">
+                  <div slot="headline">Banana</div>
+                </md-select-option>
+                <md-select-option value="cherry">
+                  <div slot="headline">Cherry</div>
+                </md-select-option>
+              </md-filled-select>
+            </dd>
+          </dl>
+        </div>
+      </section>
+      <section class="doc-content__section section-slider">
+        <h2>Slider</h2>
+        <p></p>
+        <div class="doc-gallery">
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Ticks</dt>
+            <dd>
+              <md-slider labeled ticks step="10" value="20"></md-slider>
+            </dd>
+          </dl>
+        </div>
+      </section>
+      <section class="doc-content__section section-switch">
+        <h2>Switch</h2>
+        <p></p>
+        <div class="doc-gallery">
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Standard</dt>
+            <dd>
               <md-switch></md-switch>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Icons</dt>
+            <dd>
+              <md-switch icons></md-switch>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Selected icon only</dt>
+            <dd>
+              <md-switch icons show-only-selected-icon></md-switch>
+            </dd>
+          </dl>
+        </div>
+      </section>
+      <section class="doc-content__section section-tabs">
+        <h2>Tabs</h2>
+        <p></p>
+        <div class="doc-gallery">
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label"></dt>
+            <dd>
+              <md-tabs>
+                <md-primary-tab>Tab One</md-primary-tab>
+                <md-primary-tab>Tab Two</md-primary-tab>
+                <md-primary-tab>Tab Three</md-primary-tab>
+              </md-tabs>
             </dd>
           </dl>
         </div>
@@ -287,100 +593,10 @@
               </md-outlined-text-field>
             </dd>
           </dl>
-        </div>
-      </section>
-      <section class="doc-content__section section-tabs">
-        <h2>Tabs</h2>
-        <p></p>
-        <div class="doc-gallery">
           <dl class="doc-gallery__item">
-            <dt class="doc-gallery__item-label"></dt>
+            <dt class="doc-gallery__item-label">Filled</dt>
             <dd>
-              <md-tabs>
-                <md-primary-tab>Tab 1</md-primary-tab>
-                <md-primary-tab>Tab 2</md-primary-tab>
-                <md-primary-tab>Tab 3</md-primary-tab>
-              </md-tabs>
-            </dd>
-          </dl>
-        </div>
-      </section>
-      <section class="doc-content__section section-menu">
-        <h2>Menu</h2>
-        <p></p>
-        <div class="doc-gallery">
-          <dl class="doc-gallery__item">
-            <dt class="doc-gallery__item-label"></dt>
-            <dd>
-              <div
-                style="
-                  background-color: white;
-                  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
-                  display: inline-flex;
-                  padding: 4px 24px;
-                  box-sizing: border-box;
-                  justify-content: space-between;
-                  width: 100%;
-                "
-              >
-                <div>
-                  <md-text-button trailing-icon id="usage-fixed-anchor">Menu Item
-                  <svg slot="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>chevron-down</title><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg></md-text-button>
-                  <md-text-button trailing-icon id="usage-fixed-anchor">Menu Item
-                  <svg slot="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>chevron-down</title><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg></md-text-button>
-                  <md-text-button trailing-icon id="usage-fixed-anchor">Menu Item
-                  <svg slot="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>chevron-down</title><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg></md-text-button>                     
-                </div>
-                <md-outlined-text-field
-                  placeholder="Search"
-                  style="padding-left: 20px"
-                >
-                </md-outlined-text-field>
-              </div>
-
-              <md-menu
-                positioning="fixed"
-                id="usage-fixed"
-                anchor="usage-fixed-anchor"
-              >
-                <md-menu-item>
-                  <div>Apple</div>
-                </md-menu-item>
-                <md-menu-item>
-                  <div>Banana</div>
-                </md-menu-item>
-                <md-menu-item>
-                  <div>Cucumber</div>
-                </md-menu-item>
-              </md-menu>
-
-              <script type="module">
-                const anchorEl = document.body.querySelector(
-                  "#usage-fixed-anchor"
-                );
-                const menuEl = document.body.querySelector("#usage-fixed");
-
-                anchorEl.addEventListener("click", () => {
-                  menuEl.open = !menuEl.open;
-                });
-              </script>
-              </dd>
-          </dl>
-        </div>
-      </section>
-      <section class="doc-content__section section-filters">
-        <h2>Filters</h2>
-        <p></p>
-        <div class="doc-gallery">
-          <dl class="doc-gallery__item">
-            <dt class="doc-gallery__item-label"></dt>
-            <dd>
-              <md-filter-chip label="All (34)"></md-filter-chip>
-              <md-filter-chip label="Exclusive (4)"></md-filter-chip>
-              <md-filter-chip label="Code (4)"></md-filter-chip>
-              <md-filter-chip label="Deals (24)"></md-filter-chip>
-              <md-filter-chip label="Cashback (1)"></md-filter-chip>
-              <md-filter-chip label="Rewards (4)"></md-filter-chip>
+              <md-filled-text-field label="Filled text field"></md-outlined-text-field>
             </dd>
           </dl>
         </div>
