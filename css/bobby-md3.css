@@ -90,7 +90,8 @@
   --md-filled-button-label-text-font: var(
     --bobby-component-button-label-text-typography-font-family
   );
-  --md-filled-button-label-text-line-height: var(--bobby-component-button-label-text-typography-line-height
+  --md-filled-button-label-text-line-height: var(
+    --bobby-component-button-label-text-typography-line-height
   );
   --md-filled-button-label-text-size: var(
     --bobby-component-button-label-text-typography-font-size
@@ -98,9 +99,11 @@
   --md-filled-button-label-text-weight: var(
     --bobby-component-button-label-text-typography-font-weight
   );
-  --md-filled-button-leading-space: var(--bobby-component-button-leading-space);
+  --md-filled-button-leading-space: var(
+    --bobby-component-button-horizontal-padding
+  );
   --md-filled-button-trailing-space: var(
-    --bobby-component-button-trailing-space
+    --bobby-component-button-horizontal-padding
   );
   /* resting */
   --md-filled-button-container-color: var(
@@ -159,7 +162,7 @@
   );
   --md-outlined-button-label-text-font: var(
     --bobby-component-button-label-text-typography-font-family
-  );  
+  );
   --md-outlined-button-label-text-line-height: var(
     --bobby-component-button-label-text-typography-line-height
   );
@@ -311,16 +314,23 @@
     --bobby-component-chip-container-height
   );
   --md-filter-chip-container-shape: var(--bobby-component-chip-container-shape);
-  --md-filter-chip-leading-space: var(--bobby-component-chip-leading-space);
-  --md-filter-chip-trailing-space: var(--bobby-component-chip-trailing-space);
+  --md-filter-chip-leading-space: var(
+    --bobby-component-chip-horizontal-padding
+  );
+  --md-filter-chip-trailing-space: var(
+    --bobby-component-chip-horizontal-padding
+  );
   --md-filter-chip-outline-width: var(--bobby-component-chip-outline-width);
   --md-filter-chip-label-text-font: var(
     --bobby-component-chip-label-text-typography-font-family
-  );  --md-filter-chip-label-text-line-height: var(
+  );
+  --md-filter-chip-label-text-line-height: var(
     --bobby-component-chip-label-text-typography-line-height
-  );  --md-filter-chip-label-text-size: var(
+  );
+  --md-filter-chip-label-text-size: var(
     --bobby-component-chip-label-text-typography-font-size
-  );  --md-filter-chip-label-text-weight: var(
+  );
+  --md-filter-chip-label-text-weight: var(
     --bobby-component-chip-label-text-typography-font-weight
   );
   /* resting */
@@ -350,7 +360,7 @@
     --bobby-component-chip-focus-foreground-color
   );
   --md-filter-chip-focus-outline-color: var(
-    --bobby-component-chip-outline-colo
+    --bobby-component-chip-outline-color
   );
   /* pressed */
   --md-filter-chip-pressed-label-text-color: var(
@@ -418,7 +428,9 @@
 
   /* PRIMARY TAB */
   --md-primary-tab-container-color: var(--bobby-component-tab-container-color);
-  --md-primary-tab-container-height: var(--bobby-component-tab-container-height);
+  --md-primary-tab-container-height: var(
+    --bobby-component-tab-container-height
+  );
   --md-primary-tab-container-shape: var(--bobby-component-tab-container-shape);
   --md-primary-tab-container-elevation: none;
   --md-primary-tab-label-text-font: var(
@@ -433,7 +445,9 @@
   --md-primary-tab-label-text-weight: var(
     --bobby-component-tab-label-text-typography-font-weight
   );
-  --md-primary-tab-label-text-color: var(--bobby-component-tab-foreground-color);
+  --md-primary-tab-label-text-color: var(
+    --bobby-component-tab-foreground-color
+  );
   --md-primary-tab-icon-color: var(--bobby-component-tab-foreground-color);
   /* focus */
   --md-primary-tab-focus-label-text-color: var(
@@ -775,6 +789,19 @@
   --md-checkbox-selected-pressed-state-layer-opacity: var(
     --bobby-component-state-layer-opacity-pressed
   );
+  /* selected pressed */
+  --md-checkbox-selected-pressed-container-color: var(
+    --bobby-component-checkbox-selected-pressed-container-color
+  );
+  --md-checkbox-selected-pressed-icon-color: var(
+    --bobby-component-checkbox-selected-pressed-icon-color
+  );
+  --md-checkbox-selected-pressed-state-layer-color: var(
+    --bobby-component-state-layer-color-darken
+  );
+  --md-checkbox-selected-pressed-state-layer-opacity: var(
+    --bobby-component-state-layer-opacity-pressed
+  );
 
   /* selected disabled */
   --md-checkbox-selected-disabled-container-color: var(
@@ -957,18 +984,34 @@
   --md-menu-container-color: var(--bobby-component-menu-container-color);
   --md-menu-container-shape: var(--bobby-component-menu-container-shape);
 
-  --md-menu-item-container-color: var(--bobby-component-menu-item-container-color);
+  --md-menu-item-container-color: var(
+    --bobby-component-menu-item-container-color
+  );
   --md-menu-item-label-text-color: var(--bobby-component-menu-label-text-color);
 
-  --md-menu-item-label-text-font: var(--bobby-component-menu-item-label-typography-font-family);
-  --md-menu-item-label-text-line-height: var(--bobby-component-menu-item-label-typography-line-height);
-  --md-menu-item-label-text-size: var(--bobby-component-menu-item-label-typography-font-size);
-  --md-menu-item-label-text-weight: var(--bobby-component-menu-label-typography-font-weight);
+  --md-menu-item-label-text-font: var(
+    --bobby-component-menu-item-label-typography-font-family
+  );
+  --md-menu-item-label-text-line-height: var(
+    --bobby-component-menu-item-label-typography-line-height
+  );
+  --md-menu-item-label-text-size: var(
+    --bobby-component-menu-item-label-typography-font-size
+  );
+  --md-menu-item-label-text-weight: var(
+    --bobby-component-menu-label-typography-font-weight
+  );
 
-  --md-menu-item-bottom-space: var(--bobby-component-menu-item-vertical-padding);
+  --md-menu-item-bottom-space: var(
+    --bobby-component-menu-item-vertical-padding
+  );
   --md-menu-item-top-space: var(--bobby-component-menu-item-vertical-padding);
-  --md-menu-item-leading-space: var(--bobby-component-menu-item-horizontal-padding);
-  --md-menu-item-one-line-container-height: var(--bobby-component-menu-item-horizontal-padding);
+  --md-menu-item-leading-space: var(
+    --bobby-component-menu-item-horizontal-padding
+  );
+  --md-menu-item-one-line-container-height: var(
+    --bobby-component-menu-item-horizontal-padding
+  );
 
   /* --------------------------------------------------CARD--------------------------------------------------------- */
 
@@ -984,8 +1027,9 @@
   box-shadow: var(--conversion-pattern-email-input-elevation);
   border-radius: var(--conversion-pattern-email-input-shape);
   width: fit-content;
-  max-width: 700px;
+  width: 700px;
   box-sizing: border-box;
+  background-color: var(--pico-semantic-color-ui-surface-container-lowest);
 }
 
 .content {
@@ -996,10 +1040,16 @@
 }
 
 .newsletter .title-large {
-  font-family: var(--conversion-pattern-email-input-heading-typography-font-family);
+  font-family: var(
+    --conversion-pattern-email-input-heading-typography-font-family
+  );
   font-size: var(--conversion-pattern-email-input-heading-typography-font-size);
-  line-height: var(--conversion-pattern-email-input-heading-typography-line-height);
-  font-weight: var(--conversion-pattern-email-input-heading-typography-font-weight);
+  line-height: var(
+    --conversion-pattern-email-input-heading-typography-line-height
+  );
+  font-weight: var(
+    --conversion-pattern-email-input-heading-typography-font-weight
+  );
 }
 
 .signup {
@@ -1050,6 +1100,7 @@
   flex-direction: column;
   flex-grow: 1;
   border-radius: 8px;
+  background-color: var(--pico-semantic-color-ui-surface-container-lowest);
 }
 
 .tag-row {
@@ -1118,10 +1169,18 @@
 }
 
 .voucher-card .caption1 {
-  font-size: var(--conversion-pattern-voucher-card-caption1-typography-font-size);
-  line-height: var(--conversion-pattern-voucher-card-caption1-typography-line-height);
-  font-weight: var(--conversion-pattern-voucher-card-caption1-typography-font-weight);
-  font-family: var(--conversion-pattern-voucher-card-caption1-typography-font-family);
+  font-size: var(
+    --conversion-pattern-voucher-card-caption1-typography-font-size
+  );
+  line-height: var(
+    --conversion-pattern-voucher-card-caption1-typography-line-height
+  );
+  font-weight: var(
+    --conversion-pattern-voucher-card-caption1-typography-font-weight
+  );
+  font-family: var(
+    --conversion-pattern-voucher-card-caption1-typography-font-family
+  );
 }
 
 .caption2 {
@@ -1139,6 +1198,409 @@
   --md-filled-button-hover-state-layer-opacity: 1;
 }
 
+/* --------------------------------------------------RLP LAYOUT--------------------------------------------------------- */
+
+.discounts-nav {
+  margin: 16px 0;
+  background-color: var(--bobby-component-menu-container-color);
+  box-shadow: var(--bobby-component-menu-container-elevation);
+  display: inline-flex;
+  padding: var(--bobby-component-menu-item-vertical-padding)
+    var(--bobby-component-menu-item-horizontal-padding);
+  box-sizing: border-box;
+  justify-content: space-between;
+  width: 960px;
+}
+
+.rlp-layout {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background-color: var(--pico-semantic-color-ui-surface);
+  padding: var(--pico-ref-spacing-xl) 0;
+  margin-bottom: var(--pico-ref-spacing-3xl);
+}
+
+.rlp .content {
+  width: 960px;
+}
+
+.rlp .list {
+  display: flex;
+  flex-direction: row;
+}
+
+.rlp .main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.voucher-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.voucher-cards .voucher-card {
+  max-width: 632px;
+  margin-bottom: var(--pico-ref-spacing-l);
+}
+
+.voucher-cards .newsletter {
+  max-width: 632px;
+  margin-bottom: var(--pico-ref-spacing-l);
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding-right: var(--pico-ref-spacing-l);
+}
+
+.sidebar-card {
+  border-radius: var(--bobby-component-card-shape);
+  width: 304px;
+  background-color: var(--pico-semantic-color-ui-surface-container-lowest);
+  box-shadow: var(--pico-semantic-shape-elevation-level-low);
+  margin-bottom: var(--pico-ref-spacing-l);
+}
+
+.card-padding {
+  padding: var(--pico-ref-spacing-l);
+}
+
+.text-widget .heading {
+  font-family: var(--pico-semantic-typography-title-large-font-family);
+  font-size: var(--pico-semantic-typography-title-large-font-size);
+  line-height: var(--pico-semantic-typography-title-large-line-height);
+  font-weight: var(--pico-semantic-typography-title-large-font-weight);
+  padding-bottom: var(--pico-ref-spacing-l);
+}
+
+.text-widget .text {
+  font-family: var(--pico-semantic-typography-body-medium-font-family);
+  font-size: var(--pico-semantic-typography-body-medium-font-size);
+  line-height: var(--pico-semantic-typography-body-medium-line-height);
+  font-weight: var(--pico-semantic-typography-body-medium-font-weight);
+}
+
+.retailer-header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  padding: var(--pico-ref-spacing-l);
+  color: var(--pico-semantic-color-ui-on-primary);
+  background-color: var(--pico-semantic-color-ui-primary);
+  font-family: var(--pico-semantic-typography-display-small-font-family);
+  font-size: var(--pico-semantic-typography-display-small-font-size);
+  line-height: var(--pico-semantic-typography-display-small-line-height);
+  font-weight: var(--pico-semantic-typography-display-small-font-weight);
+}
+
+.retailer-header .description {
+  padding: var(--pico-ref-spacing-l);
+}
+
+.retailer-header .heading {
+  font-family: var(--pico-semantic-typography-title-large-font-family);
+  font-size: var(--pico-semantic-typography-title-large-font-size);
+  line-height: var(--pico-semantic-typography-title-large-line-height);
+  font-weight: var(--pico-semantic-typography-title-large-font-weight);
+  padding-bottom: var(--pico-ref-spacing-m);
+}
+
+.retailer-header .subheading {
+  font-family: var(--pico-semantic-typography-body-medium-font-family);
+  font-size: var(--pico-semantic-typography-body-medium-font-size);
+  line-height: var(--pico-semantic-typography-body-medium-line-height);
+  font-weight: var(--pico-semantic-typography-body-medium-font-weight);
+}
+
+.shop-chips .heading {
+  font-family: var(--pico-semantic-typography-title-large-font-family);
+  font-size: var(--pico-semantic-typography-title-large-font-size);
+  line-height: var(--pico-semantic-typography-title-large-line-height);
+  font-weight: var(--pico-semantic-typography-title-large-font-weight);
+  padding-bottom: var(--pico-ref-spacing-m);
+}
+
+.shop-chips md-filter-chip {
+  margin-bottom: var(--pico-ref-spacing-xs);
+}
+
+.filter-chips md-filter-chip {
+  --md-filter-chip-outline-width: 0;
+  width: 100%;
+}
+
+.accordion-section {
+  width: 960px;
+}
+
+.accordion {
+  background-color: var(--pico-semantic-color-ui-surface-container-lowest);
+  border-radius: var(--bobby-component-card-shape);
+  margin-top: var(--pico-ref-spacing-m);
+  box-shadow: var(--pico-semantic-shape-elevation-level-low);
+}
+
+.accordion .section-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.accordion .heading {
+  font-family: var(
+    --pico-semantic-typography-label-large-prominent-font-family
+  );
+  font-size: var(--pico-semantic-typography-label-large-prominent-font-size);
+  line-height: var(
+    --pico-semantic-typography-label-large-prominent-line-height
+  );
+  font-weight: var(
+    --pico-semantic-typography-label-large-prominent-font-weight
+  );
+  padding: var(--pico-ref-spacing-m) 0;
+  width: 100%;
+}
+
+.accordion .body {
+  font-family: var(--pico-semantic-typography-body-medium-font-family);
+  font-size: var(--pico-semantic-typography-body-medium-font-size);
+  line-height: var(--pico-semantic-typography-body-medium-line-height);
+  font-weight: var(--pico-semantic-typography-body-medium-font-weight);
+  padding: var(--pico-ref-spacing-s) 0;
+}
+
+.accordion .section {
+  border-bottom: 1px solid var(--pico-semantic-color-ui-outline);
+  padding: var(--pico-ref-spacing-m) var(--pico-ref-spacing-2xl);
+}
+
+.accordion > .section:last-child {
+  border-bottom: 0;
+}
+
+.accordion .hide {
+  display: none;
+}
+
+.accordion-heading {
+  font-family: var(--pico-semantic-typography-headline-large-font-family);
+  font-size: var(--pico-semantic-typography-headline-large-font-size);
+  line-height: var(--pico-semantic-typography-headline-large-line-height);
+  font-weight: var(--pico-semantic-typography-headline-large-font-weight);
+  padding: var(--pico-ref-spacing-s) 0;
+}
+
+/* --------------------------------------------------BEST BUYS ARTICLE--------------------------------------------------------- */
+
+.article-layout {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background-color: var(--pico-semantic-color-ui-surface-container-lowest);
+  padding: var(--pico-ref-spacing-xl) 0;
+  margin-bottom: var(--pico-ref-spacing-3xl);
+}
+
+.article .content {
+  width: 960px;
+}
+
+.article .discounts-nav {
+  margin-bottom: 0;
+}
+
+.article .disclaimer {
+  width: 100%;
+  font-family: var(--evaluation-component-disclaimer-text-font-family);
+  font-size: var(--evaluation-component-disclaimer-text-font-size);
+  line-height: var(--evaluation-component-disclaimer-text-line-height);
+  font-weight: var(--evaluation-component-disclaimer-text-font-weight);
+  color: var(--evaluation-component-disclaimer-text-color);
+  padding: var(--evaluation-component-disclaimer-vertical-padding) 0;
+  text-align: center;
+  border-bottom: var(--evaluation-component-disclaimer-outline-width)
+    var(--evaluation-component-disclaimer-outline-color) solid;
+  margin-bottom: var(--pico-ref-spacing-l);
+}
+
+.article .main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.breadcrumb {
+  display: flex;
+  flex-direction: row;
+}
+
+.breadcrumb * {
+  font-family: var(--evaluation-component-breadcrumb-text-font-family);
+  font-size: var(--evaluation-component-breadcrumb-text-font-size);
+  line-height: var(--evaluation-component-breadcrumb-text-line-height);
+  font-weight: var(--evaluation-component-breadcrumb-text-font-weight);
+  color: var(--evaluation-component-breadcrumb-text-color);
+  margin-bottom: var(--pico-ref-spacing-l);
+  }
+
+.breadcrumb > a:after {
+  content: "/";
+  padding: 0 var(--evaluation-component-breadcrumb-spacing);
+  }
+
+.breadcrumb a:last-of-type:after {
+  content: none;
+}
+
+
+.article .headline {
+  font-family: var(--pico-semantic-typography-headline-large-font-family);
+  font-size: var(--pico-semantic-typography-headline-large-font-size);
+  line-height: var(--pico-semantic-typography-headline-large-line-height);
+  font-weight: var(--pico-semantic-typography-headline-large-font-weight);
+  margin-bottom: var(--pico-ref-spacing-l);
+  color: var(--pico-semantic-color-ui-primary);
+}
+
+.article .subtitle {
+  font-family: var(--pico-semantic-typography-body-large-font-family);
+  font-size: var(--pico-semantic-typography-body-large-font-size);
+  line-height: var(--pico-semantic-typography-body-large-line-height);
+  font-weight: var(--pico-semantic-typography-body-large-font-weight);
+  color: var(--pico-semantic-color-ui-on-surface-variant);
+  margin-bottom: var(--pico-ref-spacing-xl);
+}
+
+.article-info {
+  display: flex;
+  font-family: var(--pico-semantic-typography-body-large-font-family);
+  font-size: var(--pico-semantic-typography-body-large-font-size);
+  line-height: var(--pico-semantic-typography-body-large-line-height);
+  font-weight: var(--pico-semantic-typography-body-large-font-weight);
+  color: var(--pico-semantic-color-ui-on-surface);
+}
+
+.article-info > a {
+  font-family: var(--pico-semantic-typography-body-large-font-family);
+  font-size: var(--pico-semantic-typography-body-large-font-size);
+  line-height: var(--pico-semantic-typography-body-large-line-height);
+  font-weight: var(--pico-semantic-typography-body-large-font-weight);
+  color: var(--pico-semantic-color-ui-primary);
+  padding: 0 var(--pico-ref-spacing-2xs);
+  text-decoration: none;
+}
+
+.article-info > a:visited {
+  color: var(--pico-semantic-color-ui-primary);
+}
+
+.article-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.article-info md-icon {
+}
+
+.article img {
+  width: 960px;
+}
+
+.article table {
+  width: 960px;
+  border-collapse: collapse;
+  overflow: hidden;
+}
+
+.article .table-header {
+  color: var(--pico-semantic-color-ui-on-surface);
+  background-color: var(--pico-semantic-color-ui-surface-container-highest);
+  padding: var(--pico-ref-spacing-m);
+  font-family: var(--pico-semantic-typography-title-large-font-family);
+  font-size: var(--pico-semantic-typography-title-large-font-size);
+  line-height: var(--pico-semantic-typography-title-large-line-height);
+  font-weight: var(--pico-semantic-typography-title-large-font-weight);
+}
+
+.article .table-cell {
+  min-width: 180px;
+  padding: var(--pico-ref-spacing-m);
+  border: var(--pico-semantic-shape-outline-width)
+    var(--pico-semantic-color-ui-outline) solid;
+  color: var(--pico-semantic-color-ui-on-surface);
+  vertical-align: top;
+}
+
+.table-cell img {
+  width: 68px;
+}
+
+.table-cell .preview {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.table-cell .preview-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table-cell .info {
+  font-family: var(--pico-semantic-typography-label-medium-font-family);
+  font-size: var(--pico-semantic-typography-label-medium-font-size);
+  line-height: var(--pico-semantic-typography-label-medium-line-height);
+  font-weight: var(--pico-semantic-typography-label-medium-font-weight);
+  color: var(--pico-ref-color-ui-neutral-30);
+  padding-right: var(--pico-ref-spacing-xs);
+}
+
+.table-cell .saving {
+  font-family: var(--pico-semantic-typography-label-medium-font-family);
+  font-size: var(--pico-semantic-typography-label-medium-font-size);
+  line-height: var(--pico-semantic-typography-label-medium-line-height);
+  font-weight: var(--pico-semantic-typography-label-medium-font-weight);
+  color: var(--pico-semantic-color-ui-error);
+}
+
+.table-cell .amount {
+  font-family: var(--pico-semantic-typography-headline-small-font-family);
+  font-size: var(--pico-semantic-typography-headline-small-font-size);
+  line-height: var(--pico-semantic-typography-headline-small-line-height);
+  font-weight: var(--pico-semantic-typography-headline-small-font-weight);
+  color: var(--pico-semantic-color-ui-on-surface);
+  padding-right: var(--pico-ref-spacing-s);
+}
+
+.table-cell .original {
+  font-family: var(--pico-semantic-typography-title-large-font-family);
+  font-size: var(--pico-semantic-typography-title-large-font-size);
+  line-height: var(--pico-semantic-typography-title-large-line-height);
+  font-weight: var(--pico-semantic-typography-title-large-font-weight);
+  color: var(--pico-ref-color-ui-neutral-30);
+  text-decoration: line-through;
+}
+
+.article .row-title {
+  font-family: var(--pico-semantic-typography-title-medium-font-family);
+  font-size: var(--pico-semantic-typography-title-medium-font-size);
+  line-height: var(--pico-semantic-typography-title-medium-line-height);
+  font-weight: var(--pico-semantic-typography-title-medium-font-weight);
+  color: var(--pico-semantic-color-ui-on-surface);
+}
+
+.table-cell md-outlined-button, md-filled-button {
+  width: 100%;
+  padding-bottom: var(--pico-ref-spacing-xs);
+}
 /* --------------------------------------------------MODAL CARD--------------------------------------------------------- */
 
 .modal-card {
@@ -1262,7 +1724,6 @@
   color: var(--pico-semantic-color-ui-on-primary);
   margin-right: var(--pico-ref-spacing-xl);
   font: var(--pico-semantic-typography-body-medium);
-
 }
 
 .shoop-kontostand-info {
@@ -1274,13 +1735,13 @@
   opacity: var(--pico-ref-color-opacity-80);
 }
 
-
 /* -------------------------------------------------------REWARDS CARD---------------------------------------------------- */
 
 .rewards-card {
   width: 375px;
   box-shadow: var(--pico-component-card-elevation);
-  border: var(--pico-semantic-color-ui-outline) var(--pico-semantic-shape-outline-width) solid;
+  border: var(--pico-semantic-color-ui-outline)
+    var(--pico-semantic-shape-outline-width) solid;
   border-radius: var(--pico-component-card-shape);
   overflow: hidden;
 }
@@ -1316,7 +1777,8 @@
 
 hr {
   margin: 0 var(--pico-ref-spacing-m);
-  border-top: var(--pico-semantic-shape-outline-width) var(--pico-semantic-color-ui-outline) solid;
+  border-top: var(--pico-semantic-shape-outline-width)
+    var(--pico-semantic-color-ui-outline) solid;
   border-bottom: 0;
   border-left: 0;
   border-right: 0;
@@ -1337,11 +1799,14 @@ hr {
 .rewards-card md-filter-chip {
   --md-filter-chip-label-text-font: var(
     --pico-semantic-typography-body-medium-font-family
-  );  --md-filter-chip-label-text-line-height: var(
+  );
+  --md-filter-chip-label-text-line-height: var(
     --pico-semantic-typography-body-medium-line-height
-  );  --md-filter-chip-label-text-size: var(
+  );
+  --md-filter-chip-label-text-size: var(
     --pico-semantic-typography-body-medium-font-size
-  );  --md-filter-chip-label-text-weight: var(
+  );
+  --md-filter-chip-label-text-weight: var(
     --pico-semantic-typography-body-medium-font-weight
   );
   --md-filter-chip-selected-container-color: var(
@@ -1366,5 +1831,5 @@ hr {
 }
 
 .rewards-card md-icon {
-  --md-icon-size: 16px
+  --md-icon-size: 16px;
 }

@@ -30,6 +30,14 @@
     <meta name="theme-color" content="#fafafa" />
     <script type="module" src="./js/bundle.js"></script>
     <script type="module" src="./js/index.js"></script>
+    <script>
+      function toggleDialog(dialog) {
+        if (dialog.open) { dialog.close(); } else { dialog.show(); }
+      }
+      function toggleMenu(menu) {
+        menu.open = !menu.open;
+      }
+    </script>
   </head>
 
   <body class="doc-body">
@@ -79,8 +87,8 @@
           self-contained, reusable UI element that is immediately identifiable and contains no business logic.
         </p>
       </section>
-      <section class="doc-content__section section-button">
-        <h2>Button</h2>
+      <section class="doc-content__section section-buttons">
+        <h2>Buttons</h2>
         <p>
           Buttons let people take action and make choices with one tap.
         </p>
@@ -187,8 +195,8 @@
           </dl>
         </div>
       </section>
-      <section class="doc-content__section section-chip">
-        <h2>Chip</h2>
+      <section class="doc-content__section section-chips">
+        <h2>Chips</h2>
         <p>Chips help people enter information, make selections, filter content, or trigger actions.</p>
         <div class="doc-gallery">
           <dl class="doc-gallery__item">
@@ -219,53 +227,33 @@
           </dl>
         </div>
       </section>
-      <section class="doc-content__section section-dialog">
-        <h2>Dialog</h2>
-        <p></p>
+      <section class="doc-content__section section-dialogs">
+        <h2>Dialogs</h2>
+        <p>Dialogs provide important prompts in a user flow.</p>
         <div class="doc-gallery">
           <dl class="doc-gallery__item">
             <dt class="doc-gallery__item-label"></dt>
             <dd>
               <script type="module">
-                const btnShowDialog01 = document.body.querySelector('.section-dialog md-filled-button');
-                const dialog01 = document.body.querySelector('.section-dialog md-dialog');
+                const btnShowDialog01 = document.body.querySelector('.section-dialogs md-filled-button');
+                const dialog01 = document.body.querySelector('.section-dialogs md-dialog');
                 btnShowDialog01.addEventListener('click', () => { toggleDialog(dialog01); });
-                function toggleDialog(dialog) {
-                  if (dialog.open) { dialog.close(); } else { dialog.show(); }
-                }
               </script>
               <md-filled-button>Show dialog</md-filled-button>
               <md-dialog>
                 <div slot="headline">Dialog</div>
                 <div slot="content">This is a dialog</div>
                 <div slot="actions">
-                  <md-text-button onclick="toggleDialog(this)" form="form-id">Ok</md-text-button>
+                  <md-text-button onclick="toggleDialog(this.closest('md-dialog'))" form="form-id">Ok</md-text-button>
                 </div>
               </md-dialog>
             </dd>
           </dl>
         </div>
       </section>
-      <section class="doc-content__section section-filters">
-        <h2>Filters</h2>
-        <p></p>
-        <div class="doc-gallery">
-          <dl class="doc-gallery__item">
-            <dt class="doc-gallery__item-label"></dt>
-            <dd>
-              <md-filter-chip label="All (34)"></md-filter-chip>
-              <md-filter-chip label="Exclusive (4)"></md-filter-chip>
-              <md-filter-chip label="Code (4)"></md-filter-chip>
-              <md-filter-chip label="Deals (24)"></md-filter-chip>
-              <md-filter-chip label="Cashback (1)"></md-filter-chip>
-              <md-filter-chip label="Rewards (4)"></md-filter-chip>
-            </dd>
-          </dl>
-        </div>
-      </section>
-      <section class="doc-content__section section-icon-button">
-        <h2>Icon button</h2>
-        <p></p>
+      <section class="doc-content__section section-icon-buttons">
+        <h2>Icon buttons</h2>
+        <p>Icon buttons help people take supplementary actions with a single tap.</p>
         <div class="doc-gallery">
           <dl class="doc-gallery__item">
             <dt class="doc-gallery__item-label">Standard</dt>
@@ -301,9 +289,9 @@
           </dl>
         </div>
       </section>
-      <section class="doc-content__section section-list">
-        <h2>List</h2>
-        <p></p>
+      <section class="doc-content__section section-lists">
+        <h2>Lists</h2>
+        <p>Lists are continuous, vertical indexes of text and images</p>
         <div class="doc-gallery">
           <dl class="doc-gallery__item">
             <dt class="doc-gallery__item-label">Simple list</dt>
@@ -365,7 +353,7 @@
       </section>
       <section class="doc-content__section section-menu">
         <h2>Menu</h2>
-        <p></p>
+        <p>Menus display a list of choices on a temporary surface.</p>
         <div class="doc-gallery">
           <dl class="doc-gallery__item">
             <dt class="doc-gallery__item-label"></dt>
@@ -385,7 +373,7 @@
                 const anchorEl01 = document.body.querySelector('#gsgds-docs-01-menu-anchor');
                 const menuEl01 = document.body.querySelector('#gsgds-docs-01-menu');
                 menuEl01.anchorElement = anchorEl01
-                anchorEl01.addEventListener('click', () => { menuEl01.open = !menuEl01.open; });
+                anchorEl01.addEventListener('click', () => { toggleMenu(menuEl01); });
               </script>
             </dd>
           </dl>
@@ -417,7 +405,7 @@
                 const anchorEl02 = document.body.querySelector('#gsgds-docs-02-menu-anchor');
                 const menuEl02 = document.body.querySelector('#gsgds-docs-02-menu');
                 menuEl02.anchorElement = anchorEl02
-                anchorEl02.addEventListener('click', () => { menuEl02.open = !menuEl02.open; });
+                anchorEl02.addEventListener('click', () => { toggleMenu(menuEl02); });
               </script>
             </dd>
           </dl>
@@ -428,41 +416,111 @@
         <p></p>
         <div class="doc-gallery">
           <dl class="doc-gallery__item">
-            <dt class="doc-gallery__item-label">Linear progress</dt>
+            <dt class="doc-gallery__item-label">Linear, one color</dt>
             <dd>
               <md-linear-progress indeterminate></md-linear-progress>
             </dd>
           </dl>
           <dl class="doc-gallery__item">
-            <dt class="doc-gallery__item-label">Circular progress</dt>
+            <dt class="doc-gallery__item-label">Circular, one color</dt>
             <dd>
               <md-circular-progress indeterminate></md-circular-progress>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Linear, four colors</dt>
+            <dd>
+              <md-linear-progress four-color indeterminate></md-linear-progress>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Circular, four colors</dt>
+            <dd>
+              <md-circular-progress four-color indeterminate></md-circular-progress>
             </dd>
           </dl>
         </div>
       </section>
       <section class="doc-content__section section-radio">
         <h2>Radio buttons</h2>
-        <p></p>
+        <p>Radio buttons let people select one option from a set of options.</p>
         <div class="doc-gallery">
           <dl class="doc-gallery__item">
             <dt class="doc-gallery__item-label">With labels</dt>
             <dd>
-              <style>.section-radio label{display:block;padding:8px 0;}</style>
               <form>
-                <label>
-                  <md-radio name="fruit" value="Apples"></md-radio>
-                  Apples
-                </label>
-                <label>
-                  <md-radio name="fruit" value="Bananas"></md-radio>
-                  Bananas
-                </label>
-                <label>
-                  <md-radio name="fruit" value="Cherries"></md-radio>
-                  Cherries
-                </label>
+                <div class="doc-formfield">
+                  <md-radio id="gsgds-docs-01-radio-01" name="fruit" value="Apples"></md-radio>
+                  <label for="gsgds-docs-01-radio-01">Apples</label>
+                </div>
+                <div class="doc-formfield">
+                  <md-radio id="gsgds-docs-01-radio-02" name="fruit" value="Bananas"></md-radio>
+                  <label for="gsgds-docs-01-radio-02">Bananas</label>
+                </div>
+                <div class="doc-formfield">
+                  <md-radio id="gsgds-docs-01-radio-03" name="fruit" value="Cherries"></md-radio>
+                  <label for="gsgds-docs-01-radio-03">Cherries</label>
+                </div>
               </form>
+            </dd>
+          </dl>
+        </div>
+      </section>
+      <section class="doc-content__section section-ripple">
+        <h2>Ripple</h2>
+        <p>Ripples are state layers used to communicate the status of a component or interactive element.</p>
+        <p>A state layer is a semi-transparent covering on an element that indicates its state. A layer can be applied to an entire element or in a circular shape.</p>
+        <div class="doc-gallery">
+          <style>
+            .ripple-container {
+              position: relative;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              height: 200px;
+              width: 200px;
+              padding: 16px;
+              outline: 1px solid grey;
+              border-radius: 24px;
+            }
+            .ripple-container:has(.unbounded) {
+              border-radius: 50%;
+              outline-style: dashed;
+            }
+            .ripple-anchor {
+              position: relative;
+              display: flex;
+              place-content: center;
+              place-items: center;
+              height: 24px;
+              width: 24px;
+              background: gray;
+              border: 1px solid gray;
+              border-radius: 50%;
+            }
+            md-ripple.unbounded {
+              height: 64px;
+              width: 64px;
+              border-radius: 50%;
+              inset: unset;
+            }
+          </style>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Bounded</dt>
+            <dd>
+              <div class="ripple-container">
+                <md-ripple></md-ripple>
+              </div>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Unbounded</dt>
+            <dd>
+              <div class="ripple-container" id="ripple-02-container">
+                <div class="ripple-anchor">
+                  <md-ripple for="ripple-02-container" class="unbounded"></md-ripple>
+                </div>
+              </div>
             </dd>
           </dl>
         </div>
@@ -566,21 +624,18 @@
         <p></p>
         <div class="doc-gallery">
           <dl class="doc-gallery__item">
-            <dt class="doc-gallery__item-label"></dt>
+            <dt class="doc-gallery__item-label">Outlined</dt>
             <dd>
-              <form action="" style="padding-top: 20px">
-                <md-outlined-text-field
-                  name="name"
-                  label="Name"
-                  required
-                  style="padding-bottom: 10px"
-                >
-                </md-outlined-text-field>
-              </form>
+              <md-outlined-text-field
+                name="name"
+                label="Name"
+                required
+              >
+              </md-outlined-text-field>
             </dd>
           </dl>
           <dl class="doc-gallery__item">
-            <dt class="doc-gallery__item-label"></dt>
+            <dt class="doc-gallery__item-label">Outlined with error</dt>
             <dd>
               <md-outlined-text-field
                 name="email"
@@ -588,7 +643,7 @@
                 pattern="[\w\d-]+"
                 suffix-text="@gmail.com"
                 error
-                error-text="Username is not available"
+                error-text="Username not available"
               >
               </md-outlined-text-field>
             </dd>
@@ -597,6 +652,12 @@
             <dt class="doc-gallery__item-label">Filled</dt>
             <dd>
               <md-filled-text-field label="Filled text field"></md-outlined-text-field>
+            </dd>
+          </dl>
+          <dl class="doc-gallery__item">
+            <dt class="doc-gallery__item-label">Filled textarea</dt>
+            <dd>
+              <md-filled-text-field label="Filled textarea" type="textarea" rows="3"></md-outlined-text-field>
             </dd>
           </dl>
         </div>

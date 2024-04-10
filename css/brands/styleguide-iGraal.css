@@ -233,6 +233,8 @@
 .styleguide__bobby-component-button-text-inverted-small-label-text-typography-line-height.styleguide-item__value::before { content: '18.669px'; }
 .styleguide__bobby-component-button-text-inverted-small-pressed-foreground-color.styleguide-item__value { background-color: hsl(18.2 98.3% 100%); }
 .styleguide__bobby-component-button-text-inverted-small-pressed-foreground-color.styleguide-item__value::before { content: 'hsl(18.2 98.3% 100%)'; }
+.styleguide__bobby-component-checkbox-container-shape.styleguide-item__value { border-radius: 4px; }
+.styleguide__bobby-component-checkbox-container-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__bobby-component-checkbox-container-size.styleguide-item__value::before { content: '18px'; }
 .styleguide__bobby-component-checkbox-disabled-outline-color.styleguide-item__value { background-color: hsl(0 0% 76.9%); }
 .styleguide__bobby-component-checkbox-disabled-outline-color.styleguide-item__value::before { content: 'hsl(0 0% 76.9%)'; }
@@ -270,8 +272,6 @@
 .styleguide__bobby-component-checkbox-selected-pressed-container-color.styleguide-item__value::before { content: 'hsl(18.2 98.3% 21.3%)'; }
 .styleguide__bobby-component-checkbox-selected-pressed-icon-color.styleguide-item__value { background-color: hsl(18.2 98.3% 100%); }
 .styleguide__bobby-component-checkbox-selected-pressed-icon-color.styleguide-item__value::before { content: 'hsl(18.2 98.3% 100%)'; }
-.styleguide__bobby-component-checkbox-shape.styleguide-item__value { border-radius: 4px; }
-.styleguide__bobby-component-checkbox-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__bobby-component-chip-container-height.styleguide-item__value::before { content: '32px'; }
 .styleguide__bobby-component-chip-container-shape.styleguide-item__value::before { content: '80px'; }
 .styleguide__bobby-component-chip-disabled-foreground-color.styleguide-item__value { background-color: hsl(0 0% 72%); }
@@ -285,6 +285,10 @@
 .styleguide__bobby-component-chip-horizontal-padding.styleguide-item__value::before { content: '16px'; }
 .styleguide__bobby-component-chip-hover-foreground-color.styleguide-item__value { background-color: hsl(18.205 98.319% 53.333%); }
 .styleguide__bobby-component-chip-hover-foreground-color.styleguide-item__value::before { content: 'hsl(18.205 98.319% 53.333%)'; }
+.styleguide__bobby-component-chip-label-text-font-family.styleguide-item__value::before { content: 'Lato, sans-serif'; }
+.styleguide__bobby-component-chip-label-text-font-size.styleguide-item__value::before { content: '12.446px'; }
+.styleguide__bobby-component-chip-label-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__bobby-component-chip-label-text-line-height.styleguide-item__value::before { content: '18.669px'; }
 .styleguide__bobby-component-chip-label-text-typography-font-family.styleguide-item__value::before { content: 'Lato, sans-serif'; }
 .styleguide__bobby-component-chip-label-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
 .styleguide__bobby-component-chip-label-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
@@ -564,6 +568,10 @@
 .styleguide__pico-component-chip-container-shape.styleguide-item__value { border-radius: 80px; }
 .styleguide__pico-component-chip-container-shape.styleguide-item__value::before { content: '80px'; }
 .styleguide__pico-component-chip-horizontal-padding.styleguide-item__value::before { content: '16px'; }
+.styleguide__pico-component-chip-label-text-font-family.styleguide-item__value::before { content: 'Lato, sans-serif'; }
+.styleguide__pico-component-chip-label-text-font-size.styleguide-item__value::before { content: '12.446px'; }
+.styleguide__pico-component-chip-label-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__pico-component-chip-label-text-line-height.styleguide-item__value::before { content: '18.669px'; }
 .styleguide__pico-component-chip-label-text-typography-font-family.styleguide-item__value::before { content: 'Lato, sans-serif'; }
 .styleguide__pico-component-chip-label-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
 .styleguide__pico-component-chip-label-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }

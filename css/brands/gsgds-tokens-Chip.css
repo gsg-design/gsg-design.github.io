@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 13 Mar 2024 09:25:47 GMT
+ * Generated on Mon, 08 Apr 2024 11:34:44 GMT
  * hello, world!
  */
 
@@ -163,6 +163,10 @@
   --pico-component-chip-label-text-typography-line-height: 18.669px;
   --pico-component-chip-label-text-typography-font-weight: 400;
   --pico-component-chip-label-text-typography-font-style: normal;
+  --pico-component-chip-label-text-font-family: Asap, sans-serif;
+  --pico-component-chip-label-text-font-size: 12.446px;
+  --pico-component-chip-label-text-line-height: 18.669px;
+  --pico-component-chip-label-text-font-weight: 400;
   --pico-component-chip-horizontal-padding: 16px;
   --pico-component-hero-background-color: transparent;
   --pico-component-menu-container-shape: 4px;
@@ -630,8 +634,8 @@
   --bobby-component-button-outlined-inverted-small-label-text-typography-font-size: 12.446px;
   --bobby-component-button-outlined-inverted-small-label-text-typography-line-height: 18.669px;
   --bobby-component-button-outlined-inverted-small-label-text-typography-font-weight: 400;
-  --bobby-component-checkbox-shape: 4px;
   --bobby-component-checkbox-container-size: 18px;
+  --bobby-component-checkbox-container-shape: 4px;
   --bobby-component-checkbox-outline-width: 2px;
   --bobby-component-checkbox-outline-color: hsl(1.7442 81.132% 58.431%);
   --bobby-component-checkbox-icon-size: 18px;
@@ -664,6 +668,10 @@
   --bobby-component-chip-label-text-typography-line-height: 18.669px;
   --bobby-component-chip-label-text-typography-font-weight: 400;
   --bobby-component-chip-label-text-typography-font-style: normal;
+  --bobby-component-chip-label-text-font-family: Asap, sans-serif;
+  --bobby-component-chip-label-text-font-size: 12.446px;
+  --bobby-component-chip-label-text-line-height: 18.669px;
+  --bobby-component-chip-label-text-font-weight: 400;
   --bobby-component-chip-hover-foreground-color: hsl(1.7442 81.132% 58.431%);
   --bobby-component-chip-focus-foreground-color: hsl(1.7442 81.132% 58.431%);
   --bobby-component-chip-pressed-foreground-color: hsl(1.7442 81.132% 58.431%);

@@ -272,6 +272,7 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
   margin: 0;
   padding: 0;
 }
@@ -282,4 +283,8 @@ label {
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
+}
+
+.doc-formfield {
+  padding: var(--size-padding-medium) var(--size-padding-xl);
 }
