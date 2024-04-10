@@ -1032,7 +1032,7 @@
   background-color: var(--pico-semantic-color-ui-surface-container-lowest);
 }
 
-.content {
+.newsletter .content {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -1065,6 +1065,12 @@
   --md-outlined-text-field-container-shape-start-end: var(
     --conversion-pattern-email-input-text-field-shape-right-side
   );
+  --md-outlined-text-field-container-shape-start-start: var(
+    --conversion-pattern-email-input-text-field-shape-left-side
+  );
+  --md-outlined-text-field-container-shape-end-start: var(
+    --conversion-pattern-email-input-text-field-shape-left-side
+  );
 }
 
 .newsletter md-filled-button {
@@ -1073,6 +1079,12 @@
   );
   --md-filled-button-container-shape-end-start: var(
     --conversion-pattern-email-input-button-shape-left-side
+  );
+  --md-filled-button-container-shape-end-end: var(
+    --conversion-pattern-email-input-button-shape-right-side
+  );
+  --md-filled-button-container-shape-start-end: var(
+    --conversion-pattern-email-input-button-shape-right-side
   );
 }
 
@@ -1200,7 +1212,28 @@
 
 /* --------------------------------------------------RLP LAYOUT--------------------------------------------------------- */
 
+.rlp-layout {
+  display: flex;
+  justify-content: center;
+  background-color: var(--pico-semantic-color-ui-surface);
+  padding: var(--pico-ref-spacing-xl) 0;
+  margin-bottom: var(--pico-ref-spacing-3xl);
+}
+
+.rlp .all-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 960px;
+  grid-template-areas:
+    "header"
+    "list"
+    "content"
+    "footer";
+  padding: 0 var(--pico-ref-spacing-m);
+}
+
 .discounts-nav {
+  grid-area: header;
   margin: 16px 0;
   background-color: var(--bobby-component-menu-container-color);
   box-shadow: var(--bobby-component-menu-container-elevation);
@@ -1209,60 +1242,46 @@
     var(--bobby-component-menu-item-horizontal-padding);
   box-sizing: border-box;
   justify-content: space-between;
-  width: 960px;
-}
-
-.rlp-layout {
-  display: flex;
-  flex-direction: column;
   width: 100%;
-  align-items: center;
-  background-color: var(--pico-semantic-color-ui-surface);
-  padding: var(--pico-ref-spacing-xl) 0;
-  margin-bottom: var(--pico-ref-spacing-3xl);
-}
-
-.rlp .content {
-  width: 960px;
 }
 
 .rlp .list {
-  display: flex;
-  flex-direction: row;
-}
-
-.rlp .main-content {
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-areas: "sidebar vouchers";
 }
 
 .voucher-cards {
+  grid-area: vouchers;
   display: flex;
   flex-direction: column;
 }
 
 .voucher-cards .voucher-card {
-  max-width: 632px;
+  width: 100%;
   margin-bottom: var(--pico-ref-spacing-l);
 }
 
 .voucher-cards .newsletter {
-  max-width: 632px;
+  width: 100%;
   margin-bottom: var(--pico-ref-spacing-l);
 }
 
 .sidebar {
+  grid-area: sidebar;
   display: flex;
   flex-direction: column;
   padding-right: var(--pico-ref-spacing-l);
 }
 
 .sidebar-card {
-  border-radius: var(--bobby-component-card-shape);
-  width: 304px;
+  border-radius: var(--pico-component-card-shape);
+  width: 100%;
   background-color: var(--pico-semantic-color-ui-surface-container-lowest);
   box-shadow: var(--pico-semantic-shape-elevation-level-low);
   margin-bottom: var(--pico-ref-spacing-l);
+  overflow: hidden;
 }
 
 .card-padding {
@@ -1335,7 +1354,8 @@
 }
 
 .accordion-section {
-  width: 960px;
+  grid-area: content;
+  width: 100%;
 }
 
 .accordion {
@@ -1447,17 +1467,16 @@
   font-weight: var(--evaluation-component-breadcrumb-text-font-weight);
   color: var(--evaluation-component-breadcrumb-text-color);
   margin-bottom: var(--pico-ref-spacing-l);
-  }
+}
 
 .breadcrumb > a:after {
   content: "/";
   padding: 0 var(--evaluation-component-breadcrumb-spacing);
-  }
+}
 
 .breadcrumb a:last-of-type:after {
   content: none;
 }
-
 
 .article .headline {
   font-family: var(--pico-semantic-typography-headline-large-font-family);
@@ -1504,37 +1523,56 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: var(--pico-ref-spacing-s);
+  align-items: center;
+}
+
+.article-info .icons {
+  display: flex;
+  align-items: center;
 }
 
 .article-info md-icon {
+  color: var(--pico-semantic-color-ui-primary);
+  margin-left: var(--pico-ref-spacing-xs);
 }
 
-.article img {
+.article .hero-img img {
   width: 960px;
+  margin-bottom: var(--pico-ref-spacing-xl);
 }
 
 .article table {
   width: 960px;
   border-collapse: collapse;
   overflow: hidden;
+  margin-bottom: var(--pico-ref-spacing-l);
 }
 
 .article .table-header {
-  color: var(--pico-semantic-color-ui-on-surface);
-  background-color: var(--pico-semantic-color-ui-surface-container-highest);
-  padding: var(--pico-ref-spacing-m);
-  font-family: var(--pico-semantic-typography-title-large-font-family);
-  font-size: var(--pico-semantic-typography-title-large-font-size);
-  line-height: var(--pico-semantic-typography-title-large-line-height);
-  font-weight: var(--pico-semantic-typography-title-large-font-weight);
+  color: var(--evaluation-pattern-comparison-table-header-text-color);
+  background-color: var(
+    --evaluation-pattern-comparison-table-header-background-color
+  );
+  padding: var(--evaluation-pattern-comparison-table-cell-padding);
+  font-family: var(
+    --evaluation-pattern-comparison-table-header-text-font-family
+  );
+  font-size: var(--evaluation-pattern-comparison-table-header-text-font-size);
+  line-height: var(
+    --evaluation-pattern-comparison-table-header-text-line-height
+  );
+  font-weight: var(
+    --evaluation-pattern-comparison-table-header-text-font-weight
+  );
 }
 
 .article .table-cell {
-  min-width: 180px;
-  padding: var(--pico-ref-spacing-m);
-  border: var(--pico-semantic-shape-outline-width)
-    var(--pico-semantic-color-ui-outline) solid;
-  color: var(--pico-semantic-color-ui-on-surface);
+  min-width: var(--evaluation-pattern-comparison-table-cell-min-width);
+  padding: var(--evaluation-pattern-comparison-table-cell-padding);
+  border: var(--evaluation-pattern-comparison-table-cell-outline-width)
+    var(--evaluation-pattern-comparison-table-cell-outline-color) solid;
+  color: var(--evaluation-pattern-comparison-table-cell-plain-text-color);
   vertical-align: top;
 }
 
@@ -1554,53 +1592,166 @@
   align-items: center;
 }
 
+.table-cell .preview .icon {
+  color: var(
+    --evaluation-pattern-comparison-table-product-description-icon-color
+  );
+}
+
 .table-cell .info {
-  font-family: var(--pico-semantic-typography-label-medium-font-family);
-  font-size: var(--pico-semantic-typography-label-medium-font-size);
-  line-height: var(--pico-semantic-typography-label-medium-line-height);
-  font-weight: var(--pico-semantic-typography-label-medium-font-weight);
-  color: var(--pico-ref-color-ui-neutral-30);
+  font-family: var(
+    --evaluation-pattern-comparison-table-price-info-text-font-family
+  );
+  font-size: var(
+    --evaluation-pattern-comparison-table-price-info-text-font-size
+  );
+  line-height: var(
+    --evaluation-pattern-comparison-table-price-info-text-line-height
+  );
+  font-weight: var(
+    --evaluation-pattern-comparison-table-price-info-text-font-weight
+  );
+  color: var(--evaluation-pattern-comparison-table-price-info-text-color);
   padding-right: var(--pico-ref-spacing-xs);
 }
 
 .table-cell .saving {
-  font-family: var(--pico-semantic-typography-label-medium-font-family);
-  font-size: var(--pico-semantic-typography-label-medium-font-size);
-  line-height: var(--pico-semantic-typography-label-medium-line-height);
-  font-weight: var(--pico-semantic-typography-label-medium-font-weight);
-  color: var(--pico-semantic-color-ui-error);
+  font-family: var(
+    --evaluation-pattern-comparison-table-price-saving-text-font-family
+  );
+  font-size: var(
+    --evaluation-pattern-comparison-table-price-saving-text-font-size
+  );
+  line-height: var(
+    --evaluation-pattern-comparison-table-price-saving-text-line-height
+  );
+  font-weight: var(
+    --evaluation-pattern-comparison-table-price-saving-text-font-weight
+  );
+  color: var(--evaluation-pattern-comparison-table-price-saving-text-color);
 }
 
-.table-cell .amount {
-  font-family: var(--pico-semantic-typography-headline-small-font-family);
-  font-size: var(--pico-semantic-typography-headline-small-font-size);
-  line-height: var(--pico-semantic-typography-headline-small-line-height);
-  font-weight: var(--pico-semantic-typography-headline-small-font-weight);
-  color: var(--pico-semantic-color-ui-on-surface);
+.table-cell .price-new {
+  font-family: var(
+    --evaluation-pattern-comparison-table-price-new-text-font-family
+  );
+  font-size: var(
+    --evaluation-pattern-comparison-table-price-new-text-font-size
+  );
+  line-height: var(
+    --evaluation-pattern-comparison-table-price-new-text-line-height
+  );
+  font-weight: var(
+    --evaluation-pattern-comparison-table-price-new-text-font-weight
+  );
+  color: var(--evaluation-pattern-comparison-table-price-new-text-color);
   padding-right: var(--pico-ref-spacing-s);
 }
 
-.table-cell .original {
-  font-family: var(--pico-semantic-typography-title-large-font-family);
-  font-size: var(--pico-semantic-typography-title-large-font-size);
-  line-height: var(--pico-semantic-typography-title-large-line-height);
-  font-weight: var(--pico-semantic-typography-title-large-font-weight);
-  color: var(--pico-ref-color-ui-neutral-30);
-  text-decoration: line-through;
+.table-cell .price-old {
+  font-family: var(
+    --evaluation-pattern-comparison-table-price-old-text-font-family
+  );
+  font-size: var(
+    --evaluation-pattern-comparison-table-price-old-text-font-size
+  );
+  line-height: var(
+    --evaluation-pattern-comparison-table-price-old-text-line-height
+  );
+  font-weight: var(
+    --evaluation-pattern-comparison-table-price-old-text-font-weight
+  );
+  color: var(--evaluation-pattern-comparison-table-price-old-text-color);
+  text-decoration: var(
+    --evaluation-pattern-comparison-table-price-old-text-font-style
+  );
 }
 
 .article .row-title {
-  font-family: var(--pico-semantic-typography-title-medium-font-family);
-  font-size: var(--pico-semantic-typography-title-medium-font-size);
-  line-height: var(--pico-semantic-typography-title-medium-line-height);
-  font-weight: var(--pico-semantic-typography-title-medium-font-weight);
-  color: var(--pico-semantic-color-ui-on-surface);
+  font-family: var(
+    --evaluation-pattern-comparison-table-row-title-text-font-family
+  );
+  font-size: var(
+    --evaluation-pattern-comparison-table-row-title-text-font-size
+  );
+  line-height: var(
+    --evaluation-pattern-comparison-table-row-title-text-line-height
+  );
+  font-weight: var(
+    --evaluation-pattern-comparison-table-row-title-text-font-weight
+  );
+  color: var(--evaluation-pattern-comparison-table-row-title-text-color);
+  vertical-align: middle;
 }
 
-.table-cell md-outlined-button, md-filled-button {
+.table-cell md-outlined-button,
+.table-cell md-filled-button {
   width: 100%;
-  padding-bottom: var(--pico-ref-spacing-xs);
+  margin-bottom: var(--pico-ref-spacing-xs);
 }
+
+.article .table-subheader {
+  font-family: var(
+    --evaluation-pattern-comparison-table-subheader-text-font-family
+  );
+  font-size: var(
+    --evaluation-pattern-comparison-table-subheader-text-font-size
+  );
+  line-height: var(
+    --evaluation-pattern-comparison-table-subheader-text-line-height
+  );
+  font-weight: var(
+    --evaluation-pattern-comparison-table-subheader-text-font-weight
+  );
+  color: var(--evaluation-pattern-comparison-table-subheader-text-color);
+  background-color: var(
+    --evaluation-pattern-comparison-table-subheader-background-color
+  );
+  padding: var(--evaluation-pattern-comparison-table-cell-padding);
+}
+
+.article .table-cell .text {
+  font-family: var(
+    --evaluation-pattern-comparison-table-cell-plain-text-font-family
+  );
+  font-size: var(
+    --evaluation-pattern-comparison-table-cell-plain-text-font-size
+  );
+  line-height: var(
+    --evaluation-pattern-comparison-table-cell-plain-text-line-height
+  );
+  font-weight: var(
+    --evaluation-pattern-comparison-table-cell-plain-text-font-weight
+  );
+  color: var(--evaluation-pattern-comparison-table-cell-plain-text-color);
+}
+
+.article .table-cell .row-title {
+  font-family: var(
+    --evaluation-pattern-comparison-table-row-title-text-font-family
+  );
+  font-size: var(
+    --evaluation-pattern-comparison-table-row-title-text-font-size
+  );
+  line-height: var(
+    --evaluation-pattern-comparison-table-row-title-text-line-height
+  );
+  font-weight: var(
+    --evaluation-pattern-comparison-table-row-title-text-font-weight
+  );
+  color: var(--evaluation-pattern-comparison-table-row-title-text-color);
+}
+
+.article article p {
+  width: 70%;
+  font-family: var(--evaluation-typography-editorial-body-text-font-family);
+  font-size: var(--evaluation-typography-editorial-body-text-font-size);
+  line-height: var(--evaluation-typography-editorial-body-text-line-height);
+  font-weight: var(--evaluation-typography-editorial-body-text-font-weight);
+  color: var(--evaluation-typography-editorial-body-text-color);
+  margin-bottom: var(--pico-ref-spacing-xl);
+}
+
 /* --------------------------------------------------MODAL CARD--------------------------------------------------------- */
 
 .modal-card {

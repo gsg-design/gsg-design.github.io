@@ -1,8 +1,8 @@
-.styleguide__bobby-component-button-container-height.styleguide-item__value::before { content: '40px'; }
-.styleguide__bobby-component-button-container-shape.styleguide-item__value { border-radius: 4px; }
-.styleguide__bobby-component-button-container-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__bobby-component-button-filled-default-large-container-color.styleguide-item__value { background-color: hsl(28.471 100% 50%); }
 .styleguide__bobby-component-button-filled-default-large-container-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
+.styleguide__bobby-component-button-filled-default-large-container-height.styleguide-item__value::before { content: '40px'; }
+.styleguide__bobby-component-button-filled-default-large-container-shape.styleguide-item__value { border-radius: 4px; }
+.styleguide__bobby-component-button-filled-default-large-container-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__bobby-component-button-filled-default-large-disabled-container-color.styleguide-item__value { background-color: hsl(216 5.43% 69.3%); }
 .styleguide__bobby-component-button-filled-default-large-disabled-container-color.styleguide-item__value::before { content: 'hsl(216 5.43% 69.3%)'; }
 .styleguide__bobby-component-button-filled-default-large-disabled-foreground-color.styleguide-item__value { background-color: hsl(216 5.43% 85.6%); }
@@ -11,13 +11,28 @@
 .styleguide__bobby-component-button-filled-default-large-focus-foreground-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100%)'; }
 .styleguide__bobby-component-button-filled-default-large-foreground-color.styleguide-item__value { background-color: hsl(28.5 100% 100%); }
 .styleguide__bobby-component-button-filled-default-large-foreground-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100%)'; }
+.styleguide__bobby-component-button-filled-default-large-horizontal-padding.styleguide-item__value::before { content: '8px'; }
 .styleguide__bobby-component-button-filled-default-large-hover-foreground-color.styleguide-item__value { background-color: hsl(28.5 100% 100%); }
 .styleguide__bobby-component-button-filled-default-large-hover-foreground-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100%)'; }
+.styleguide__bobby-component-button-filled-default-large-label-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-button-filled-default-large-label-text-font-size.styleguide-item__value { font-size: 15.75px; }
+.styleguide__bobby-component-button-filled-default-large-label-text-font-size.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__bobby-component-button-filled-default-large-label-text-font-weight.styleguide-item__value::before { content: '700'; }
+.styleguide__bobby-component-button-filled-default-large-label-text-line-height.styleguide-item__value::before { content: '23.625px'; }
+.styleguide__bobby-component-button-filled-default-large-label-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-button-filled-default-large-label-text-typography-font-size.styleguide-item__value { font-size: 15.75px; }
+.styleguide__bobby-component-button-filled-default-large-label-text-typography-font-size.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__bobby-component-button-filled-default-large-label-text-typography-font-style.styleguide-item__value::before { content: 'normal'; }
+.styleguide__bobby-component-button-filled-default-large-label-text-typography-font-weight.styleguide-item__value::before { content: 'bobby.component.button.filledDefaultLarge.label.text.fontWeight'; }
+.styleguide__bobby-component-button-filled-default-large-label-text-typography-line-height.styleguide-item__value::before { content: '23.625px'; }
+.styleguide__bobby-component-button-filled-default-large-label-text-typography-text-case.styleguide-item__value::before { content: 'uppercase'; }
 .styleguide__bobby-component-button-filled-default-large-pressed-foreground-color.styleguide-item__value { background-color: hsl(28.5 100% 100%); }
 .styleguide__bobby-component-button-filled-default-large-pressed-foreground-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100%)'; }
 .styleguide__bobby-component-button-filled-default-small-container-color.styleguide-item__value { background-color: hsl(28.471 100% 50%); }
 .styleguide__bobby-component-button-filled-default-small-container-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
 .styleguide__bobby-component-button-filled-default-small-container-height.styleguide-item__value::before { content: '32px'; }
+.styleguide__bobby-component-button-filled-default-small-container-shape.styleguide-item__value { border-radius: 4px; }
+.styleguide__bobby-component-button-filled-default-small-container-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__bobby-component-button-filled-default-small-disabled-container-color.styleguide-item__value { background-color: hsl(216 5.43% 69.3%); }
 .styleguide__bobby-component-button-filled-default-small-disabled-container-color.styleguide-item__value::before { content: 'hsl(216 5.43% 69.3%)'; }
 .styleguide__bobby-component-button-filled-default-small-disabled-foreground-color.styleguide-item__value { background-color: hsl(216 5.43% 85.6%); }
@@ -26,8 +41,15 @@
 .styleguide__bobby-component-button-filled-default-small-focus-foreground-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100%)'; }
 .styleguide__bobby-component-button-filled-default-small-foreground-color.styleguide-item__value { background-color: hsl(28.5 100% 100%); }
 .styleguide__bobby-component-button-filled-default-small-foreground-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100%)'; }
+.styleguide__bobby-component-button-filled-default-small-horizontal-padding.styleguide-item__value::before { content: '8px'; }
 .styleguide__bobby-component-button-filled-default-small-hover-foreground-color.styleguide-item__value { background-color: hsl(28.5 100% 100%); }
 .styleguide__bobby-component-button-filled-default-small-hover-foreground-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100%)'; }
+.styleguide__bobby-component-button-filled-default-small-label-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-button-filled-default-small-label-text-font-size.styleguide-item__value { font-size: 12.446px; }
+.styleguide__bobby-component-button-filled-default-small-label-text-font-size.styleguide-item__value::before { content: '12.446px'; }
+.styleguide__bobby-component-button-filled-default-small-label-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__bobby-component-button-filled-default-small-label-text-line-height.styleguide-item__value::before { content: '18.669px'; }
+.styleguide__bobby-component-button-filled-default-small-label-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
 .styleguide__bobby-component-button-filled-default-small-label-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
 .styleguide__bobby-component-button-filled-default-small-label-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
 .styleguide__bobby-component-button-filled-default-small-label-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
@@ -36,6 +58,9 @@
 .styleguide__bobby-component-button-filled-default-small-pressed-foreground-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100%)'; }
 .styleguide__bobby-component-button-filled-inverted-large-container-color.styleguide-item__value { background-color: hsl(28.5 100% 100%); }
 .styleguide__bobby-component-button-filled-inverted-large-container-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100%)'; }
+.styleguide__bobby-component-button-filled-inverted-large-container-height.styleguide-item__value::before { content: '40px'; }
+.styleguide__bobby-component-button-filled-inverted-large-container-shape.styleguide-item__value { border-radius: 4px; }
+.styleguide__bobby-component-button-filled-inverted-large-container-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__bobby-component-button-filled-inverted-large-disabled-container-color.styleguide-item__value { background-color: hsl(216 5.43% 85.6%); }
 .styleguide__bobby-component-button-filled-inverted-large-disabled-container-color.styleguide-item__value::before { content: 'hsl(216 5.43% 85.6%)'; }
 .styleguide__bobby-component-button-filled-inverted-large-disabled-foreground-color.styleguide-item__value { background-color: hsl(216 5.43% 69.3%); }
@@ -44,13 +69,28 @@
 .styleguide__bobby-component-button-filled-inverted-large-focus-foreground-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
 .styleguide__bobby-component-button-filled-inverted-large-foreground-color.styleguide-item__value { background-color: hsl(28.471 100% 50%); }
 .styleguide__bobby-component-button-filled-inverted-large-foreground-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
+.styleguide__bobby-component-button-filled-inverted-large-horizontal-padding.styleguide-item__value::before { content: '8px'; }
 .styleguide__bobby-component-button-filled-inverted-large-hover-foreground-color.styleguide-item__value { background-color: hsl(28.471 100% 50%); }
 .styleguide__bobby-component-button-filled-inverted-large-hover-foreground-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
+.styleguide__bobby-component-button-filled-inverted-large-label-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-button-filled-inverted-large-label-text-font-size.styleguide-item__value { font-size: 15.75px; }
+.styleguide__bobby-component-button-filled-inverted-large-label-text-font-size.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__bobby-component-button-filled-inverted-large-label-text-font-weight.styleguide-item__value::before { content: '700'; }
+.styleguide__bobby-component-button-filled-inverted-large-label-text-line-height.styleguide-item__value::before { content: '23.625px'; }
+.styleguide__bobby-component-button-filled-inverted-large-label-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-button-filled-inverted-large-label-text-typography-font-size.styleguide-item__value { font-size: 15.75px; }
+.styleguide__bobby-component-button-filled-inverted-large-label-text-typography-font-size.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__bobby-component-button-filled-inverted-large-label-text-typography-font-style.styleguide-item__value::before { content: 'normal'; }
+.styleguide__bobby-component-button-filled-inverted-large-label-text-typography-font-weight.styleguide-item__value::before { content: 'bobby.component.button.filledInvertedLarge.label.text.fontWeight'; }
+.styleguide__bobby-component-button-filled-inverted-large-label-text-typography-line-height.styleguide-item__value::before { content: '23.625px'; }
+.styleguide__bobby-component-button-filled-inverted-large-label-text-typography-text-case.styleguide-item__value::before { content: 'uppercase'; }
 .styleguide__bobby-component-button-filled-inverted-large-pressed-foreground-color.styleguide-item__value { background-color: hsl(28.471 100% 50%); }
 .styleguide__bobby-component-button-filled-inverted-large-pressed-foreground-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
 .styleguide__bobby-component-button-filled-inverted-small-container-color.styleguide-item__value { background-color: hsl(28.5 100% 100%); }
 .styleguide__bobby-component-button-filled-inverted-small-container-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100%)'; }
 .styleguide__bobby-component-button-filled-inverted-small-container-height.styleguide-item__value::before { content: '32px'; }
+.styleguide__bobby-component-button-filled-inverted-small-container-shape.styleguide-item__value { border-radius: 4px; }
+.styleguide__bobby-component-button-filled-inverted-small-container-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__bobby-component-button-filled-inverted-small-disabled-container-color.styleguide-item__value { background-color: hsl(216 5.43% 85.6%); }
 .styleguide__bobby-component-button-filled-inverted-small-disabled-container-color.styleguide-item__value::before { content: 'hsl(216 5.43% 85.6%)'; }
 .styleguide__bobby-component-button-filled-inverted-small-disabled-foreground-color.styleguide-item__value { background-color: hsl(216 5.43% 69.3%); }
@@ -59,24 +99,26 @@
 .styleguide__bobby-component-button-filled-inverted-small-focus-foreground-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
 .styleguide__bobby-component-button-filled-inverted-small-foreground-color.styleguide-item__value { background-color: hsl(28.471 100% 50%); }
 .styleguide__bobby-component-button-filled-inverted-small-foreground-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
+.styleguide__bobby-component-button-filled-inverted-small-horizontal-padding.styleguide-item__value::before { content: '8px'; }
 .styleguide__bobby-component-button-filled-inverted-small-hover-foreground-color.styleguide-item__value { background-color: hsl(28.471 100% 50%); }
 .styleguide__bobby-component-button-filled-inverted-small-hover-foreground-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
+.styleguide__bobby-component-button-filled-inverted-small-label-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-button-filled-inverted-small-label-text-font-size.styleguide-item__value { font-size: 12.446px; }
+.styleguide__bobby-component-button-filled-inverted-small-label-text-font-size.styleguide-item__value::before { content: '12.446px'; }
+.styleguide__bobby-component-button-filled-inverted-small-label-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__bobby-component-button-filled-inverted-small-label-text-line-height.styleguide-item__value::before { content: '18.669px'; }
+.styleguide__bobby-component-button-filled-inverted-small-label-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
 .styleguide__bobby-component-button-filled-inverted-small-label-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
 .styleguide__bobby-component-button-filled-inverted-small-label-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
 .styleguide__bobby-component-button-filled-inverted-small-label-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
 .styleguide__bobby-component-button-filled-inverted-small-label-text-typography-line-height.styleguide-item__value::before { content: '18.669px'; }
 .styleguide__bobby-component-button-filled-inverted-small-pressed-foreground-color.styleguide-item__value { background-color: hsl(28.471 100% 50%); }
 .styleguide__bobby-component-button-filled-inverted-small-pressed-foreground-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
-.styleguide__bobby-component-button-horizontal-padding.styleguide-item__value::before { content: '8px'; }
-.styleguide__bobby-component-button-label-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
-.styleguide__bobby-component-button-label-text-typography-font-size.styleguide-item__value { font-size: 15.75px; }
-.styleguide__bobby-component-button-label-text-typography-font-size.styleguide-item__value::before { content: '15.75px'; }
-.styleguide__bobby-component-button-label-text-typography-font-style.styleguide-item__value::before { content: 'normal'; }
-.styleguide__bobby-component-button-label-text-typography-font-weight.styleguide-item__value::before { content: '700'; }
-.styleguide__bobby-component-button-label-text-typography-line-height.styleguide-item__value::before { content: '23.625px'; }
-.styleguide__bobby-component-button-label-text-typography-text-case.styleguide-item__value::before { content: 'uppercase'; }
 .styleguide__bobby-component-button-outlined-default-large-container-color.styleguide-item__value { background-color: hsl(28.5 100% 100% / 0); }
 .styleguide__bobby-component-button-outlined-default-large-container-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100% / 0)'; }
+.styleguide__bobby-component-button-outlined-default-large-container-height.styleguide-item__value::before { content: '40px'; }
+.styleguide__bobby-component-button-outlined-default-large-container-shape.styleguide-item__value { border-radius: 4px; }
+.styleguide__bobby-component-button-outlined-default-large-container-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__bobby-component-button-outlined-default-large-disabled-container-color.styleguide-item__value { background-color: hsl(216 5.43% 85.6% / 0); }
 .styleguide__bobby-component-button-outlined-default-large-disabled-container-color.styleguide-item__value::before { content: 'hsl(216 5.43% 85.6% / 0)'; }
 .styleguide__bobby-component-button-outlined-default-large-disabled-foreground-color.styleguide-item__value { background-color: hsl(216 5.43% 69.3%); }
@@ -87,8 +129,21 @@
 .styleguide__bobby-component-button-outlined-default-large-focus-foreground-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
 .styleguide__bobby-component-button-outlined-default-large-foreground-color.styleguide-item__value { background-color: hsl(28.471 100% 50%); }
 .styleguide__bobby-component-button-outlined-default-large-foreground-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
+.styleguide__bobby-component-button-outlined-default-large-horizontal-padding.styleguide-item__value::before { content: '8px'; }
 .styleguide__bobby-component-button-outlined-default-large-hover-foreground-color.styleguide-item__value { background-color: hsl(28.471 100% 50%); }
 .styleguide__bobby-component-button-outlined-default-large-hover-foreground-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
+.styleguide__bobby-component-button-outlined-default-large-label-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-button-outlined-default-large-label-text-font-size.styleguide-item__value { font-size: 15.75px; }
+.styleguide__bobby-component-button-outlined-default-large-label-text-font-size.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__bobby-component-button-outlined-default-large-label-text-font-weight.styleguide-item__value::before { content: '700'; }
+.styleguide__bobby-component-button-outlined-default-large-label-text-line-height.styleguide-item__value::before { content: '23.625px'; }
+.styleguide__bobby-component-button-outlined-default-large-label-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-button-outlined-default-large-label-text-typography-font-size.styleguide-item__value { font-size: 15.75px; }
+.styleguide__bobby-component-button-outlined-default-large-label-text-typography-font-size.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__bobby-component-button-outlined-default-large-label-text-typography-font-style.styleguide-item__value::before { content: 'normal'; }
+.styleguide__bobby-component-button-outlined-default-large-label-text-typography-font-weight.styleguide-item__value::before { content: 'bobby.component.button.outlinedDefaultLarge.label.text.fontWeight'; }
+.styleguide__bobby-component-button-outlined-default-large-label-text-typography-line-height.styleguide-item__value::before { content: '23.625px'; }
+.styleguide__bobby-component-button-outlined-default-large-label-text-typography-text-case.styleguide-item__value::before { content: 'uppercase'; }
 .styleguide__bobby-component-button-outlined-default-large-outline-color.styleguide-item__value { background-color: hsl(28.471 100% 50%); }
 .styleguide__bobby-component-button-outlined-default-large-outline-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
 .styleguide__bobby-component-button-outlined-default-large-outline-width.styleguide-item__value { background-color: 1px; }
@@ -100,6 +155,8 @@
 .styleguide__bobby-component-button-outlined-default-small-container-color.styleguide-item__value { background-color: hsl(28.5 100% 100% / 0); }
 .styleguide__bobby-component-button-outlined-default-small-container-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100% / 0)'; }
 .styleguide__bobby-component-button-outlined-default-small-container-height.styleguide-item__value::before { content: '32px'; }
+.styleguide__bobby-component-button-outlined-default-small-container-shape.styleguide-item__value { border-radius: 4px; }
+.styleguide__bobby-component-button-outlined-default-small-container-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__bobby-component-button-outlined-default-small-disabled-container-color.styleguide-item__value { background-color: hsl(216 5.43% 85.6% / 0); }
 .styleguide__bobby-component-button-outlined-default-small-disabled-container-color.styleguide-item__value::before { content: 'hsl(216 5.43% 85.6% / 0)'; }
 .styleguide__bobby-component-button-outlined-default-small-disabled-foreground-color.styleguide-item__value { background-color: hsl(216 5.43% 69.3%); }
@@ -110,8 +167,15 @@
 .styleguide__bobby-component-button-outlined-default-small-focus-foreground-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
 .styleguide__bobby-component-button-outlined-default-small-foreground-color.styleguide-item__value { background-color: hsl(28.471 100% 50%); }
 .styleguide__bobby-component-button-outlined-default-small-foreground-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
+.styleguide__bobby-component-button-outlined-default-small-horizontal-padding.styleguide-item__value::before { content: '8px'; }
 .styleguide__bobby-component-button-outlined-default-small-hover-foreground-color.styleguide-item__value { background-color: hsl(28.471 100% 50%); }
 .styleguide__bobby-component-button-outlined-default-small-hover-foreground-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
+.styleguide__bobby-component-button-outlined-default-small-label-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-button-outlined-default-small-label-text-font-size.styleguide-item__value { font-size: 12.446px; }
+.styleguide__bobby-component-button-outlined-default-small-label-text-font-size.styleguide-item__value::before { content: '12.446px'; }
+.styleguide__bobby-component-button-outlined-default-small-label-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__bobby-component-button-outlined-default-small-label-text-line-height.styleguide-item__value::before { content: '18.669px'; }
+.styleguide__bobby-component-button-outlined-default-small-label-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
 .styleguide__bobby-component-button-outlined-default-small-label-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
 .styleguide__bobby-component-button-outlined-default-small-label-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
 .styleguide__bobby-component-button-outlined-default-small-label-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
@@ -124,6 +188,9 @@
 .styleguide__bobby-component-button-outlined-default-small-pressed-foreground-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
 .styleguide__bobby-component-button-outlined-inverted-large-container-color.styleguide-item__value { background-color: hsl(28.471 100% 50% / 0); }
 .styleguide__bobby-component-button-outlined-inverted-large-container-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50% / 0)'; }
+.styleguide__bobby-component-button-outlined-inverted-large-container-height.styleguide-item__value::before { content: '40px'; }
+.styleguide__bobby-component-button-outlined-inverted-large-container-shape.styleguide-item__value { border-radius: 4px; }
+.styleguide__bobby-component-button-outlined-inverted-large-container-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__bobby-component-button-outlined-inverted-large-disabled-container-color.styleguide-item__value { background-color: hsl(216 5.43% 69.3% / 0); }
 .styleguide__bobby-component-button-outlined-inverted-large-disabled-container-color.styleguide-item__value::before { content: 'hsl(216 5.43% 69.3% / 0)'; }
 .styleguide__bobby-component-button-outlined-inverted-large-disabled-foreground-color.styleguide-item__value { background-color: hsl(216 5.43% 85.6%); }
@@ -134,8 +201,21 @@
 .styleguide__bobby-component-button-outlined-inverted-large-focus-foreground-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100%)'; }
 .styleguide__bobby-component-button-outlined-inverted-large-foreground-color.styleguide-item__value { background-color: hsl(28.5 100% 100%); }
 .styleguide__bobby-component-button-outlined-inverted-large-foreground-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100%)'; }
+.styleguide__bobby-component-button-outlined-inverted-large-horizontal-padding.styleguide-item__value::before { content: '8px'; }
 .styleguide__bobby-component-button-outlined-inverted-large-hover-foreground-color.styleguide-item__value { background-color: hsl(28.5 100% 100%); }
 .styleguide__bobby-component-button-outlined-inverted-large-hover-foreground-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100%)'; }
+.styleguide__bobby-component-button-outlined-inverted-large-label-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-button-outlined-inverted-large-label-text-font-size.styleguide-item__value { font-size: 15.75px; }
+.styleguide__bobby-component-button-outlined-inverted-large-label-text-font-size.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__bobby-component-button-outlined-inverted-large-label-text-font-weight.styleguide-item__value::before { content: '700'; }
+.styleguide__bobby-component-button-outlined-inverted-large-label-text-line-height.styleguide-item__value::before { content: '23.625px'; }
+.styleguide__bobby-component-button-outlined-inverted-large-label-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-button-outlined-inverted-large-label-text-typography-font-size.styleguide-item__value { font-size: 15.75px; }
+.styleguide__bobby-component-button-outlined-inverted-large-label-text-typography-font-size.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__bobby-component-button-outlined-inverted-large-label-text-typography-font-style.styleguide-item__value::before { content: 'normal'; }
+.styleguide__bobby-component-button-outlined-inverted-large-label-text-typography-font-weight.styleguide-item__value::before { content: 'bobby.component.button.outlinedInvertedLarge.label.text.fontWeight'; }
+.styleguide__bobby-component-button-outlined-inverted-large-label-text-typography-line-height.styleguide-item__value::before { content: '23.625px'; }
+.styleguide__bobby-component-button-outlined-inverted-large-label-text-typography-text-case.styleguide-item__value::before { content: 'uppercase'; }
 .styleguide__bobby-component-button-outlined-inverted-large-outline-color.styleguide-item__value { background-color: hsl(28.5 100% 100%); }
 .styleguide__bobby-component-button-outlined-inverted-large-outline-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100%)'; }
 .styleguide__bobby-component-button-outlined-inverted-large-outline-width.styleguide-item__value { background-color: 1px; }
@@ -145,6 +225,8 @@
 .styleguide__bobby-component-button-outlined-inverted-small-container-color.styleguide-item__value { background-color: hsl(28.5 100% 100% / 0); }
 .styleguide__bobby-component-button-outlined-inverted-small-container-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100% / 0)'; }
 .styleguide__bobby-component-button-outlined-inverted-small-container-height.styleguide-item__value::before { content: '32px'; }
+.styleguide__bobby-component-button-outlined-inverted-small-container-shape.styleguide-item__value { border-radius: 4px; }
+.styleguide__bobby-component-button-outlined-inverted-small-container-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__bobby-component-button-outlined-inverted-small-disabled-container-color.styleguide-item__value { background-color: hsl(216 5.43% 69.3% / 0); }
 .styleguide__bobby-component-button-outlined-inverted-small-disabled-container-color.styleguide-item__value::before { content: 'hsl(216 5.43% 69.3% / 0)'; }
 .styleguide__bobby-component-button-outlined-inverted-small-disabled-foreground-color.styleguide-item__value { background-color: hsl(216 5.43% 85.6%); }
@@ -155,8 +237,15 @@
 .styleguide__bobby-component-button-outlined-inverted-small-focus-foreground-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100%)'; }
 .styleguide__bobby-component-button-outlined-inverted-small-foreground-color.styleguide-item__value { background-color: hsl(28.471 100% 50%); }
 .styleguide__bobby-component-button-outlined-inverted-small-foreground-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
+.styleguide__bobby-component-button-outlined-inverted-small-horizontal-padding.styleguide-item__value::before { content: '8px'; }
 .styleguide__bobby-component-button-outlined-inverted-small-hover-foreground-color.styleguide-item__value { background-color: hsl(28.5 100% 100%); }
 .styleguide__bobby-component-button-outlined-inverted-small-hover-foreground-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100%)'; }
+.styleguide__bobby-component-button-outlined-inverted-small-label-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-button-outlined-inverted-small-label-text-font-size.styleguide-item__value { font-size: 12.446px; }
+.styleguide__bobby-component-button-outlined-inverted-small-label-text-font-size.styleguide-item__value::before { content: '12.446px'; }
+.styleguide__bobby-component-button-outlined-inverted-small-label-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__bobby-component-button-outlined-inverted-small-label-text-line-height.styleguide-item__value::before { content: '18.669px'; }
+.styleguide__bobby-component-button-outlined-inverted-small-label-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
 .styleguide__bobby-component-button-outlined-inverted-small-label-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
 .styleguide__bobby-component-button-outlined-inverted-small-label-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
 .styleguide__bobby-component-button-outlined-inverted-small-label-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
@@ -169,6 +258,9 @@
 .styleguide__bobby-component-button-outlined-inverted-small-pressed-foreground-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100%)'; }
 .styleguide__bobby-component-button-text-default-large-container-color.styleguide-item__value { background-color: hsl(28.5 100% 100% / 0); }
 .styleguide__bobby-component-button-text-default-large-container-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100% / 0)'; }
+.styleguide__bobby-component-button-text-default-large-container-height.styleguide-item__value::before { content: '40px'; }
+.styleguide__bobby-component-button-text-default-large-container-shape.styleguide-item__value { border-radius: 4px; }
+.styleguide__bobby-component-button-text-default-large-container-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__bobby-component-button-text-default-large-disabled-container-color.styleguide-item__value { background-color: hsl(216 5.43% 85.6% / 0); }
 .styleguide__bobby-component-button-text-default-large-disabled-container-color.styleguide-item__value::before { content: 'hsl(216 5.43% 85.6% / 0)'; }
 .styleguide__bobby-component-button-text-default-large-disabled-foreground-color.styleguide-item__value { background-color: hsl(216 5.43% 69.3%); }
@@ -177,13 +269,28 @@
 .styleguide__bobby-component-button-text-default-large-focus-foreground-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
 .styleguide__bobby-component-button-text-default-large-foreground-color.styleguide-item__value { background-color: hsl(28.471 100% 50%); }
 .styleguide__bobby-component-button-text-default-large-foreground-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
+.styleguide__bobby-component-button-text-default-large-horizontal-padding.styleguide-item__value::before { content: '8px'; }
 .styleguide__bobby-component-button-text-default-large-hover-foreground-color.styleguide-item__value { background-color: hsl(28.471 100% 50%); }
 .styleguide__bobby-component-button-text-default-large-hover-foreground-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
+.styleguide__bobby-component-button-text-default-large-label-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-button-text-default-large-label-text-font-size.styleguide-item__value { font-size: 15.75px; }
+.styleguide__bobby-component-button-text-default-large-label-text-font-size.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__bobby-component-button-text-default-large-label-text-font-weight.styleguide-item__value::before { content: '700'; }
+.styleguide__bobby-component-button-text-default-large-label-text-line-height.styleguide-item__value::before { content: '23.625px'; }
+.styleguide__bobby-component-button-text-default-large-label-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-button-text-default-large-label-text-typography-font-size.styleguide-item__value { font-size: 15.75px; }
+.styleguide__bobby-component-button-text-default-large-label-text-typography-font-size.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__bobby-component-button-text-default-large-label-text-typography-font-style.styleguide-item__value::before { content: 'normal'; }
+.styleguide__bobby-component-button-text-default-large-label-text-typography-font-weight.styleguide-item__value::before { content: 'bobby.component.button.textDefaultLarge.label.text.fontWeight'; }
+.styleguide__bobby-component-button-text-default-large-label-text-typography-line-height.styleguide-item__value::before { content: '23.625px'; }
+.styleguide__bobby-component-button-text-default-large-label-text-typography-text-case.styleguide-item__value::before { content: 'uppercase'; }
 .styleguide__bobby-component-button-text-default-large-pressed-foreground-color.styleguide-item__value { background-color: hsl(28.471 100% 50%); }
 .styleguide__bobby-component-button-text-default-large-pressed-foreground-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
 .styleguide__bobby-component-button-text-default-small-container-color.styleguide-item__value { background-color: hsl(28.5 100% 100% / 0); }
 .styleguide__bobby-component-button-text-default-small-container-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100% / 0)'; }
 .styleguide__bobby-component-button-text-default-small-container-height.styleguide-item__value::before { content: '32px'; }
+.styleguide__bobby-component-button-text-default-small-container-shape.styleguide-item__value { border-radius: 4px; }
+.styleguide__bobby-component-button-text-default-small-container-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__bobby-component-button-text-default-small-disabled-container-color.styleguide-item__value { background-color: hsl(216 5.43% 85.6% / 0); }
 .styleguide__bobby-component-button-text-default-small-disabled-container-color.styleguide-item__value::before { content: 'hsl(216 5.43% 85.6% / 0)'; }
 .styleguide__bobby-component-button-text-default-small-disabled-foreground-color.styleguide-item__value { background-color: hsl(216 5.43% 69.3%); }
@@ -192,8 +299,15 @@
 .styleguide__bobby-component-button-text-default-small-focus-foreground-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
 .styleguide__bobby-component-button-text-default-small-foreground-color.styleguide-item__value { background-color: hsl(28.471 100% 50%); }
 .styleguide__bobby-component-button-text-default-small-foreground-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
+.styleguide__bobby-component-button-text-default-small-horizontal-padding.styleguide-item__value::before { content: '8px'; }
 .styleguide__bobby-component-button-text-default-small-hover-foreground-color.styleguide-item__value { background-color: hsl(28.471 100% 50%); }
 .styleguide__bobby-component-button-text-default-small-hover-foreground-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
+.styleguide__bobby-component-button-text-default-small-label-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-button-text-default-small-label-text-font-size.styleguide-item__value { font-size: 12.446px; }
+.styleguide__bobby-component-button-text-default-small-label-text-font-size.styleguide-item__value::before { content: '12.446px'; }
+.styleguide__bobby-component-button-text-default-small-label-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__bobby-component-button-text-default-small-label-text-line-height.styleguide-item__value::before { content: '18.669px'; }
+.styleguide__bobby-component-button-text-default-small-label-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
 .styleguide__bobby-component-button-text-default-small-label-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
 .styleguide__bobby-component-button-text-default-small-label-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
 .styleguide__bobby-component-button-text-default-small-label-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
@@ -202,6 +316,9 @@
 .styleguide__bobby-component-button-text-default-small-pressed-foreground-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
 .styleguide__bobby-component-button-text-inverted-large-container-color.styleguide-item__value { background-color: hsl(28.471 100% 50% / 0); }
 .styleguide__bobby-component-button-text-inverted-large-container-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50% / 0)'; }
+.styleguide__bobby-component-button-text-inverted-large-container-height.styleguide-item__value::before { content: '40px'; }
+.styleguide__bobby-component-button-text-inverted-large-container-shape.styleguide-item__value { border-radius: 4px; }
+.styleguide__bobby-component-button-text-inverted-large-container-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__bobby-component-button-text-inverted-large-disabled-container-color.styleguide-item__value { background-color: hsl(216 5.43% 69.3% / 0); }
 .styleguide__bobby-component-button-text-inverted-large-disabled-container-color.styleguide-item__value::before { content: 'hsl(216 5.43% 69.3% / 0)'; }
 .styleguide__bobby-component-button-text-inverted-large-disabled-foreground-color.styleguide-item__value { background-color: hsl(216 5.43% 85.6%); }
@@ -210,13 +327,28 @@
 .styleguide__bobby-component-button-text-inverted-large-focus-foreground-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100%)'; }
 .styleguide__bobby-component-button-text-inverted-large-foreground-color.styleguide-item__value { background-color: hsl(28.5 100% 100%); }
 .styleguide__bobby-component-button-text-inverted-large-foreground-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100%)'; }
+.styleguide__bobby-component-button-text-inverted-large-horizontal-padding.styleguide-item__value::before { content: '8px'; }
 .styleguide__bobby-component-button-text-inverted-large-hover-foreground-color.styleguide-item__value { background-color: hsl(28.5 100% 100%); }
 .styleguide__bobby-component-button-text-inverted-large-hover-foreground-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100%)'; }
+.styleguide__bobby-component-button-text-inverted-large-label-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-button-text-inverted-large-label-text-font-size.styleguide-item__value { font-size: 15.75px; }
+.styleguide__bobby-component-button-text-inverted-large-label-text-font-size.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__bobby-component-button-text-inverted-large-label-text-font-weight.styleguide-item__value::before { content: '700'; }
+.styleguide__bobby-component-button-text-inverted-large-label-text-line-height.styleguide-item__value::before { content: '23.625px'; }
+.styleguide__bobby-component-button-text-inverted-large-label-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-button-text-inverted-large-label-text-typography-font-size.styleguide-item__value { font-size: 15.75px; }
+.styleguide__bobby-component-button-text-inverted-large-label-text-typography-font-size.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__bobby-component-button-text-inverted-large-label-text-typography-font-style.styleguide-item__value::before { content: 'normal'; }
+.styleguide__bobby-component-button-text-inverted-large-label-text-typography-font-weight.styleguide-item__value::before { content: 'bobby.component.button.textInvertedLarge.label.text.fontWeight'; }
+.styleguide__bobby-component-button-text-inverted-large-label-text-typography-line-height.styleguide-item__value::before { content: '23.625px'; }
+.styleguide__bobby-component-button-text-inverted-large-label-text-typography-text-case.styleguide-item__value::before { content: 'uppercase'; }
 .styleguide__bobby-component-button-text-inverted-large-pressed-foreground-color.styleguide-item__value { background-color: hsl(28.5 100% 100%); }
 .styleguide__bobby-component-button-text-inverted-large-pressed-foreground-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100%)'; }
 .styleguide__bobby-component-button-text-inverted-small-container-color.styleguide-item__value { background-color: hsl(28.5 100% 100% / 0); }
 .styleguide__bobby-component-button-text-inverted-small-container-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100% / 0)'; }
 .styleguide__bobby-component-button-text-inverted-small-container-height.styleguide-item__value::before { content: '32px'; }
+.styleguide__bobby-component-button-text-inverted-small-container-shape.styleguide-item__value { border-radius: 4px; }
+.styleguide__bobby-component-button-text-inverted-small-container-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__bobby-component-button-text-inverted-small-disabled-container-color.styleguide-item__value { background-color: hsl(216 5.43% 69.3% / 0); }
 .styleguide__bobby-component-button-text-inverted-small-disabled-container-color.styleguide-item__value::before { content: 'hsl(216 5.43% 69.3% / 0)'; }
 .styleguide__bobby-component-button-text-inverted-small-disabled-foreground-color.styleguide-item__value { background-color: hsl(216 5.43% 85.6%); }
@@ -225,8 +357,15 @@
 .styleguide__bobby-component-button-text-inverted-small-focus-foreground-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100%)'; }
 .styleguide__bobby-component-button-text-inverted-small-foreground-color.styleguide-item__value { background-color: hsl(28.471 100% 50%); }
 .styleguide__bobby-component-button-text-inverted-small-foreground-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
+.styleguide__bobby-component-button-text-inverted-small-horizontal-padding.styleguide-item__value::before { content: '8px'; }
 .styleguide__bobby-component-button-text-inverted-small-hover-foreground-color.styleguide-item__value { background-color: hsl(28.5 100% 100%); }
 .styleguide__bobby-component-button-text-inverted-small-hover-foreground-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100%)'; }
+.styleguide__bobby-component-button-text-inverted-small-label-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-button-text-inverted-small-label-text-font-size.styleguide-item__value { font-size: 12.446px; }
+.styleguide__bobby-component-button-text-inverted-small-label-text-font-size.styleguide-item__value::before { content: '12.446px'; }
+.styleguide__bobby-component-button-text-inverted-small-label-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__bobby-component-button-text-inverted-small-label-text-line-height.styleguide-item__value::before { content: '18.669px'; }
+.styleguide__bobby-component-button-text-inverted-small-label-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
 .styleguide__bobby-component-button-text-inverted-small-label-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
 .styleguide__bobby-component-button-text-inverted-small-label-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
 .styleguide__bobby-component-button-text-inverted-small-label-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
@@ -292,7 +431,6 @@
 .styleguide__bobby-component-chip-label-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
 .styleguide__bobby-component-chip-label-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
 .styleguide__bobby-component-chip-label-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
-.styleguide__bobby-component-chip-label-text-typography-font-style.styleguide-item__value::before { content: 'normal'; }
 .styleguide__bobby-component-chip-label-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
 .styleguide__bobby-component-chip-label-text-typography-line-height.styleguide-item__value::before { content: '18.669px'; }
 .styleguide__bobby-component-chip-outline-color.styleguide-item__value { background-color: hsl(28.471 100% 50%); }
@@ -313,7 +451,46 @@
 .styleguide__bobby-component-chip-selected-outline-width.styleguide-item__value::before { content: '0'; }
 .styleguide__bobby-component-chip-selected-pressed-foreground-color.styleguide-item__value { background-color: hsl(28.5 100% 100%); }
 .styleguide__bobby-component-chip-selected-pressed-foreground-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100%)'; }
-.styleguide__bobby-component-line-container-height.styleguide-item__value::before { content: '20px'; }
+.styleguide__bobby-component-icon-button-disabled-icon-color.styleguide-item__value { background-color: ; }
+.styleguide__bobby-component-icon-button-disabled-icon-color.styleguide-item__value::before { content: ''; }
+.styleguide__bobby-component-icon-button-disabled-icon-opacity.styleguide-item__value { background-color: ; }
+.styleguide__bobby-component-icon-button-disabled-icon-opacity.styleguide-item__value::before { content: ''; }
+.styleguide__bobby-component-icon-button-focus-icon-color.styleguide-item__value { background-color: ; }
+.styleguide__bobby-component-icon-button-focus-icon-color.styleguide-item__value::before { content: ''; }
+.styleguide__bobby-component-icon-button-hover-icon-color.styleguide-item__value { background-color: ; }
+.styleguide__bobby-component-icon-button-hover-icon-color.styleguide-item__value::before { content: ''; }
+.styleguide__bobby-component-icon-button-hover-state-layer-color.styleguide-item__value { background-color: ; }
+.styleguide__bobby-component-icon-button-hover-state-layer-color.styleguide-item__value::before { content: ''; }
+.styleguide__bobby-component-icon-button-hover-state-layer-opacity.styleguide-item__value { background-color: ; }
+.styleguide__bobby-component-icon-button-hover-state-layer-opacity.styleguide-item__value::before { content: ''; }
+.styleguide__bobby-component-icon-button-icon-color.styleguide-item__value { background-color: ; }
+.styleguide__bobby-component-icon-button-icon-color.styleguide-item__value::before { content: ''; }
+.styleguide__bobby-component-icon-button-icon-size.styleguide-item__value::before { content: ''; }
+.styleguide__bobby-component-icon-button-pressed-icon-color.styleguide-item__value { background-color: ; }
+.styleguide__bobby-component-icon-button-pressed-icon-color.styleguide-item__value::before { content: ''; }
+.styleguide__bobby-component-icon-button-pressed-state-layer-color.styleguide-item__value { background-color: ; }
+.styleguide__bobby-component-icon-button-pressed-state-layer-color.styleguide-item__value::before { content: ''; }
+.styleguide__bobby-component-icon-button-pressed-state-layer-opacity.styleguide-item__value { background-color: ; }
+.styleguide__bobby-component-icon-button-pressed-state-layer-opacity.styleguide-item__value::before { content: ''; }
+.styleguide__bobby-component-icon-button-selected-focus-icon-color.styleguide-item__value { background-color: ; }
+.styleguide__bobby-component-icon-button-selected-focus-icon-color.styleguide-item__value::before { content: ''; }
+.styleguide__bobby-component-icon-button-selected-hover-icon-color.styleguide-item__value { background-color: ; }
+.styleguide__bobby-component-icon-button-selected-hover-icon-color.styleguide-item__value::before { content: ''; }
+.styleguide__bobby-component-icon-button-selected-hover-state-layer-color.styleguide-item__value { background-color: ; }
+.styleguide__bobby-component-icon-button-selected-hover-state-layer-color.styleguide-item__value::before { content: ''; }
+.styleguide__bobby-component-icon-button-selected-hover-state-layer-opacity.styleguide-item__value { background-color: ; }
+.styleguide__bobby-component-icon-button-selected-hover-state-layer-opacity.styleguide-item__value::before { content: ''; }
+.styleguide__bobby-component-icon-button-selected-icon-color.styleguide-item__value { background-color: ; }
+.styleguide__bobby-component-icon-button-selected-icon-color.styleguide-item__value::before { content: ''; }
+.styleguide__bobby-component-icon-button-selected-pressed-icon-color.styleguide-item__value { background-color: ; }
+.styleguide__bobby-component-icon-button-selected-pressed-icon-color.styleguide-item__value::before { content: ''; }
+.styleguide__bobby-component-icon-button-selected-pressed-state-layer-color.styleguide-item__value { background-color: ; }
+.styleguide__bobby-component-icon-button-selected-pressed-state-layer-color.styleguide-item__value::before { content: ''; }
+.styleguide__bobby-component-icon-button-selected-pressed-state-layer-opacity.styleguide-item__value { background-color: ; }
+.styleguide__bobby-component-icon-button-selected-pressed-state-layer-opacity.styleguide-item__value::before { content: ''; }
+.styleguide__bobby-component-icon-button-state-layer-height.styleguide-item__value::before { content: ''; }
+.styleguide__bobby-component-icon-button-state-layer-shape.styleguide-item__value::before { content: ''; }
+.styleguide__bobby-component-icon-button-state-layer-width.styleguide-item__value::before { content: ''; }
 .styleguide__bobby-component-menu-container-color.styleguide-item__value { background-color: hsl(216 5.43% 100%); }
 .styleguide__bobby-component-menu-container-color.styleguide-item__value::before { content: 'hsl(216 5.43% 100%)'; }
 .styleguide__bobby-component-menu-container-elevation.styleguide-item__value { box-shadow: [object Object]; }
@@ -323,14 +500,46 @@
 .styleguide__bobby-component-menu-item-container-color.styleguide-item__value { background-color: hsl(216 5.43% 100%); }
 .styleguide__bobby-component-menu-item-container-color.styleguide-item__value::before { content: 'hsl(216 5.43% 100%)'; }
 .styleguide__bobby-component-menu-item-horizontal-padding.styleguide-item__value::before { content: '12px'; }
+.styleguide__bobby-component-menu-item-hover-state-layer-color.styleguide-item__value { background-color: hsl(216 5.43% 0%); }
+.styleguide__bobby-component-menu-item-hover-state-layer-color.styleguide-item__value::before { content: 'hsl(216 5.43% 0%)'; }
+.styleguide__bobby-component-menu-item-hover-state-layer-opacity.styleguide-item__value { background-color: 0.08; }
+.styleguide__bobby-component-menu-item-hover-state-layer-opacity.styleguide-item__value::before { content: '0.08'; }
+.styleguide__bobby-component-menu-item-icon-color.styleguide-item__value { background-color: hsl(216 5.43% 6.39%); }
+.styleguide__bobby-component-menu-item-icon-color.styleguide-item__value::before { content: 'hsl(216 5.43% 6.39%)'; }
+.styleguide__bobby-component-menu-item-label-text-color.styleguide-item__value { background-color: hsl(216 5.43% 6.39%); }
+.styleguide__bobby-component-menu-item-label-text-color.styleguide-item__value::before { content: 'hsl(216 5.43% 6.39%)'; }
+.styleguide__bobby-component-menu-item-label-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-menu-item-label-text-font-size.styleguide-item__value { font-size: 14px; }
+.styleguide__bobby-component-menu-item-label-text-font-size.styleguide-item__value::before { content: '14px'; }
+.styleguide__bobby-component-menu-item-label-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__bobby-component-menu-item-label-text-line-height.styleguide-item__value::before { content: '21px'; }
+.styleguide__bobby-component-menu-item-label-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-menu-item-label-text-typography-font-size.styleguide-item__value { font-size: 14px; }
+.styleguide__bobby-component-menu-item-label-text-typography-font-size.styleguide-item__value::before { content: '14px'; }
+.styleguide__bobby-component-menu-item-label-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__bobby-component-menu-item-label-text-typography-line-height.styleguide-item__value::before { content: '21px'; }
+.styleguide__bobby-component-menu-item-line-container-height.styleguide-item__value::before { content: '20px'; }
+.styleguide__bobby-component-menu-item-pressed-state-layer-color.styleguide-item__value { background-color: hsl(216 5.43% 0%); }
+.styleguide__bobby-component-menu-item-pressed-state-layer-color.styleguide-item__value::before { content: 'hsl(216 5.43% 0%)'; }
+.styleguide__bobby-component-menu-item-pressed-state-layer-opacity.styleguide-item__value { background-color: 0.12; }
+.styleguide__bobby-component-menu-item-pressed-state-layer-opacity.styleguide-item__value::before { content: '0.12'; }
+.styleguide__bobby-component-menu-item-selected-container-color.styleguide-item__value { background-color: hsl(216 5.43% 98.2%); }
+.styleguide__bobby-component-menu-item-selected-container-color.styleguide-item__value::before { content: 'hsl(216 5.43% 98.2%)'; }
+.styleguide__bobby-component-menu-item-selected-label-text-color.styleguide-item__value { background-color: hsl(216 5.43% 6.39%); }
+.styleguide__bobby-component-menu-item-selected-label-text-color.styleguide-item__value::before { content: 'hsl(216 5.43% 6.39%)'; }
+.styleguide__bobby-component-menu-item-supporting-text-color.styleguide-item__value { background-color: hsl(216 5.43% 6.39%); }
+.styleguide__bobby-component-menu-item-supporting-text-color.styleguide-item__value::before { content: 'hsl(216 5.43% 6.39%)'; }
+.styleguide__bobby-component-menu-item-supporting-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-menu-item-supporting-text-font-size.styleguide-item__value { font-size: 12.446px; }
+.styleguide__bobby-component-menu-item-supporting-text-font-size.styleguide-item__value::before { content: '12.446px'; }
+.styleguide__bobby-component-menu-item-supporting-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__bobby-component-menu-item-supporting-text-line-height.styleguide-item__value::before { content: '18.669px'; }
+.styleguide__bobby-component-menu-item-supporting-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-menu-item-supporting-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
+.styleguide__bobby-component-menu-item-supporting-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
+.styleguide__bobby-component-menu-item-supporting-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__bobby-component-menu-item-supporting-text-typography-line-height.styleguide-item__value::before { content: '18.669px'; }
 .styleguide__bobby-component-menu-item-vertical-padding.styleguide-item__value::before { content: '8px'; }
-.styleguide__bobby-component-menu-label-text-color.styleguide-item__value { background-color: hsl(216 5.43% 6.39%); }
-.styleguide__bobby-component-menu-label-text-color.styleguide-item__value::before { content: 'hsl(216 5.43% 6.39%)'; }
-.styleguide__bobby-component-menu-label-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
-.styleguide__bobby-component-menu-label-typography-font-size.styleguide-item__value { font-size: 14px; }
-.styleguide__bobby-component-menu-label-typography-font-size.styleguide-item__value::before { content: '14px'; }
-.styleguide__bobby-component-menu-label-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__bobby-component-menu-label-typography-line-height.styleguide-item__value::before { content: '21px'; }
 .styleguide__bobby-component-state-layer-color-darken.styleguide-item__value { background-color: hsl(216 5.43% 0%); }
 .styleguide__bobby-component-state-layer-color-darken.styleguide-item__value::before { content: 'hsl(216 5.43% 0%)'; }
 .styleguide__bobby-component-state-layer-color-lighten.styleguide-item__value { background-color: hsl(216 5.43% 100%); }
@@ -363,6 +572,10 @@
 .styleguide__bobby-component-tab-foreground-color.styleguide-item__value::before { content: 'hsl(216 5.43% 6.39%)'; }
 .styleguide__bobby-component-tab-hover-foreground-color.styleguide-item__value { background-color: hsl(216 5.43% 6.39%); }
 .styleguide__bobby-component-tab-hover-foreground-color.styleguide-item__value::before { content: 'hsl(216 5.43% 6.39%)'; }
+.styleguide__bobby-component-tab-label-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-tab-label-text-font-size.styleguide-item__value::before { content: '14px'; }
+.styleguide__bobby-component-tab-label-text-font-weight.styleguide-item__value::before { content: '500'; }
+.styleguide__bobby-component-tab-label-text-line-height.styleguide-item__value::before { content: '21px'; }
 .styleguide__bobby-component-tab-label-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
 .styleguide__bobby-component-tab-label-text-typography-font-size.styleguide-item__value { font-size: 14px; }
 .styleguide__bobby-component-tab-label-text-typography-font-size.styleguide-item__value::before { content: '14px'; }
@@ -374,6 +587,16 @@
 .styleguide__bobby-component-tag-background-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
 .styleguide__bobby-component-tag-foreground-color.styleguide-item__value { background-color: hsl(28.5 100% 100%); }
 .styleguide__bobby-component-tag-foreground-color.styleguide-item__value::before { content: 'hsl(28.5 100% 100%)'; }
+.styleguide__bobby-component-tag-label-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-tag-label-text-font-size.styleguide-item__value { font-size: 14px; }
+.styleguide__bobby-component-tag-label-text-font-size.styleguide-item__value::before { content: '14px'; }
+.styleguide__bobby-component-tag-label-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__bobby-component-tag-label-text-line-height.styleguide-item__value::before { content: '21px'; }
+.styleguide__bobby-component-tag-label-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-tag-label-text-typography-font-size.styleguide-item__value { font-size: 14px; }
+.styleguide__bobby-component-tag-label-text-typography-font-size.styleguide-item__value::before { content: '14px'; }
+.styleguide__bobby-component-tag-label-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__bobby-component-tag-label-text-typography-line-height.styleguide-item__value::before { content: '21px'; }
 .styleguide__bobby-component-text-field-container-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__bobby-component-text-field-disabled-icon-color.styleguide-item__value { background-color: hsl(216 5.43% 74.7%); }
 .styleguide__bobby-component-text-field-disabled-icon-color.styleguide-item__value::before { content: 'hsl(216 5.43% 74.7%)'; }
@@ -446,6 +669,11 @@
 .styleguide__bobby-component-text-field-input-color.styleguide-item__value::before { content: 'hsl(216 5.43% 6.39%)'; }
 .styleguide__bobby-component-text-field-input-placeholder-color.styleguide-item__value { background-color: hsl(216 5.43% 74.7%); }
 .styleguide__bobby-component-text-field-input-placeholder-color.styleguide-item__value::before { content: 'hsl(216 5.43% 74.7%)'; }
+.styleguide__bobby-component-text-field-input-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-text-field-input-text-font-size.styleguide-item__value { font-size: 14px; }
+.styleguide__bobby-component-text-field-input-text-font-size.styleguide-item__value::before { content: '14px'; }
+.styleguide__bobby-component-text-field-input-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__bobby-component-text-field-input-text-line-height.styleguide-item__value::before { content: '21px'; }
 .styleguide__bobby-component-text-field-input-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
 .styleguide__bobby-component-text-field-input-text-typography-font-size.styleguide-item__value { font-size: 14px; }
 .styleguide__bobby-component-text-field-input-text-typography-font-size.styleguide-item__value::before { content: '14px'; }
@@ -453,6 +681,11 @@
 .styleguide__bobby-component-text-field-input-text-typography-line-height.styleguide-item__value::before { content: '21px'; }
 .styleguide__bobby-component-text-field-label-color.styleguide-item__value { background-color: hsl(267 4.62% 26.8%); }
 .styleguide__bobby-component-text-field-label-color.styleguide-item__value::before { content: 'hsl(267 4.62% 26.8%)'; }
+.styleguide__bobby-component-text-field-label-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-text-field-label-text-font-size.styleguide-item__value { font-size: 14px; }
+.styleguide__bobby-component-text-field-label-text-font-size.styleguide-item__value::before { content: '14px'; }
+.styleguide__bobby-component-text-field-label-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__bobby-component-text-field-label-text-line-height.styleguide-item__value::before { content: '21px'; }
 .styleguide__bobby-component-text-field-label-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
 .styleguide__bobby-component-text-field-label-text-typography-font-size.styleguide-item__value { font-size: 14px; }
 .styleguide__bobby-component-text-field-label-text-typography-font-size.styleguide-item__value::before { content: '14px'; }
@@ -464,33 +697,39 @@
 .styleguide__bobby-component-text-field-outline-width.styleguide-item__value::before { content: '1px'; }
 .styleguide__bobby-component-text-field-supporting-color.styleguide-item__value { background-color: hsl(267 4.62% 26.8%); }
 .styleguide__bobby-component-text-field-supporting-color.styleguide-item__value::before { content: 'hsl(267 4.62% 26.8%)'; }
-.styleguide__bobby-component-text-field-supporting-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
-.styleguide__bobby-component-text-field-supporting-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
-.styleguide__bobby-component-text-field-supporting-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
-.styleguide__bobby-component-text-field-supporting-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__bobby-component-text-field-supporting-text-typography-line-height.styleguide-item__value::before { content: '18.669px'; }
+.styleguide__bobby-component-text-field-supporting-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-text-field-supporting-text-font-size.styleguide-item__value { font-size: 12.446px; }
+.styleguide__bobby-component-text-field-supporting-text-font-size.styleguide-item__value::before { content: '12.446px'; }
+.styleguide__bobby-component-text-field-supporting-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__bobby-component-text-field-supporting-text-line-height.styleguide-item__value::before { content: '18.669px'; }
+.styleguide__.styleguide-item__value::before { content: '[object Object]'; }
 .styleguide__bobby-component-text-field-trailing-space.styleguide-item__value::before { content: '8px'; }
 .styleguide__bobby-component-text-field-vertical-space.styleguide-item__value::before { content: '8px'; }
 .styleguide__bobby-component-tooltip-background-color.styleguide-item__value { background-color: hsl(216 5.43% 85.6%); }
 .styleguide__bobby-component-tooltip-background-color.styleguide-item__value::before { content: 'hsl(216 5.43% 85.6%)'; }
 .styleguide__bobby-component-tooltip-foreground-color.styleguide-item__value { background-color: hsl(267 4.62% 26.8%); }
 .styleguide__bobby-component-tooltip-foreground-color.styleguide-item__value::before { content: 'hsl(267 4.62% 26.8%)'; }
-.styleguide__conversion-pattern-button-container-color.styleguide-item__value { background-color: hsl(28.471 100% 50%); }
-.styleguide__conversion-pattern-button-container-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
-.styleguide__conversion-pattern-caption-1-typography-font-family.styleguide-item__value::before { content: 'Roboto, sans-serif'; }
-.styleguide__conversion-pattern-caption-1-typography-font-size.styleguide-item__value { font-size: 22.426px; }
-.styleguide__conversion-pattern-caption-1-typography-font-size.styleguide-item__value::before { content: '22.426px'; }
-.styleguide__conversion-pattern-caption-1-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__conversion-pattern-caption-1-typography-line-height.styleguide-item__value::before { content: '26.911px'; }
-.styleguide__conversion-pattern-caption-2-typography-font-family.styleguide-item__value::before { content: 'Roboto, sans-serif'; }
-.styleguide__conversion-pattern-caption-2-typography-font-size.styleguide-item__value { font-size: 15.75px; }
-.styleguide__conversion-pattern-caption-2-typography-font-size.styleguide-item__value::before { content: '15.75px'; }
-.styleguide__conversion-pattern-caption-2-typography-font-weight.styleguide-item__value::before { content: '500'; }
-.styleguide__conversion-pattern-caption-2-typography-line-height.styleguide-item__value::before { content: '23.625px'; }
+.styleguide__bobby-component-tooltip-label-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-tooltip-label-text-font-size.styleguide-item__value { font-size: 11.064px; }
+.styleguide__bobby-component-tooltip-label-text-font-size.styleguide-item__value::before { content: '11.064px'; }
+.styleguide__bobby-component-tooltip-label-text-font-weight.styleguide-item__value::before { content: '500'; }
+.styleguide__bobby-component-tooltip-label-text-line-height.styleguide-item__value::before { content: '16.596px'; }
+.styleguide__bobby-component-tooltip-label-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__bobby-component-tooltip-label-text-typography-font-size.styleguide-item__value { font-size: 11.064px; }
+.styleguide__bobby-component-tooltip-label-text-typography-font-size.styleguide-item__value::before { content: '11.064px'; }
+.styleguide__bobby-component-tooltip-label-text-typography-font-weight.styleguide-item__value::before { content: '500'; }
+.styleguide__bobby-component-tooltip-label-text-typography-line-height.styleguide-item__value::before { content: '16.596px'; }
 .styleguide__conversion-pattern-email-input-button-shape-left-side.styleguide-item__value { border-radius: 0px; }
 .styleguide__conversion-pattern-email-input-button-shape-left-side.styleguide-item__value::before { content: '0px'; }
+.styleguide__conversion-pattern-email-input-button-shape-right-side.styleguide-item__value { border-radius: 4px; }
+.styleguide__conversion-pattern-email-input-button-shape-right-side.styleguide-item__value::before { content: '4px'; }
 .styleguide__conversion-pattern-email-input-elevation.styleguide-item__value { box-shadow: [object Object]; }
 .styleguide__conversion-pattern-email-input-elevation.styleguide-item__value::before { content: '[object Object]'; }
+.styleguide__conversion-pattern-email-input-heading-font-family.styleguide-item__value::before { content: 'Roboto, sans-serif'; }
+.styleguide__conversion-pattern-email-input-heading-font-size.styleguide-item__value { font-size: 22.426px; }
+.styleguide__conversion-pattern-email-input-heading-font-size.styleguide-item__value::before { content: '22.426px'; }
+.styleguide__conversion-pattern-email-input-heading-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__conversion-pattern-email-input-heading-line-height.styleguide-item__value::before { content: '26.911px'; }
 .styleguide__conversion-pattern-email-input-heading-typography-font-family.styleguide-item__value::before { content: 'Roboto, sans-serif'; }
 .styleguide__conversion-pattern-email-input-heading-typography-font-size.styleguide-item__value { font-size: 22.426px; }
 .styleguide__conversion-pattern-email-input-heading-typography-font-size.styleguide-item__value::before { content: '22.426px'; }
@@ -498,30 +737,32 @@
 .styleguide__conversion-pattern-email-input-heading-typography-line-height.styleguide-item__value::before { content: '26.911px'; }
 .styleguide__conversion-pattern-email-input-shape.styleguide-item__value { border-radius: 4px; }
 .styleguide__conversion-pattern-email-input-shape.styleguide-item__value::before { content: '4px'; }
+.styleguide__conversion-pattern-email-input-text-field-shape-left-side.styleguide-item__value { border-radius: 4px; }
+.styleguide__conversion-pattern-email-input-text-field-shape-left-side.styleguide-item__value::before { content: '4px'; }
 .styleguide__conversion-pattern-email-input-text-field-shape-right-side.styleguide-item__value { border-radius: 0px; }
 .styleguide__conversion-pattern-email-input-text-field-shape-right-side.styleguide-item__value::before { content: '0px'; }
-.styleguide__conversion-pattern-helper-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
-.styleguide__conversion-pattern-helper-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
-.styleguide__conversion-pattern-helper-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
-.styleguide__conversion-pattern-helper-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__conversion-pattern-helper-text-typography-line-height.styleguide-item__value::before { content: '18.669px'; }
-.styleguide__conversion-pattern-tag-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
-.styleguide__conversion-pattern-tag-typography-font-size.styleguide-item__value { font-size: 14px; }
-.styleguide__conversion-pattern-tag-typography-font-size.styleguide-item__value::before { content: '14px'; }
-.styleguide__conversion-pattern-tag-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__conversion-pattern-tag-typography-line-height.styleguide-item__value::before { content: '21px'; }
-.styleguide__conversion-pattern-terms-outline-color.styleguide-item__value { background-color: hsl(216 5.43% 85.6%); }
-.styleguide__conversion-pattern-terms-outline-color.styleguide-item__value::before { content: 'hsl(216 5.43% 85.6%)'; }
-.styleguide__conversion-pattern-terms-outline-width.styleguide-item__value::before { content: '1px'; }
-.styleguide__conversion-pattern-terms-padding.styleguide-item__value::before { content: '8px'; }
-.styleguide__conversion-pattern-title-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
-.styleguide__conversion-pattern-title-typography-font-size.styleguide-item__value { font-size: 15.75px; }
-.styleguide__conversion-pattern-title-typography-font-size.styleguide-item__value::before { content: '15.75px'; }
-.styleguide__conversion-pattern-title-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__conversion-pattern-title-typography-line-height.styleguide-item__value::before { content: '23.625px'; }
-.styleguide__conversion-pattern-verified-background-color.styleguide-item__value { background-color: hsl(28.5 100% 90%); }
-.styleguide__conversion-pattern-verified-background-color.styleguide-item__value::before { content: 'hsl(28.5 100% 90%)'; }
-.styleguide__conversion-pattern-verified-padding.styleguide-item__value::before { content: '8px'; }
+.styleguide__conversion-pattern-voucher-card-button-container-color.styleguide-item__value { background-color: hsl(28.471 100% 50%); }
+.styleguide__conversion-pattern-voucher-card-button-container-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
+.styleguide__conversion-pattern-voucher-card-caption-1-text-font-family.styleguide-item__value::before { content: 'Roboto, sans-serif'; }
+.styleguide__conversion-pattern-voucher-card-caption-1-text-font-size.styleguide-item__value { font-size: 22.426px; }
+.styleguide__conversion-pattern-voucher-card-caption-1-text-font-size.styleguide-item__value::before { content: '22.426px'; }
+.styleguide__conversion-pattern-voucher-card-caption-1-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__conversion-pattern-voucher-card-caption-1-text-line-height.styleguide-item__value::before { content: '26.911px'; }
+.styleguide__conversion-pattern-voucher-card-caption-1-text-typography-font-family.styleguide-item__value::before { content: 'Roboto, sans-serif'; }
+.styleguide__conversion-pattern-voucher-card-caption-1-text-typography-font-size.styleguide-item__value { font-size: 22.426px; }
+.styleguide__conversion-pattern-voucher-card-caption-1-text-typography-font-size.styleguide-item__value::before { content: '22.426px'; }
+.styleguide__conversion-pattern-voucher-card-caption-1-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__conversion-pattern-voucher-card-caption-1-text-typography-line-height.styleguide-item__value::before { content: '26.911px'; }
+.styleguide__conversion-pattern-voucher-card-caption-2-text-font-family.styleguide-item__value::before { content: 'Roboto, sans-serif'; }
+.styleguide__conversion-pattern-voucher-card-caption-2-text-font-size.styleguide-item__value { font-size: 15.75px; }
+.styleguide__conversion-pattern-voucher-card-caption-2-text-font-size.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__conversion-pattern-voucher-card-caption-2-text-font-weight.styleguide-item__value::before { content: '500'; }
+.styleguide__conversion-pattern-voucher-card-caption-2-text-line-height.styleguide-item__value::before { content: '23.625px'; }
+.styleguide__conversion-pattern-voucher-card-caption-2-text-typography-font-family.styleguide-item__value::before { content: 'Roboto, sans-serif'; }
+.styleguide__conversion-pattern-voucher-card-caption-2-text-typography-font-size.styleguide-item__value { font-size: 15.75px; }
+.styleguide__conversion-pattern-voucher-card-caption-2-text-typography-font-size.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__conversion-pattern-voucher-card-caption-2-text-typography-font-weight.styleguide-item__value::before { content: '500'; }
+.styleguide__conversion-pattern-voucher-card-caption-2-text-typography-line-height.styleguide-item__value::before { content: '23.625px'; }
 .styleguide__conversion-pattern-voucher-card-captions-background-color.styleguide-item__value { background-color: hsl(28.5 100% 95%); }
 .styleguide__conversion-pattern-voucher-card-captions-background-color.styleguide-item__value::before { content: 'hsl(28.5 100% 95%)'; }
 .styleguide__conversion-pattern-voucher-card-content-background-color.styleguide-item__value { background-color: hsl(216 5.43% 100%); }
@@ -530,9 +771,46 @@
 .styleguide__conversion-pattern-voucher-card-content-spacing.styleguide-item__value::before { content: '12px'; }
 .styleguide__conversion-pattern-voucher-card-elevation.styleguide-item__value { box-shadow: [object Object]; }
 .styleguide__conversion-pattern-voucher-card-elevation.styleguide-item__value::before { content: '[object Object]'; }
+.styleguide__conversion-pattern-voucher-card-helper-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__conversion-pattern-voucher-card-helper-text-font-size.styleguide-item__value { font-size: 12.446px; }
+.styleguide__conversion-pattern-voucher-card-helper-text-font-size.styleguide-item__value::before { content: '12.446px'; }
+.styleguide__conversion-pattern-voucher-card-helper-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__conversion-pattern-voucher-card-helper-text-line-height.styleguide-item__value::before { content: '18.669px'; }
+.styleguide__conversion-pattern-voucher-card-helper-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__conversion-pattern-voucher-card-helper-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
+.styleguide__conversion-pattern-voucher-card-helper-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
+.styleguide__conversion-pattern-voucher-card-helper-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__conversion-pattern-voucher-card-helper-text-typography-line-height.styleguide-item__value::before { content: '18.669px'; }
 .styleguide__conversion-pattern-voucher-card-left-side-width.styleguide-item__value::before { content: '150px'; }
 .styleguide__conversion-pattern-voucher-card-shape.styleguide-item__value { border-radius: 4px; }
 .styleguide__conversion-pattern-voucher-card-shape.styleguide-item__value::before { content: '4px'; }
+.styleguide__conversion-pattern-voucher-card-tag-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__conversion-pattern-voucher-card-tag-text-font-size.styleguide-item__value { font-size: 14px; }
+.styleguide__conversion-pattern-voucher-card-tag-text-font-size.styleguide-item__value::before { content: '14px'; }
+.styleguide__conversion-pattern-voucher-card-tag-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__conversion-pattern-voucher-card-tag-text-line-height.styleguide-item__value::before { content: '21px'; }
+.styleguide__conversion-pattern-voucher-card-tag-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__conversion-pattern-voucher-card-tag-text-typography-font-size.styleguide-item__value { font-size: 14px; }
+.styleguide__conversion-pattern-voucher-card-tag-text-typography-font-size.styleguide-item__value::before { content: '14px'; }
+.styleguide__conversion-pattern-voucher-card-tag-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__conversion-pattern-voucher-card-tag-text-typography-line-height.styleguide-item__value::before { content: '21px'; }
+.styleguide__conversion-pattern-voucher-card-terms-outline-color.styleguide-item__value { background-color: hsl(216 5.43% 85.6%); }
+.styleguide__conversion-pattern-voucher-card-terms-outline-color.styleguide-item__value::before { content: 'hsl(216 5.43% 85.6%)'; }
+.styleguide__conversion-pattern-voucher-card-terms-outline-width.styleguide-item__value::before { content: '1px'; }
+.styleguide__conversion-pattern-voucher-card-terms-padding.styleguide-item__value::before { content: '8px'; }
+.styleguide__conversion-pattern-voucher-card-title-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__conversion-pattern-voucher-card-title-text-font-size.styleguide-item__value { font-size: 15.75px; }
+.styleguide__conversion-pattern-voucher-card-title-text-font-size.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__conversion-pattern-voucher-card-title-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__conversion-pattern-voucher-card-title-text-line-height.styleguide-item__value::before { content: '23.625px'; }
+.styleguide__conversion-pattern-voucher-card-title-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__conversion-pattern-voucher-card-title-text-typography-font-size.styleguide-item__value { font-size: 15.75px; }
+.styleguide__conversion-pattern-voucher-card-title-text-typography-font-size.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__conversion-pattern-voucher-card-title-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__conversion-pattern-voucher-card-title-text-typography-line-height.styleguide-item__value::before { content: '23.625px'; }
+.styleguide__conversion-pattern-voucher-card-verified-background-color.styleguide-item__value { background-color: hsl(28.5 100% 90%); }
+.styleguide__conversion-pattern-voucher-card-verified-background-color.styleguide-item__value::before { content: 'hsl(28.5 100% 90%)'; }
+.styleguide__conversion-pattern-voucher-card-verified-padding.styleguide-item__value::before { content: '8px'; }
 .styleguide__conversion-theme-palette-sustainability-background.styleguide-item__value { background-color: hsl(137.65 89.474% 96.275%); }
 .styleguide__conversion-theme-palette-sustainability-background.styleguide-item__value::before { content: 'hsl(137.65 89.474% 96.275%)'; }
 .styleguide__conversion-theme-palette-sustainability-dark.styleguide-item__value { background-color: hsl(136.98 47.748% 21.765%); }
@@ -541,14 +819,121 @@
 .styleguide__conversion-theme-palette-sustainability-main.styleguide-item__value::before { content: 'hsl(137.08 59.825% 44.902%)'; }
 .styleguide__conversion-theme-palette-sustainability-text.styleguide-item__value { background-color: hsl(136.98 47.748% 21.765%); }
 .styleguide__conversion-theme-palette-sustainability-text.styleguide-item__value::before { content: 'hsl(136.98 47.748% 21.765%)'; }
+.styleguide__evaluation-component-breadcrumb-spacing.styleguide-item__value::before { content: '8px'; }
+.styleguide__evaluation-component-breadcrumb-text-color.styleguide-item__value { background-color: hsl(267 4.62% 26.8%); }
+.styleguide__evaluation-component-breadcrumb-text-color.styleguide-item__value::before { content: 'hsl(267 4.62% 26.8%)'; }
+.styleguide__evaluation-component-breadcrumb-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__evaluation-component-breadcrumb-text-font-size.styleguide-item__value { font-size: 14px; }
+.styleguide__evaluation-component-breadcrumb-text-font-size.styleguide-item__value::before { content: '14px'; }
+.styleguide__evaluation-component-breadcrumb-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__evaluation-component-breadcrumb-text-line-height.styleguide-item__value::before { content: '21px'; }
+.styleguide__evaluation-component-disclaimer-outline-color.styleguide-item__value { background-color: hsl(267 4.62% 84.6%); }
+.styleguide__evaluation-component-disclaimer-outline-color.styleguide-item__value::before { content: 'hsl(267 4.62% 84.6%)'; }
+.styleguide__evaluation-component-disclaimer-outline-width.styleguide-item__value { background-color: 1px; }
+.styleguide__evaluation-component-disclaimer-outline-width.styleguide-item__value::before { content: '1px'; }
+.styleguide__evaluation-component-disclaimer-text-color.styleguide-item__value { background-color: hsl(267 4.62% 26.8%); }
+.styleguide__evaluation-component-disclaimer-text-color.styleguide-item__value::before { content: 'hsl(267 4.62% 26.8%)'; }
+.styleguide__evaluation-component-disclaimer-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__evaluation-component-disclaimer-text-font-size.styleguide-item__value { font-size: 12.446px; }
+.styleguide__evaluation-component-disclaimer-text-font-size.styleguide-item__value::before { content: '12.446px'; }
+.styleguide__evaluation-component-disclaimer-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__evaluation-component-disclaimer-text-line-height.styleguide-item__value::before { content: '18.669px'; }
+.styleguide__evaluation-component-disclaimer-vertical-padding.styleguide-item__value::before { content: '20px'; }
+.styleguide__evaluation-pattern-comparison-table-cell-min-width.styleguide-item__value::before { content: '180px'; }
+.styleguide__evaluation-pattern-comparison-table-cell-outline-color.styleguide-item__value { background-color: hsl(267 4.62% 84.6%); }
+.styleguide__evaluation-pattern-comparison-table-cell-outline-color.styleguide-item__value::before { content: 'hsl(267 4.62% 84.6%)'; }
+.styleguide__evaluation-pattern-comparison-table-cell-outline-width.styleguide-item__value::before { content: '1px'; }
+.styleguide__evaluation-pattern-comparison-table-cell-padding.styleguide-item__value::before { content: '16px'; }
+.styleguide__evaluation-pattern-comparison-table-cell-plain-text-color.styleguide-item__value { background-color: hsl(216 5.43% 6.39%); }
+.styleguide__evaluation-pattern-comparison-table-cell-plain-text-color.styleguide-item__value::before { content: 'hsl(216 5.43% 6.39%)'; }
+.styleguide__evaluation-pattern-comparison-table-cell-plain-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__evaluation-pattern-comparison-table-cell-plain-text-font-size.styleguide-item__value { font-size: 17.719px; }
+.styleguide__evaluation-pattern-comparison-table-cell-plain-text-font-size.styleguide-item__value::before { content: '17.719px'; }
+.styleguide__evaluation-pattern-comparison-table-cell-plain-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__evaluation-pattern-comparison-table-cell-plain-text-line-height.styleguide-item__value::before { content: '17.719px'; }
+.styleguide__evaluation-pattern-comparison-table-header-background-color.styleguide-item__value { background-color: hsl(216 5.43% 91%); }
+.styleguide__evaluation-pattern-comparison-table-header-background-color.styleguide-item__value::before { content: 'hsl(216 5.43% 91%)'; }
+.styleguide__evaluation-pattern-comparison-table-header-text-color.styleguide-item__value { background-color: hsl(216 5.43% 6.39%); }
+.styleguide__evaluation-pattern-comparison-table-header-text-color.styleguide-item__value::before { content: 'hsl(216 5.43% 6.39%)'; }
+.styleguide__evaluation-pattern-comparison-table-header-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__evaluation-pattern-comparison-table-header-text-font-size.styleguide-item__value { font-size: 22.426px; }
+.styleguide__evaluation-pattern-comparison-table-header-text-font-size.styleguide-item__value::before { content: '22.426px'; }
+.styleguide__evaluation-pattern-comparison-table-header-text-font-weight.styleguide-item__value::before { content: '700'; }
+.styleguide__evaluation-pattern-comparison-table-header-text-line-height.styleguide-item__value::before { content: '26.911px'; }
+.styleguide__evaluation-pattern-comparison-table-price-info-text-color.styleguide-item__value { background-color: hsl(216 5.43% 6.39%); }
+.styleguide__evaluation-pattern-comparison-table-price-info-text-color.styleguide-item__value::before { content: 'hsl(216 5.43% 6.39%)'; }
+.styleguide__evaluation-pattern-comparison-table-price-info-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__evaluation-pattern-comparison-table-price-info-text-font-size.styleguide-item__value { font-size: 12.446px; }
+.styleguide__evaluation-pattern-comparison-table-price-info-text-font-size.styleguide-item__value::before { content: '12.446px'; }
+.styleguide__evaluation-pattern-comparison-table-price-info-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__evaluation-pattern-comparison-table-price-info-text-line-height.styleguide-item__value::before { content: '12.446px'; }
+.styleguide__evaluation-pattern-comparison-table-price-new-text-color.styleguide-item__value { background-color: hsl(216 5.43% 6.39%); }
+.styleguide__evaluation-pattern-comparison-table-price-new-text-color.styleguide-item__value::before { content: 'hsl(216 5.43% 6.39%)'; }
+.styleguide__evaluation-pattern-comparison-table-price-new-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__evaluation-pattern-comparison-table-price-new-text-font-size.styleguide-item__value { font-size: 22.426px; }
+.styleguide__evaluation-pattern-comparison-table-price-new-text-font-size.styleguide-item__value::before { content: '22.426px'; }
+.styleguide__evaluation-pattern-comparison-table-price-new-text-font-weight.styleguide-item__value::before { content: '700'; }
+.styleguide__evaluation-pattern-comparison-table-price-new-text-line-height.styleguide-item__value::before { content: '26.911px'; }
+.styleguide__evaluation-pattern-comparison-table-price-old-text-color.styleguide-item__value { background-color: hsl(216 5.43% 51.1%); }
+.styleguide__evaluation-pattern-comparison-table-price-old-text-color.styleguide-item__value::before { content: 'hsl(216 5.43% 51.1%)'; }
+.styleguide__evaluation-pattern-comparison-table-price-old-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__evaluation-pattern-comparison-table-price-old-text-font-size.styleguide-item__value { font-size: 17.719px; }
+.styleguide__evaluation-pattern-comparison-table-price-old-text-font-size.styleguide-item__value::before { content: '17.719px'; }
+.styleguide__evaluation-pattern-comparison-table-price-old-text-font-style.styleguide-item__value::before { content: 'line-through'; }
+.styleguide__evaluation-pattern-comparison-table-price-old-text-font-weight.styleguide-item__value::before { content: '700'; }
+.styleguide__evaluation-pattern-comparison-table-price-old-text-line-height.styleguide-item__value::before { content: '17.719px'; }
+.styleguide__evaluation-pattern-comparison-table-price-saving-text-color.styleguide-item__value { background-color: hsl(0 100% 40%); }
+.styleguide__evaluation-pattern-comparison-table-price-saving-text-color.styleguide-item__value::before { content: 'hsl(0 100% 40%)'; }
+.styleguide__evaluation-pattern-comparison-table-price-saving-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__evaluation-pattern-comparison-table-price-saving-text-font-size.styleguide-item__value { font-size: 12.446px; }
+.styleguide__evaluation-pattern-comparison-table-price-saving-text-font-size.styleguide-item__value::before { content: '12.446px'; }
+.styleguide__evaluation-pattern-comparison-table-price-saving-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__evaluation-pattern-comparison-table-price-saving-text-line-height.styleguide-item__value::before { content: '12.446px'; }
+.styleguide__evaluation-pattern-comparison-table-product-description-icon-color.styleguide-item__value { background-color: hsl(28.471 100% 50%); }
+.styleguide__evaluation-pattern-comparison-table-product-description-icon-color.styleguide-item__value::before { content: 'hsl(28.471 100% 50%)'; }
+.styleguide__evaluation-pattern-comparison-table-product-description-text-color.styleguide-item__value { background-color: hsl(216 5.43% 6.39%); }
+.styleguide__evaluation-pattern-comparison-table-product-description-text-color.styleguide-item__value::before { content: 'hsl(216 5.43% 6.39%)'; }
+.styleguide__evaluation-pattern-comparison-table-product-description-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__evaluation-pattern-comparison-table-product-description-text-font-size.styleguide-item__value { font-size: 15.75px; }
+.styleguide__evaluation-pattern-comparison-table-product-description-text-font-size.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__evaluation-pattern-comparison-table-product-description-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__evaluation-pattern-comparison-table-product-description-text-line-height.styleguide-item__value::before { content: '23.625px'; }
+.styleguide__evaluation-pattern-comparison-table-row-title-text-color.styleguide-item__value { background-color: hsl(216 5.43% 6.39%); }
+.styleguide__evaluation-pattern-comparison-table-row-title-text-color.styleguide-item__value::before { content: 'hsl(216 5.43% 6.39%)'; }
+.styleguide__evaluation-pattern-comparison-table-row-title-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__evaluation-pattern-comparison-table-row-title-text-font-size.styleguide-item__value { font-size: 15.75px; }
+.styleguide__evaluation-pattern-comparison-table-row-title-text-font-size.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__evaluation-pattern-comparison-table-row-title-text-font-weight.styleguide-item__value::before { content: '700'; }
+.styleguide__evaluation-pattern-comparison-table-row-title-text-line-height.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__evaluation-pattern-comparison-table-subheader-background-color.styleguide-item__value { background-color: hsl(216 5.43% 91%); }
+.styleguide__evaluation-pattern-comparison-table-subheader-background-color.styleguide-item__value::before { content: 'hsl(216 5.43% 91%)'; }
+.styleguide__evaluation-pattern-comparison-table-subheader-text-color.styleguide-item__value { background-color: hsl(216 5.43% 6.39%); }
+.styleguide__evaluation-pattern-comparison-table-subheader-text-color.styleguide-item__value::before { content: 'hsl(216 5.43% 6.39%)'; }
+.styleguide__evaluation-pattern-comparison-table-subheader-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__evaluation-pattern-comparison-table-subheader-text-font-size.styleguide-item__value { font-size: 15.75px; }
+.styleguide__evaluation-pattern-comparison-table-subheader-text-font-size.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__evaluation-pattern-comparison-table-subheader-text-font-weight.styleguide-item__value::before { content: '700'; }
+.styleguide__evaluation-pattern-comparison-table-subheader-text-line-height.styleguide-item__value::before { content: '23.625px'; }
+.styleguide__evaluation-typography-editorial-body-text-color.styleguide-item__value { background-color: hsl(216 5.43% 6.39%); }
+.styleguide__evaluation-typography-editorial-body-text-color.styleguide-item__value::before { content: 'hsl(216 5.43% 6.39%)'; }
+.styleguide__evaluation-typography-editorial-body-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__evaluation-typography-editorial-body-text-font-size.styleguide-item__value { font-size: 17.719px; }
+.styleguide__evaluation-typography-editorial-body-text-font-size.styleguide-item__value::before { content: '17.719px'; }
+.styleguide__evaluation-typography-editorial-body-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__evaluation-typography-editorial-body-text-line-height.styleguide-item__value::before { content: '21.263px'; }
 .styleguide__pico-component-button-container-height.styleguide-item__value::before { content: '40px'; }
 .styleguide__pico-component-button-container-shape.styleguide-item__value { border-radius: 4px; }
 .styleguide__pico-component-button-container-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__pico-component-button-horizontal-padding.styleguide-item__value::before { content: '8px'; }
+.styleguide__pico-component-button-label-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__pico-component-button-label-text-font-size.styleguide-item__value { font-size: 15.75px; }
+.styleguide__pico-component-button-label-text-font-size.styleguide-item__value::before { content: '15.75px'; }
+.styleguide__pico-component-button-label-text-font-weight.styleguide-item__value::before { content: '700'; }
+.styleguide__pico-component-button-label-text-line-height.styleguide-item__value::before { content: '23.625px'; }
+.styleguide__pico-component-button-label-text-text-case.styleguide-item__value::before { content: 'uppercase'; }
 .styleguide__pico-component-button-label-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
 .styleguide__pico-component-button-label-text-typography-font-size.styleguide-item__value { font-size: 15.75px; }
 .styleguide__pico-component-button-label-text-typography-font-size.styleguide-item__value::before { content: '15.75px'; }
-.styleguide__pico-component-button-label-text-typography-font-style.styleguide-item__value::before { content: 'normal'; }
 .styleguide__pico-component-button-label-text-typography-font-weight.styleguide-item__value::before { content: '700'; }
 .styleguide__pico-component-button-label-text-typography-line-height.styleguide-item__value::before { content: '23.625px'; }
 .styleguide__pico-component-button-label-text-typography-text-case.styleguide-item__value::before { content: 'uppercase'; }
@@ -581,18 +966,37 @@
 .styleguide__pico-component-chip-outline-width.styleguide-item__value::before { content: '1px'; }
 .styleguide__pico-component-hero-background-color.styleguide-item__value { background-color: transparent; }
 .styleguide__pico-component-hero-background-color.styleguide-item__value::before { content: 'transparent'; }
+.styleguide__pico-component-icon-button-icon-size.styleguide-item__value::before { content: ''; }
+.styleguide__pico-component-icon-button-state-layer-height.styleguide-item__value::before { content: ''; }
+.styleguide__pico-component-icon-button-state-layer-shape.styleguide-item__value::before { content: ''; }
+.styleguide__pico-component-icon-button-state-layer-width.styleguide-item__value::before { content: ''; }
 .styleguide__pico-component-menu-container-elevation.styleguide-item__value { box-shadow: [object Object]; }
 .styleguide__pico-component-menu-container-elevation.styleguide-item__value::before { content: '[object Object]'; }
 .styleguide__pico-component-menu-container-shape.styleguide-item__value { border-radius: 4px; }
 .styleguide__pico-component-menu-container-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__pico-component-menu-item-horizontal-padding.styleguide-item__value::before { content: '12px'; }
+.styleguide__pico-component-menu-item-label-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__pico-component-menu-item-label-text-font-size.styleguide-item__value { font-size: 14px; }
+.styleguide__pico-component-menu-item-label-text-font-size.styleguide-item__value::before { content: '14px'; }
+.styleguide__pico-component-menu-item-label-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__pico-component-menu-item-label-text-line-height.styleguide-item__value::before { content: '21px'; }
+.styleguide__pico-component-menu-item-label-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__pico-component-menu-item-label-text-typography-font-size.styleguide-item__value { font-size: 14px; }
+.styleguide__pico-component-menu-item-label-text-typography-font-size.styleguide-item__value::before { content: '14px'; }
+.styleguide__pico-component-menu-item-label-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__pico-component-menu-item-label-text-typography-line-height.styleguide-item__value::before { content: '21px'; }
+.styleguide__pico-component-menu-item-line-container-height.styleguide-item__value::before { content: '20px'; }
+.styleguide__pico-component-menu-item-supporting-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__pico-component-menu-item-supporting-text-font-size.styleguide-item__value { font-size: 12.446px; }
+.styleguide__pico-component-menu-item-supporting-text-font-size.styleguide-item__value::before { content: '12.446px'; }
+.styleguide__pico-component-menu-item-supporting-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__pico-component-menu-item-supporting-text-line-height.styleguide-item__value::before { content: '18.669px'; }
+.styleguide__pico-component-menu-item-supporting-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__pico-component-menu-item-supporting-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
+.styleguide__pico-component-menu-item-supporting-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
+.styleguide__pico-component-menu-item-supporting-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__pico-component-menu-item-supporting-text-typography-line-height.styleguide-item__value::before { content: '18.669px'; }
 .styleguide__pico-component-menu-item-vertical-padding.styleguide-item__value::before { content: '8px'; }
-.styleguide__pico-component-menu-label-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
-.styleguide__pico-component-menu-label-typography-font-size.styleguide-item__value { font-size: 14px; }
-.styleguide__pico-component-menu-label-typography-font-size.styleguide-item__value::before { content: '14px'; }
-.styleguide__pico-component-menu-label-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__pico-component-menu-label-typography-line-height.styleguide-item__value::before { content: '21px'; }
-.styleguide__pico-component-menu-line-container-height.styleguide-item__value::before { content: '20px'; }
 .styleguide__pico-component-section-background-color.styleguide-item__value { background-color: transparent; }
 .styleguide__pico-component-section-background-color.styleguide-item__value::before { content: 'transparent'; }
 .styleguide__pico-component-switch-disabled-handle-color.styleguide-item__value { background-color: hsl(216 5.43% 69.3%); }
@@ -686,15 +1090,24 @@
 .styleguide__pico-component-tab-container-height.styleguide-item__value::before { content: '42px'; }
 .styleguide__pico-component-tab-container-shape.styleguide-item__value { border-radius: 4px; }
 .styleguide__pico-component-tab-container-shape.styleguide-item__value::before { content: '4px'; }
+.styleguide__pico-component-tab-label-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__pico-component-tab-label-text-font-size.styleguide-item__value::before { content: '14px'; }
+.styleguide__pico-component-tab-label-text-font-weight.styleguide-item__value::before { content: '500'; }
+.styleguide__pico-component-tab-label-text-line-height.styleguide-item__value::before { content: '21px'; }
 .styleguide__pico-component-tab-label-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
 .styleguide__pico-component-tab-label-text-typography-font-size.styleguide-item__value { font-size: 14px; }
 .styleguide__pico-component-tab-label-text-typography-font-size.styleguide-item__value::before { content: '14px'; }
 .styleguide__pico-component-tab-label-text-typography-font-weight.styleguide-item__value::before { content: '500'; }
 .styleguide__pico-component-tab-label-text-typography-line-height.styleguide-item__value::before { content: '21px'; }
+.styleguide__pico-component-tag-label-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__pico-component-tag-label-text-font-size.styleguide-item__value { font-size: 12.446px; }
+.styleguide__pico-component-tag-label-text-font-size.styleguide-item__value::before { content: '12.446px'; }
+.styleguide__pico-component-tag-label-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__pico-component-tag-label-text-line-height.styleguide-item__value::before { content: '18.669px'; }
+.styleguide__pico-component-tag-label-text-text-case.styleguide-item__value::before { content: 'uppercase'; }
 .styleguide__pico-component-tag-label-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
 .styleguide__pico-component-tag-label-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
 .styleguide__pico-component-tag-label-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
-.styleguide__pico-component-tag-label-text-typography-font-style.styleguide-item__value::before { content: 'normal'; }
 .styleguide__pico-component-tag-label-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
 .styleguide__pico-component-tag-label-text-typography-line-height.styleguide-item__value::before { content: '18.669px'; }
 .styleguide__pico-component-tag-label-text-typography-text-case.styleguide-item__value::before { content: 'uppercase'; }
@@ -704,11 +1117,21 @@
 .styleguide__pico-component-tag-shape.styleguide-item__value::before { content: '4px'; }
 .styleguide__pico-component-tag-spacing.styleguide-item__value::before { content: '4px'; }
 .styleguide__pico-component-text-field-container-shape.styleguide-item__value::before { content: '4px'; }
+.styleguide__pico-component-text-field-input-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__pico-component-text-field-input-text-font-size.styleguide-item__value { font-size: 14px; }
+.styleguide__pico-component-text-field-input-text-font-size.styleguide-item__value::before { content: '14px'; }
+.styleguide__pico-component-text-field-input-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__pico-component-text-field-input-text-line-height.styleguide-item__value::before { content: '21px'; }
 .styleguide__pico-component-text-field-input-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
 .styleguide__pico-component-text-field-input-text-typography-font-size.styleguide-item__value { font-size: 14px; }
 .styleguide__pico-component-text-field-input-text-typography-font-size.styleguide-item__value::before { content: '14px'; }
 .styleguide__pico-component-text-field-input-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
 .styleguide__pico-component-text-field-input-text-typography-line-height.styleguide-item__value::before { content: '21px'; }
+.styleguide__pico-component-text-field-label-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__pico-component-text-field-label-text-font-size.styleguide-item__value { font-size: 14px; }
+.styleguide__pico-component-text-field-label-text-font-size.styleguide-item__value::before { content: '14px'; }
+.styleguide__pico-component-text-field-label-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__pico-component-text-field-label-text-line-height.styleguide-item__value::before { content: '21px'; }
 .styleguide__pico-component-text-field-label-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
 .styleguide__pico-component-text-field-label-text-typography-font-size.styleguide-item__value { font-size: 14px; }
 .styleguide__pico-component-text-field-label-text-typography-font-size.styleguide-item__value::before { content: '14px'; }
@@ -717,21 +1140,30 @@
 .styleguide__pico-component-text-field-outline-width.styleguide-item__value::before { content: '1px'; }
 .styleguide__pico-component-text-field-padding-horizontal.styleguide-item__value::before { content: '8px'; }
 .styleguide__pico-component-text-field-padding-vertical.styleguide-item__value::before { content: '8px'; }
+.styleguide__pico-component-text-field-supporting-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__pico-component-text-field-supporting-text-font-size.styleguide-item__value { font-size: 12.446px; }
+.styleguide__pico-component-text-field-supporting-text-font-size.styleguide-item__value::before { content: '12.446px'; }
+.styleguide__pico-component-text-field-supporting-text-font-weight.styleguide-item__value::before { content: '400'; }
+.styleguide__pico-component-text-field-supporting-text-line-height.styleguide-item__value::before { content: '18.669px'; }
 .styleguide__pico-component-text-field-supporting-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
-.styleguide__pico-component-text-field-supporting-text-typography-font-size.styleguide-item__value { font-size: 12.446px; }
-.styleguide__pico-component-text-field-supporting-text-typography-font-size.styleguide-item__value::before { content: '12.446px'; }
+.styleguide__pico-component-text-field-supporting-text-typography-font-size.styleguide-item__value { font-size: 14px; }
+.styleguide__pico-component-text-field-supporting-text-typography-font-size.styleguide-item__value::before { content: '14px'; }
 .styleguide__pico-component-text-field-supporting-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
-.styleguide__pico-component-text-field-supporting-text-typography-line-height.styleguide-item__value::before { content: '18.669px'; }
+.styleguide__pico-component-text-field-supporting-text-typography-line-height.styleguide-item__value::before { content: '21px'; }
+.styleguide__pico-component-tooltip-label-text-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__pico-component-tooltip-label-text-font-size.styleguide-item__value { font-size: 11.064px; }
+.styleguide__pico-component-tooltip-label-text-font-size.styleguide-item__value::before { content: '11.064px'; }
+.styleguide__pico-component-tooltip-label-text-font-weight.styleguide-item__value::before { content: '500'; }
+.styleguide__pico-component-tooltip-label-text-line-height.styleguide-item__value::before { content: '16.596px'; }
+.styleguide__pico-component-tooltip-label-text-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
+.styleguide__pico-component-tooltip-label-text-typography-font-size.styleguide-item__value { font-size: 11.064px; }
+.styleguide__pico-component-tooltip-label-text-typography-font-size.styleguide-item__value::before { content: '11.064px'; }
+.styleguide__pico-component-tooltip-label-text-typography-font-weight.styleguide-item__value::before { content: '500'; }
+.styleguide__pico-component-tooltip-label-text-typography-line-height.styleguide-item__value::before { content: '16.596px'; }
 .styleguide__pico-component-tooltip-padding-horizontal.styleguide-item__value::before { content: '8px'; }
 .styleguide__pico-component-tooltip-padding-vertical.styleguide-item__value::before { content: '4px'; }
 .styleguide__pico-component-tooltip-shape.styleguide-item__value { border-radius: 4px; }
 .styleguide__pico-component-tooltip-shape.styleguide-item__value::before { content: '4px'; }
-.styleguide__pico-component-tooltip-typography-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
-.styleguide__pico-component-tooltip-typography-font-size.styleguide-item__value { font-size: 11.064px; }
-.styleguide__pico-component-tooltip-typography-font-size.styleguide-item__value::before { content: '11.064px'; }
-.styleguide__pico-component-tooltip-typography-font-style.styleguide-item__value::before { content: 'normal'; }
-.styleguide__pico-component-tooltip-typography-font-weight.styleguide-item__value::before { content: '500'; }
-.styleguide__pico-component-tooltip-typography-line-height.styleguide-item__value::before { content: '16.596px'; }
 .styleguide__pico-key-font-family-fallback-one.styleguide-item__value::before { content: 'sans-serif'; }
 .styleguide__pico-key-font-family-fallback-two.styleguide-item__value::before { content: 'sans-serif'; }
 .styleguide__pico-key-font-family-one.styleguide-item__value::before { content: 'Averta CY'; }
@@ -1242,17 +1674,17 @@
 .styleguide__pico-semantic-typography-body-small-font-size.styleguide-item__value::before { content: '12.446px'; }
 .styleguide__pico-semantic-typography-body-small-font-weight.styleguide-item__value::before { content: '400'; }
 .styleguide__pico-semantic-typography-body-small-line-height.styleguide-item__value::before { content: '18.669px'; }
-.styleguide__pico-semantic-typography-display-large-font-family.styleguide-item__value::before { content: 'Roboto, sans-serif'; }
+.styleguide__pico-semantic-typography-display-large-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
 .styleguide__pico-semantic-typography-display-large-font-size.styleguide-item__value { font-size: 57.539px; }
 .styleguide__pico-semantic-typography-display-large-font-size.styleguide-item__value::before { content: '57.539px'; }
 .styleguide__pico-semantic-typography-display-large-font-weight.styleguide-item__value::before { content: '700'; }
 .styleguide__pico-semantic-typography-display-large-line-height.styleguide-item__value::before { content: '69.047px'; }
-.styleguide__pico-semantic-typography-display-medium-font-family.styleguide-item__value::before { content: 'Roboto, sans-serif'; }
+.styleguide__pico-semantic-typography-display-medium-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
 .styleguide__pico-semantic-typography-display-medium-font-size.styleguide-item__value { font-size: 45.463px; }
 .styleguide__pico-semantic-typography-display-medium-font-size.styleguide-item__value::before { content: '45.463px'; }
 .styleguide__pico-semantic-typography-display-medium-font-weight.styleguide-item__value::before { content: '700'; }
 .styleguide__pico-semantic-typography-display-medium-line-height.styleguide-item__value::before { content: '54.556px'; }
-.styleguide__pico-semantic-typography-display-small-font-family.styleguide-item__value::before { content: 'Roboto, sans-serif'; }
+.styleguide__pico-semantic-typography-display-small-font-family.styleguide-item__value::before { content: 'Averta CY, sans-serif'; }
 .styleguide__pico-semantic-typography-display-small-font-size.styleguide-item__value { font-size: 35.922px; }
 .styleguide__pico-semantic-typography-display-small-font-size.styleguide-item__value::before { content: '35.922px'; }
 .styleguide__pico-semantic-typography-display-small-font-weight.styleguide-item__value::before { content: '700'; }
