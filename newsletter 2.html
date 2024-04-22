@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link data-theme="" rel="stylesheet" href="css/brands/gsgds-design-tokens-Hotukdeals.com.css" />
+    <link rel="stylesheet" href="css/bobby-md3.css" />
+    <meta name="description" content="" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="icon.png" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#fafafa" />
+    <script src="./js/bundle.js"></script>
+    <script type="module" src="./js/index.js"></script>
+    <script></script>
+    <style>
+      body {
+        padding: var(--pico-ref-spacing-xl);
+        font: 1rem sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Pico Components</h1>
+      <h3>GSG Design System</h3>
+      <span style="position: relative">
+        <md-filled-button id="theming-anchor">Themed menu</md-filled-button>
+        <md-menu id="theming-menu" anchor="theming-anchor">
+          <md-menu-item>
+            <div slot="headline" data-src="/css/brands/gsgds-design-tokens-CNN.css">CNN</div>
+          </md-menu-item>
+          <md-menu-item>
+            <div slot="headline" data-src="/css/brands/gsgds-design-tokens-DailyMail.css">DailyMail</div>
+          </md-menu-item>
+          <md-menu-item>
+            <div slot="headline" data-src="/css/brands/gsgds-design-tokens-Hotukdeals.com.css">Hotukdeals</div>
+          </md-menu-item>
+          <md-menu-item>
+            <div slot="headline" data-src="/css/brands/gsgds-design-tokens-Coupons.com.css">Coupons.com</div>
+          </md-menu-item>
+        </md-menu>
+      </span>
+    </header>
+    <div>
+      <div
+        style="
+          display: inline-flex;
+          padding: 40px;
+          box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+          border-radius: 8px;
+        "
+        class="card"
+      >
+        <div
+          style="
+            background-color: lightgray;
+            height: 150px;
+            width: 150px;
+            margin-right: 20px;
+          "
+        ></div>
+
+        <div>
+          <h3>Now enter your email to stay informed about the bonus</h3>
+          <h4>The best codes, offers and discounts from 1000's of retailers</h4>
+          <div style="display: flex" class="signup">
+            <md-outlined-text-field
+              type="email"
+              value="Email address"
+              style="width: 100%"
+            >
+            </md-outlined-text-field>
+            <md-filled-button leading-icon> SUBSCRIBE </md-filled-button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+    <script type="module" src="js/theme-dropdown.js"></script>
+  </body>
+</html>

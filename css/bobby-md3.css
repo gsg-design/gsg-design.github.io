@@ -3,28 +3,28 @@
 
   /** BUTTON ELEVATED **/
   --md-elevated-button-container-height: var(
-    --bobby-component-button-container-height
+    --bobby-component-button-filled-default-large-container-shape
   );
   --md-elevated-button-container-shape: var(
-    --bobby-component-button-container-shape
+    --bobby-component-button-filled-default-large-container-shape
   );
   --md-elevated-button-leading-space: var(
-    --bobby-component-button-leading-space
+    --bobby-component-button-filled-default-large-horizontal-padding
   );
   --md-elevated-button-trailing-space: var(
-    --bobby-component-button-trailing-space
+    --bobby-component-button-filled-default-large-horizontal-padding
   );
   --md-elevated-button-label-text-font: var(
-    --bobby-component-button-label-text-typography-font-family
+    --bobby-component-button-filled-default-large-label-text-font-family
   );
   --md-elevated-button-label-text-line-hieght: var(
-    --bobby-component-button-label-text-typography-line-height
+    --bobby-component-button-filled-default-large-label-text-line-height
   );
   --md-elevated-button-label-text-size: var(
-    --bobby-component-button-label-text-typography-font-size
+    --bobby-component-button-filled-default-large-label-text-font-size
   );
   --md-elevated-button-label-text-weight: var(
-    --bobby-component-button-label-text-typography-font-weight
+    --bobby-component-button-filled-default-large-label-text-font-weight
   );
   /* resting */
   --md-elevated-button-container-color: var(
@@ -82,28 +82,28 @@
 
   /** BUTTON - FILLED **/
   --md-filled-button-container-height: var(
-    --bobby-component-button-container-height
+    --bobby-component-button-filled-default-large-container-height
   );
   --md-filled-button-container-shape: var(
-    --bobby-component-button-container-shape
+    --bobby-component-button-filled-default-large-container-shape
   );
   --md-filled-button-label-text-font: var(
-    --bobby-component-button-label-text-typography-font-family
+    --bobby-component-button-filled-default-large-label-text-font-family
   );
   --md-filled-button-label-text-line-height: var(
-    --bobby-component-button-label-text-typography-line-height
+    --bobby-component-button-filled-default-large-label-text-line-height
   );
   --md-filled-button-label-text-size: var(
-    --bobby-component-button-label-text-typography-font-size
+    --bobby-component-button-filled-default-large-label-text-font-size
   );
   --md-filled-button-label-text-weight: var(
-    --bobby-component-button-label-text-typography-font-weight
+    --bobby-component-button-filled-default-large-label-text-font-weight
   );
   --md-filled-button-leading-space: var(
-    --bobby-component-button-horizontal-padding
+    --bobby-component-button-filled-default-large-horizontal-padding
   );
   --md-filled-button-trailing-space: var(
-    --bobby-component-button-horizontal-padding
+    --bobby-component-button-filled-default-large-horizontal-padding
   );
   /* resting */
   --md-filled-button-container-color: var(
@@ -155,28 +155,28 @@
 
   /** BUTTON OUTLINED **/
   --md-outlined-button-container-height: var(
-    --bobby-component-button-container-height
+    --bobby-component-button-outlined-default-large-container-height
   );
   --md-outlined-button-container-shape: var(
-    --bobby-component-button-container-shape
+    --bobby-component-button-outlined-default-large-container-shape
   );
   --md-outlined-button-label-text-font: var(
-    --bobby-component-button-label-text-typography-font-family
+    --bobby-component-button-outlined-default-large-label-text-font-family
   );
   --md-outlined-button-label-text-line-height: var(
-    --bobby-component-button-label-text-typography-line-height
+    --bobby-component-button-outlined-default-large-label-text-line-height
   );
   --md-outlined-button-label-text-size: var(
-    --bobby-component-button-label-text-typography-font-size
+    --bobby-component-button-outlined-default-large-label-text-font-size
   );
   --md-outlined-button-label-text-weight: var(
-    --bobby-component-button-label-text-typography-font-weight
+    --bobby-component-button-outlined-default-large-label-text-font-weight
   );
   --md-outlined-button-leading-space: var(
-    --bobby-component-button-leading-space
+    --bobby-component-button-outlined-default-large-horizontal-padding
   );
   --md-outlined-button-trailing-space: var(
-    --bobby-component-button-trailing-space
+    --bobby-component-button-outlined-default-large-horizontal-padding
   );
   --md-outlined-button-outline-width: var(
     --bobby-component-button-outlined-default-large-outline-width
@@ -240,25 +240,29 @@
 
   /** BUTTON TEXT **/
   --md-text-button-container-height: var(
-    --bobby-component-button-container-height
+    --bobby-component-button-text-default-large-container-height
   );
   --md-text-button-container-shape: var(
-    --bobby-component-button-container-shape
+    --bobby-component-button-text-default-large-container-shape
   );
   --md-text-button-label-text-font: var(
-    --bobby-component-button-label-text-typography-font-family
+    --bobby-component-button-text-default-large-label-text-font-family
   );
   --md-text-button-label-text-line-height: var(
-    --bobby-component-button-label-text-typography-line-height
+    --bobby-component-button-text-default-large-label-text-line-height
   );
   --md-text-button-label-text-size: var(
-    --bobby-component-button-label-text-typography-font-size
+    --bobby-component-button-text-default-large-label-text-font-size
   );
   --md-text-button-label-text-weight: var(
-    --bobby-component-button-label-text-typography-font-weight
+    --bobby-component-button-text-default-large-label-text-font-weight
   );
-  --md-text-button-leading-space: var(--bobby-component-button-leading-space);
-  --md-text-button-trailing-space: var(--bobby-component-button-trailing-space);
+  --md-text-button-leading-space: var(
+    --bobby-component-button-text-default-large-horizontal-padding
+  );
+  --md-text-button-trailing-space: var(
+    --bobby-component-button-text-default-large-horizontal-padding
+  );
   /* resting */
   --md-text-button-label-text-color: var(
     --bobby-component-button-text-default-large-foreground-color
@@ -319,6 +323,12 @@
   );
   --md-filter-chip-trailing-space: var(
     --bobby-component-chip-horizontal-padding
+  );
+  --md-filter-chip-leading-icon-color: var(
+    --bobby-component-chip-icon-color
+  );
+  --md-filter-chip-trailing-icon-color: var(
+    --bobby-component-chip-icon-color
   );
   --md-filter-chip-outline-width: var(--bobby-component-chip-outline-width);
   --md-filter-chip-label-text-font: var(
@@ -1111,15 +1121,25 @@
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  border-radius: 8px;
   background-color: var(--pico-semantic-color-ui-surface-container-lowest);
 }
 
-.tag-row {
+.voucher-card .tag-row {
   padding: var(--pico-ref-spacing-m) var(--pico-ref-spacing-m) 0
     var(--pico-ref-spacing-m);
   width: 100%;
   box-sizing: border-box;
+}
+
+.tag-row .tag {
+  font-size: var(--conversion-pattern-voucher-card-tag-text-font-size);
+  line-height: var(--conversion-pattern-voucher-card-tag-text-line-height);
+  font-weight: var(--conversion-pattern-voucher-card-tag-text-font-weight);
+  font-family: var(--conversion-pattern-voucher-card-tag-text-font-family);
+  text-transform: var(--conversion-pattern-voucher-card-tag-text-case);
+  background-color: var(--conversion-pattern-voucher-card-tag-background-color);
+  color: var(--conversion-pattern-voucher-card-tag-text-color);
+  padding: var(--conversion-pattern-voucher-card-tag-vertical-padding) var(--conversion-pattern-voucher-card-tag-horizontal-padding);
 }
 
 .content-layout {
@@ -1144,6 +1164,7 @@
   );
   width: 100%;
   height: 100%;
+  padding: var(--conversion-pattern-voucher-card-captions-padding);
 }
 
 .verified {
@@ -1156,8 +1177,11 @@
   width: 100%;
   min-height: 32px;
   box-sizing: border-box;
-  font: var(--conversion-pattern-voucher-card-helper-text-typography);
-  /* font: 400 12px Arial; */
+  font-size: var(--conversion-pattern-voucher-card-helper-text-font-size);
+  line-height: var(--conversion-pattern-voucher-card-helper-text-line-height);
+  font-weight: var(--conversion-pattern-voucher-card-helper-text-font-weight);
+  font-family: var(--conversion-pattern-voucher-card-helper-text-font-family);
+  color: var(--conversion-pattern-voucher-card-verified-text-color);
 }
 
 .terms {
@@ -1169,45 +1193,45 @@
   width: 100%;
   height: 32px;
   box-sizing: border-box;
-  font: var(--conversion-pattern-voucher-card-helper-text-typography);
+  font-size: var(--conversion-pattern-voucher-card-helper-text-font-size);
+  line-height: var(--conversion-pattern-voucher-card-helper-text-line-height);
+  font-weight: var(--conversion-pattern-voucher-card-helper-text-font-weight);
+  font-family: var(--conversion-pattern-voucher-card-helper-text-font-family);
+  color: var(--conversion-pattern-voucher-card-terms-text-color);
 }
 
 .voucher-card .title {
-  font: var(--conversion-pattern-voucher-card-title-typography);
+  font-size: var(--conversion-pattern-voucher-card-title-text-font-size);
+  line-height: var(--conversion-pattern-voucher-card-title-text-line-height);
+  font-weight: var(--conversion-pattern-voucher-card-title-text-font-weight);
+  font-family: var(--conversion-pattern-voucher-card-title-text-font-family);
+  color: var(--conversion-pattern-voucher-card-title-text-color);
 }
 
-.voucher-card .subtitle {
+/* .voucher-card .subtitle {
   font: var(--conversion-pattern-voucher-card-helper-text-typography);
-}
+} */
 
 .voucher-card .caption1 {
-  font-size: var(
-    --conversion-pattern-voucher-card-caption1-typography-font-size
-  );
-  line-height: var(
-    --conversion-pattern-voucher-card-caption1-typography-line-height
-  );
-  font-weight: var(
-    --conversion-pattern-voucher-card-caption1-typography-font-weight
-  );
-  font-family: var(
-    --conversion-pattern-voucher-card-caption1-typography-font-family
-  );
+  font-size: var(--conversion-pattern-voucher-card-caption1-text-font-size);
+  line-height: var(--conversion-pattern-voucher-card-caption1-text-line-height);
+  font-weight: var(--conversion-pattern-voucher-card-caption1-text-font-weight);
+  font-family: var(--conversion-pattern-voucher-card-caption1-text-font-family);
+  color: var(--conversion-pattern-voucher-card-caption1-text-color);
 }
 
 .caption2 {
-  font: var(--conversion-pattern-voucher-card-caption2-typography);
+  font-size: var(--conversion-pattern-voucher-card-caption2-text-font-size);
+  line-height: var(--conversion-pattern-voucher-card-caption2-text-line-height);
+  font-weight: var(--conversion-pattern-voucher-card-caption2-text-font-weight);
+  font-family: var(--conversion-pattern-voucher-card-caption2-text-font-family);
+  color: var(--conversion-pattern-voucher-card-caption2-text-color);
 }
 
 .voucher-card md-filled-button {
   --md-filled-button-container-color: var(
     --conversion-pattern-voucher-card-button-container-color
   );
-}
-
-.voucher-card md-filled-button:hover {
-  --md-filled-button-hover-state-layer-color: green;
-  --md-filled-button-hover-state-layer-opacity: 1;
 }
 
 /* --------------------------------------------------RLP LAYOUT--------------------------------------------------------- */
@@ -1229,7 +1253,7 @@
     "list"
     "content"
     "footer";
-  padding: 0 var(--pico-ref-spacing-m);
+  margin: 0 var(--pico-ref-spacing-m);
 }
 
 .discounts-nav {
@@ -1248,7 +1272,7 @@
 .rlp .list {
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: minmax(270px, 300px) minmax(370px, 2fr);
   grid-template-areas: "sidebar vouchers";
 }
 
@@ -1428,8 +1452,8 @@
   margin-bottom: var(--pico-ref-spacing-3xl);
 }
 
-.article .content {
-  width: 960px;
+.article .all-content {
+  max-width: 960px;
 }
 
 .article .discounts-nav {
@@ -1479,12 +1503,12 @@
 }
 
 .article .headline {
-  font-family: var(--pico-semantic-typography-headline-large-font-family);
-  font-size: var(--pico-semantic-typography-headline-large-font-size);
-  line-height: var(--pico-semantic-typography-headline-large-line-height);
-  font-weight: var(--pico-semantic-typography-headline-large-font-weight);
+  font-family: var(--evaluation-typography-editorial-h1-text-font-family);
+  font-size: var(--evaluation-typography-editorial-h1-text-font-size);
+  line-height: var(--evaluation-typography-editorial-h1-text-line-height);
+  font-weight: var(--evaluation-typography-editorial-h1-text-font-weight);
   margin-bottom: var(--pico-ref-spacing-l);
-  color: var(--pico-semantic-color-ui-primary);
+  color: var(--evaluation-typography-editorial-h1-text-color);
 }
 
 .article .subtitle {
@@ -1538,12 +1562,12 @@
 }
 
 .article .hero-img img {
-  width: 960px;
+  width: 100%;
   margin-bottom: var(--pico-ref-spacing-xl);
 }
 
 .article table {
-  width: 960px;
+  width: 100%;
   border-collapse: collapse;
   overflow: hidden;
   margin-bottom: var(--pico-ref-spacing-l);
@@ -1565,6 +1589,8 @@
   font-weight: var(
     --evaluation-pattern-comparison-table-header-text-font-weight
   );
+  border: var(--evaluation-pattern-comparison-table-cell-outline-width)
+    var(--evaluation-pattern-comparison-table-cell-outline-color) solid;
 }
 
 .article .table-cell {
@@ -1708,6 +1734,8 @@
     --evaluation-pattern-comparison-table-subheader-background-color
   );
   padding: var(--evaluation-pattern-comparison-table-cell-padding);
+  border: var(--evaluation-pattern-comparison-table-cell-outline-width)
+    var(--evaluation-pattern-comparison-table-cell-outline-color) solid;
 }
 
 .article .table-cell .text {

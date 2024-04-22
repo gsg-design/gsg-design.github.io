@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GSG Design System &mdash; Documentation</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/docs-variables.css" />
+    <link
+      data-theme
+      rel="stylesheet"
+      href="./css/brands/gsgds-tokens-Coupons.com.css"
+    />
+    <link
+      data-vars
+      rel="stylesheet"
+      href="./css/brands/styleguide-default.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/bobby-md3.css" />
+    <meta name="description" content="" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="icon.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#fafafa" />
+    <script type="module" src="./js/bundle.js"></script>
+    <script type="module" src="./js/index.js"></script>
+  </head>
+
+  <body class="doc-body">
+    <header class="doc-header">
+      <div class="doc-header__identity">
+        <svg
+          width="56"
+          height="40"
+          viewBox="0 0 56 40"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M36.6044 0C26.0748 0 17.5078 8.49429 17.5078 18.9408V19.3562C17.5078 20.2908 18.2658 21.0592 19.2108 21.0592H28.6293C29.2419 21.0592 29.7092 21.5992 29.6469 22.2015C29.0654 27.4247 24.5587 31.5057 19.0966 31.5057C13.2503 31.5057 8.4839 26.8224 8.4839 21.0592C8.4839 15.6075 12.7414 11.1215 18.1516 10.6542C18.6916 10.6023 19.0966 10.135 19.0966 9.59502V3.7487C19.0966 2.61682 18.5877 2.108 17.9855 2.14953C7.97508 2.72066 0 10.9865 0 21.0592C0 31.1319 8.56698 40 19.0966 40C29.6262 40 38.1931 31.5057 38.1931 21.0592V20.6438C38.1931 19.7092 37.4351 18.9408 36.4901 18.9408H27.0716C26.459 18.9408 25.9917 18.4008 26.054 17.7985C26.6355 12.5753 31.1423 8.49429 36.6044 8.49429C42.4507 8.49429 47.217 13.1776 47.217 18.9408C47.217 24.3925 42.9595 28.8785 37.5493 29.3458C37.0093 29.3977 36.6044 29.865 36.6044 30.405V36.2409C36.6044 37.3728 37.1132 37.8816 37.7155 37.8401C47.7259 37.269 55.7009 29.0031 55.7009 18.9304C55.7009 8.85774 47.1443 0 36.6044 0Z"
+            fill="url(#paint0_linear_1540_31583)"
+          />
+          <defs>
+            <linearGradient
+              id="paint0_linear_1540_31583"
+              x1="27.8505"
+              y1="38.0478"
+              x2="27.8505"
+              y2="-0.872274"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#1D4E90" />
+              <stop offset="1" stop-color="#2D67B5" />
+            </linearGradient>
+          </defs>
+        </svg>
+        <h1 class="doc-header__title">GSG Design System</h1>
+      </div>
+      <div class="doc-header__version-select"></div>
+      <div class="doc-header__theme-select" style="position: relative">
+        <md-filled-button id="theming-anchor">Themed menu</md-filled-button>
+        <md-menu id="theming-menu" anchor="theming-anchor"> </md-menu>
+      </div>
+    </header>
+
+    <aside class="doc-aside">
+      <nav class="doc-aside__nav">
+        <ul>
+          <li><a href="/">Introduction</a></li>
+          <li><a href="/style-guide.html">Design Tokens</a></li>
+          <li><a href="/components.html">Components</a></li>
+          <li><a href="/patterns.html">Patterns</a></li>
+          <li><a href="/layout.html">Layouts</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <section class="doc-content">
+      <header class="doc-content__header">
+        <h1>Layour examples</h1>
+      </header>
+
+      <section class="rlp">
+        <div class="layout-name"><h1>RLP</h1></div>
+        <div class="rlp-layout">
+          <div class="all-content">
+            <div class="discounts-nav">
+              <div>
+                <md-text-button trailing-icon id="usage-fixed-anchor"
+                >Menu Item
+                  <svg
+                    slot="icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <title>chevron-down</title>
+                    <path
+                      d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"
+                    />
+                    </svg></md-text-button>
+                <md-text-button trailing-icon id="usage-fixed-anchor"
+                  >Menu Item
+                  <svg
+                    slot="icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <title>chevron-down</title>
+                    <path
+                      d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/>
+                      </svg></md-text-button>
+                <md-text-button trailing-icon id="usage-fixed-anchor"
+                  >Menu Item
+                  <svg
+                    slot="icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <title>chevron-down</title>
+                    <path
+                      d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/>
+                      </svg></md-text-button>
+                <md-text-button trailing-icon id="usage-fixed-anchor"
+                  >Menu Item
+                  <svg
+                    slot="icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <title>chevron-down</title>
+                    <path
+                      d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/>
+                      </svg></md-text-button>
+                <md-text-button trailing-icon id="usage-fixed-anchor"
+                  >Menu Item
+                  <svg
+                    slot="icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <title>chevron-down</title>
+                    <path
+                      d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/>
+                      </svg></md-text-button>
+              </div>
+              <md-outlined-text-field
+                type="email"
+                placeholder="Search"
+                style="padding-left: 20px"
+              >
+              </md-outlined-text-field>
+            </div>
+              <div class="list">
+                <div class="sidebar">
+                  <div class="sidebar-card retailer-header">
+                    <div class="logo">Booking.com</div>
+                    <div class="description">
+                      <div class="heading">
+                        Alle Booking.com Gutscheine - März 2023
+                      </div>
+                      <div class="subheading">
+                        15 Booking.com Angebote online | Alle Gutscheincodes getestet
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sidebar-card filter-chips card-padding">
+                    <md-filter-chip label="All (17)">
+                      <md-icon slot="icon">done</md-icon>
+                    </md-filter-chip>
+                    <md-filter-chip label="Codes (3)">
+                      <md-icon slot="icon">sell</md-icon>
+                    </md-filter-chip>
+                    <md-filter-chip label="Deals (14)">
+                      <md-icon slot="icon">percent</md-icon>
+                    </md-filter-chip>
+                    <md-filter-chip label="Free delivery (1)">
+                      <md-icon slot="icon">local_shipping</md-icon>
+                    </md-filter-chip>
+                    <md-filter-chip label="Verified (7)">
+                      <md-icon slot="icon">verified</md-icon>
+                    </md-filter-chip>
+                  </div>
+                  <div class="sidebar-card text-widget card-padding">
+                    <div class="heading">Save More, Smile More</div>
+                    <div class="text">
+                      Amazon Prime Sign up for a Prime membership to enjoy loads of
+                      benefits, such as: Unlimited one-day delivery; Unlimited instant
+                      streaming of movies; TV series and music; Unlimited reading on
+                      any device. Not only that, but there are regular Amazon
+                      promotional codes available for Prime Members only! Give Prime a
+                      try today with the 30-day free trial. Warehouse Don't mind
+                      buying a pre-owned product? Head off to the Warehouse where you
+                      can find great deals on quality, used products. With discounts
+                      up to 50% off or more, you can save on choice products such as
+                      TVs, electronics, mobile phones, video games, and more!
+                    </div>
+                  </div>
+                  <div class="sidebar-card shop-chips card-padding">
+                    <div class="heading">Similar shops</div>
+                    <div class="chips">
+                      <md-filter-chip label="Filter"></md-filter-chip>
+                      <md-filter-chip label="Filter"></md-filter-chip>
+                      <md-filter-chip label="Filter"></md-filter-chip>
+                      <md-filter-chip label="Filter"></md-filter-chip>
+                      <md-filter-chip label="Filter"></md-filter-chip>
+                      <md-filter-chip label="Filter"></md-filter-chip>
+                      <md-filter-chip label="Filter"></md-filter-chip>
+                      <md-filter-chip label="Filter"></md-filter-chip>
+                      <md-filter-chip label="Filter"></md-filter-chip>
+                      <md-filter-chip label="Filter"></md-filter-chip>
+                      <md-filter-chip label="Filter"></md-filter-chip>
+                      <md-filter-chip label="Filter"></md-filter-chip>
+                      <md-filter-chip label="Filter"></md-filter-chip>
+                      <md-filter-chip label="Filter"></md-filter-chip>
+                      <md-filter-chip label="Filter"></md-filter-chip>
+                      <md-filter-chip label="Filter"></md-filter-chip>
+                    </div>
+                  </div>
+                </div>
+                <div class="voucher-cards">
+                  <div class="voucher-card">
+                    <div class="left-side">
+                      <div class="captions">
+                        <div class="caption1" style="margin-bottom: 5px">10%</div>
+                        <div class="caption2" style="margin-top: 5px">off</div>
+                      </div>
+                      <div class="verified">Verified</div>
+                    </div>
+                    <div class="right-side">
+                      <div class="tag-row">Tag</div>
+                      <div class="content-layout">
+                        <div class="title">
+                          Enjoy 10% off online products with our exclusive Adidas
+                        </div>
+                        <md-filled-button>GET CODE</md-filled-button>
+                      </div>
+                      <div class="terms">Terms</div>
+                    </div>
+                  </div>
+                  <div class="voucher-card">
+                    <div class="left-side">
+                      <div class="captions">
+                        <div class="caption1" style="margin-bottom: 5px">10%</div>
+                        <div class="caption2" style="margin-top: 5px">off</div>
+                      </div>
+                      <div class="verified">Verified</div>
+                    </div>
+                    <div class="right-side">
+                      <div class="tag-row">Tag</div>
+                      <div class="content-layout">
+                        <div class="title">
+                          Enjoy 10% off online products with our exclusive Adidas
+                        </div>
+                        <md-filled-button>GET CODE</md-filled-button>
+                      </div>
+                      <div class="terms">Terms</div>
+                    </div>
+                  </div>
+                  <div class="newsletter">
+                    <div class="content">
+                      <div class="input-heading">
+                        Sign up to our newsletter today for more of the best offers
+                        and discounts from Go Ape
+                      </div>
+                      <div class="signup">
+                        <md-outlined-text-field
+                          class="email-text-field"
+                          type="email"
+                          placeholder="Email Address"
+                        >
+                        </md-outlined-text-field>
+                        <md-filled-button leading-icon> SUBSCRIBE </md-filled-button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="voucher-card">
+                    <div class="left-side">
+                      <div class="captions">
+                        <div class="caption1" style="margin-bottom: 5px">10%</div>
+                        <div class="caption2" style="margin-top: 5px">off</div>
+                      </div>
+                      <div class="verified">Verified</div>
+                    </div>
+                    <div class="right-side">
+                      <div class="tag-row">Tag</div>
+                      <div class="content-layout">
+                        <div class="title">
+                          Enjoy 10% off online products with our exclusive Adidas
+                        </div>
+                        <md-filled-button>GET CODE</md-filled-button>
+                      </div>
+                      <div class="terms">Terms</div>
+                    </div>
+                  </div>
+                  <div class="voucher-card">
+                    <div class="left-side">
+                      <div class="captions">
+                        <div class="caption1" style="margin-bottom: 5px">10%</div>
+                        <div class="caption2" style="margin-top: 5px">off</div>
+                      </div>
+                      <div class="verified">Verified</div>
+                    </div>
+                    <div class="right-side">
+                      <div class="tag-row">Tag</div>
+                      <div class="content-layout">
+                        <div class="title">
+                          Enjoy 10% off online products with our exclusive Adidas
+                        </div>
+                        <md-filled-button>GET CODE</md-filled-button>
+                      </div>
+                      <div class="terms">Terms</div>
+                    </div>
+                  </div>
+                  <div class="voucher-card">
+                    <div class="left-side">
+                      <div class="captions">
+                        <div class="caption1" style="margin-bottom: 5px">10%</div>
+                        <div class="caption2" style="margin-top: 5px">off</div>
+                      </div>
+                      <div class="verified">Verified</div>
+                    </div>
+                    <div class="right-side">
+                      <div class="tag-row">Tag</div>
+                      <div class="content-layout">
+                        <div class="title">
+                          Enjoy 10% off online products with our exclusive Adidas
+                        </div>
+                        <md-filled-button>GET CODE</md-filled-button>
+                      </div>
+                      <div class="terms">Terms</div>
+                    </div>
+                  </div>
+                  <div class="voucher-card">
+                    <div class="left-side">
+                      <div class="captions">
+                        <div class="caption1" style="margin-bottom: 5px">10%</div>
+                        <div class="caption2" style="margin-top: 5px">off</div>
+                      </div>
+                      <div class="verified">Verified</div>
+                    </div>
+                    <div class="right-side">
+                      <div class="tag-row">Tag</div>
+                      <div class="content-layout">
+                        <div class="title">
+                          Enjoy 10% off online products with our exclusive Adidas
+                        </div>
+                        <md-filled-button>GET CODE</md-filled-button>
+                      </div>
+                      <div class="terms">Terms</div>
+                    </div>
+                  </div>
+                  <div class="voucher-card">
+                    <div class="left-side">
+                      <div class="captions">
+                        <div class="caption1" style="margin-bottom: 5px">10%</div>
+                        <div class="caption2" style="margin-top: 5px">off</div>
+                      </div>
+                      <div class="verified">Verified</div>
+                    </div>
+                    <div class="right-side">
+                      <div class="tag-row">Tag</div>
+                      <div class="content-layout">
+                        <div class="title">
+                          Enjoy 10% off online products with our exclusive Adidas
+                        </div>
+                        <md-filled-button>GET CODE</md-filled-button>
+                      </div>
+                      <div class="terms">Terms</div>
+                    </div>
+                  </div>
+                  <div class="voucher-card">
+                    <div class="left-side">
+                      <div class="captions">
+                        <div class="caption1" style="margin-bottom: 5px">10%</div>
+                        <div class="caption2" style="margin-top: 5px">off</div>
+                      </div>
+                      <div class="verified">Verified</div>
+                    </div>
+                    <div class="right-side">
+                      <div class="tag-row">Tag</div>
+                      <div class="content-layout">
+                        <div class="title">
+                          Enjoy 10% off online products with our exclusive Adidas
+                        </div>
+                        <md-filled-button>GET CODE</md-filled-button>
+                      </div>
+                      <div class="terms">Terms</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="accordion-section">
+              <div class="accordion-heading">Heading</div>
+              <div class="accordion">
+                <div class="section">
+                  <div id="expand" class="section-heading" onclick="classToggle()">
+                    <div class="heading">Heading</div>
+                    <md-icon>expand_more</md-icon>
+                  </div>
+                  <div id="body" class="body" onclick="">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                    commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                    penatibus et magnis dis parturient montes, nascetur ridiculus
+                    mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+                    quis, sem. Nulla consequat massa quis enim.
+                  </div>
+                </div>
+                <div class="section">
+                  <div id="expand" class="section-heading" onclick="classToggle()">
+                    <div class="heading">Heading</div>
+                    <md-icon>expand_more</md-icon>
+                  </div>
+                  <div id="body" class="body hide">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                    commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                    penatibus et magnis dis parturient montes, nascetur ridiculus
+                    mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+                    quis, sem. Nulla consequat massa quis enim.
+                  </div>
+                </div>
+                <div class="section">
+                  <div id="expand" class="section-heading" onclick="classToggle()">
+                    <div class="heading">Heading</div>
+                    <md-icon>expand_more</md-icon>
+                  </div>
+                  <div id="body" class="body hide">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                    commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                    penatibus et magnis dis parturient montes, nascetur ridiculus
+                    mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+                    quis, sem. Nulla consequat massa quis enim.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="article">
+        <div class="layout-name"><h1>Article page</h1></div>
+        <div class="article-layout">
+          <div class="content">
+            <div class="discounts-nav">
+              <div>
+                <md-text-button trailing-icon id="usage-fixed-anchor"
+                >Menu Item
+                  <svg
+                    slot="icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <title>chevron-down</title>
+                    <path
+                      d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"
+                    />
+                    </svg></md-text-button>
+                <md-text-button trailing-icon id="usage-fixed-anchor"
+                  >Menu Item
+                  <svg
+                    slot="icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <title>chevron-down</title>
+                    <path
+                      d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/>
+                      </svg></md-text-button>
+                <md-text-button trailing-icon id="usage-fixed-anchor"
+                  >Menu Item
+                  <svg
+                    slot="icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <title>chevron-down</title>
+                    <path
+                      d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/>
+                      </svg></md-text-button>
+                <md-text-button trailing-icon id="usage-fixed-anchor"
+                  >Menu Item
+                  <svg
+                    slot="icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <title>chevron-down</title>
+                    <path
+                      d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/>
+                      </svg></md-text-button>
+                <md-text-button trailing-icon id="usage-fixed-anchor"
+                  >Menu Item
+                  <svg
+                    slot="icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <title>chevron-down</title>
+                    <path
+                      d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/>
+                      </svg></md-text-button>
+              </div>
+              <md-outlined-text-field
+                type="email"
+                placeholder="Search"
+                style="padding-left: 20px"
+              >
+              </md-outlined-text-field>
+            </div>
+            <div class="disclaimer">
+              Best Buys is reader supported. When you shop our picks, we may receive a commission.
+            </div>
+            <div class="main-content">
+              <div class="breadcrumb">
+                <a>Home</a>
+                <a>Fashion</a>
+                <a>Women's Fashion</a>
+              </div>
+              <div class="headline">
+                The ultimate guide to buying headphones in 2024
+              </div>
+              <div class="subtitle">
+                Enthusiastic shoppers and shrewd reviewers, the Best Buys team is on the cutting edge of the latest and greatest products.
+              </div>
+              <div class="article-info">
+                <div>Written by: <a href="">Pan Beskos</a> | Published: 17 Dec 2021 | <b>3 Min</b> Reading Time</div>
+                <div class="icons">
+                  <md-icon>add_circle</md-icon>
+                  <md-icon>grade</md-icon>
+                  <md-icon>mail</md-icon>
+                  <md-icon>share</md-icon>
+                </div>
+              </div>
+              <div class="hero-img">
+                <img src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2023/05/person-wearing-headphones-in-front-of-pc.jpg" alt="">
+              </div>
+              <table>
+                <tbody">
+                  <tr>
+                    <th class="table-header" colspan="6">Shop the best bras for every occasion and outfit
+                    </th>
+                  </tr>
+                  <tr>
+                    <td class="table-cell"></td>
+                    <td class="table-cell">
+                      <div class="preview">
+                        <md-icon class="icon">open_in_full</md-icon>
+                        <div class="preview-content">
+                          <p>Body Soft Wired Full Cup T-Shirt Bra A-E</p>
+                          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png" alt="">
+                        </div>
+                      </div>
+                    </td>
+                    <td class="table-cell">
+                      <div class="preview">
+                        <md-icon class="icon">open_in_full</md-icon>
+                        <div class="preview-content">
+                          <p>Body Soft Wired Full Cup T-Shirt Bra A-E</p>
+                          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png" alt="">
+                        </div>
+                      </div>
+                    </td>
+                    <td class="table-cell">
+                      <div class="preview">
+                        <md-icon class="icon">open_in_full</md-icon>
+                        <div class="preview-content">
+                          <p>Body Soft Wired Full Cup T-Shirt Bra A-E</p>
+                          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png" alt="">
+                        </div>
+                      </div>
+                    </td>
+                    <td class="table-cell">
+                      <div class="preview">
+                        <md-icon class="icon">open_in_full</md-icon>
+                        <div class="preview-content">
+                          <p>Body Soft Wired Full Cup T-Shirt Bra A-E</p>
+                          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png" alt="">
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="table-cell row-title">Price</td>
+                    <td class="table-cell">
+                      <div><span class="info">You save:</span><span class="saving">£10.00 (25%)</span></div>
+                      <div><span class="price-new">£35.00</span><span class="price-old">£45.00</span></div>
+                    </td>
+                    <td class="table-cell">
+                      <div><span class="info">You save:</span><span class="saving">£10.00 (25%)</span></div>
+                      <div><span class="price-new">£35.00</span><span class="price-old">£45.00</span></div>
+                    </td>
+                    <td class="table-cell">
+                      <div><span class="info">You save:</span><span class="saving">£10.00 (25%)</span></div>
+                      <div><span class="price-new">£35.00</span><span class="price-old">£45.00</span></div>
+                    </td>
+                    <td class="table-cell">
+                      <div><span class="info">You save:</span><span class="saving">£10.00 (25%)</span></div>
+                      <div><span class="price-new">£35.00</span><span class="price-old">£45.00</span></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="table-cell row-title">Shopping links</td>
+                    <td class="table-cell">
+                      <md-filled-button>£20 at M&S</md-filled-button>
+                    </td>
+                    <td class="table-cell">
+                      <md-filled-button>£20 at M&S</md-filled-button>
+                      <md-outlined-button>£20 at M&S</md-outlined-button>
+                    </td>
+                    <td class="table-cell">
+                      <md-filled-button>£20 at M&S</md-filled-button>
+                      <md-outlined-button>£20 at M&S</md-outlined-button>
+                      <md-outlined-button>£20 at M&S</md-outlined-button>
+                    </td>
+                    <td class="table-cell">
+                      <md-filled-button>£20 at M&S</md-filled-button>
+                      <md-outlined-button>£20 at M&S</md-outlined-button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="table-subheader" colspan="6">Specifications</th>
+                  </tr>
+                  <tr>
+                    <td class="table-cell row-title">Style</td>
+                    <td class="table-cell text">Full coverage T-shirt bra</td>
+                    <td class="table-cell text">Full cup, no underwire</td>
+                    <td class="table-cell text">Push-up bra</td>
+                    <td class="table-cell text">Full cup, lightly padded</td>
+                  </tr>
+                  <tr>
+                    <td class="table-cell row-title">Size range</td>
+                    <td class="table-cell text">30B to 42E</td>
+                    <td class="table-cell text">34B to 48J</td>
+                    <td class="table-cell text">30AA to 40B</td>
+                    <td class="table-cell text">32A to 38F</td>
+                  </tr>
+                  <tr>
+                    <td class="table-cell row-title">Colour</td>
+                    <td class="table-cell text">Nine</td>
+                    <td class="table-cell text">Three</td>
+                    <td class="table-cell text">17</td>
+                    <td class="table-cell text">Eight</td>
+                  </tr>
+                </tbody>
+              </table>
+              <article>
+                <p>Shopping for a new bra is like shopping for jeans — only worse. More often than not you’re left standing in a badly lit changing room, feeling frumpy and pinched.</p> 
+
+                <p>It’s the opposite of a Victoria’s Secret model experience.</p>
+
+                <p>If you need some new essentials but are keen to avoid the discomfort and self-degradation — you’re in the right place. </p>
+
+                <p>We’ve rounded up the best bras for every body shape and outfit — all ready to be shopped from the comfort of your couch.</p>
+
+                <p>No awkward changing rooms, unhelpful shop assistants or intimidating posters. </p>
+
+                <p>Just us, sharing our thoughts on the bras you might actually enjoy wearing. </p>
+
+                <p>Let’s get to it.</p>
+              </article>
+            </div>
+        </div>
+        </div>
+
+
+      </section>
+    </section>
+
+    <script src="/js/jquery-3.7.1.min.js"></script>
+    <script src="/js/styleguide.js"></script>
+    <script type="module" src="js/theme-dropdown.js"></script>
+
+    <script>
+      // let heading = document.querySelector(".section-heading");
+      // let body =  document.querySelector(".body");
+
+      // for (i = 0; i < heading.length; i++) {
+      //   heading[i].onclick = function() {
+      //     body.classList.toggle("hide");
+      //     // body.nextElementSibling.classList.toggle("hide");
+      //    };
+      // };
+
+      function classToggle() {
+        let body = document.querySelector(".body");
+        body.classList.toggle("hide");
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>GSG Design System &mdash; Documentation</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/docs-variables.css">
+    <link data-theme rel="stylesheet" href="./css/brands/gsgds-tokens-Coupons.com.css" />
+    <link data-vars rel="stylesheet" href="./css/brands/styleguide-default.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/bobby-md3.css" />
+    <meta name="description" content="">
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="icon.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#fafafa" />
+    <script type="module" src="./js/bundle.js"></script>
+    <script type="module" src="./js/index.js"></script>
+  </head>
+
+  <body class="doc-body">
+
+    <header class="doc-header">
+      <div class="doc-header__identity">
+        <svg width="56" height="40" viewBox="0 0 56 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M36.6044 0C26.0748 0 17.5078 8.49429 17.5078 18.9408V19.3562C17.5078 20.2908 18.2658 21.0592 19.2108 21.0592H28.6293C29.2419 21.0592 29.7092 21.5992 29.6469 22.2015C29.0654 27.4247 24.5587 31.5057 19.0966 31.5057C13.2503 31.5057 8.4839 26.8224 8.4839 21.0592C8.4839 15.6075 12.7414 11.1215 18.1516 10.6542C18.6916 10.6023 19.0966 10.135 19.0966 9.59502V3.7487C19.0966 2.61682 18.5877 2.108 17.9855 2.14953C7.97508 2.72066 0 10.9865 0 21.0592C0 31.1319 8.56698 40 19.0966 40C29.6262 40 38.1931 31.5057 38.1931 21.0592V20.6438C38.1931 19.7092 37.4351 18.9408 36.4901 18.9408H27.0716C26.459 18.9408 25.9917 18.4008 26.054 17.7985C26.6355 12.5753 31.1423 8.49429 36.6044 8.49429C42.4507 8.49429 47.217 13.1776 47.217 18.9408C47.217 24.3925 42.9595 28.8785 37.5493 29.3458C37.0093 29.3977 36.6044 29.865 36.6044 30.405V36.2409C36.6044 37.3728 37.1132 37.8816 37.7155 37.8401C47.7259 37.269 55.7009 29.0031 55.7009 18.9304C55.7009 8.85774 47.1443 0 36.6044 0Z" fill="url(#paint0_linear_1540_31583)"/>
+          <defs>
+          <linearGradient id="paint0_linear_1540_31583" x1="27.8505" y1="38.0478" x2="27.8505" y2="-0.872274" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#1D4E90"/>
+          <stop offset="1" stop-color="#2D67B5"/>
+          </linearGradient>
+          </defs>
+        </svg>
+        <h1 class="doc-header__title">GSG Design System</h1>
+      </div>
+      <div class="doc-header__version-select"></div>
+      <div class="doc-header__theme-select" style="position: relative">
+        <md-filled-button id="theming-anchor">
+          <span class="theming-anchor__label">Default</span>
+          <svg slot="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>palette-swatch</title><path d="M2.53,19.65L3.87,20.21V11.18L1.44,17.04C1.03,18.06 1.5,19.23 2.53,19.65M22.03,15.95L17.07,4C16.76,3.23 16.03,2.77 15.26,2.75C15,2.75 14.73,2.79 14.47,2.9L7.1,5.95C6.35,6.26 5.89,7 5.87,7.75C5.86,8 5.91,8.29 6,8.55L11,20.5C11.29,21.28 12.03,21.74 12.81,21.75C13.07,21.75 13.33,21.7 13.58,21.6L20.94,18.55C21.96,18.13 22.45,16.96 22.03,15.95M7.88,8.75A1,1 0 0,1 6.88,7.75A1,1 0 0,1 7.88,6.75C8.43,6.75 8.88,7.2 8.88,7.75C8.88,8.3 8.43,8.75 7.88,8.75M5.88,19.75A2,2 0 0,0 7.88,21.75H9.33L5.88,13.41V19.75Z" /></svg>
+        </md-filled-button>
+        <md-menu id="theming-menu" anchor="theming-anchor">
+        </md-menu>
+      </div>
+    </header>
+
+    <aside class="doc-aside">
+      <nav class="doc-aside__nav">
+        <ul>
+          <li><a href="/">Introduction</a></li>
+          <li><a href="/style-guide.html">Design Tokens</a></li>
+          <li><a href="/components.html">Components</a></li>
+          <li><a href="/patterns.html">Patterns</a></li>
+          <li><a href="/layout.html">Layouts</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <section class="doc-content">
+      <header class="doc-content__header">
+        <h1>Patterns</h1>
+      </header>
+      <table>
+        <thead>
+          <tr>
+            <th>Component Name</th>
+            <th>Example</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Voucher Card</td>
+            <td>
+              <div class="voucher-card">
+                <div class="left-side">
+                  <div class="captions">
+                    <div class="caption1" style="margin-bottom: 5px;">10%</div>
+                    <div class="caption2" style="margin-top: 5px;">off</div>
+                  </div>
+                  <div class="verified">Verified</div>
+                </div>
+                <div class="right-side">
+                  <div class="tag-row">Tag</div>
+                  <div class="content-layout">
+                    <div class="title">Enjoy 10% off online products with our exclusive Adidas</div>
+                    <md-filled-button>GET CODE</md-filled-button>
+                  </div>
+                  <div class="terms">Terms</div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Newsletter</td>
+            <td>
+              <div>
+                <div class="newsletter">
+                  <div class="content">
+                    <div class="title-large">Sign up to our newsletter today for more of the best offers and discounts from Go Ape</div>
+                    <div class="signup">
+                      <md-outlined-text-field class="email-text-field"
+                        type="email"
+                        placeholder="Email Address"
+                      >
+                      </md-outlined-text-field>
+                      <md-filled-button leading-icon>
+                        SUBSCRIBE
+                      </md-filled-button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Rewards Modal</td>
+            <td>
+              <div class="modal-card">
+                <div class="modal-header">
+                  <div class="modal-header-text">Modal Title</div>
+                  <md-icon-button>
+                    <md-icon>close</md-icon>
+                  </md-icon-button>
+                  </div>
+                <div>
+                  <div class="modal-body"></div>
+                  <div class="modal-body-description">
+                    <div class="modal-body-heading">Heading</div>
+                    <div class="modal-body-text">Alice thought she might as well go back, and see how the game was going on, as she heard the Queens voice in the distance, screaming with passion. </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <md-filled-button>Button text</md-filled-button>
+                  <md-outlined-button>Button text</md-filled-button>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Rewards Header</td>
+            <td>
+              <div class="rewards-header">
+                <div class="rewards-header-top">
+                  <div style="display: flex; align-items: center;">
+                    <div class="shoop-logo">Shoop</div>
+                    <md-outlined-text-field placeholder="Partner suchen">
+                      <md-icon slot="trailing-icon">search</md-icon>
+                    </md-outlined-text-field>
+                  </div>
+                  <div style="display: flex; align-items: center;">
+                    <div class="shoop-kontostand">
+                      Kontostand
+                      <div class="shoop-kontostand-info">
+                        <span >42,10€</span>
+                        <span>|</span>
+                        <span class="shoop-kontostand-2">5,23€</span>
+                      </div>
+                    </div>
+                    <md-icon>notifications</md-icon>
+                    <div class="shoop-profile">
+                      <div class="shoop-profile-icon">U</div>
+                      <md-icon>expand_more</md-icon>
+                    </div>
+                  </div>
+                </div>
+                <div class="rewards-header-nav">
+                  <div>
+                    <md-text-button trailing-icon id="usage-fixed-anchor">CASHBACK AKTIONEN</md-text-button>
+                    <md-text-button trailing-icon id="usage-fixed-anchor">KATEGORIEN
+                    <svg slot="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>chevron-down</title><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg></md-text-button>
+                    <md-text-button trailing-icon id="usage-fixed-anchor">10€ FREUNDE BONUS</md-text-button>
+                    <md-text-button trailing-icon id="usage-fixed-anchor">NIE MEHR CASHBACK VERGESSEN</md-text-button>
+                    <md-text-button trailing-icon id="usage-fixed-anchor">PREMIUM</md-text-button>
+                      <md-text-button trailing-icon id="usage-fixed-anchor">SHOOP OPTIMAL NUTZEN</md-text-button>
+                   </div>
+                </div>
+              </div>
+
+              <md-menu
+                positioning="fixed"
+                id="usage-fixed"
+                anchor="usage-fixed-anchor"
+              >
+                <md-menu-item>
+                  <div>Apple</div>
+                </md-menu-item>
+                <md-menu-item>
+                  <div>Banana</div>
+                </md-menu-item>
+                <md-menu-item>
+                  <div>Cucumber</div>
+                </md-menu-item>
+              </md-menu>
+            </td>
+          </tr>
+          <tr>
+            <td>Rewards Card</td>
+            <td>
+              <div class="rewards-card">
+                <div class="photo"></div>
+                <div class="text">
+                  <div class="title">Airbnb Giftcard</div>
+                  <div class="rating">
+                    <md-filled-icon-button>
+                      <md-icon>star</md-icon>
+                    </md-filled-icon-button>
+                    <md-filled-icon-button>
+                      <md-icon>star</md-icon>
+                    </md-filled-icon-button>
+                    <md-filled-icon-button>
+                      <md-icon>star</md-icon>
+                    </md-filled-icon-button>
+                    <md-filled-icon-button>
+                      <md-icon>star</md-icon>
+                    </md-filled-icon-button>
+                    <md-filled-icon-button>
+                      <md-icon>star</md-icon>
+                    </md-filled-icon-button>
+                  </div>
+                  <div class="description">When you buy something, you get a percentage of the amount it cost paid back to you.</div>
+                </div>
+                <hr>
+                <div class="footer">
+                  <div class="amount">Select an amount</div>
+                  <div class="filters">
+                    <md-filter-chip label="20$"></md-filter-chip>
+                    <md-filter-chip label="30$"></md-filter-chip>
+                    <md-filter-chip label="50$"></md-filter-chip>
+                  </div>
+                  <md-filled-button>Confirm</md-filled-button>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <script src="/js/jquery-3.7.1.min.js"></script>
+    <script src="/js/styleguide.js"></script>
+    <script type="module" src="js/theme-dropdown.js"></script>
+  </body>
+</html>
