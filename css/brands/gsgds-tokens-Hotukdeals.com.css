@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 22 Apr 2024 12:02:52 GMT
+ * Generated on Tue, 23 Apr 2024 10:33:42 GMT
  * hello, world!
  */
 
@@ -768,7 +768,7 @@
   --bobby-component-state-layer-opacity-hover: 0.08;
   --bobby-component-state-layer-opacity-pressed: 0.12;
   --bobby-component-icon-button-icon-color: hsl(28.471 100% 50%);
-  --color: [object Object];
+  --bobby-component-icon-button-disabled-icon-color: hsl(216 5.43% 69.3%);
   --bobby-component-icon-button-focus-icon-color: hsl(28.471 100% 50%);
   --bobby-component-icon-button-hover-icon-color: hsl(28.471 100% 50%);
   --bobby-component-icon-button-hover-state-layer-color: hsl(216 5.43% 0%);

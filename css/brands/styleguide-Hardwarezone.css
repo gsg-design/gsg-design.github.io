@@ -391,6 +391,8 @@
 .styleguide__bobby-component-chip-selected-outline-width.styleguide-item__value::before { content: '0'; }
 .styleguide__bobby-component-chip-selected-pressed-foreground-color.styleguide-item__value { background-color: hsl(85.1 53.9% 100%); }
 .styleguide__bobby-component-chip-selected-pressed-foreground-color.styleguide-item__value::before { content: 'hsl(85.1 53.9% 100%)'; }
+.styleguide__bobby-component-icon-button-disabled-icon-color.styleguide-item__value { background-color: hsl(274 3.63% 47.2%); }
+.styleguide__bobby-component-icon-button-disabled-icon-color.styleguide-item__value::before { content: 'hsl(274 3.63% 47.2%)'; }
 .styleguide__bobby-component-icon-button-focus-icon-color.styleguide-item__value { background-color: hsl(85.091 53.922% 40%); }
 .styleguide__bobby-component-icon-button-focus-icon-color.styleguide-item__value::before { content: 'hsl(85.091 53.922% 40%)'; }
 .styleguide__bobby-component-icon-button-hover-icon-color.styleguide-item__value { background-color: hsl(85.091 53.922% 40%); }
@@ -1751,5 +1753,3 @@
 .styleguide__test-typography-text-font-size.styleguide-item__value::before { content: '25px'; }
 .styleguide__test-typography-text-font-weight.styleguide-item__value::before { content: '700'; }
 .styleguide__test-typography-text-line-height.styleguide-item__value::before { content: '32px'; }
-.styleguide__.styleguide-item__value { background-color: [object Object]; }
-.styleguide__.styleguide-item__value::before { content: '[object Object]'; }
