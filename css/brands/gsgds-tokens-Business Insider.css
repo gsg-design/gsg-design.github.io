@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 23 Apr 2024 13:07:53 GMT
+ * Generated on Wed, 24 Apr 2024 07:02:30 GMT
  * hello, world!
  */
 
@@ -853,8 +853,8 @@
   --bobby-component-switch-hover-track-color: hsl(274 3.63% 84.5%);
   --bobby-component-switch-hover-track-outline-color: hsl(274.29 3.6269% 37.843%);
   --bobby-component-switch-pressed-handle-color: hsl(274.29 3.6269% 37.843%);
-  --bobby-component-switch-pressed-handle-height: {pico.component.switch.pressed.handle.height;
-  --bobby-component-switch-pressed-handle-width: {pico.component.switch.pressed.handle.width;
+  --bobby-component-switch-pressed-handle-height: 24px;
+  --bobby-component-switch-pressed-handle-width: 24px;
   --bobby-component-switch-pressed-icon-color: hsl(274 3.63% 100%);
   --bobby-component-switch-pressed-track-color: hsl(274 3.63% 84.5%);
   --bobby-component-switch-pressed-track-outline-color: hsl(274.29 3.6269% 37.843%);
@@ -863,7 +863,7 @@
   --bobby-component-switch-disabled-track-color: transparent;
   --bobby-component-switch-disabled-track-outline-color: hsl(274 3.63% 75.1%);
   --bobby-component-switch-selected-handle-color: hsl(0 0% 100%);
-  --bobby-component-switch-selected-handle-height: {pico.component.switch.selected.handle.height;
+  --bobby-component-switch-selected-handle-height: 24px;
   --bobby-component-switch-selected-handle-width: 24px;
   --bobby-component-switch-selected-icon-color: hsl(0 0% 2.59%);
   --bobby-component-switch-selected-icon-size: 16px;

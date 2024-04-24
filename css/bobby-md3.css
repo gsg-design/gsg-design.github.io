@@ -15,16 +15,16 @@
     --bobby-component-button-filled-default-large-horizontal-padding
   );
   --md-elevated-button-label-text-font: var(
-    --bobby-component-button-filled-default-large-label-text-font-family
+    --bobby-component-button-filled-default-large-label-text-typography-font-family
   );
   --md-elevated-button-label-text-line-hieght: var(
-    --bobby-component-button-filled-default-large-label-text-line-height
+    --bobby-component-button-filled-default-large-label-text-typography-line-height
   );
   --md-elevated-button-label-text-size: var(
-    --bobby-component-button-filled-default-large-label-text-font-size
+    --bobby-component-button-filled-default-large-label-text-typography-font-size
   );
   --md-elevated-button-label-text-weight: var(
-    --bobby-component-button-filled-default-large-label-text-font-weight
+    --bobby-component-button-filled-default-large-label-text-typography-font-weight
   );
   /* resting */
   --md-elevated-button-container-color: var(
@@ -88,16 +88,16 @@
     --bobby-component-button-filled-default-large-container-shape
   );
   --md-filled-button-label-text-font: var(
-    --bobby-component-button-filled-default-large-label-text-font-family
+    --bobby-component-button-filled-default-large-label-text-typography-font-family
   );
   --md-filled-button-label-text-line-height: var(
-    --bobby-component-button-filled-default-large-label-text-line-height
+    --bobby-component-button-filled-default-large-label-text-typography-line-height
   );
   --md-filled-button-label-text-size: var(
-    --bobby-component-button-filled-default-large-label-text-font-size
+    --bobby-component-button-filled-default-large-label-text-typography-font-size
   );
   --md-filled-button-label-text-weight: var(
-    --bobby-component-button-filled-default-large-label-text-font-weight
+    --bobby-component-button-filled-default-large-label-text-typography-font-weight
   );
   --md-filled-button-leading-space: var(
     --bobby-component-button-filled-default-large-horizontal-padding
@@ -161,16 +161,16 @@
     --bobby-component-button-outlined-default-large-container-shape
   );
   --md-outlined-button-label-text-font: var(
-    --bobby-component-button-outlined-default-large-label-text-font-family
+    --bobby-component-button-outlined-default-large-label-text-typography-font-family
   );
   --md-outlined-button-label-text-line-height: var(
-    --bobby-component-button-outlined-default-large-label-text-line-height
+    --bobby-component-button-outlined-default-large-label-text-typography-line-height
   );
   --md-outlined-button-label-text-size: var(
-    --bobby-component-button-outlined-default-large-label-text-font-size
+    --bobby-component-button-outlined-default-large-label-text-typography-font-size
   );
   --md-outlined-button-label-text-weight: var(
-    --bobby-component-button-outlined-default-large-label-text-font-weight
+    --bobby-component-button-outlined-default-large-label-text-typography-font-weight
   );
   --md-outlined-button-leading-space: var(
     --bobby-component-button-outlined-default-large-horizontal-padding
@@ -246,16 +246,16 @@
     --bobby-component-button-text-default-large-container-shape
   );
   --md-text-button-label-text-font: var(
-    --bobby-component-button-text-default-large-label-text-font-family
+    --bobby-component-button-text-default-large-label-text-typography-font-family
   );
   --md-text-button-label-text-line-height: var(
-    --bobby-component-button-text-default-large-label-text-line-height
+    --bobby-component-button-text-default-large-label-text-typography-line-height
   );
   --md-text-button-label-text-size: var(
-    --bobby-component-button-text-default-large-label-text-font-size
+    --bobby-component-button-text-default-large-label-text-typography-font-size
   );
   --md-text-button-label-text-weight: var(
-    --bobby-component-button-text-default-large-label-text-font-weight
+    --bobby-component-button-text-default-large-label-text-typography-font-weight
   );
   --md-text-button-leading-space: var(
     --bobby-component-button-text-default-large-horizontal-padding
@@ -459,6 +459,7 @@
     --bobby-component-tab-foreground-color
   );
   --md-primary-tab-icon-color: var(--bobby-component-tab-foreground-color);
+
   /* focus */
   --md-primary-tab-focus-label-text-color: var(
     --bobby-component-tab-focus-foreground-color
@@ -466,6 +467,7 @@
   --md-primary-tab-focus-icon-color: var(
     --bobby-component-tab-focus-foreground-color
   );
+
   /* hover */
   --md-primary-tab-hover-label-text-color: var(
     --bobby-component-tab-hover-foreground-color
@@ -479,6 +481,7 @@
   --md-primary-tab-hover-state-layer-opacity: var(
     --bobby-component-state-layer-opacity-hover
   );
+
   /* pressed */
   --md-primary-tab-pressed-label-text-color: var(
     --bobby-component-tab-pressed-foreground-color
@@ -492,6 +495,7 @@
   --md-primary-tab-pressed-state-layer-opacity: var(
     --bobby-component-state-layer-opacity-pressed
   );
+
   /* active */
   --md-primary-tab-active-icon-color: var(
     --bobby-component-tab-active-foreground-color
@@ -508,6 +512,7 @@
   --md-primary-tab-active-label-text-color: var(
     --bobby-component-tab-active-foreground-color
   );
+
   /* active focus */
   --md-primary-tab-active-focus-label-text-color: var(
     --bobby-component-tab-active-focus-foreground-color
@@ -515,6 +520,7 @@
   --md-primary-tab-active-focus-icon-color: var(
     --bobby-component-tab-active-focus-foreground-color
   );
+
   /* active hover */
   --md-primary-tab-active-hover-label-text-color: var(
     --bobby-component-tab-active-hover-foreground-color
@@ -528,6 +534,7 @@
   --md-primary-tab-active-hover-state-layer-opacity: var(
     --bobby-component-state-layer-opacity-hover
   );
+
   /* active pressed */
   --md-primary-tab-active-pressed-label-text-color: var(
     --bobby-component-tab-active-pressed-foreground-color
@@ -1132,11 +1139,11 @@
 }
 
 .tag-row .tag {
-  font-size: var(--conversion-pattern-voucher-card-tag-text-font-size);
-  line-height: var(--conversion-pattern-voucher-card-tag-text-line-height);
-  font-weight: var(--conversion-pattern-voucher-card-tag-text-font-weight);
-  font-family: var(--conversion-pattern-voucher-card-tag-text-font-family);
-  text-transform: var(--conversion-pattern-voucher-card-tag-text-case);
+  font-size: var(--conversion-pattern-voucher-card-tag-text-typography-font-size);
+  line-height: var(--conversion-pattern-voucher-card-tag-text-typography-line-height);
+  font-weight: var(--conversion-pattern-voucher-card-tag-text-typography-font-weight);
+  font-family: var(--conversion-pattern-voucher-card-tag-text-typography-font-family);
+  text-transform: var(--conversion-pattern-voucher-card-tag-text-typography-case);
   background-color: var(--conversion-pattern-voucher-card-tag-background-color);
   color: var(--conversion-pattern-voucher-card-tag-text-color);
   padding: var(--conversion-pattern-voucher-card-tag-vertical-padding) var(--conversion-pattern-voucher-card-tag-horizontal-padding);
@@ -1177,10 +1184,10 @@
   width: 100%;
   min-height: 32px;
   box-sizing: border-box;
-  font-size: var(--conversion-pattern-voucher-card-helper-text-font-size);
-  line-height: var(--conversion-pattern-voucher-card-helper-text-line-height);
-  font-weight: var(--conversion-pattern-voucher-card-helper-text-font-weight);
-  font-family: var(--conversion-pattern-voucher-card-helper-text-font-family);
+  font-size: var(--conversion-pattern-voucher-card-helper-text-typography-font-size);
+  line-height: var(--conversion-pattern-voucher-card-helper-text-typography-line-height);
+  font-weight: var(--conversion-pattern-voucher-card-helper-text-typography-font-weight);
+  font-family: var(--conversion-pattern-voucher-card-helper-text-typography-font-family);
   color: var(--conversion-pattern-voucher-card-verified-text-color);
 }
 
@@ -1193,18 +1200,18 @@
   width: 100%;
   height: 32px;
   box-sizing: border-box;
-  font-size: var(--conversion-pattern-voucher-card-helper-text-font-size);
-  line-height: var(--conversion-pattern-voucher-card-helper-text-line-height);
-  font-weight: var(--conversion-pattern-voucher-card-helper-text-font-weight);
-  font-family: var(--conversion-pattern-voucher-card-helper-text-font-family);
+  font-size: var(--conversion-pattern-voucher-card-helper-text-typography-font-size);
+  line-height: var(--conversion-pattern-voucher-card-helper-text-typography-line-height);
+  font-weight: var(--conversion-pattern-voucher-card-helper-text-typography-font-weight);
+  font-family: var(--conversion-pattern-voucher-card-helper-text-typography-font-family);
   color: var(--conversion-pattern-voucher-card-terms-text-color);
 }
 
 .voucher-card .title {
-  font-size: var(--conversion-pattern-voucher-card-title-text-font-size);
-  line-height: var(--conversion-pattern-voucher-card-title-text-line-height);
-  font-weight: var(--conversion-pattern-voucher-card-title-text-font-weight);
-  font-family: var(--conversion-pattern-voucher-card-title-text-font-family);
+  font-size: var(--conversion-pattern-voucher-card-title-text-typography-font-size);
+  line-height: var(--conversion-pattern-voucher-card-title-text-typography-line-height);
+  font-weight: var(--conversion-pattern-voucher-card-title-text-typography-font-weight);
+  font-family: var(--conversion-pattern-voucher-card-title-text-typography-font-family);
   color: var(--conversion-pattern-voucher-card-title-text-color);
 }
 
@@ -1213,18 +1220,18 @@
 } */
 
 .voucher-card .caption1 {
-  font-size: var(--conversion-pattern-voucher-card-caption1-text-font-size);
-  line-height: var(--conversion-pattern-voucher-card-caption1-text-line-height);
-  font-weight: var(--conversion-pattern-voucher-card-caption1-text-font-weight);
-  font-family: var(--conversion-pattern-voucher-card-caption1-text-font-family);
+  font-size: var(--conversion-pattern-voucher-card-caption1-text-typography-font-size);
+  line-height: var(--conversion-pattern-voucher-card-caption1-text-typography-line-height);
+  font-weight: var(--conversion-pattern-voucher-card-caption1-text-typography-font-weight);
+  font-family: var(--conversion-pattern-voucher-card-caption1-text-typography-font-family);
   color: var(--conversion-pattern-voucher-card-caption1-text-color);
 }
 
 .caption2 {
-  font-size: var(--conversion-pattern-voucher-card-caption2-text-font-size);
-  line-height: var(--conversion-pattern-voucher-card-caption2-text-line-height);
-  font-weight: var(--conversion-pattern-voucher-card-caption2-text-font-weight);
-  font-family: var(--conversion-pattern-voucher-card-caption2-text-font-family);
+  font-size: var(--conversion-pattern-voucher-card-caption2-text-typography-font-size);
+  line-height: var(--conversion-pattern-voucher-card-caption2-text-typography-line-height);
+  font-weight: var(--conversion-pattern-voucher-card-caption2-text-typography-font-weight);
+  font-family: var(--conversion-pattern-voucher-card-caption2-text-typography-font-family);
   color: var(--conversion-pattern-voucher-card-caption2-text-color);
 }
 
@@ -1462,10 +1469,10 @@
 
 .article .disclaimer {
   width: 100%;
-  font-family: var(--evaluation-component-disclaimer-text-font-family);
-  font-size: var(--evaluation-component-disclaimer-text-font-size);
-  line-height: var(--evaluation-component-disclaimer-text-line-height);
-  font-weight: var(--evaluation-component-disclaimer-text-font-weight);
+  font-family: var(--evaluation-component-disclaimer-text-typography-font-family);
+  font-size: var(--evaluation-component-disclaimer-text-typography-font-size);
+  line-height: var(--evaluation-component-disclaimer-text-typography-line-height);
+  font-weight: var(--evaluation-component-disclaimer-text-typography-font-weight);
   color: var(--evaluation-component-disclaimer-text-color);
   padding: var(--evaluation-component-disclaimer-vertical-padding) 0;
   text-align: center;
@@ -1485,10 +1492,10 @@
 }
 
 .breadcrumb * {
-  font-family: var(--evaluation-component-breadcrumb-text-font-family);
-  font-size: var(--evaluation-component-breadcrumb-text-font-size);
-  line-height: var(--evaluation-component-breadcrumb-text-line-height);
-  font-weight: var(--evaluation-component-breadcrumb-text-font-weight);
+  font-family: var(--evaluation-component-breadcrumb-text-typography-font-family);
+  font-size: var(--evaluation-component-breadcrumb-text-typography-font-size);
+  line-height: var(--evaluation-component-breadcrumb-text-typography-line-height);
+  font-weight: var(--evaluation-component-breadcrumb-text-typography-font-weight);
   color: var(--evaluation-component-breadcrumb-text-color);
   margin-bottom: var(--pico-ref-spacing-l);
 }
@@ -1503,10 +1510,10 @@
 }
 
 .article .headline {
-  font-family: var(--evaluation-typography-editorial-h1-text-font-family);
-  font-size: var(--evaluation-typography-editorial-h1-text-font-size);
-  line-height: var(--evaluation-typography-editorial-h1-text-line-height);
-  font-weight: var(--evaluation-typography-editorial-h1-text-font-weight);
+  font-family: var(--evaluation-typography-editorial-h1-text-typography-font-family);
+  font-size: var(--evaluation-typography-editorial-h1-text-typography-font-size);
+  line-height: var(--evaluation-typography-editorial-h1-text-typography-line-height);
+  font-weight: var(--evaluation-typography-editorial-h1-text-typography-font-weight);
   margin-bottom: var(--pico-ref-spacing-l);
   color: var(--evaluation-typography-editorial-h1-text-color);
 }
@@ -1580,14 +1587,14 @@
   );
   padding: var(--evaluation-pattern-comparison-table-cell-padding);
   font-family: var(
-    --evaluation-pattern-comparison-table-header-text-font-family
+    --evaluation-pattern-comparison-table-header-text-typography-font-family
   );
-  font-size: var(--evaluation-pattern-comparison-table-header-text-font-size);
+  font-size: var(--evaluation-pattern-comparison-table-header-text-typography-font-size);
   line-height: var(
-    --evaluation-pattern-comparison-table-header-text-line-height
+    --evaluation-pattern-comparison-table-header-text-typography-line-height
   );
   font-weight: var(
-    --evaluation-pattern-comparison-table-header-text-font-weight
+    --evaluation-pattern-comparison-table-header-text-typography-font-weight
   );
   border: var(--evaluation-pattern-comparison-table-cell-outline-width)
     var(--evaluation-pattern-comparison-table-cell-outline-color) solid;
@@ -1626,16 +1633,16 @@
 
 .table-cell .info {
   font-family: var(
-    --evaluation-pattern-comparison-table-price-info-text-font-family
+    --evaluation-pattern-comparison-table-price-info-text-typography-font-family
   );
   font-size: var(
-    --evaluation-pattern-comparison-table-price-info-text-font-size
+    --evaluation-pattern-comparison-table-price-info-text-typography-font-size
   );
   line-height: var(
-    --evaluation-pattern-comparison-table-price-info-text-line-height
+    --evaluation-pattern-comparison-table-price-info-text-typography-line-height
   );
   font-weight: var(
-    --evaluation-pattern-comparison-table-price-info-text-font-weight
+    --evaluation-pattern-comparison-table-price-info-text-typography-font-weight
   );
   color: var(--evaluation-pattern-comparison-table-price-info-text-color);
   padding-right: var(--pico-ref-spacing-xs);
@@ -1643,32 +1650,32 @@
 
 .table-cell .saving {
   font-family: var(
-    --evaluation-pattern-comparison-table-price-saving-text-font-family
+    --evaluation-pattern-comparison-table-price-saving-text-typography-font-family
   );
   font-size: var(
-    --evaluation-pattern-comparison-table-price-saving-text-font-size
+    --evaluation-pattern-comparison-table-price-saving-text-typography-font-size
   );
   line-height: var(
-    --evaluation-pattern-comparison-table-price-saving-text-line-height
+    --evaluation-pattern-comparison-table-price-saving-text-typography-line-height
   );
   font-weight: var(
-    --evaluation-pattern-comparison-table-price-saving-text-font-weight
+    --evaluation-pattern-comparison-table-price-saving-text-typography-font-weight
   );
   color: var(--evaluation-pattern-comparison-table-price-saving-text-color);
 }
 
 .table-cell .price-new {
   font-family: var(
-    --evaluation-pattern-comparison-table-price-new-text-font-family
+    --evaluation-pattern-comparison-table-price-new-text-typography-font-family
   );
   font-size: var(
-    --evaluation-pattern-comparison-table-price-new-text-font-size
+    --evaluation-pattern-comparison-table-price-new-text-typography-font-size
   );
   line-height: var(
-    --evaluation-pattern-comparison-table-price-new-text-line-height
+    --evaluation-pattern-comparison-table-price-new-text-typography-line-height
   );
   font-weight: var(
-    --evaluation-pattern-comparison-table-price-new-text-font-weight
+    --evaluation-pattern-comparison-table-price-new-text-typography-font-weight
   );
   color: var(--evaluation-pattern-comparison-table-price-new-text-color);
   padding-right: var(--pico-ref-spacing-s);
@@ -1676,35 +1683,35 @@
 
 .table-cell .price-old {
   font-family: var(
-    --evaluation-pattern-comparison-table-price-old-text-font-family
+    --evaluation-pattern-comparison-table-price-old-text-typography-font-family
   );
   font-size: var(
-    --evaluation-pattern-comparison-table-price-old-text-font-size
+    --evaluation-pattern-comparison-table-price-old-text-typography-font-size
   );
   line-height: var(
-    --evaluation-pattern-comparison-table-price-old-text-line-height
+    --evaluation-pattern-comparison-table-price-old-text-typography-line-height
   );
   font-weight: var(
-    --evaluation-pattern-comparison-table-price-old-text-font-weight
+    --evaluation-pattern-comparison-table-price-old-text-typography-font-weight
   );
   color: var(--evaluation-pattern-comparison-table-price-old-text-color);
   text-decoration: var(
-    --evaluation-pattern-comparison-table-price-old-text-font-style
+    --evaluation-pattern-comparison-table-price-old-text-typography-font-style
   );
 }
 
 .article .row-title {
   font-family: var(
-    --evaluation-pattern-comparison-table-row-title-text-font-family
+    --evaluation-pattern-comparison-table-row-title-text-typography-font-family
   );
   font-size: var(
-    --evaluation-pattern-comparison-table-row-title-text-font-size
+    --evaluation-pattern-comparison-table-row-title-text-typography-font-size
   );
   line-height: var(
-    --evaluation-pattern-comparison-table-row-title-text-line-height
+    --evaluation-pattern-comparison-table-row-title-text-typography-line-height
   );
   font-weight: var(
-    --evaluation-pattern-comparison-table-row-title-text-font-weight
+    --evaluation-pattern-comparison-table-row-title-text-typography-font-weight
   );
   color: var(--evaluation-pattern-comparison-table-row-title-text-color);
   vertical-align: middle;
@@ -1718,16 +1725,16 @@
 
 .article .table-subheader {
   font-family: var(
-    --evaluation-pattern-comparison-table-subheader-text-font-family
+    --evaluation-pattern-comparison-table-subheader-text-typography-font-family
   );
   font-size: var(
-    --evaluation-pattern-comparison-table-subheader-text-font-size
+    --evaluation-pattern-comparison-table-subheader-text-typography-font-size
   );
   line-height: var(
-    --evaluation-pattern-comparison-table-subheader-text-line-height
+    --evaluation-pattern-comparison-table-subheader-text-typography-line-height
   );
   font-weight: var(
-    --evaluation-pattern-comparison-table-subheader-text-font-weight
+    --evaluation-pattern-comparison-table-subheader-text-typography-font-weight
   );
   color: var(--evaluation-pattern-comparison-table-subheader-text-color);
   background-color: var(
@@ -1740,42 +1747,42 @@
 
 .article .table-cell .text {
   font-family: var(
-    --evaluation-pattern-comparison-table-cell-plain-text-font-family
+    --evaluation-pattern-comparison-table-cell-plain-text-typography-font-family
   );
   font-size: var(
-    --evaluation-pattern-comparison-table-cell-plain-text-font-size
+    --evaluation-pattern-comparison-table-cell-plain-text-typography-font-size
   );
   line-height: var(
-    --evaluation-pattern-comparison-table-cell-plain-text-line-height
+    --evaluation-pattern-comparison-table-cell-plain-text-typography-line-height
   );
   font-weight: var(
-    --evaluation-pattern-comparison-table-cell-plain-text-font-weight
+    --evaluation-pattern-comparison-table-cell-plain-text-typography-font-weight
   );
   color: var(--evaluation-pattern-comparison-table-cell-plain-text-color);
 }
 
 .article .table-cell .row-title {
   font-family: var(
-    --evaluation-pattern-comparison-table-row-title-text-font-family
+    --evaluation-pattern-comparison-table-row-title-text-typography-font-family
   );
   font-size: var(
-    --evaluation-pattern-comparison-table-row-title-text-font-size
+    --evaluation-pattern-comparison-table-row-title-text-typography-font-size
   );
   line-height: var(
-    --evaluation-pattern-comparison-table-row-title-text-line-height
+    --evaluation-pattern-comparison-table-row-title-text-typography-line-height
   );
   font-weight: var(
-    --evaluation-pattern-comparison-table-row-title-text-font-weight
+    --evaluation-pattern-comparison-table-row-title-text-typography-font-weight
   );
   color: var(--evaluation-pattern-comparison-table-row-title-text-color);
 }
 
 .article article p {
   width: 70%;
-  font-family: var(--evaluation-typography-editorial-body-text-font-family);
-  font-size: var(--evaluation-typography-editorial-body-text-font-size);
-  line-height: var(--evaluation-typography-editorial-body-text-line-height);
-  font-weight: var(--evaluation-typography-editorial-body-text-font-weight);
+  font-family: var(--evaluation-typography-editorial-body-text-typography-font-family);
+  font-size: var(--evaluation-typography-editorial-body-text-typography-font-size);
+  line-height: var(--evaluation-typography-editorial-body-text-typography-line-height);
+  font-weight: var(--evaluation-typography-editorial-body-text-typography-font-weight);
   color: var(--evaluation-typography-editorial-body-text-color);
   margin-bottom: var(--pico-ref-spacing-xl);
 }

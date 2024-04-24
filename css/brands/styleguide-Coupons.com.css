@@ -542,8 +542,8 @@
 .styleguide__bobby-component-switch-icon-size.styleguide-item__value::before { content: '16px'; }
 .styleguide__bobby-component-switch-pressed-handle-color.styleguide-item__value { background-color: hsl(0 0.3953% 50.392%); }
 .styleguide__bobby-component-switch-pressed-handle-color.styleguide-item__value::before { content: 'hsl(0 0.3953% 50.392%)'; }
-.styleguide__bobby-component-switch-pressed-handle-height.styleguide-item__value::before { content: '{pico.component.switch.pressed.handle.height'; }
-.styleguide__bobby-component-switch-pressed-handle-width.styleguide-item__value::before { content: '{pico.component.switch.pressed.handle.width'; }
+.styleguide__bobby-component-switch-pressed-handle-height.styleguide-item__value::before { content: '24px'; }
+.styleguide__bobby-component-switch-pressed-handle-width.styleguide-item__value::before { content: '24px'; }
 .styleguide__bobby-component-switch-pressed-icon-color.styleguide-item__value { background-color: hsl(0 0.4% 100%); }
 .styleguide__bobby-component-switch-pressed-icon-color.styleguide-item__value::before { content: 'hsl(0 0.4% 100%)'; }
 .styleguide__bobby-component-switch-pressed-track-color.styleguide-item__value { background-color: hsl(0 0.4% 87.6%); }
@@ -564,7 +564,7 @@
 .styleguide__bobby-component-switch-selected-focus-track-color.styleguide-item__value::before { content: 'hsl(212.07 100% 45.49%)'; }
 .styleguide__bobby-component-switch-selected-handle-color.styleguide-item__value { background-color: hsl(212 100% 100%); }
 .styleguide__bobby-component-switch-selected-handle-color.styleguide-item__value::before { content: 'hsl(212 100% 100%)'; }
-.styleguide__bobby-component-switch-selected-handle-height.styleguide-item__value::before { content: '{pico.component.switch.selected.handle.height'; }
+.styleguide__bobby-component-switch-selected-handle-height.styleguide-item__value::before { content: '24px'; }
 .styleguide__bobby-component-switch-selected-handle-width.styleguide-item__value::before { content: '24px'; }
 .styleguide__bobby-component-switch-selected-hover-handle-color.styleguide-item__value { background-color: hsl(212 100% 89.1%); }
 .styleguide__bobby-component-switch-selected-hover-handle-color.styleguide-item__value::before { content: 'hsl(212 100% 89.1%)'; }
