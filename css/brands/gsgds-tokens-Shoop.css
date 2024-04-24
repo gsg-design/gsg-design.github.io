@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 23 Apr 2024 10:33:41 GMT
+ * Generated on Tue, 23 Apr 2024 13:07:52 GMT
  * hello, world!
  */
 
@@ -833,13 +833,13 @@
   --bobby-component-switch-handle-color: hsl(0 0% 76%);
   --bobby-component-switch-handle-height: 24px;
   --bobby-component-switch-handle-shape: 80px;
-  --bobby-component-switch-handle-width: pico.component.switch.handle.width};
+  --bobby-component-switch-handle-width: 24px;
   --bobby-component-switch-icon-color: hsl(0 0% 100%);
-  --bobby-component-switch-icon-size: pico.component.switch.icon.size};
+  --bobby-component-switch-icon-size: 16px;
   --bobby-component-switch-track-color: hsl(0 0% 92.9%);
   --bobby-component-switch-track-shape: 80px;
-  --bobby-component-switch-track-height: pico.component.switch.track.height};
-  --bobby-component-switch-track-width: pico.component.switch.track.width};
+  --bobby-component-switch-track-height: 32px;
+  --bobby-component-switch-track-width: 52px;
   --bobby-component-switch-track-outline-color: hsl(0 0% 76%);
   --bobby-component-switch-track-outline-width: 2px;
   --bobby-component-switch-focus-handle-color: hsl(0 0% 71.765%);
@@ -851,17 +851,17 @@
   --bobby-component-switch-hover-track-color: hsl(0 0% 92.9%);
   --bobby-component-switch-hover-track-outline-color: hsl(0 0% 71.765%);
   --bobby-component-switch-pressed-handle-color: hsl(0 0% 71.765%);
-  --bobby-component-switch-pressed-handle-height: pico.component.switch.pressed.handle.height;
-  --bobby-component-switch-pressed-handle-width: pico.component.switch.pressed.handle.width;
+  --bobby-component-switch-pressed-handle-height: {pico.component.switch.pressed.handle.height;
+  --bobby-component-switch-pressed-handle-width: {pico.component.switch.pressed.handle.width;
   --bobby-component-switch-pressed-icon-color: hsl(0 0% 100%);
   --bobby-component-switch-pressed-track-color: hsl(0 0% 92.9%);
   --bobby-component-switch-pressed-track-outline-color: hsl(0 0% 71.765%);
   --bobby-component-switch-disabled-handle-color: hsl(0 0% 76%);
-  --bobby-component-switch-disabled-icon-color: pico.component.switch.disabled.icon.color};
+  --bobby-component-switch-disabled-icon-color: hsl(0 0% 88.7%);
   --bobby-component-switch-disabled-track-color: transparent;
   --bobby-component-switch-disabled-track-outline-color: hsl(0 0% 88.7%);
   --bobby-component-switch-selected-handle-color: hsl(208 75.3% 100%);
-  --bobby-component-switch-selected-handle-height: pico.component.switch.selected.handle.height;
+  --bobby-component-switch-selected-handle-height: {pico.component.switch.selected.handle.height;
   --bobby-component-switch-selected-handle-width: 24px;
   --bobby-component-switch-selected-icon-color: hsl(208 75.3% 9.22%);
   --bobby-component-switch-selected-icon-size: 16px;

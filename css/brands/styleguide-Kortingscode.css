@@ -509,8 +509,8 @@
 .styleguide__bobby-component-state-layer-opacity-pressed.styleguide-item__value::before { content: '0.12'; }
 .styleguide__bobby-component-switch-disabled-handle-color.styleguide-item__value { background-color: hsl(214 14.7% 66%); }
 .styleguide__bobby-component-switch-disabled-handle-color.styleguide-item__value::before { content: 'hsl(214 14.7% 66%)'; }
-.styleguide__bobby-component-switch-disabled-icon-color.styleguide-item__value { background-color: pico.component.switch.disabled.icon.color}; }
-.styleguide__bobby-component-switch-disabled-icon-color.styleguide-item__value::before { content: 'pico.component.switch.disabled.icon.color}'; }
+.styleguide__bobby-component-switch-disabled-icon-color.styleguide-item__value { background-color: hsl(214 14.7% 84%); }
+.styleguide__bobby-component-switch-disabled-icon-color.styleguide-item__value::before { content: 'hsl(214 14.7% 84%)'; }
 .styleguide__bobby-component-switch-disabled-track-color.styleguide-item__value { background-color: transparent; }
 .styleguide__bobby-component-switch-disabled-track-color.styleguide-item__value::before { content: 'transparent'; }
 .styleguide__bobby-component-switch-disabled-track-outline-color.styleguide-item__value { background-color: hsl(214 14.7% 84%); }
@@ -528,7 +528,7 @@
 .styleguide__bobby-component-switch-handle-height.styleguide-item__value::before { content: '24px'; }
 .styleguide__bobby-component-switch-handle-shape.styleguide-item__value { border-radius: 80px; }
 .styleguide__bobby-component-switch-handle-shape.styleguide-item__value::before { content: '80px'; }
-.styleguide__bobby-component-switch-handle-width.styleguide-item__value::before { content: 'pico.component.switch.handle.width}'; }
+.styleguide__bobby-component-switch-handle-width.styleguide-item__value::before { content: '24px'; }
 .styleguide__bobby-component-switch-hover-handle-color.styleguide-item__value { background-color: hsl(214 14.706% 60%); }
 .styleguide__bobby-component-switch-hover-handle-color.styleguide-item__value::before { content: 'hsl(214 14.706% 60%)'; }
 .styleguide__bobby-component-switch-hover-icon-color.styleguide-item__value { background-color: hsl(214 14.7% 100%); }
@@ -539,11 +539,11 @@
 .styleguide__bobby-component-switch-hover-track-outline-color.styleguide-item__value::before { content: 'hsl(214 14.706% 60%)'; }
 .styleguide__bobby-component-switch-icon-color.styleguide-item__value { background-color: hsl(214 14.7% 100%); }
 .styleguide__bobby-component-switch-icon-color.styleguide-item__value::before { content: 'hsl(214 14.7% 100%)'; }
-.styleguide__bobby-component-switch-icon-size.styleguide-item__value::before { content: 'pico.component.switch.icon.size}'; }
+.styleguide__bobby-component-switch-icon-size.styleguide-item__value::before { content: '16px'; }
 .styleguide__bobby-component-switch-pressed-handle-color.styleguide-item__value { background-color: hsl(214 14.706% 60%); }
 .styleguide__bobby-component-switch-pressed-handle-color.styleguide-item__value::before { content: 'hsl(214 14.706% 60%)'; }
-.styleguide__bobby-component-switch-pressed-handle-height.styleguide-item__value::before { content: 'pico.component.switch.pressed.handle.height'; }
-.styleguide__bobby-component-switch-pressed-handle-width.styleguide-item__value::before { content: 'pico.component.switch.pressed.handle.width'; }
+.styleguide__bobby-component-switch-pressed-handle-height.styleguide-item__value::before { content: '{pico.component.switch.pressed.handle.height'; }
+.styleguide__bobby-component-switch-pressed-handle-width.styleguide-item__value::before { content: '{pico.component.switch.pressed.handle.width'; }
 .styleguide__bobby-component-switch-pressed-icon-color.styleguide-item__value { background-color: hsl(214 14.7% 100%); }
 .styleguide__bobby-component-switch-pressed-icon-color.styleguide-item__value::before { content: 'hsl(214 14.7% 100%)'; }
 .styleguide__bobby-component-switch-pressed-track-color.styleguide-item__value { background-color: hsl(214 14.7% 90%); }
@@ -564,7 +564,7 @@
 .styleguide__bobby-component-switch-selected-focus-track-color.styleguide-item__value::before { content: 'hsl(205 100% 40%)'; }
 .styleguide__bobby-component-switch-selected-handle-color.styleguide-item__value { background-color: hsl(205 100% 100%); }
 .styleguide__bobby-component-switch-selected-handle-color.styleguide-item__value::before { content: 'hsl(205 100% 100%)'; }
-.styleguide__bobby-component-switch-selected-handle-height.styleguide-item__value::before { content: 'pico.component.switch.selected.handle.height'; }
+.styleguide__bobby-component-switch-selected-handle-height.styleguide-item__value::before { content: '{pico.component.switch.selected.handle.height'; }
 .styleguide__bobby-component-switch-selected-handle-width.styleguide-item__value::before { content: '24px'; }
 .styleguide__bobby-component-switch-selected-hover-handle-color.styleguide-item__value { background-color: hsl(205 100% 88%); }
 .styleguide__bobby-component-switch-selected-hover-handle-color.styleguide-item__value::before { content: 'hsl(205 100% 88%)'; }
@@ -585,13 +585,13 @@
 .styleguide__bobby-component-switch-selected-track-color.styleguide-item__value::before { content: 'hsl(205 100% 40%)'; }
 .styleguide__bobby-component-switch-track-color.styleguide-item__value { background-color: hsl(214 14.7% 90%); }
 .styleguide__bobby-component-switch-track-color.styleguide-item__value::before { content: 'hsl(214 14.7% 90%)'; }
-.styleguide__bobby-component-switch-track-height.styleguide-item__value::before { content: 'pico.component.switch.track.height}'; }
+.styleguide__bobby-component-switch-track-height.styleguide-item__value::before { content: '32px'; }
 .styleguide__bobby-component-switch-track-outline-color.styleguide-item__value { background-color: hsl(214 14.7% 66%); }
 .styleguide__bobby-component-switch-track-outline-color.styleguide-item__value::before { content: 'hsl(214 14.7% 66%)'; }
 .styleguide__bobby-component-switch-track-outline-width.styleguide-item__value::before { content: '2px'; }
 .styleguide__bobby-component-switch-track-shape.styleguide-item__value { border-radius: 80px; }
 .styleguide__bobby-component-switch-track-shape.styleguide-item__value::before { content: '80px'; }
-.styleguide__bobby-component-switch-track-width.styleguide-item__value::before { content: 'pico.component.switch.track.width}'; }
+.styleguide__bobby-component-switch-track-width.styleguide-item__value::before { content: '52px'; }
 .styleguide__bobby-component-tab-active-focus-foreground-color.styleguide-item__value { background-color: hsl(214 14.7% 6%); }
 .styleguide__bobby-component-tab-active-focus-foreground-color.styleguide-item__value::before { content: 'hsl(214 14.7% 6%)'; }
 .styleguide__bobby-component-tab-active-foreground-color.styleguide-item__value { background-color: hsl(214 14.7% 6%); }

@@ -450,7 +450,7 @@
 .styleguide__bobby-component-switch-handle-height.styleguide-item__value::before { content: '24px'; }
 .styleguide__bobby-component-switch-handle-shape.styleguide-item__value { border-radius: 80px; }
 .styleguide__bobby-component-switch-handle-shape.styleguide-item__value::before { content: '80px'; }
-.styleguide__bobby-component-switch-handle-width.styleguide-item__value::before { content: 'pico.component.switch.handle.width}'; }
+.styleguide__bobby-component-switch-handle-width.styleguide-item__value::before { content: '24px'; }
 .styleguide__bobby-component-switch-hover-handle-color.styleguide-item__value { background-color: hsl(274.29 3.6269% 37.843%); }
 .styleguide__bobby-component-switch-hover-handle-color.styleguide-item__value::before { content: 'hsl(274.29 3.6269% 37.843%)'; }
 .styleguide__bobby-component-switch-hover-icon-color.styleguide-item__value { background-color: hsl(274 3.63% 100%); }
