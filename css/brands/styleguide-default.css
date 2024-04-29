@@ -1030,6 +1030,10 @@
 .styleguide__pico-ref-font-size-8.styleguide-item__value::before { content: '25.229px'; }
 .styleguide__pico-ref-font-size-9.styleguide-item__value { font-size: 28.383px; }
 .styleguide__pico-ref-font-size-9.styleguide-item__value::before { content: '28.383px'; }
+.styleguide__pico-ref-font-weight-bolder.styleguide-item__value::before { content: '600'; }
+.styleguide__pico-ref-font-weight-boldest.styleguide-item__value::before { content: '700'; }
+.styleguide__pico-ref-font-weight-lighter.styleguide-item__value::before { content: '300'; }
+.styleguide__pico-ref-font-weight-regular.styleguide-item__value::before { content: '400'; }
 .styleguide__pico-ref-line-height-0.styleguide-item__value::before { content: '14.754px'; }
 .styleguide__pico-ref-line-height-1.styleguide-item__value::before { content: '16.596px'; }
 .styleguide__pico-ref-line-height-10.styleguide-item__value::before { content: '38.317px'; }

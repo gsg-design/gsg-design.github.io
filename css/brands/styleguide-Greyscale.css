@@ -632,7 +632,7 @@
 .styleguide__bobby-component-tab-label-text-typography-font-family.styleguide-item__value::before { content: 'Libre Baskerville, serif'; }
 .styleguide__bobby-component-tab-label-text-typography-font-size.styleguide-item__value { font-size: 14px; }
 .styleguide__bobby-component-tab-label-text-typography-font-size.styleguide-item__value::before { content: '14px'; }
-.styleguide__bobby-component-tab-label-text-typography-font-weight.styleguide-item__value::before { content: '500'; }
+.styleguide__bobby-component-tab-label-text-typography-font-weight.styleguide-item__value::before { content: '400'; }
 .styleguide__bobby-component-tab-label-text-typography-line-height.styleguide-item__value::before { content: '21px'; }
 .styleguide__bobby-component-tab-pressed-foreground-color.styleguide-item__value { background-color: hsl(274 3.63% 3.78%); }
 .styleguide__bobby-component-tab-pressed-foreground-color.styleguide-item__value::before { content: 'hsl(274 3.63% 3.78%)'; }
@@ -1214,6 +1214,10 @@
 .styleguide__pico-ref-font-size-8.styleguide-item__value::before { content: '25.229px'; }
 .styleguide__pico-ref-font-size-9.styleguide-item__value { font-size: 28.383px; }
 .styleguide__pico-ref-font-size-9.styleguide-item__value::before { content: '28.383px'; }
+.styleguide__pico-ref-font-weight-bolder.styleguide-item__value::before { content: '600'; }
+.styleguide__pico-ref-font-weight-boldest.styleguide-item__value::before { content: '700'; }
+.styleguide__pico-ref-font-weight-lighter.styleguide-item__value::before { content: '300'; }
+.styleguide__pico-ref-font-weight-regular.styleguide-item__value::before { content: '400'; }
 .styleguide__pico-ref-line-height-0.styleguide-item__value::before { content: '14.754px'; }
 .styleguide__pico-ref-line-height-1.styleguide-item__value::before { content: '16.596px'; }
 .styleguide__pico-ref-line-height-10.styleguide-item__value::before { content: '38.317px'; }
@@ -1508,7 +1512,7 @@
 .styleguide__pico-semantic-typography-label-large-font-family.styleguide-item__value::before { content: 'Libre Baskerville, serif'; }
 .styleguide__pico-semantic-typography-label-large-font-size.styleguide-item__value { font-size: 14px; }
 .styleguide__pico-semantic-typography-label-large-font-size.styleguide-item__value::before { content: '14px'; }
-.styleguide__pico-semantic-typography-label-large-font-weight.styleguide-item__value::before { content: '500'; }
+.styleguide__pico-semantic-typography-label-large-font-weight.styleguide-item__value::before { content: '400'; }
 .styleguide__pico-semantic-typography-label-large-line-height.styleguide-item__value::before { content: '21px'; }
 .styleguide__pico-semantic-typography-label-large-prominent-font-family.styleguide-item__value::before { content: 'Libre Baskerville, serif'; }
 .styleguide__pico-semantic-typography-label-large-prominent-font-size.styleguide-item__value { font-size: 14px; }
@@ -1518,7 +1522,7 @@
 .styleguide__pico-semantic-typography-label-medium-font-family.styleguide-item__value::before { content: 'Libre Baskerville, serif'; }
 .styleguide__pico-semantic-typography-label-medium-font-size.styleguide-item__value { font-size: 12.446px; }
 .styleguide__pico-semantic-typography-label-medium-font-size.styleguide-item__value::before { content: '12.446px'; }
-.styleguide__pico-semantic-typography-label-medium-font-weight.styleguide-item__value::before { content: '500'; }
+.styleguide__pico-semantic-typography-label-medium-font-weight.styleguide-item__value::before { content: '400'; }
 .styleguide__pico-semantic-typography-label-medium-line-height.styleguide-item__value::before { content: '18.669px'; }
 .styleguide__pico-semantic-typography-label-medium-prominent-font-family.styleguide-item__value::before { content: 'Libre Baskerville, serif'; }
 .styleguide__pico-semantic-typography-label-medium-prominent-font-size.styleguide-item__value { font-size: 12.446px; }
@@ -1528,7 +1532,7 @@
 .styleguide__pico-semantic-typography-label-small-font-family.styleguide-item__value::before { content: 'Libre Baskerville, serif'; }
 .styleguide__pico-semantic-typography-label-small-font-size.styleguide-item__value { font-size: 11.064px; }
 .styleguide__pico-semantic-typography-label-small-font-size.styleguide-item__value::before { content: '11.064px'; }
-.styleguide__pico-semantic-typography-label-small-font-weight.styleguide-item__value::before { content: '500'; }
+.styleguide__pico-semantic-typography-label-small-font-weight.styleguide-item__value::before { content: '400'; }
 .styleguide__pico-semantic-typography-label-small-line-height.styleguide-item__value::before { content: '16.596px'; }
 .styleguide__pico-semantic-typography-title-large-font-family.styleguide-item__value::before { content: 'Source Sans Pro, sans-serif'; }
 .styleguide__pico-semantic-typography-title-large-font-size.styleguide-item__value { font-size: 22.426px; }
@@ -1538,12 +1542,12 @@
 .styleguide__pico-semantic-typography-title-medium-font-family.styleguide-item__value::before { content: 'Source Sans Pro, sans-serif'; }
 .styleguide__pico-semantic-typography-title-medium-font-size.styleguide-item__value { font-size: 15.75px; }
 .styleguide__pico-semantic-typography-title-medium-font-size.styleguide-item__value::before { content: '15.75px'; }
-.styleguide__pico-semantic-typography-title-medium-font-weight.styleguide-item__value::before { content: '500'; }
+.styleguide__pico-semantic-typography-title-medium-font-weight.styleguide-item__value::before { content: '400'; }
 .styleguide__pico-semantic-typography-title-medium-line-height.styleguide-item__value::before { content: '23.625px'; }
 .styleguide__pico-semantic-typography-title-small-font-family.styleguide-item__value::before { content: 'Source Sans Pro, sans-serif'; }
 .styleguide__pico-semantic-typography-title-small-font-size.styleguide-item__value { font-size: 14px; }
 .styleguide__pico-semantic-typography-title-small-font-size.styleguide-item__value::before { content: '14px'; }
-.styleguide__pico-semantic-typography-title-small-font-weight.styleguide-item__value::before { content: '500'; }
+.styleguide__pico-semantic-typography-title-small-font-weight.styleguide-item__value::before { content: '400'; }
 .styleguide__pico-semantic-typography-title-small-line-height.styleguide-item__value::before { content: '21px'; }
 .styleguide__pico-semantic-z-index-high.styleguide-item__value::before { content: '1300'; }
 .styleguide__pico-semantic-z-index-highest.styleguide-item__value::before { content: '1500'; }

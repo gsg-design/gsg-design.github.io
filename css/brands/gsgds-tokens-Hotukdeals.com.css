@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 25 Apr 2024 11:07:37 GMT
+ * Generated on Mon, 29 Apr 2024 07:42:18 GMT
  * hello, world!
  */
 
@@ -105,11 +105,11 @@
   --pico-semantic-typography-title-medium-font-family: Roboto, sans-serif;
   --pico-semantic-typography-title-medium-font-size: 15.75px;
   --pico-semantic-typography-title-medium-line-height: 23.625px;
-  --pico-semantic-typography-title-medium-font-weight: 500;
+  --pico-semantic-typography-title-medium-font-weight: 400;
   --pico-semantic-typography-title-small-font-family: Roboto, sans-serif;
   --pico-semantic-typography-title-small-font-size: 14px;
   --pico-semantic-typography-title-small-line-height: 21px;
-  --pico-semantic-typography-title-small-font-weight: 500;
+  --pico-semantic-typography-title-small-font-weight: 400;
   --pico-semantic-typography-body-large-font-family: Averta CY, sans-serif;
   --pico-semantic-typography-body-large-font-size: 15.75px;
   --pico-semantic-typography-body-large-line-height: 23.625px;
@@ -125,7 +125,7 @@
   --pico-semantic-typography-label-large-font-family: Averta CY, sans-serif;
   --pico-semantic-typography-label-large-font-size: 14px;
   --pico-semantic-typography-label-large-line-height: 21px;
-  --pico-semantic-typography-label-large-font-weight: 500;
+  --pico-semantic-typography-label-large-font-weight: 400;
   --pico-semantic-typography-label-large-prominent-font-family: Averta CY, sans-serif;
   --pico-semantic-typography-label-large-prominent-font-size: 14px;
   --pico-semantic-typography-label-large-prominent-line-height: 21px;
@@ -133,7 +133,7 @@
   --pico-semantic-typography-label-medium-font-family: Averta CY, sans-serif;
   --pico-semantic-typography-label-medium-font-size: 12.446px;
   --pico-semantic-typography-label-medium-line-height: 18.669px;
-  --pico-semantic-typography-label-medium-font-weight: 500;
+  --pico-semantic-typography-label-medium-font-weight: 400;
   --pico-semantic-typography-label-medium-prominent-font-family: Averta CY, sans-serif;
   --pico-semantic-typography-label-medium-prominent-font-size: 12.446px;
   --pico-semantic-typography-label-medium-prominent-line-height: 18.669px;
@@ -141,7 +141,7 @@
   --pico-semantic-typography-label-small-font-family: Averta CY, sans-serif;
   --pico-semantic-typography-label-small-font-size: 11.064px;
   --pico-semantic-typography-label-small-line-height: 16.596px;
-  --pico-semantic-typography-label-small-font-weight: 500;
+  --pico-semantic-typography-label-small-font-weight: 400;
   --pico-semantic-icon-type: Sharp;
   --pico-key-palette-primary: hsl(28.471 100% 50%);
   --pico-key-palette-secondary: hsl(220 5.3571% 21.961%);
@@ -357,6 +357,10 @@
   --pico-ref-font-family-two: Roboto;
   --pico-ref-font-family-fallback-one: sans-serif;
   --pico-ref-font-family-fallback-two: sans-serif;
+  --pico-ref-font-weight-lighter: 300;
+  --pico-ref-font-weight-regular: 400;
+  --pico-ref-font-weight-bolder: 600;
+  --pico-ref-font-weight-boldest: 700;
   --pico-ref-line-height-0: 14.754px;
   --pico-ref-line-height-1: 16.596px;
   --pico-ref-line-height-2: 18.669px;
@@ -749,7 +753,7 @@
   --bobby-component-tab-label-text-typography-font-family: Averta CY, sans-serif;
   --bobby-component-tab-label-text-typography-font-size: 14px;
   --bobby-component-tab-label-text-typography-line-height: 21px;
-  --bobby-component-tab-label-text-typography-font-weight: 500;
+  --bobby-component-tab-label-text-typography-font-weight: 400;
   --bobby-component-tab-foreground-color: hsl(216 5.43% 6.39%);
   --bobby-component-tab-focus-foreground-color: hsl(216 5.43% 6.39%);
   --bobby-component-tab-hover-foreground-color: hsl(216 5.43% 6.39%);
